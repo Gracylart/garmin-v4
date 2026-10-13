@@ -1,0 +1,19 @@
+node_modules/
+.DS_Store
+Thumbs.db
+*.der
+*.pem
+*.key
+.env
+.env.*
+!.env.example
+**/bin/
+**/gen/
+**/mir/
+**/internal-mir/
+**/external-mir/
+*.prg
+*.prg.debug.xml
+*.iq
+*.mbc
+**/Adobe After Effects 自动保存/

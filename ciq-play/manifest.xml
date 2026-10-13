@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<iq:manifest xmlns:iq="http://www.garmin.com/xml/connectiq" version="3">
+ <iq:application entry="EmotePlayApp" id="7d66344896b7455ba43a8928b15a23e4" launcherIcon="@Drawables.LauncherIcon" minSdkVersion="5.0.0" name="@Strings.AppName" type="watch-app" version="0.3.1">
+  <iq:products><iq:product id="venu445mm"/></iq:products>
+  <iq:permissions><iq:uses-permission id="Background"/></iq:permissions><iq:languages><iq:language>eng</iq:language><iq:language>zhs</iq:language></iq:languages><iq:barrels/>
+ </iq:application>
+</iq:manifest>

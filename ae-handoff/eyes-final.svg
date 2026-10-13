@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="454" height="454" viewBox="0 0 454 454">
+  <title>Emote final eyes, Venu 4 45 mm</title>
+  <circle id="screen-circle" cx="227" cy="227" r="227" fill="#000000"/>
+  <g fill="#e8f3ec">
+    <rect id="left-eye" x="141.438" y="158.318" width="57.041" height="95.456" rx="28.521" transform="rotate(-3.438 169.959 206.046)"/>
+    <rect id="right-eye" x="255.521" y="158.318" width="57.041" height="95.456" rx="28.521" transform="rotate(3.438 284.041 206.046)"/>
+  </g>
+</svg>

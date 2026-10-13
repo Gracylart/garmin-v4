@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="454" height="454" viewBox="0 0 454 454">
+  <title>Emote clock start at 06:30, Venu 4 45 mm</title>
+  <circle id="screen-circle" cx="227" cy="227" r="227" fill="#000000"/>
+  <g fill="none" stroke="#e8f3ec" stroke-width="8.149" stroke-linecap="round">
+    <path id="hour-hand" d="M 227 227 L 200.788 324.826"/>
+    <path id="minute-hand" d="M 227 227 L 227 371.349"/>
+  </g>
+</svg>

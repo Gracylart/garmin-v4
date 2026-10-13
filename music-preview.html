@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Emote Music · 音乐动效概念验收</title>
+<style>
+:root{color-scheme:dark;font:16px/1.6 system-ui,sans-serif;background:#111715;color:#e8f1eb}
+*{box-sizing:border-box}body{margin:0}main{max-width:850px;margin:auto;padding:28px;display:grid;grid-template-columns:minmax(0,454px) minmax(260px,1fr);gap:36px}
+h1{font-size:27px;font-weight:500;line-height:1.25;margin:8px 0 12px}p,small{color:#b8c9be}.tag{font:12px monospace;letter-spacing:.14em;color:#91b5a4}
+canvas{display:block;width:100%;aspect-ratio:1;border-radius:50%;background:#000;box-shadow:0 0 0 7px #24332b,0 0 0 8px #46564c;margin:22px 0}
+button,input[type=file]::file-selector-button{font:inherit;color:#e8f1eb;background:#1d2a23;border:1px solid #4b6053;border-radius:9px;min-height:48px;padding:9px 14px;cursor:pointer}
+button:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid #d0f3df;outline-offset:4px}
+input[type=file]{display:block;width:100%;margin:16px 0;color:#b8c9be}audio{display:block;width:100%;margin:16px 0}.note{border-top:1px solid #34463a;padding-top:16px;font-size:14px}#status{min-height:48px;color:#d0e5d5}
+@media(max-width:720px){main{display:block;padding:20px}canvas{max-width:454px;margin:20px auto}}
+</style>
+<main>
+ <section><div class="tag">EMOTE MUSIC / CONCEPT ONLY</div><h1>让眼睛听见节奏</h1><p>低频带动双眼呼吸，中频牵引视线，弧形声浪沿着表盘上缘起伏。</p><canvas id="face" width="454" height="454" role="img" aria-label="音乐驱动的双眼与声浪动效预览"></canvas><p id="status" role="status">选择本地音频，或先体验无声音的节奏演示。</p></section>
+ <section><h2>音乐来源</h2><label for="file">选择本机音频文件</label><input id="file" type="file" accept="audio/*"><audio id="player" controls></audio><button id="demo" type="button">开启节奏演示（无声音）</button><p class="note">本地文件仅由这个浏览器页面分析，不上传。节奏演示是人工生成的视觉信号，不代表手表已经读取了音乐。</p><h2>真机边界</h2><p>Venu 4 支持蓝牙耳机播放音乐，但 Connect IQ 普通表盘和手表应用没有通用的实时音频波形／频谱输入。这个页面只用于验收视觉方案；真机若要与歌曲精确同步，需要另外设计可取得节拍数据的音源或手机配套方案。</p><p><a href="play-preview.html" style="color:#b8e7cd">返回现有表情预览</a></p></section>
+</main>
+<script src="music-preview.js"></script>
+</html>
