@@ -17,3 +17,12 @@ Thumbs.db
 *.iq
 *.mbc
 **/Adobe After Effects 自动保存/
+
+# Local captures, deployment archives and scratch outputs
+outputs/
+*.tar.gz
+.local/
+**/.work/
+__pycache__/
+# Canonical frame paths live in sports-data/; the server aliases these old URLs.
+/reference-frames/*.json

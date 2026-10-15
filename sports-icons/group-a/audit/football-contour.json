@@ -1,0 +1,4883 @@
+{
+  "schemaVersion": 1,
+  "group": "a",
+  "sport": "football",
+  "passed": true,
+  "frames": 123,
+  "worstIoU": 1,
+  "mismatchedFrames": 0,
+  "method": {
+    "renderer": "Real Google Chrome headless Canvas 2D / Path2D",
+    "fillRule": "evenodd",
+    "scale": 1,
+    "threshold": "R < 133 && B - R > 12 (both decoded reference PNG and rendered vector)",
+    "pathBackground": "#ffffff",
+    "colorSpace": "srgb",
+    "sourceCrop": {
+      "width": 960,
+      "height": 960
+    },
+    "bboxConvention": "[xmin, ymin, xmaxExclusive, ymaxExclusive]; blank = [0,0,0,0]",
+    "frameIndexBase": 0,
+    "pngFileIndexBase": 1,
+    "blankPairIoU": 1,
+    "independence": "No contour-generation code imported; Chromium independently rasterizes SVG path strings.",
+    "scope": "Binary foreground silhouette only. Does not assert RGB, antialiasing, original-video extraction accuracy, semantic sport identity, or device performance."
+  },
+  "provenance": {
+    "generatedAt": "2026-10-15T06:21:12.628Z",
+    "browserVersion": "155.0.8059.40",
+    "executablePath": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "nodeVersion": "v24.21.0",
+    "scriptSha256": "31e8fffad57e6b82381fa5930bc4d4fd2413b831696090c975497ccd90b7d0c4",
+    "manifestSha256": "9eed22c4bb37a6a583c3470c727aad7518cb2d10b5d30168e203d1dd241dff60",
+    "smoke": {
+      "foreground": 12,
+      "expected": 12,
+      "path2DEvenodd": true,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+    }
+  },
+  "sourceData": {
+    "json": {
+      "file": "reference-frames/football.json",
+      "bytes": 614021,
+      "sha256": "2d57df9a63d340e0e08e79da281ff3e3c1bbfcb82d79a0b20cb6e1184e68b003"
+    },
+    "pngs": [
+      {
+        "file": "reference-frames/football/001.png",
+        "bytes": 7735,
+        "sha256": "c91a6ae1c30227d1f31fd7ae19e6aef9ffb1b039e687b331a03c5dc9b3e9487c"
+      },
+      {
+        "file": "reference-frames/football/002.png",
+        "bytes": 24565,
+        "sha256": "fab6c9dc6a34a233160bce91d7223d4013158ab601286e3ff3fbf377860aef24"
+      },
+      {
+        "file": "reference-frames/football/003.png",
+        "bytes": 30407,
+        "sha256": "255c8dea9103224b1a21fe30873c322befa4a37515dfcfca58b1dfb643c62016"
+      },
+      {
+        "file": "reference-frames/football/004.png",
+        "bytes": 34743,
+        "sha256": "ef1a26a3e7493488aba6da9fbae3d3585b7507495d69510f7bcd9d9f1be730bf"
+      },
+      {
+        "file": "reference-frames/football/005.png",
+        "bytes": 36894,
+        "sha256": "f37c66b657dcd0f2cf228376a07b99f89995a1f44a00d33ce04f02d9df32a61b"
+      },
+      {
+        "file": "reference-frames/football/006.png",
+        "bytes": 41744,
+        "sha256": "c21d962f6fa17ab9792a7c69e3882def79480cf028d971f458f2e5ec88e4d237"
+      },
+      {
+        "file": "reference-frames/football/007.png",
+        "bytes": 46667,
+        "sha256": "e327e33ae919ba1f9ee054bb1a228077eaf01cfbad7a4a0e684faa207dab9e5b"
+      },
+      {
+        "file": "reference-frames/football/008.png",
+        "bytes": 51950,
+        "sha256": "72d1784a4373349cb10bd516c7ed9ec41471d448f615c24b24f02f1c547045a7"
+      },
+      {
+        "file": "reference-frames/football/009.png",
+        "bytes": 56536,
+        "sha256": "591f12b3f9a94b96424e961e9201341d48074b98f9ea4ab78f0fa76588564995"
+      },
+      {
+        "file": "reference-frames/football/010.png",
+        "bytes": 59467,
+        "sha256": "f9a6e4adb26bceb021229462a1d4bc89b01ed42d7b2a0b841b64d806a7fd7986"
+      },
+      {
+        "file": "reference-frames/football/011.png",
+        "bytes": 60597,
+        "sha256": "43ea92e5d5ea94196fb2d8fc1a7355624dded7bc3290ed1dfdd1be0b307595c8"
+      },
+      {
+        "file": "reference-frames/football/012.png",
+        "bytes": 60291,
+        "sha256": "1e39fb71d3f16072e46b5b7d884ae6170574cb9575f678b16cbd660068b504ab"
+      },
+      {
+        "file": "reference-frames/football/013.png",
+        "bytes": 57572,
+        "sha256": "00685fecf575dac27aecc818028d42d7c6e995310e530de67903894ef1017f27"
+      },
+      {
+        "file": "reference-frames/football/014.png",
+        "bytes": 56367,
+        "sha256": "ed9447453ce4cc0f699d5d9b537324b9a7b6a1b6c4bb395128d42b43e0f75a8d"
+      },
+      {
+        "file": "reference-frames/football/015.png",
+        "bytes": 53729,
+        "sha256": "8617c0c2cb925d6cfd74a4fcd2a4730732587fe4660d268886c0618b77e11d37"
+      },
+      {
+        "file": "reference-frames/football/016.png",
+        "bytes": 55552,
+        "sha256": "fbe44f0e06b06560364595fb5c0401ca06ebdeb08b63e386f680d2a3ff8a21d4"
+      },
+      {
+        "file": "reference-frames/football/017.png",
+        "bytes": 60938,
+        "sha256": "590eb8e66beb7f9bf6f9509281e6e8d31433c0f9acd421c74585e9f2d61f3a24"
+      },
+      {
+        "file": "reference-frames/football/018.png",
+        "bytes": 66602,
+        "sha256": "6a50bb1ab87b50b75de34e5a5fb9d1056d08336738712764d1902d8d732831da"
+      },
+      {
+        "file": "reference-frames/football/019.png",
+        "bytes": 70571,
+        "sha256": "a7078c6f441002bbae46b562079243900c2638c181e52b282986d5a3eb6f7149"
+      },
+      {
+        "file": "reference-frames/football/020.png",
+        "bytes": 71779,
+        "sha256": "ef6434692d3aa6b0b69edba7a6fed9eeef93b1860efa168fcf94e415d54cce2e"
+      },
+      {
+        "file": "reference-frames/football/021.png",
+        "bytes": 71064,
+        "sha256": "85e7a83779c965458cb78bd60fd62b74931e844ea2753c50202c9db08279ca34"
+      },
+      {
+        "file": "reference-frames/football/022.png",
+        "bytes": 73385,
+        "sha256": "c7d375903b5fb23fd8e2a415cfa3b906ee58ed984bd7b7b952a1a3944d7869a5"
+      },
+      {
+        "file": "reference-frames/football/023.png",
+        "bytes": 74363,
+        "sha256": "b5dbfbdce1f872c683908eca6ddc84a9e20c0cbd5c70a0c271ef8feb249cb41e"
+      },
+      {
+        "file": "reference-frames/football/024.png",
+        "bytes": 75592,
+        "sha256": "7f0db5f2c8e270eb2f8b4ff1fe25dd6f5a9084c6476eb8d6c0f4c4a46500cd8c"
+      },
+      {
+        "file": "reference-frames/football/025.png",
+        "bytes": 74229,
+        "sha256": "1d2e54cc7a6fc416bc6a69b5914548eebc680907d3edf60277358355d97646c6"
+      },
+      {
+        "file": "reference-frames/football/026.png",
+        "bytes": 73629,
+        "sha256": "daf847f92ab71d2d032ad6ca7b1bf06ea22b374759a6cd65ac198f277048db30"
+      },
+      {
+        "file": "reference-frames/football/027.png",
+        "bytes": 70279,
+        "sha256": "ce136b63cc67b8dc4c97cff0eee2b0185b2febe2e4a52fcc51afd1d5ee7ac36e"
+      },
+      {
+        "file": "reference-frames/football/028.png",
+        "bytes": 64277,
+        "sha256": "09e50bbae64113ee3c2b56d90df3723e7559c6cd5c001255157281ce0f89c801"
+      },
+      {
+        "file": "reference-frames/football/029.png",
+        "bytes": 65616,
+        "sha256": "edfece242f819fb48519b0bf454e2b841f3bf84ba4b60f560ab4054f40c84e1d"
+      },
+      {
+        "file": "reference-frames/football/030.png",
+        "bytes": 64340,
+        "sha256": "67f8d53011c95ce3949b5be2f62c814d2db5f446aa51547b6253a3d2b46f76bd"
+      },
+      {
+        "file": "reference-frames/football/031.png",
+        "bytes": 69099,
+        "sha256": "275fbc5dd9995ed911ca8680c0ec9156ec4ec49473d014f0da1c47a997bf42c0"
+      },
+      {
+        "file": "reference-frames/football/032.png",
+        "bytes": 71353,
+        "sha256": "d8f030ea88666ed9d80dd5689f604030896e3be8ff4bd875eb964b1702818b2d"
+      },
+      {
+        "file": "reference-frames/football/033.png",
+        "bytes": 72904,
+        "sha256": "8eefa8bdc6a376d68e6d49e799a348c5d575b3a2eda90bf66673d1cc89a1fe96"
+      },
+      {
+        "file": "reference-frames/football/034.png",
+        "bytes": 71308,
+        "sha256": "07933f9d38addbc0d46e232d91266bbacdf79c4b6cb7058d362c073a4b28fec0"
+      },
+      {
+        "file": "reference-frames/football/035.png",
+        "bytes": 72120,
+        "sha256": "d7e41c67227ca4d6f76e3a41b043d4ad21b57b6030529f3bb65b5400f3e39b16"
+      },
+      {
+        "file": "reference-frames/football/036.png",
+        "bytes": 74577,
+        "sha256": "2c52e0ea1bdb75d1db8dcc5a1085654ad5a6d408fb2a1601d5ad66731ff3fd1b"
+      },
+      {
+        "file": "reference-frames/football/037.png",
+        "bytes": 76364,
+        "sha256": "0419cdd3ae531f6c3361f92da6eae20cc26c433d57e3e8d0600a398ada3d0b59"
+      },
+      {
+        "file": "reference-frames/football/038.png",
+        "bytes": 81056,
+        "sha256": "f06521697dec07a3bf9702e3e6afe0af6133753aa3c311d53da8148d78c490e1"
+      },
+      {
+        "file": "reference-frames/football/039.png",
+        "bytes": 81332,
+        "sha256": "1ab3863d7ad210bc0755b955daf317672fb499ca449e7d6f1a674d6c56f4c468"
+      },
+      {
+        "file": "reference-frames/football/040.png",
+        "bytes": 78154,
+        "sha256": "8d2bd6a34be10d79134ac8819ad953aaba4da8c078fda4a8c7ef1fa87a711c96"
+      },
+      {
+        "file": "reference-frames/football/041.png",
+        "bytes": 83195,
+        "sha256": "02a678ff7458236613ce502d9804178b2d6cb54b59aed0ee9744962e3c197641"
+      },
+      {
+        "file": "reference-frames/football/042.png",
+        "bytes": 89080,
+        "sha256": "b1cf44efb4b57859fedf75b3b4c30867f06ca1be17ab8999593f502eb2cd7113"
+      },
+      {
+        "file": "reference-frames/football/043.png",
+        "bytes": 88689,
+        "sha256": "b6a0dc0e482b382565af7c73c1576dae6607d7c0d46986a759f0e7f734dbbb1a"
+      },
+      {
+        "file": "reference-frames/football/044.png",
+        "bytes": 88187,
+        "sha256": "104d31d126692703ef6cbb9f0aec5e9fc18ddc69980cbb5f68b2c031700cfcde"
+      },
+      {
+        "file": "reference-frames/football/045.png",
+        "bytes": 88861,
+        "sha256": "001ee0d68e66cf52ca732bd3336ba2f98e1b5281bd2e650e34c14d49375e5465"
+      },
+      {
+        "file": "reference-frames/football/046.png",
+        "bytes": 88641,
+        "sha256": "12df4b6b92e52e06822f6625af451e57ea08f13248f12bf5f04af1f983fe3c88"
+      },
+      {
+        "file": "reference-frames/football/047.png",
+        "bytes": 89856,
+        "sha256": "a74c81f1ae17eb53936074f5f8b8161d0038cd271e2cc859309185268f2ece9b"
+      },
+      {
+        "file": "reference-frames/football/048.png",
+        "bytes": 88803,
+        "sha256": "3199ea149a9776b1bedae78bc2478948581540b22f40e741ac823a8fc172fd37"
+      },
+      {
+        "file": "reference-frames/football/049.png",
+        "bytes": 88979,
+        "sha256": "64ce2d5bd0790a24641ee2a5e239df136049ed5713bd0ca70f536d75904eed1e"
+      },
+      {
+        "file": "reference-frames/football/050.png",
+        "bytes": 88938,
+        "sha256": "ae6c2f3ab3f6a877a9e76b53f2903a2ec4999679efe0c1d255b168252ffa8e0c"
+      },
+      {
+        "file": "reference-frames/football/051.png",
+        "bytes": 89815,
+        "sha256": "8640ba3533167bad7e95b4e581dea92be2fac67ee65013620984362db7c496fa"
+      },
+      {
+        "file": "reference-frames/football/052.png",
+        "bytes": 89633,
+        "sha256": "b3beaa5267e819c3a98b9790e5ede711fcf1e53318686f3b27f2c08e2a4c3874"
+      },
+      {
+        "file": "reference-frames/football/053.png",
+        "bytes": 89725,
+        "sha256": "bae0b89f4682705ca719a6bb936839d6f00392e34a4e96ef8566e9e3017d58e5"
+      },
+      {
+        "file": "reference-frames/football/054.png",
+        "bytes": 89659,
+        "sha256": "004576d6286bd8854c0f17ca73a548525a108be056658c5deffb4a85954015d5"
+      },
+      {
+        "file": "reference-frames/football/055.png",
+        "bytes": 89933,
+        "sha256": "dc09491215fcc5815ab46fbbc4711340082fb01f097858d17ee0badee64b831a"
+      },
+      {
+        "file": "reference-frames/football/056.png",
+        "bytes": 89759,
+        "sha256": "6067d439a30be07bb7cfad36c56f9e4d78475787aec78738cb4a679b54f25a01"
+      },
+      {
+        "file": "reference-frames/football/057.png",
+        "bytes": 89852,
+        "sha256": "e991b60dc5a55ab0b826de2cfdfe404280d0e99ec67f6b323c6d43ea10b1bade"
+      },
+      {
+        "file": "reference-frames/football/058.png",
+        "bytes": 89673,
+        "sha256": "beba2875d0cd527018da03094c3da976113ae7b766b8fc18332df995a32e4f07"
+      },
+      {
+        "file": "reference-frames/football/059.png",
+        "bytes": 89991,
+        "sha256": "e93956192d6196dc062e9b7551262ec0ce3b11fea57c6830e730a0b8e6bef83f"
+      },
+      {
+        "file": "reference-frames/football/060.png",
+        "bytes": 89304,
+        "sha256": "a0502d8a0b4d11d841e2fd9081386438d41d11efd6bce2281a865531234d44e9"
+      },
+      {
+        "file": "reference-frames/football/061.png",
+        "bytes": 89379,
+        "sha256": "906d49e3efbc0e3c7802b5127bd3eac01e72c08bc390b4537302e6de1fa008a2"
+      },
+      {
+        "file": "reference-frames/football/062.png",
+        "bytes": 89089,
+        "sha256": "c5d27b1a8a57d4e70e9690f8bbf5b4ce29c247a34e671576a35c52a0458209bf"
+      },
+      {
+        "file": "reference-frames/football/063.png",
+        "bytes": 85157,
+        "sha256": "8341267283ce4ffbf91c94de0186396592fea7175d4f909ecbbb88cc58851372"
+      },
+      {
+        "file": "reference-frames/football/064.png",
+        "bytes": 84813,
+        "sha256": "acfcc18b86fd34d955c45c14fcfd75555cd716d383b901e609f054bd7108036f"
+      },
+      {
+        "file": "reference-frames/football/065.png",
+        "bytes": 84707,
+        "sha256": "f52053ec64335f59bf0c9b98f23f0ad59cf959df8da4de590e78d4babfaa469b"
+      },
+      {
+        "file": "reference-frames/football/066.png",
+        "bytes": 84608,
+        "sha256": "b871104cb7d7255d7c47eada13f5cd9938237c5bcaaec7eba07f1c9edc91a45c"
+      },
+      {
+        "file": "reference-frames/football/067.png",
+        "bytes": 84922,
+        "sha256": "a6292012b895db30ae783815386bb03e4a87486a7ccd97676d400b231efeaee1"
+      },
+      {
+        "file": "reference-frames/football/068.png",
+        "bytes": 84721,
+        "sha256": "1b7adfba95b24e3839f90fa317479a9d266e45df47e6c8576c4a8d73436d2e81"
+      },
+      {
+        "file": "reference-frames/football/069.png",
+        "bytes": 84629,
+        "sha256": "4015dc6005b728310a7e73b9f77927425d847e311a870c25c79c614d259b9951"
+      },
+      {
+        "file": "reference-frames/football/070.png",
+        "bytes": 84664,
+        "sha256": "4ee41f0677ec2fbd4b4039127c9973dc197a95835a5f9ac7e452bd7dfc3e6861"
+      },
+      {
+        "file": "reference-frames/football/071.png",
+        "bytes": 84977,
+        "sha256": "2c49e09adef203f2223d455c6d62cf94b7dd8396b898a97b2724d7bed79cbfe6"
+      },
+      {
+        "file": "reference-frames/football/072.png",
+        "bytes": 84840,
+        "sha256": "195cd88d24ce08d9fe2a7d280e2e612b287d1edb693d984526b25fa20a9a83bf"
+      },
+      {
+        "file": "reference-frames/football/073.png",
+        "bytes": 84721,
+        "sha256": "20110c6511922a4775b1b2afc80cdbf9a5d84b20a0c0d890a05ebbaf3099c2d5"
+      },
+      {
+        "file": "reference-frames/football/074.png",
+        "bytes": 84749,
+        "sha256": "f1ba857c560b4eed20fb8f61a146d80fa3f70c41da7e17398294e3ffa2442ff5"
+      },
+      {
+        "file": "reference-frames/football/075.png",
+        "bytes": 85065,
+        "sha256": "d597b00e08ccb3aaca3c4a1d443e5cb22d34a8ba7474095f5f45368eee0ec46e"
+      },
+      {
+        "file": "reference-frames/football/076.png",
+        "bytes": 84740,
+        "sha256": "1739dc5e422bef311057944f30b480903180272a41298dab7c873c18469f1993"
+      },
+      {
+        "file": "reference-frames/football/077.png",
+        "bytes": 84655,
+        "sha256": "08b48979950a47a8065b9f935b5f2e31388fddd83d032ae816f57248c36f85c1"
+      },
+      {
+        "file": "reference-frames/football/078.png",
+        "bytes": 84759,
+        "sha256": "4d252afb04525fae97b9b19f622f0dba7bed2fc0d392f279e66faa91ecfd97a2"
+      },
+      {
+        "file": "reference-frames/football/079.png",
+        "bytes": 85158,
+        "sha256": "fd9dac5ec7e73540fe6bed1c31448f6fd8ad7c25987fc31f2a04b140b4928b6e"
+      },
+      {
+        "file": "reference-frames/football/080.png",
+        "bytes": 84856,
+        "sha256": "23361e66f1b202c13851ea9d486485150c834421b679aa2528e23d563366e6a1"
+      },
+      {
+        "file": "reference-frames/football/081.png",
+        "bytes": 84809,
+        "sha256": "6556d72fd16494a22c7cc810c80ebfd0365f2d46a5a6ff7ab02da2a7103d8d20"
+      },
+      {
+        "file": "reference-frames/football/082.png",
+        "bytes": 85040,
+        "sha256": "f914e5eb59dbd61c60ccddd0211511bf8473425b0db37029ddf54d96474ef9ff"
+      },
+      {
+        "file": "reference-frames/football/083.png",
+        "bytes": 74778,
+        "sha256": "97bc49be611c6ad18624731d9626c633103d4333318c82ea11ca8d1435a0c425"
+      },
+      {
+        "file": "reference-frames/football/084.png",
+        "bytes": 75039,
+        "sha256": "e6a51127b12ab12e14a27d53d18ed9f6b0fffeb405fe276a9dd55dcc29afdf72"
+      },
+      {
+        "file": "reference-frames/football/085.png",
+        "bytes": 74923,
+        "sha256": "198a10e1d3ef63f428516f5ac0f3b8079a4d6e7751ff4089dd51b026fff8006c"
+      },
+      {
+        "file": "reference-frames/football/086.png",
+        "bytes": 74878,
+        "sha256": "c2bc61ee239d30acc03e1c273f378a358e3691fc387a5032001b249a34542406"
+      },
+      {
+        "file": "reference-frames/football/087.png",
+        "bytes": 74907,
+        "sha256": "b4da0b709fb9ccacff58442219c4dc15c51e1d58826db681cf568de9a1c46fc8"
+      },
+      {
+        "file": "reference-frames/football/088.png",
+        "bytes": 74946,
+        "sha256": "58dbadb870220cf3d1287bd29b2767deb0cc89166a0bf6426810fe93deed8dae"
+      },
+      {
+        "file": "reference-frames/football/089.png",
+        "bytes": 75051,
+        "sha256": "9745f49e41286cd3bb83890f0e59a6ca934443612978c90a3f8a4ec273fa020d"
+      },
+      {
+        "file": "reference-frames/football/090.png",
+        "bytes": 75240,
+        "sha256": "754f3ad9114a5ef463fb567d9e719267b84e2c827afb528e09e0f726b900e661"
+      },
+      {
+        "file": "reference-frames/football/091.png",
+        "bytes": 75433,
+        "sha256": "8768dfd1a4726252bd1d15f2505ca322fe2b8abb78fa581e41f60ede426f507a"
+      },
+      {
+        "file": "reference-frames/football/092.png",
+        "bytes": 75657,
+        "sha256": "3506eab8ad50fd7bed38b7a2a7b3db2a8c5dfa12eebe800fad97ad36cf6c8627"
+      },
+      {
+        "file": "reference-frames/football/093.png",
+        "bytes": 77022,
+        "sha256": "7ee44055ea8cc9d80c318aa852d7e17b0706b17a4afdf5ed4cebd8e74eb54099"
+      },
+      {
+        "file": "reference-frames/football/094.png",
+        "bytes": 77909,
+        "sha256": "9dda00606ccb48407ef35d43a406fb6e308e8ffa18c1a9ae40f4ce2765df16a2"
+      },
+      {
+        "file": "reference-frames/football/095.png",
+        "bytes": 74724,
+        "sha256": "8d1c4710983800e1f5b8138ee8b38991bec6b6f4f3cdf6b7a9518b275f2a3b33"
+      },
+      {
+        "file": "reference-frames/football/096.png",
+        "bytes": 70792,
+        "sha256": "fb67426824d838ebdcba797040671dd0baac78cab4ac71bdd9f40161943afdd6"
+      },
+      {
+        "file": "reference-frames/football/097.png",
+        "bytes": 69467,
+        "sha256": "bfd78dfd201bc4c0f4b62ffc497ad4b4276c35bfdd591c67c021480984a8ffed"
+      },
+      {
+        "file": "reference-frames/football/098.png",
+        "bytes": 67316,
+        "sha256": "df56059b3c62f2ad39fc96b43ed0ccd2a22fe5751a2a980db4294b4f35f5f5ce"
+      },
+      {
+        "file": "reference-frames/football/099.png",
+        "bytes": 66555,
+        "sha256": "9f95f8caf066533cdae744ec48e652d69a3c12b379b3a072ddb44b483fd01ee7"
+      },
+      {
+        "file": "reference-frames/football/100.png",
+        "bytes": 59532,
+        "sha256": "40171cb87fc37716ac27292197c1c1a1cd97f10ce728a24fba76ae1ca2c9708d"
+      },
+      {
+        "file": "reference-frames/football/101.png",
+        "bytes": 67735,
+        "sha256": "97022e7ce6c502e5831838cd723d51d62c9376bf989d804e2ffd4072e2302c1e"
+      },
+      {
+        "file": "reference-frames/football/102.png",
+        "bytes": 72969,
+        "sha256": "d9e5f04b7e346d6732f709b6218094993dd6180d4b8934370ef3f9459bcb62c7"
+      },
+      {
+        "file": "reference-frames/football/103.png",
+        "bytes": 73707,
+        "sha256": "a4ede9187a72142e821a89ee65605f9ae6c62c613e0379403273d79b33f548f0"
+      },
+      {
+        "file": "reference-frames/football/104.png",
+        "bytes": 75844,
+        "sha256": "f5132142152b2107a630eb51c9672bec69a63cade00ae14c8cece7a807c79679"
+      },
+      {
+        "file": "reference-frames/football/105.png",
+        "bytes": 81743,
+        "sha256": "dc754dafb3b6ca07ecebc8fd72eb059b4bcc0e78ceca18f635a059c15bf35a64"
+      },
+      {
+        "file": "reference-frames/football/106.png",
+        "bytes": 83421,
+        "sha256": "5e57333b644c88cf1ef5c75315bc62116201f64e8bc639dd90ac15726a5e4f68"
+      },
+      {
+        "file": "reference-frames/football/107.png",
+        "bytes": 85179,
+        "sha256": "6a394ce73d3e682aa1d368a3f2c117e7c8af903896d2625a9ea55eb98559d0c2"
+      },
+      {
+        "file": "reference-frames/football/108.png",
+        "bytes": 84748,
+        "sha256": "133ac905fe862844f58376188446fa4afe6f58535255bc474a80db694ce66141"
+      },
+      {
+        "file": "reference-frames/football/109.png",
+        "bytes": 83482,
+        "sha256": "5e1250b2cdc80c2282689ac0ff3e7ff9107a7e63c522d321fbecd1059c0b0e62"
+      },
+      {
+        "file": "reference-frames/football/110.png",
+        "bytes": 81895,
+        "sha256": "a712ce547f8e38b3d6b1e4e6aa633bf7a22078b72a054580ca20907f93a20877"
+      },
+      {
+        "file": "reference-frames/football/111.png",
+        "bytes": 78220,
+        "sha256": "8e525b35cfba5e36d232ebefb4ca4fb291f613a0da5fc1277ad854234174d2d7"
+      },
+      {
+        "file": "reference-frames/football/112.png",
+        "bytes": 68404,
+        "sha256": "a0d4188365d431567b8144b261d5dc25e74d716314444965fcf3cce1efa86ca7"
+      },
+      {
+        "file": "reference-frames/football/113.png",
+        "bytes": 57059,
+        "sha256": "015032adeb12afdf169fe5ec3134ac1aa9b533ad03de5c9cb73c7310a8a451d1"
+      },
+      {
+        "file": "reference-frames/football/114.png",
+        "bytes": 56583,
+        "sha256": "e8b5e685fafb3b14be919df4b38a9a5392bccdc120e7127730f00169eb879b7a"
+      },
+      {
+        "file": "reference-frames/football/115.png",
+        "bytes": 72815,
+        "sha256": "d6cf4b7c2d94a03345115e9e5c173431c3244370f141db8c8dfc68a6112b5b3e"
+      },
+      {
+        "file": "reference-frames/football/116.png",
+        "bytes": 80246,
+        "sha256": "94ae2927f017d9749f1401ea1edd65f4df75b475178778d07136e01ded122b88"
+      },
+      {
+        "file": "reference-frames/football/117.png",
+        "bytes": 80050,
+        "sha256": "a222d491cb40e785ebc95db1afb2688dfe9f1ba3c4bac2bbb7ba98a05e6951dd"
+      },
+      {
+        "file": "reference-frames/football/118.png",
+        "bytes": 72465,
+        "sha256": "3c77704258a2f44b2f0d5e389ce57c606d4e1c6605a54b175afbba894305851c"
+      },
+      {
+        "file": "reference-frames/football/119.png",
+        "bytes": 62314,
+        "sha256": "7fb6df1d6f3c4a6255875916b18e331789f37d2a0adf5184c38cf5fad2ae0e56"
+      },
+      {
+        "file": "reference-frames/football/120.png",
+        "bytes": 49690,
+        "sha256": "63ac6d2f15de08de724b2a2b6f17b948661b6227f0626bf308d0e282fcfed397"
+      },
+      {
+        "file": "reference-frames/football/121.png",
+        "bytes": 26330,
+        "sha256": "7271282ad3ecb2e705369a5652c90ce717315a11f8a574058bb272389a7f7a40"
+      },
+      {
+        "file": "reference-frames/football/122.png",
+        "bytes": 17634,
+        "sha256": "4752c70d48e9b3666d3aad1dde6389c9edaa5e798d1af1bf0172fffe6a1f8669"
+      },
+      {
+        "file": "reference-frames/football/123.png",
+        "bytes": 8112,
+        "sha256": "3c7b49cd9bd730c1dcc253365b0552ee512b570a8b43e5abd0d924a7ba61f0c0"
+      }
+    ],
+    "orderedPNGSetSha256": "92205e2e71858bb67cd4b3c65a21b84c1677b7b1a19be06fcfef731b19d96879"
+  },
+  "source": {
+    "start": 99.36593333333333,
+    "end": 103.47003333333333,
+    "fps": 29.97002997002997,
+    "frameCount": 123,
+    "duration": 4.1041,
+    "sourceReference": "https://cekai.us/works/the-tokyo-2020-kinetic-pictograms/"
+  },
+  "checks": {
+    "frameCountMatches": true,
+    "pixelsMismatchFrames": [],
+    "bboxMismatchFrames": [],
+    "anchor": {
+      "index": 67,
+      "valid": true,
+      "pixels": 62775,
+      "bbox": [
+        217,
+        191,
+        741,
+        716
+      ]
+    },
+    "firstFrameBlank": true,
+    "lastFrameBlank": true,
+    "blankFrameIndices": [
+      0,
+      122
+    ],
+    "emptyPathAgreesWithBlank": true,
+    "pngCountMatches": true,
+    "manifestFrameCountMatches": true
+  },
+  "results": [
+    {
+      "sport": "football",
+      "frame": 0,
+      "pngFrame": 1,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 0,
+      "union": 0,
+      "sourcePixels": 0,
+      "renderedPixels": 0,
+      "declaredPixels": 0,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderedBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "declaredBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "bboxMatch": true,
+      "pathEmpty": true
+    },
+    {
+      "sport": "football",
+      "frame": 1,
+      "pngFrame": 2,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 9199,
+      "union": 9199,
+      "sourcePixels": 9199,
+      "renderedPixels": 9199,
+      "declaredPixels": 9199,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        321,
+        206,
+        482,
+        705
+      ],
+      "renderedBBox": [
+        321,
+        206,
+        482,
+        705
+      ],
+      "declaredBBox": [
+        321,
+        206,
+        482,
+        705
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 2,
+      "pngFrame": 3,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 12824,
+      "union": 12824,
+      "sourcePixels": 12824,
+      "renderedPixels": 12824,
+      "declaredPixels": 12824,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        315,
+        197,
+        534,
+        711
+      ],
+      "renderedBBox": [
+        315,
+        197,
+        534,
+        711
+      ],
+      "declaredBBox": [
+        315,
+        197,
+        534,
+        711
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 3,
+      "pngFrame": 4,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 17666,
+      "union": 17666,
+      "sourcePixels": 17666,
+      "renderedPixels": 17666,
+      "declaredPixels": 17666,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        303,
+        187,
+        517,
+        716
+      ],
+      "renderedBBox": [
+        303,
+        187,
+        517,
+        716
+      ],
+      "declaredBBox": [
+        303,
+        187,
+        517,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 4,
+      "pngFrame": 5,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 20388,
+      "union": 20388,
+      "sourcePixels": 20388,
+      "renderedPixels": 20388,
+      "declaredPixels": 20388,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        284,
+        183,
+        508,
+        716
+      ],
+      "renderedBBox": [
+        284,
+        183,
+        508,
+        716
+      ],
+      "declaredBBox": [
+        284,
+        183,
+        508,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 5,
+      "pngFrame": 6,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 24068,
+      "union": 24068,
+      "sourcePixels": 24068,
+      "renderedPixels": 24068,
+      "declaredPixels": 24068,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        262,
+        179,
+        507,
+        716
+      ],
+      "renderedBBox": [
+        262,
+        179,
+        507,
+        716
+      ],
+      "declaredBBox": [
+        262,
+        179,
+        507,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 6,
+      "pngFrame": 7,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 28417,
+      "union": 28417,
+      "sourcePixels": 28417,
+      "renderedPixels": 28417,
+      "declaredPixels": 28417,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        244,
+        174,
+        498,
+        716
+      ],
+      "renderedBBox": [
+        244,
+        174,
+        498,
+        716
+      ],
+      "declaredBBox": [
+        244,
+        174,
+        498,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 7,
+      "pngFrame": 8,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 32760,
+      "union": 32760,
+      "sourcePixels": 32760,
+      "renderedPixels": 32760,
+      "declaredPixels": 32760,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        236,
+        170,
+        489,
+        716
+      ],
+      "renderedBBox": [
+        236,
+        170,
+        489,
+        716
+      ],
+      "declaredBBox": [
+        236,
+        170,
+        489,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 8,
+      "pngFrame": 9,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 36349,
+      "union": 36349,
+      "sourcePixels": 36349,
+      "renderedPixels": 36349,
+      "declaredPixels": 36349,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        232,
+        167,
+        506,
+        716
+      ],
+      "renderedBBox": [
+        232,
+        167,
+        506,
+        716
+      ],
+      "declaredBBox": [
+        232,
+        167,
+        506,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 9,
+      "pngFrame": 10,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 39148,
+      "union": 39148,
+      "sourcePixels": 39148,
+      "renderedPixels": 39148,
+      "declaredPixels": 39148,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        232,
+        165,
+        532,
+        716
+      ],
+      "renderedBBox": [
+        232,
+        165,
+        532,
+        716
+      ],
+      "declaredBBox": [
+        232,
+        165,
+        532,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 10,
+      "pngFrame": 11,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 40930,
+      "union": 40930,
+      "sourcePixels": 40930,
+      "renderedPixels": 40930,
+      "declaredPixels": 40930,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        237,
+        164,
+        554,
+        716
+      ],
+      "renderedBBox": [
+        237,
+        164,
+        554,
+        716
+      ],
+      "declaredBBox": [
+        237,
+        164,
+        554,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 11,
+      "pngFrame": 12,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 41799,
+      "union": 41799,
+      "sourcePixels": 41799,
+      "renderedPixels": 41799,
+      "declaredPixels": 41799,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        237,
+        164,
+        567,
+        716
+      ],
+      "renderedBBox": [
+        237,
+        164,
+        567,
+        716
+      ],
+      "declaredBBox": [
+        237,
+        164,
+        567,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 12,
+      "pngFrame": 13,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 42065,
+      "union": 42065,
+      "sourcePixels": 42065,
+      "renderedPixels": 42065,
+      "declaredPixels": 42065,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        236,
+        166,
+        567,
+        716
+      ],
+      "renderedBBox": [
+        236,
+        166,
+        567,
+        716
+      ],
+      "declaredBBox": [
+        236,
+        166,
+        567,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 13,
+      "pngFrame": 14,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 43324,
+      "union": 43324,
+      "sourcePixels": 43324,
+      "renderedPixels": 43324,
+      "declaredPixels": 43324,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        238,
+        169,
+        550,
+        716
+      ],
+      "renderedBBox": [
+        238,
+        169,
+        550,
+        716
+      ],
+      "declaredBBox": [
+        238,
+        169,
+        550,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 14,
+      "pngFrame": 15,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 42829,
+      "union": 42829,
+      "sourcePixels": 42829,
+      "renderedPixels": 42829,
+      "declaredPixels": 42829,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        242,
+        174,
+        513,
+        716
+      ],
+      "renderedBBox": [
+        242,
+        174,
+        513,
+        716
+      ],
+      "declaredBBox": [
+        242,
+        174,
+        513,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 15,
+      "pngFrame": 16,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 42427,
+      "union": 42427,
+      "sourcePixels": 42427,
+      "renderedPixels": 42427,
+      "declaredPixels": 42427,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        248,
+        180,
+        469,
+        716
+      ],
+      "renderedBBox": [
+        248,
+        180,
+        469,
+        716
+      ],
+      "declaredBBox": [
+        248,
+        180,
+        469,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 16,
+      "pngFrame": 17,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 43539,
+      "union": 43539,
+      "sourcePixels": 43539,
+      "renderedPixels": 43539,
+      "declaredPixels": 43539,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        236,
+        185,
+        444,
+        716
+      ],
+      "renderedBBox": [
+        236,
+        185,
+        444,
+        716
+      ],
+      "declaredBBox": [
+        236,
+        185,
+        444,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 17,
+      "pngFrame": 18,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 43430,
+      "union": 43430,
+      "sourcePixels": 43430,
+      "renderedPixels": 43430,
+      "declaredPixels": 43430,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        220,
+        189,
+        438,
+        716
+      ],
+      "renderedBBox": [
+        220,
+        189,
+        438,
+        716
+      ],
+      "declaredBBox": [
+        220,
+        189,
+        438,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 18,
+      "pngFrame": 19,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 43336,
+      "union": 43336,
+      "sourcePixels": 43336,
+      "renderedPixels": 43336,
+      "declaredPixels": 43336,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        205,
+        193,
+        440,
+        716
+      ],
+      "renderedBBox": [
+        205,
+        193,
+        440,
+        716
+      ],
+      "declaredBBox": [
+        205,
+        193,
+        440,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 19,
+      "pngFrame": 20,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 46970,
+      "union": 46970,
+      "sourcePixels": 46970,
+      "renderedPixels": 46970,
+      "declaredPixels": 46970,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        191,
+        195,
+        444,
+        716
+      ],
+      "renderedBBox": [
+        191,
+        195,
+        444,
+        716
+      ],
+      "declaredBBox": [
+        191,
+        195,
+        444,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 20,
+      "pngFrame": 21,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 50772,
+      "union": 50772,
+      "sourcePixels": 50772,
+      "renderedPixels": 50772,
+      "declaredPixels": 50772,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        179,
+        196,
+        463,
+        721
+      ],
+      "renderedBBox": [
+        179,
+        196,
+        463,
+        721
+      ],
+      "declaredBBox": [
+        179,
+        196,
+        463,
+        721
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 21,
+      "pngFrame": 22,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 53377,
+      "union": 53377,
+      "sourcePixels": 53377,
+      "renderedPixels": 53377,
+      "declaredPixels": 53377,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        173,
+        195,
+        479,
+        726
+      ],
+      "renderedBBox": [
+        173,
+        195,
+        479,
+        726
+      ],
+      "declaredBBox": [
+        173,
+        195,
+        479,
+        726
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 22,
+      "pngFrame": 23,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 55381,
+      "union": 55381,
+      "sourcePixels": 55381,
+      "renderedPixels": 55381,
+      "declaredPixels": 55381,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        173,
+        194,
+        494,
+        726
+      ],
+      "renderedBBox": [
+        173,
+        194,
+        494,
+        726
+      ],
+      "declaredBBox": [
+        173,
+        194,
+        494,
+        726
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 23,
+      "pngFrame": 24,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57188,
+      "union": 57188,
+      "sourcePixels": 57188,
+      "renderedPixels": 57188,
+      "declaredPixels": 57188,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        175,
+        193,
+        509,
+        726
+      ],
+      "renderedBBox": [
+        175,
+        193,
+        509,
+        726
+      ],
+      "declaredBBox": [
+        175,
+        193,
+        509,
+        726
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 24,
+      "pngFrame": 25,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57369,
+      "union": 57369,
+      "sourcePixels": 57369,
+      "renderedPixels": 57369,
+      "declaredPixels": 57369,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        174,
+        192,
+        522,
+        724
+      ],
+      "renderedBBox": [
+        174,
+        192,
+        522,
+        724
+      ],
+      "declaredBBox": [
+        174,
+        192,
+        522,
+        724
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 25,
+      "pngFrame": 26,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56378,
+      "union": 56378,
+      "sourcePixels": 56378,
+      "renderedPixels": 56378,
+      "declaredPixels": 56378,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        174,
+        191,
+        534,
+        721
+      ],
+      "renderedBBox": [
+        174,
+        191,
+        534,
+        721
+      ],
+      "declaredBBox": [
+        174,
+        191,
+        534,
+        721
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 26,
+      "pngFrame": 27,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 53851,
+      "union": 53851,
+      "sourcePixels": 53851,
+      "renderedPixels": 53851,
+      "declaredPixels": 53851,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        182,
+        191,
+        545,
+        717
+      ],
+      "renderedBBox": [
+        182,
+        191,
+        545,
+        717
+      ],
+      "declaredBBox": [
+        182,
+        191,
+        545,
+        717
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 27,
+      "pngFrame": 28,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 47361,
+      "union": 47361,
+      "sourcePixels": 47361,
+      "renderedPixels": 47361,
+      "declaredPixels": 47361,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        201,
+        190,
+        555,
+        716
+      ],
+      "renderedBBox": [
+        201,
+        190,
+        555,
+        716
+      ],
+      "declaredBBox": [
+        201,
+        190,
+        555,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 28,
+      "pngFrame": 29,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 51677,
+      "union": 51677,
+      "sourcePixels": 51677,
+      "renderedPixels": 51677,
+      "declaredPixels": 51677,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        233,
+        190,
+        567,
+        716
+      ],
+      "renderedBBox": [
+        233,
+        190,
+        567,
+        716
+      ],
+      "declaredBBox": [
+        233,
+        190,
+        567,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 29,
+      "pngFrame": 30,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 51312,
+      "union": 51312,
+      "sourcePixels": 51312,
+      "renderedPixels": 51312,
+      "declaredPixels": 51312,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        277,
+        190,
+        579,
+        716
+      ],
+      "renderedBBox": [
+        277,
+        190,
+        579,
+        716
+      ],
+      "declaredBBox": [
+        277,
+        190,
+        579,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 30,
+      "pngFrame": 31,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54179,
+      "union": 54179,
+      "sourcePixels": 54179,
+      "renderedPixels": 54179,
+      "declaredPixels": 54179,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        315,
+        190,
+        593,
+        716
+      ],
+      "renderedBBox": [
+        315,
+        190,
+        593,
+        716
+      ],
+      "declaredBBox": [
+        315,
+        190,
+        593,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 31,
+      "pngFrame": 32,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 55409,
+      "union": 55409,
+      "sourcePixels": 55409,
+      "renderedPixels": 55409,
+      "declaredPixels": 55409,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        321,
+        190,
+        608,
+        716
+      ],
+      "renderedBBox": [
+        321,
+        190,
+        608,
+        716
+      ],
+      "declaredBBox": [
+        321,
+        190,
+        608,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 32,
+      "pngFrame": 33,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 55503,
+      "union": 55503,
+      "sourcePixels": 55503,
+      "renderedPixels": 55503,
+      "declaredPixels": 55503,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        304,
+        190,
+        634,
+        716
+      ],
+      "renderedBBox": [
+        304,
+        190,
+        634,
+        716
+      ],
+      "declaredBBox": [
+        304,
+        190,
+        634,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 33,
+      "pngFrame": 34,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54789,
+      "union": 54789,
+      "sourcePixels": 54789,
+      "renderedPixels": 54789,
+      "declaredPixels": 54789,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        310,
+        190,
+        665,
+        716
+      ],
+      "renderedBBox": [
+        310,
+        190,
+        665,
+        716
+      ],
+      "declaredBBox": [
+        310,
+        190,
+        665,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 34,
+      "pngFrame": 35,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 51651,
+      "union": 51651,
+      "sourcePixels": 51651,
+      "renderedPixels": 51651,
+      "declaredPixels": 51651,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        338,
+        190,
+        691,
+        719
+      ],
+      "renderedBBox": [
+        338,
+        190,
+        691,
+        719
+      ],
+      "declaredBBox": [
+        338,
+        190,
+        691,
+        719
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 35,
+      "pngFrame": 36,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 55585,
+      "union": 55585,
+      "sourcePixels": 55585,
+      "renderedPixels": 55585,
+      "declaredPixels": 55585,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        357,
+        190,
+        711,
+        733
+      ],
+      "renderedBBox": [
+        357,
+        190,
+        711,
+        733
+      ],
+      "declaredBBox": [
+        357,
+        190,
+        711,
+        733
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 36,
+      "pngFrame": 37,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58790,
+      "union": 58790,
+      "sourcePixels": 58790,
+      "renderedPixels": 58790,
+      "declaredPixels": 58790,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        343,
+        190,
+        725,
+        716
+      ],
+      "renderedBBox": [
+        343,
+        190,
+        725,
+        716
+      ],
+      "declaredBBox": [
+        343,
+        190,
+        725,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 37,
+      "pngFrame": 38,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58341,
+      "union": 58341,
+      "sourcePixels": 58341,
+      "renderedPixels": 58341,
+      "declaredPixels": 58341,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        304,
+        190,
+        734,
+        716
+      ],
+      "renderedBBox": [
+        304,
+        190,
+        734,
+        716
+      ],
+      "declaredBBox": [
+        304,
+        190,
+        734,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 38,
+      "pngFrame": 39,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57499,
+      "union": 57499,
+      "sourcePixels": 57499,
+      "renderedPixels": 57499,
+      "declaredPixels": 57499,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        281,
+        191,
+        739,
+        716
+      ],
+      "renderedBBox": [
+        281,
+        191,
+        739,
+        716
+      ],
+      "declaredBBox": [
+        281,
+        191,
+        739,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 39,
+      "pngFrame": 40,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59353,
+      "union": 59353,
+      "sourcePixels": 59353,
+      "renderedPixels": 59353,
+      "declaredPixels": 59353,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        262,
+        191,
+        742,
+        716
+      ],
+      "renderedBBox": [
+        262,
+        191,
+        742,
+        716
+      ],
+      "declaredBBox": [
+        262,
+        191,
+        742,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 40,
+      "pngFrame": 41,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 60876,
+      "union": 60876,
+      "sourcePixels": 60876,
+      "renderedPixels": 60876,
+      "declaredPixels": 60876,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        239,
+        191,
+        743,
+        716
+      ],
+      "renderedBBox": [
+        239,
+        191,
+        743,
+        716
+      ],
+      "declaredBBox": [
+        239,
+        191,
+        743,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 41,
+      "pngFrame": 42,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62965,
+      "union": 62965,
+      "sourcePixels": 62965,
+      "renderedPixels": 62965,
+      "declaredPixels": 62965,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        219,
+        191,
+        744,
+        716
+      ],
+      "renderedBBox": [
+        219,
+        191,
+        744,
+        716
+      ],
+      "declaredBBox": [
+        219,
+        191,
+        744,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 42,
+      "pngFrame": 43,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62958,
+      "union": 62958,
+      "sourcePixels": 62958,
+      "renderedPixels": 62958,
+      "declaredPixels": 62958,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        218,
+        191,
+        744,
+        716
+      ],
+      "renderedBBox": [
+        218,
+        191,
+        744,
+        716
+      ],
+      "declaredBBox": [
+        218,
+        191,
+        744,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 43,
+      "pngFrame": 44,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62959,
+      "union": 62959,
+      "sourcePixels": 62959,
+      "renderedPixels": 62959,
+      "declaredPixels": 62959,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        218,
+        191,
+        743,
+        716
+      ],
+      "renderedBBox": [
+        218,
+        191,
+        743,
+        716
+      ],
+      "declaredBBox": [
+        218,
+        191,
+        743,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 44,
+      "pngFrame": 45,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62966,
+      "union": 62966,
+      "sourcePixels": 62966,
+      "renderedPixels": 62966,
+      "declaredPixels": 62966,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        218,
+        191,
+        743,
+        716
+      ],
+      "renderedBBox": [
+        218,
+        191,
+        743,
+        716
+      ],
+      "declaredBBox": [
+        218,
+        191,
+        743,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 45,
+      "pngFrame": 46,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62958,
+      "union": 62958,
+      "sourcePixels": 62958,
+      "renderedPixels": 62958,
+      "declaredPixels": 62958,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        218,
+        191,
+        743,
+        716
+      ],
+      "renderedBBox": [
+        218,
+        191,
+        743,
+        716
+      ],
+      "declaredBBox": [
+        218,
+        191,
+        743,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 46,
+      "pngFrame": 47,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62951,
+      "union": 62951,
+      "sourcePixels": 62951,
+      "renderedPixels": 62951,
+      "declaredPixels": 62951,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        218,
+        191,
+        742,
+        716
+      ],
+      "renderedBBox": [
+        218,
+        191,
+        742,
+        716
+      ],
+      "declaredBBox": [
+        218,
+        191,
+        742,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 47,
+      "pngFrame": 48,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62940,
+      "union": 62940,
+      "sourcePixels": 62940,
+      "renderedPixels": 62940,
+      "declaredPixels": 62940,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        218,
+        191,
+        742,
+        716
+      ],
+      "renderedBBox": [
+        218,
+        191,
+        742,
+        716
+      ],
+      "declaredBBox": [
+        218,
+        191,
+        742,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 48,
+      "pngFrame": 49,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62933,
+      "union": 62933,
+      "sourcePixels": 62933,
+      "renderedPixels": 62933,
+      "declaredPixels": 62933,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        217,
+        191,
+        742,
+        716
+      ],
+      "renderedBBox": [
+        217,
+        191,
+        742,
+        716
+      ],
+      "declaredBBox": [
+        217,
+        191,
+        742,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 49,
+      "pngFrame": 50,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62928,
+      "union": 62928,
+      "sourcePixels": 62928,
+      "renderedPixels": 62928,
+      "declaredPixels": 62928,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        217,
+        191,
+        742,
+        716
+      ],
+      "renderedBBox": [
+        217,
+        191,
+        742,
+        716
+      ],
+      "declaredBBox": [
+        217,
+        191,
+        742,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 50,
+      "pngFrame": 51,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62918,
+      "union": 62918,
+      "sourcePixels": 62918,
+      "renderedPixels": 62918,
+      "declaredPixels": 62918,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 51,
+      "pngFrame": 52,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62910,
+      "union": 62910,
+      "sourcePixels": 62910,
+      "renderedPixels": 62910,
+      "declaredPixels": 62910,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 52,
+      "pngFrame": 53,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62911,
+      "union": 62911,
+      "sourcePixels": 62911,
+      "renderedPixels": 62911,
+      "declaredPixels": 62911,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 53,
+      "pngFrame": 54,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62906,
+      "union": 62906,
+      "sourcePixels": 62906,
+      "renderedPixels": 62906,
+      "declaredPixels": 62906,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 54,
+      "pngFrame": 55,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62907,
+      "union": 62907,
+      "sourcePixels": 62907,
+      "renderedPixels": 62907,
+      "declaredPixels": 62907,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 55,
+      "pngFrame": 56,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62895,
+      "union": 62895,
+      "sourcePixels": 62895,
+      "renderedPixels": 62895,
+      "declaredPixels": 62895,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 56,
+      "pngFrame": 57,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62885,
+      "union": 62885,
+      "sourcePixels": 62885,
+      "renderedPixels": 62885,
+      "declaredPixels": 62885,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 57,
+      "pngFrame": 58,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62874,
+      "union": 62874,
+      "sourcePixels": 62874,
+      "renderedPixels": 62874,
+      "declaredPixels": 62874,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 58,
+      "pngFrame": 59,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62876,
+      "union": 62876,
+      "sourcePixels": 62876,
+      "renderedPixels": 62876,
+      "declaredPixels": 62876,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 59,
+      "pngFrame": 60,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62856,
+      "union": 62856,
+      "sourcePixels": 62856,
+      "renderedPixels": 62856,
+      "declaredPixels": 62856,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 60,
+      "pngFrame": 61,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62854,
+      "union": 62854,
+      "sourcePixels": 62854,
+      "renderedPixels": 62854,
+      "declaredPixels": 62854,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 61,
+      "pngFrame": 62,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62845,
+      "union": 62845,
+      "sourcePixels": 62845,
+      "renderedPixels": 62845,
+      "declaredPixels": 62845,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 62,
+      "pngFrame": 63,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62787,
+      "union": 62787,
+      "sourcePixels": 62787,
+      "renderedPixels": 62787,
+      "declaredPixels": 62787,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 63,
+      "pngFrame": 64,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62782,
+      "union": 62782,
+      "sourcePixels": 62782,
+      "renderedPixels": 62782,
+      "declaredPixels": 62782,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 64,
+      "pngFrame": 65,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62783,
+      "union": 62783,
+      "sourcePixels": 62783,
+      "renderedPixels": 62783,
+      "declaredPixels": 62783,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 65,
+      "pngFrame": 66,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62783,
+      "union": 62783,
+      "sourcePixels": 62783,
+      "renderedPixels": 62783,
+      "declaredPixels": 62783,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 66,
+      "pngFrame": 67,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62779,
+      "union": 62779,
+      "sourcePixels": 62779,
+      "renderedPixels": 62779,
+      "declaredPixels": 62779,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 67,
+      "pngFrame": 68,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62775,
+      "union": 62775,
+      "sourcePixels": 62775,
+      "renderedPixels": 62775,
+      "declaredPixels": 62775,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 68,
+      "pngFrame": 69,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62775,
+      "union": 62775,
+      "sourcePixels": 62775,
+      "renderedPixels": 62775,
+      "declaredPixels": 62775,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 69,
+      "pngFrame": 70,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62772,
+      "union": 62772,
+      "sourcePixels": 62772,
+      "renderedPixels": 62772,
+      "declaredPixels": 62772,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 70,
+      "pngFrame": 71,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62771,
+      "union": 62771,
+      "sourcePixels": 62771,
+      "renderedPixels": 62771,
+      "declaredPixels": 62771,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 71,
+      "pngFrame": 72,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62769,
+      "union": 62769,
+      "sourcePixels": 62769,
+      "renderedPixels": 62769,
+      "declaredPixels": 62769,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 72,
+      "pngFrame": 73,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62757,
+      "union": 62757,
+      "sourcePixels": 62757,
+      "renderedPixels": 62757,
+      "declaredPixels": 62757,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 73,
+      "pngFrame": 74,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62754,
+      "union": 62754,
+      "sourcePixels": 62754,
+      "renderedPixels": 62754,
+      "declaredPixels": 62754,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 74,
+      "pngFrame": 75,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62750,
+      "union": 62750,
+      "sourcePixels": 62750,
+      "renderedPixels": 62750,
+      "declaredPixels": 62750,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 75,
+      "pngFrame": 76,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62751,
+      "union": 62751,
+      "sourcePixels": 62751,
+      "renderedPixels": 62751,
+      "declaredPixels": 62751,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 76,
+      "pngFrame": 77,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62750,
+      "union": 62750,
+      "sourcePixels": 62750,
+      "renderedPixels": 62750,
+      "declaredPixels": 62750,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 77,
+      "pngFrame": 78,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62737,
+      "union": 62737,
+      "sourcePixels": 62737,
+      "renderedPixels": 62737,
+      "declaredPixels": 62737,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 78,
+      "pngFrame": 79,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62718,
+      "union": 62718,
+      "sourcePixels": 62718,
+      "renderedPixels": 62718,
+      "declaredPixels": 62718,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 79,
+      "pngFrame": 80,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62717,
+      "union": 62717,
+      "sourcePixels": 62717,
+      "renderedPixels": 62717,
+      "declaredPixels": 62717,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 80,
+      "pngFrame": 81,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62718,
+      "union": 62718,
+      "sourcePixels": 62718,
+      "renderedPixels": 62718,
+      "declaredPixels": 62718,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 81,
+      "pngFrame": 82,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62721,
+      "union": 62721,
+      "sourcePixels": 62721,
+      "renderedPixels": 62721,
+      "declaredPixels": 62721,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        217,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 82,
+      "pngFrame": 83,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62673,
+      "union": 62673,
+      "sourcePixels": 62673,
+      "renderedPixels": 62673,
+      "declaredPixels": 62673,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        218,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        218,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        218,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 83,
+      "pngFrame": 84,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62672,
+      "union": 62672,
+      "sourcePixels": 62672,
+      "renderedPixels": 62672,
+      "declaredPixels": 62672,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        218,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        218,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        218,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 84,
+      "pngFrame": 85,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62678,
+      "union": 62678,
+      "sourcePixels": 62678,
+      "renderedPixels": 62678,
+      "declaredPixels": 62678,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        218,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        218,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        218,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 85,
+      "pngFrame": 86,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62682,
+      "union": 62682,
+      "sourcePixels": 62682,
+      "renderedPixels": 62682,
+      "declaredPixels": 62682,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        218,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        218,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        218,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 86,
+      "pngFrame": 87,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62678,
+      "union": 62678,
+      "sourcePixels": 62678,
+      "renderedPixels": 62678,
+      "declaredPixels": 62678,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        218,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        218,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        218,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 87,
+      "pngFrame": 88,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62673,
+      "union": 62673,
+      "sourcePixels": 62673,
+      "renderedPixels": 62673,
+      "declaredPixels": 62673,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        218,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        218,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        218,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 88,
+      "pngFrame": 89,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62668,
+      "union": 62668,
+      "sourcePixels": 62668,
+      "renderedPixels": 62668,
+      "declaredPixels": 62668,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        218,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        218,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        218,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 89,
+      "pngFrame": 90,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62672,
+      "union": 62672,
+      "sourcePixels": 62672,
+      "renderedPixels": 62672,
+      "declaredPixels": 62672,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        218,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        218,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        218,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 90,
+      "pngFrame": 91,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62682,
+      "union": 62682,
+      "sourcePixels": 62682,
+      "renderedPixels": 62682,
+      "declaredPixels": 62682,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        218,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        218,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        218,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 91,
+      "pngFrame": 92,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62691,
+      "union": 62691,
+      "sourcePixels": 62691,
+      "renderedPixels": 62691,
+      "declaredPixels": 62691,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        218,
+        191,
+        741,
+        716
+      ],
+      "renderedBBox": [
+        218,
+        191,
+        741,
+        716
+      ],
+      "declaredBBox": [
+        218,
+        191,
+        741,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 92,
+      "pngFrame": 93,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62372,
+      "union": 62372,
+      "sourcePixels": 62372,
+      "renderedPixels": 62372,
+      "declaredPixels": 62372,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        222,
+        190,
+        742,
+        716
+      ],
+      "renderedBBox": [
+        222,
+        190,
+        742,
+        716
+      ],
+      "declaredBBox": [
+        222,
+        190,
+        742,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 93,
+      "pngFrame": 94,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61999,
+      "union": 61999,
+      "sourcePixels": 61999,
+      "renderedPixels": 61999,
+      "declaredPixels": 61999,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        228,
+        188,
+        743,
+        719
+      ],
+      "renderedBBox": [
+        228,
+        188,
+        743,
+        719
+      ],
+      "declaredBBox": [
+        228,
+        188,
+        743,
+        719
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 94,
+      "pngFrame": 95,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61581,
+      "union": 61581,
+      "sourcePixels": 61581,
+      "renderedPixels": 61581,
+      "declaredPixels": 61581,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        236,
+        184,
+        743,
+        726
+      ],
+      "renderedBBox": [
+        236,
+        184,
+        743,
+        726
+      ],
+      "declaredBBox": [
+        236,
+        184,
+        743,
+        726
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 95,
+      "pngFrame": 96,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58755,
+      "union": 58755,
+      "sourcePixels": 58755,
+      "renderedPixels": 58755,
+      "declaredPixels": 58755,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        244,
+        179,
+        743,
+        734
+      ],
+      "renderedBBox": [
+        244,
+        179,
+        743,
+        734
+      ],
+      "declaredBBox": [
+        244,
+        179,
+        743,
+        734
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 96,
+      "pngFrame": 97,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58983,
+      "union": 58983,
+      "sourcePixels": 58983,
+      "renderedPixels": 58983,
+      "declaredPixels": 58983,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        253,
+        171,
+        739,
+        740
+      ],
+      "renderedBBox": [
+        253,
+        171,
+        739,
+        740
+      ],
+      "declaredBBox": [
+        253,
+        171,
+        739,
+        740
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 97,
+      "pngFrame": 98,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57944,
+      "union": 57944,
+      "sourcePixels": 57944,
+      "renderedPixels": 57944,
+      "declaredPixels": 57944,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        266,
+        164,
+        725,
+        739
+      ],
+      "renderedBBox": [
+        266,
+        164,
+        725,
+        739
+      ],
+      "declaredBBox": [
+        266,
+        164,
+        725,
+        739
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 98,
+      "pngFrame": 99,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 53349,
+      "union": 53349,
+      "sourcePixels": 53349,
+      "renderedPixels": 53349,
+      "declaredPixels": 53349,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        282,
+        157,
+        691,
+        728
+      ],
+      "renderedBBox": [
+        282,
+        157,
+        691,
+        728
+      ],
+      "declaredBBox": [
+        282,
+        157,
+        691,
+        728
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 99,
+      "pngFrame": 100,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 49521,
+      "union": 49521,
+      "sourcePixels": 49521,
+      "renderedPixels": 49521,
+      "declaredPixels": 49521,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        325,
+        114,
+        692,
+        716
+      ],
+      "renderedBBox": [
+        325,
+        114,
+        692,
+        716
+      ],
+      "declaredBBox": [
+        325,
+        114,
+        692,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 100,
+      "pngFrame": 101,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 46688,
+      "union": 46688,
+      "sourcePixels": 46688,
+      "renderedPixels": 46688,
+      "declaredPixels": 46688,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        262,
+        103,
+        709,
+        716
+      ],
+      "renderedBBox": [
+        262,
+        103,
+        709,
+        716
+      ],
+      "declaredBBox": [
+        262,
+        103,
+        709,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 101,
+      "pngFrame": 102,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 52498,
+      "union": 52498,
+      "sourcePixels": 52498,
+      "renderedPixels": 52498,
+      "declaredPixels": 52498,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        208,
+        132,
+        719,
+        716
+      ],
+      "renderedBBox": [
+        208,
+        132,
+        719,
+        716
+      ],
+      "declaredBBox": [
+        208,
+        132,
+        719,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 102,
+      "pngFrame": 103,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57742,
+      "union": 57742,
+      "sourcePixels": 57742,
+      "renderedPixels": 57742,
+      "declaredPixels": 57742,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        173,
+        150,
+        723,
+        716
+      ],
+      "renderedBBox": [
+        173,
+        150,
+        723,
+        716
+      ],
+      "declaredBBox": [
+        173,
+        150,
+        723,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 103,
+      "pngFrame": 104,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 60251,
+      "union": 60251,
+      "sourcePixels": 60251,
+      "renderedPixels": 60251,
+      "declaredPixels": 60251,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        152,
+        150,
+        720,
+        716
+      ],
+      "renderedBBox": [
+        152,
+        150,
+        720,
+        716
+      ],
+      "declaredBBox": [
+        152,
+        150,
+        720,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 104,
+      "pngFrame": 105,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61979,
+      "union": 61979,
+      "sourcePixels": 61979,
+      "renderedPixels": 61979,
+      "declaredPixels": 61979,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        140,
+        152,
+        711,
+        716
+      ],
+      "renderedBBox": [
+        140,
+        152,
+        711,
+        716
+      ],
+      "declaredBBox": [
+        140,
+        152,
+        711,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 105,
+      "pngFrame": 106,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62630,
+      "union": 62630,
+      "sourcePixels": 62630,
+      "renderedPixels": 62630,
+      "declaredPixels": 62630,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        132,
+        153,
+        698,
+        716
+      ],
+      "renderedBBox": [
+        132,
+        153,
+        698,
+        716
+      ],
+      "declaredBBox": [
+        132,
+        153,
+        698,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 106,
+      "pngFrame": 107,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 63461,
+      "union": 63461,
+      "sourcePixels": 63461,
+      "renderedPixels": 63461,
+      "declaredPixels": 63461,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        125,
+        155,
+        682,
+        716
+      ],
+      "renderedBBox": [
+        125,
+        155,
+        682,
+        716
+      ],
+      "declaredBBox": [
+        125,
+        155,
+        682,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 107,
+      "pngFrame": 108,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62655,
+      "union": 62655,
+      "sourcePixels": 62655,
+      "renderedPixels": 62655,
+      "declaredPixels": 62655,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        142,
+        158,
+        664,
+        716
+      ],
+      "renderedBBox": [
+        142,
+        158,
+        664,
+        716
+      ],
+      "declaredBBox": [
+        142,
+        158,
+        664,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 108,
+      "pngFrame": 109,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61805,
+      "union": 61805,
+      "sourcePixels": 61805,
+      "renderedPixels": 61805,
+      "declaredPixels": 61805,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        158,
+        160,
+        646,
+        716
+      ],
+      "renderedBBox": [
+        158,
+        160,
+        646,
+        716
+      ],
+      "declaredBBox": [
+        158,
+        160,
+        646,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 109,
+      "pngFrame": 110,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 60713,
+      "union": 60713,
+      "sourcePixels": 60713,
+      "renderedPixels": 60713,
+      "declaredPixels": 60713,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        174,
+        162,
+        629,
+        716
+      ],
+      "renderedBBox": [
+        174,
+        162,
+        629,
+        716
+      ],
+      "declaredBBox": [
+        174,
+        162,
+        629,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 110,
+      "pngFrame": 111,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57659,
+      "union": 57659,
+      "sourcePixels": 57659,
+      "renderedPixels": 57659,
+      "declaredPixels": 57659,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        192,
+        165,
+        614,
+        716
+      ],
+      "renderedBBox": [
+        192,
+        165,
+        614,
+        716
+      ],
+      "declaredBBox": [
+        192,
+        165,
+        614,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 111,
+      "pngFrame": 112,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 48445,
+      "union": 48445,
+      "sourcePixels": 48445,
+      "renderedPixels": 48445,
+      "declaredPixels": 48445,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        250,
+        159,
+        604,
+        716
+      ],
+      "renderedBBox": [
+        250,
+        159,
+        604,
+        716
+      ],
+      "declaredBBox": [
+        250,
+        159,
+        604,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 112,
+      "pngFrame": 113,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 42461,
+      "union": 42461,
+      "sourcePixels": 42461,
+      "renderedPixels": 42461,
+      "declaredPixels": 42461,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        371,
+        136,
+        600,
+        722
+      ],
+      "renderedBBox": [
+        371,
+        136,
+        600,
+        722
+      ],
+      "declaredBBox": [
+        371,
+        136,
+        600,
+        722
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 113,
+      "pngFrame": 114,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 48037,
+      "union": 48037,
+      "sourcePixels": 48037,
+      "renderedPixels": 48037,
+      "declaredPixels": 48037,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        354,
+        137,
+        635,
+        720
+      ],
+      "renderedBBox": [
+        354,
+        137,
+        635,
+        720
+      ],
+      "declaredBBox": [
+        354,
+        137,
+        635,
+        720
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 114,
+      "pngFrame": 115,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56115,
+      "union": 56115,
+      "sourcePixels": 56115,
+      "renderedPixels": 56115,
+      "declaredPixels": 56115,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        287,
+        166,
+        687,
+        720
+      ],
+      "renderedBBox": [
+        287,
+        166,
+        687,
+        720
+      ],
+      "declaredBBox": [
+        287,
+        166,
+        687,
+        720
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 115,
+      "pngFrame": 116,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59173,
+      "union": 59173,
+      "sourcePixels": 59173,
+      "renderedPixels": 59173,
+      "declaredPixels": 59173,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        230,
+        171,
+        735,
+        713
+      ],
+      "renderedBBox": [
+        230,
+        171,
+        735,
+        713
+      ],
+      "declaredBBox": [
+        230,
+        171,
+        735,
+        713
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 116,
+      "pngFrame": 117,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57007,
+      "union": 57007,
+      "sourcePixels": 57007,
+      "renderedPixels": 57007,
+      "declaredPixels": 57007,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        190,
+        165,
+        783,
+        701
+      ],
+      "renderedBBox": [
+        190,
+        165,
+        783,
+        701
+      ],
+      "declaredBBox": [
+        190,
+        165,
+        783,
+        701
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 117,
+      "pngFrame": 118,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 51523,
+      "union": 51523,
+      "sourcePixels": 51523,
+      "renderedPixels": 51523,
+      "declaredPixels": 51523,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        166,
+        157,
+        838,
+        684
+      ],
+      "renderedBBox": [
+        166,
+        157,
+        838,
+        684
+      ],
+      "declaredBBox": [
+        166,
+        157,
+        838,
+        684
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 118,
+      "pngFrame": 119,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 47996,
+      "union": 47996,
+      "sourcePixels": 47996,
+      "renderedPixels": 47996,
+      "declaredPixels": 47996,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        156,
+        148,
+        897,
+        665
+      ],
+      "renderedBBox": [
+        156,
+        148,
+        897,
+        665
+      ],
+      "declaredBBox": [
+        156,
+        148,
+        897,
+        665
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 119,
+      "pngFrame": 120,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 38542,
+      "union": 38542,
+      "sourcePixels": 38542,
+      "renderedPixels": 38542,
+      "declaredPixels": 38542,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        155,
+        141,
+        957,
+        647
+      ],
+      "renderedBBox": [
+        155,
+        141,
+        957,
+        647
+      ],
+      "declaredBBox": [
+        155,
+        141,
+        957,
+        647
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 120,
+      "pngFrame": 121,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 13196,
+      "union": 13196,
+      "sourcePixels": 13196,
+      "renderedPixels": 13196,
+      "declaredPixels": 13196,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        156,
+        197,
+        960,
+        632
+      ],
+      "renderedBBox": [
+        156,
+        197,
+        960,
+        632
+      ],
+      "declaredBBox": [
+        156,
+        197,
+        960,
+        632
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 121,
+      "pngFrame": 122,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 3033,
+      "union": 3033,
+      "sourcePixels": 3033,
+      "renderedPixels": 3033,
+      "declaredPixels": 3033,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        157,
+        194,
+        960,
+        624
+      ],
+      "renderedBBox": [
+        157,
+        194,
+        960,
+        624
+      ],
+      "declaredBBox": [
+        157,
+        194,
+        960,
+        624
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "football",
+      "frame": 122,
+      "pngFrame": 123,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 0,
+      "union": 0,
+      "sourcePixels": 0,
+      "renderedPixels": 0,
+      "declaredPixels": 0,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderedBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "declaredBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "bboxMatch": true,
+      "pathEmpty": true
+    }
+  ]
+}

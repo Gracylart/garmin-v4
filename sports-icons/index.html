@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f5f6f8">
+  <title>运动图标 · 动态素材库</title>
+  <link rel="stylesheet" href="catalog.css?v=1">
+  <script src="catalog.js?v=1" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./"><span class="brand-mark">B</span><span>BLOUB <small>MOTION LAB</small></span></a>
+    <a class="back" href="../sports-preview.html">表盘转场预览 <span aria-hidden="true">↗</span></a>
+  </header>
+  <main>
+    <section class="intro">
+      <div><p class="eyebrow">TOKYO 2020 · MOTION STUDIES</p><h1>让每一种运动<br>拥有自己的节奏。</h1><p class="intro-copy">18 项运动图标复刻，保留原片的完整动作与轮廓。<br>从逐帧观察出发，为表盘里的下一次创作准备素材。</p></div>
+      <div class="inventory"><span id="ready-count">0<span> / 18</span></span><p>实际可预览</p><div class="inventory-track"><i id="inventory-progress"></i></div><button id="refresh" class="text-button">↻ 刷新素材</button></div>
+    </section>
+    <section class="workspace" aria-label="运动图标预览播放器">
+      <div class="stage-panel">
+        <div class="stage-top"><span class="pill" id="preview-category">完整动作预览</span><label class="check"><input type="checkbox" id="circle-guide" checked>圆屏参考</label></div>
+        <div class="canvas-wrap"><canvas id="preview" width="960" height="960" aria-label="选中运动图标的当前帧"></canvas><div id="stage-empty"><span class="empty-ring"></span><p>素材正在准备</p><small>可预览的图标会在这里出现</small></div></div>
+        <div class="stage-footer"><span id="stage-resolution">统一原片坐标 · 不单独拉伸轮廓</span><span id="current-source-time">原片 —</span></div>
+      </div>
+      <aside class="inspector">
+        <p class="eyebrow" id="selected-english">SELECT A SPORT</p><h2 id="selected-name">选择运动</h2><p class="selected-description" id="selected-description">下方素材会随制作进度更新。未交付的图标显示为制作中。</p>
+        <div class="player-controls">
+          <div class="play-row"><button id="play" class="primary" disabled>播放完整动作</button><button id="replay" class="icon-button" aria-label="从头重播" title="从头重播" disabled>↺</button></div>
+          <label class="timeline-label" for="timeline"><span>原片帧序列</span><output id="frame-label">— / —</output></label><input id="timeline" type="range" min="0" max="1" value="0" step="1" disabled>
+          <div class="frame-row"><button id="previous" disabled>← 上一帧</button><button id="anchor" disabled>静态初帧</button><button id="next" disabled>下一帧 →</button></div>
+          <div class="settings-row"><label>运动速度<select id="speed"><option value="0.25">0.25 ×</option><option value="0.5">0.5 ×</option><option value="1" selected>1 × 原速</option><option value="2">2 ×</option></select></label><label>预览帧率<select id="fps"><option value="source" selected>源帧率</option><option value="30">30 FPS</option><option value="15">15 FPS</option></select></label></div>
+          <label class="check loop-check"><input type="checkbox" id="loop">完整播放后循环</label>
+        </div>
+        <dl class="metadata"><div><dt>动作总时长</dt><dd id="duration">—</dd></div><div><dt>源帧率 / 总帧数</dt><dd id="source-fps">—</dd></div><div><dt>原片时间段</dt><dd id="source-range">—</dd></div><div><dt>轮廓审计</dt><dd id="audit">待素材交付</dd></div></dl>
+        <button id="export" class="export-button" disabled>导出当前帧 SVG <span aria-hidden="true">↓</span></button>
+        <p class="sampling-note">帧率选项控制显示采样；原片时间线始终连续。使用逐帧按钮，可检查每一张源帧。</p>
+      </aside>
+    </section>
+    <div class="library-heading"><div><p class="eyebrow">THE COLLECTION</p><h2>运动素材</h2></div><p id="load-status" role="status" aria-live="polite">正在读取素材清单…</p></div>
+    <section class="collection" aria-labelledby="common-heading"><div class="section-heading"><h3 id="common-heading">常用运动</h3><span>14 项 · 运动手表常见场景</span></div><div class="icon-grid" id="common-grid"></div></section>
+    <section class="collection" aria-labelledby="extended-heading"><div class="section-heading"><h3 id="extended-heading">拓展运动</h3><span>4 项 · 更多动作语言</span></div><div class="icon-grid" id="extended-grid"></div></section>
+    <footer><p>本页保留源动作。眼睛与运动图标之间的转场，在<a href="../sports-preview.html">表盘主预览</a>中复用线条脱轨方案。</p><p>Reference study · Tokyo 2020 kinetic pictograms</p></footer>
+  </main>
+</body>
+</html>

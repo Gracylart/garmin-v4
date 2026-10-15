@@ -132,12 +132,14 @@ document.getElementById('move').onclick=()=>play('rage');
 for(const button of document.querySelectorAll('[data-mood]')){
  button.onclick=()=>button.dataset.mood==='rage'?play('rage'):selectMood(moods.find(item=>item.id===button.dataset.mood));
 }
+let renderedEyes=[];
 function eye(x,y,w,h,angle,arch=0,a=1,b=0,c=0,d=1,screenTilt=0){
  if(w<2||h<2)return;
  ctx.save();
  ctx.translate(x,y);ctx.rotate(screenTilt);
  if(h<16){h=Math.max(5,h);arch=0;}
  else{ctx.transform(a,b,c,d,0,0);ctx.rotate(angle);}
+ const matrix=ctx.getTransform();renderedEyes.push({x:matrix.e,y:matrix.f,w:w*Math.hypot(matrix.a,matrix.b),h:h*Math.hypot(matrix.c,matrix.d),angle:Math.atan2(matrix.b,matrix.a),vx:0,vy:0,vw:0,vh:0});
  const r=Math.min(w,h)*.48,left=-w/2,right=w/2,top=-h/2,bottom=h/2,flat=w-2*r;
  ctx.beginPath();ctx.moveTo(left+r,top);
  ctx.bezierCurveTo(left+r+flat/3,top+arch,right-r-flat/3,top+arch,right-r,top);
@@ -161,7 +163,7 @@ function spinVector(v,spin,dx,dy){
   v[2]*cs+(ax*v[1]-ay*v[0])*sn
  ];
 }
-function orbitEye(side,w,h,a,arch,yaw,pitch,baseY,spin,dx,dy){
+function orbitEye(side,w,h,a,arch,yaw,pitch,spin,dx,dy){
  const cy=Math.cos(yaw),sy=Math.sin(yaw),cp=Math.cos(pitch),sp=Math.sin(pitch);
  let f=[sy*cp,sp,cy*cp],right=[cy,0,-sy],down=[-sy*sp,cp,-cy*sp];
  if(spin){
@@ -171,8 +173,10 @@ function orbitEye(side,w,h,a,arch,yaw,pitch,baseY,spin,dx,dy){
  const ex=f[0]*co+right[0]*si,ey=f[1]*co+right[1]*si,depth=f[2]*co+right[2]*si;
  if(depth<=.015)return;
  const edge=spin?smooth((.98-depth)/.55):0;
- eye(184*ex+(mood.id==='proud'?side*12:0),baseY+184*ey,w*(1-.14*edge),h*(1-.18*edge),a,arch,right[0]*co-f[0]*si,right[1]*co-f[1]*si,down[0],down[1],edge*(-.24*dx+.14*dy));
+ eye(184*ex+(mood.id==='proud'?side*12:0),184*ey,w*(1-.14*edge),h*(1-.18*edge),a,arch,right[0]*co-f[0]*si,right[1]*co-f[1]*si,down[0],down[1],edge*(-.24*dx+.14*dy));
 }
+// Resting gaze is a pitch on the sphere, never a translation of its centre.
+function eyePitch(gaze){return gaze*1.02-Math.asin(18/(184*Math.cos(.27)))*(1-Math.min(1,Math.abs(gaze)));}
 function spinAt(t){
  const x=clamp(t);
  const ease=x<.5?4*x*x*x:1-Math.pow(2-2*x,3)/2;
@@ -198,9 +202,12 @@ function drawClockHands(t){
  }
 }
 function draw(){
+ renderedEyes=[];
  const p=pose,age=clock-start;
  ctx.fillStyle='#000';ctx.fillRect(0,0,454,454);
  ctx.save();ctx.translate(227,227);ctx.scale(454/390,454/390);ctx.fillStyle='#e8f3ec';
+ // Keep the reachable region concentric with the watch even while a mood shakes.
+ ctx.beginPath();ctx.arc(0,0,184,0,2*Math.PI);ctx.clip();
  let shiftX=0,shiftY=0,angle=0;
  if(kind==='rage'){
   const pulse=smooth((age-.14)/.2)*(1-smooth((age-1.13)/.37));
@@ -214,17 +221,16 @@ function draw(){
   drawClockHands((clock-clockRelease)/.55);
   ctx.restore();return;
  }
- ctx.save();ctx.beginPath();ctx.arc(0,-18,184,0,2*Math.PI);ctx.clip();
+ ctx.save();
  let lid=1;if(blink>=0){const t=blink/.18;lid=t<.43?1-.94*smooth(t/.43):.06+.94*smooth((t-.43)/.57);}
  if(kind==='spin'){
   const turn=spinAt(age/1.12);
-  const baseY=-18*(1-Math.abs(gazeY));
-  orbitEye(-1,p.w1,p.h1*lid,p.a1,0,gazeX*1.16,gazeY*1.02,baseY,turn,spinX,spinY);
-  orbitEye(1,p.w2,p.h2*lid,p.a2,0,gazeX*1.16,gazeY*1.02,baseY,turn,spinX,spinY);
+  orbitEye(-1,p.w1,p.h1*lid,p.a1,0,gazeX*1.16,eyePitch(gazeY),turn,spinX,spinY);
+  orbitEye(1,p.w2,p.h2*lid,p.a2,0,gazeX*1.16,eyePitch(gazeY),turn,spinX,spinY);
  }else{
-  const yaw=gazeX*1.16,pitch=gazeY*1.02,baseY=-18*(1-Math.abs(gazeY));
-  orbitEye(-1,p.w1,p.h1*lid,p.a1,p.arch1,yaw,pitch,baseY,0,1,0);
-  orbitEye(1,p.w2,p.h2*lid,p.a2,p.arch2,yaw,pitch,baseY,0,1,0);
+  const yaw=gazeX*1.16,pitch=eyePitch(gazeY);
+  orbitEye(-1,p.w1,p.h1*lid,p.a1,p.arch1,yaw,pitch,0,1,0);
+  orbitEye(1,p.w2,p.h2*lid,p.a2,p.arch2,yaw,pitch,0,1,0);
  }
  ctx.restore();
  ctx.restore();
@@ -294,6 +300,7 @@ globalThis.EmotePreview={
   if(next)selectMood(next);else if(id==='spin')orbit(1,0);else play(id);
  },
  draw,
+ captureEyes(){return renderedEyes.length===2?renderedEyes.map(e=>({...e})):null;},
  snapshot(){return {kind,mood:mood.id,clock,locked:locked()};}
 };
 if(!globalThis.EMOTE_STUDIO)requestAnimationFrame(frame);

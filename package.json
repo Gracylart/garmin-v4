@@ -1,12 +1,15 @@
 {
   "name": "garmin-v4-emote",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "description": "Venu 4 Emote watch face, interactive app and browser motion studio",
   "scripts": {
     "start": "node preview-server.cjs",
-    "test": "node verify.cjs && node verify-preview.cjs && node verify-play-preview.cjs && node verify-orbit-motion.cjs && node verify-clock-lab.cjs && node verify-clock-transition.cjs",
-    "build:mac": "bash build.sh"
+    "test": "node verify.cjs && node verify-preview.cjs && node verify-play-preview.cjs && node verify-orbit-motion.cjs && node verify-clock-lab.cjs && node verify-clock-transition.cjs && node scripts/verify-sports-import.cjs && node scripts/verify-sports-layout.cjs && node scripts/verify-project.cjs",
+    "build:mac": "bash build.sh",
+    "calibrate:sports": "python3 scripts/calibrate-sports-layout.py"
   },
-  "engines": { "node": ">=18" }
+  "engines": {
+    "node": ">=18"
+  }
 }

@@ -1,0 +1,4649 @@
+{
+  "schemaVersion": 1,
+  "group": "a",
+  "sport": "badminton",
+  "passed": true,
+  "frames": 117,
+  "worstIoU": 1,
+  "mismatchedFrames": 0,
+  "method": {
+    "renderer": "Real Google Chrome headless Canvas 2D / Path2D",
+    "fillRule": "evenodd",
+    "scale": 1,
+    "threshold": "R < 133 && B - R > 12 (both decoded reference PNG and rendered vector)",
+    "pathBackground": "#ffffff",
+    "colorSpace": "srgb",
+    "sourceCrop": {
+      "width": 960,
+      "height": 960
+    },
+    "bboxConvention": "[xmin, ymin, xmaxExclusive, ymaxExclusive]; blank = [0,0,0,0]",
+    "frameIndexBase": 0,
+    "pngFileIndexBase": 1,
+    "blankPairIoU": 1,
+    "independence": "No contour-generation code imported; Chromium independently rasterizes SVG path strings.",
+    "scope": "Binary foreground silhouette only. Does not assert RGB, antialiasing, original-video extraction accuracy, semantic sport identity, or device performance."
+  },
+  "provenance": {
+    "generatedAt": "2026-10-15T06:21:12.628Z",
+    "browserVersion": "155.0.8059.40",
+    "executablePath": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "nodeVersion": "v24.21.0",
+    "scriptSha256": "31e8fffad57e6b82381fa5930bc4d4fd2413b831696090c975497ccd90b7d0c4",
+    "manifestSha256": "9eed22c4bb37a6a583c3470c727aad7518cb2d10b5d30168e203d1dd241dff60",
+    "smoke": {
+      "foreground": 12,
+      "expected": 12,
+      "path2DEvenodd": true,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+    }
+  },
+  "sourceData": {
+    "json": {
+      "file": "reference-frames/badminton.json",
+      "bytes": 592782,
+      "sha256": "5f011c74b3930b0d1d8785d33bbd70722f7d5a96b97eccbe1fab85b8a9161271"
+    },
+    "pngs": [
+      {
+        "file": "reference-frames/badminton/001.png",
+        "bytes": 8818,
+        "sha256": "a75f618c40cd41ca042f824df0f76c04e3d0a6912783f742a13651d2d01a99b7"
+      },
+      {
+        "file": "reference-frames/badminton/002.png",
+        "bytes": 21887,
+        "sha256": "7487f607ab7d6293af79c2632849898120c417e995c740449a387faba0a963aa"
+      },
+      {
+        "file": "reference-frames/badminton/003.png",
+        "bytes": 23936,
+        "sha256": "ec3a84cda270ee6b67a5377370ce1db10c46ae6e7af798a007122e2d3b5f8a88"
+      },
+      {
+        "file": "reference-frames/badminton/004.png",
+        "bytes": 24705,
+        "sha256": "95b7f63d4b4dbc3974d10ff405ec24e392c292b6dd0a82e00087786fc358c95d"
+      },
+      {
+        "file": "reference-frames/badminton/005.png",
+        "bytes": 25025,
+        "sha256": "973edc7ee5f3f69af40260af40020c501a0e6d3bc6edde3d0047ec5442636df4"
+      },
+      {
+        "file": "reference-frames/badminton/006.png",
+        "bytes": 25134,
+        "sha256": "5038aab02feb97392a1fc8360a149908bb42119d64cde82337f7af009763f6c6"
+      },
+      {
+        "file": "reference-frames/badminton/007.png",
+        "bytes": 26500,
+        "sha256": "efea8a8516a6ce1205ed54213fa0e2e8397425651bb2a331b6eb904b8c5e8ef2"
+      },
+      {
+        "file": "reference-frames/badminton/008.png",
+        "bytes": 28808,
+        "sha256": "36baf7faf90320af4911dc4f7c4f70c387e9cd7cd0304b2ed0cf9f5d7fed957a"
+      },
+      {
+        "file": "reference-frames/badminton/009.png",
+        "bytes": 32218,
+        "sha256": "ef9a3a98f52e1fc36ce6c639e171b1ff647852a145abfa96ead0761095c1c8cc"
+      },
+      {
+        "file": "reference-frames/badminton/010.png",
+        "bytes": 34228,
+        "sha256": "1e97bb40d48d97b36d824139f96c34e202179d4adba741d0da36e668f482755e"
+      },
+      {
+        "file": "reference-frames/badminton/011.png",
+        "bytes": 40629,
+        "sha256": "aaf486464a9bb3653ff687425aa73e740e002d5ad6601d42b2a0cc7d603ebb4e"
+      },
+      {
+        "file": "reference-frames/badminton/012.png",
+        "bytes": 48106,
+        "sha256": "e5c853c949fb4149a6c8fa6e2817557fab77dd4357a85d86c7f1f78031baaecd"
+      },
+      {
+        "file": "reference-frames/badminton/013.png",
+        "bytes": 49288,
+        "sha256": "4284c8d53dc27f0dd7cc7c1a1fdeed1aed2e40f2b3ee9beda6cbcae6b1bfffac"
+      },
+      {
+        "file": "reference-frames/badminton/014.png",
+        "bytes": 54062,
+        "sha256": "5e5e9ad9d141ccedf6d9fee6dbdade180aa28b4d506ddf49a6e77cd5b59785bd"
+      },
+      {
+        "file": "reference-frames/badminton/015.png",
+        "bytes": 59938,
+        "sha256": "379ba11fc02b23298cb52badc6e6e9fe71e77621e1ed7d1b89127cd0e7bf6354"
+      },
+      {
+        "file": "reference-frames/badminton/016.png",
+        "bytes": 65717,
+        "sha256": "b690fbd7e517405caf1712c03a1394b8c4a699782c883389677ea38a67e04b85"
+      },
+      {
+        "file": "reference-frames/badminton/017.png",
+        "bytes": 74709,
+        "sha256": "d617f220af0dba341bc89924f4d6ddf4c3571847496678e11faa42b9563ebb28"
+      },
+      {
+        "file": "reference-frames/badminton/018.png",
+        "bytes": 79074,
+        "sha256": "951cc9d46bb5d6ee03769ebe5bc889e7fe9170e4474590fc62841426da574614"
+      },
+      {
+        "file": "reference-frames/badminton/019.png",
+        "bytes": 79906,
+        "sha256": "ec97d5eaeacf1f629d9dbadd5e13229a689f90c32e01dd338edc358afd6ce49b"
+      },
+      {
+        "file": "reference-frames/badminton/020.png",
+        "bytes": 77310,
+        "sha256": "8b75e15c31c972af98a04a9b1a805211ba35db6d6f2f343d192f5f53050ddbbc"
+      },
+      {
+        "file": "reference-frames/badminton/021.png",
+        "bytes": 75130,
+        "sha256": "b409ded3a15ad838cfc9e702cb9a52f23163d8975a326ec1db07a3f02f33c6cf"
+      },
+      {
+        "file": "reference-frames/badminton/022.png",
+        "bytes": 77310,
+        "sha256": "32768cb772e1bba03aa2def8a8f84f3aa5da0ab4fa2453e0106dd365d7d11755"
+      },
+      {
+        "file": "reference-frames/badminton/023.png",
+        "bytes": 75815,
+        "sha256": "27a21e11086e456d4eef86b1846d339e6de0757b9b1f9980ffd2ccb13fbb6558"
+      },
+      {
+        "file": "reference-frames/badminton/024.png",
+        "bytes": 75789,
+        "sha256": "d74189641c059dd7b9a4d0a000aff6ffa6721bbaf1c3ae8965c8c4c5be999c4c"
+      },
+      {
+        "file": "reference-frames/badminton/025.png",
+        "bytes": 69812,
+        "sha256": "c4ae80c9613548b0232de0f21885a2cb24cb395d9ec0cb86f466606efdb19a20"
+      },
+      {
+        "file": "reference-frames/badminton/026.png",
+        "bytes": 67931,
+        "sha256": "9e88fb71855182685cfa6ddc5135d9a6e7b15ff78eb0663f5a8faa6c65a3e244"
+      },
+      {
+        "file": "reference-frames/badminton/027.png",
+        "bytes": 72159,
+        "sha256": "5bf737276c95b4e7cdf4d331aba552820662119e686b0637f3c1efeb183aa40e"
+      },
+      {
+        "file": "reference-frames/badminton/028.png",
+        "bytes": 74238,
+        "sha256": "ac899c296bed6b4fdfff3d1001e25fe3f552d3feca08c624007f5aba6fd46404"
+      },
+      {
+        "file": "reference-frames/badminton/029.png",
+        "bytes": 73370,
+        "sha256": "5af769bb8d32fce1524a3d4ad456f32ddb1dd34ce1d07bc1867b7f57e5fb080c"
+      },
+      {
+        "file": "reference-frames/badminton/030.png",
+        "bytes": 77509,
+        "sha256": "d7b841088160ac3e45aab21d7098c5c176e247b11c845bb03320ff14f346779e"
+      },
+      {
+        "file": "reference-frames/badminton/031.png",
+        "bytes": 79711,
+        "sha256": "b7e4ae7557123d878b53860813cb9176a3e9859643a65a948facc6836d907f03"
+      },
+      {
+        "file": "reference-frames/badminton/032.png",
+        "bytes": 82537,
+        "sha256": "b340e643096199c73bc9667267504dcae2df89405c808ac2551f5fa3c91203b3"
+      },
+      {
+        "file": "reference-frames/badminton/033.png",
+        "bytes": 83209,
+        "sha256": "c0346bd1017644d4836bb9a94d69ec84e5edb7cba82ec522b5a76b43148497d6"
+      },
+      {
+        "file": "reference-frames/badminton/034.png",
+        "bytes": 84868,
+        "sha256": "976f65a892ddce0cbd37b350bf4a9e40d145eb71af092293f1bac6d743bfc048"
+      },
+      {
+        "file": "reference-frames/badminton/035.png",
+        "bytes": 86724,
+        "sha256": "d80fef01a6d4a463749dd02e4caac52361b44c2aab66b46b23ea352b04ed0939"
+      },
+      {
+        "file": "reference-frames/badminton/036.png",
+        "bytes": 86582,
+        "sha256": "fb9b1344b43bb6b2795fbc840b48470ea0381b15dd37b96174fdca1c75ba6e16"
+      },
+      {
+        "file": "reference-frames/badminton/037.png",
+        "bytes": 86712,
+        "sha256": "cfeb7573611b7133f5256b222ed66a4106069a0f4a3f92ecef128b8b39de0a01"
+      },
+      {
+        "file": "reference-frames/badminton/038.png",
+        "bytes": 87377,
+        "sha256": "ce7915a3f0112472bd9151e3e9da44d7b35803afa4a77f596c9d411f77b1c536"
+      },
+      {
+        "file": "reference-frames/badminton/039.png",
+        "bytes": 86595,
+        "sha256": "e75bc1b4b444d985d69f1d6b7dfe2b5b82742dab7125a8c45591a48d299ac96f"
+      },
+      {
+        "file": "reference-frames/badminton/040.png",
+        "bytes": 86338,
+        "sha256": "31ce51b43d6e3e4b443f9e6676cae11feb0e52db8f33f1fb816a2d41e7062367"
+      },
+      {
+        "file": "reference-frames/badminton/041.png",
+        "bytes": 88339,
+        "sha256": "fed64cd462acded712c69d805f6c9fa3af8126fead60ba6bf9c5d30f8d62f430"
+      },
+      {
+        "file": "reference-frames/badminton/042.png",
+        "bytes": 87930,
+        "sha256": "a228b6d7ddd83e3285f5dcd017f6f12adc42b842586fe170789259ac74947207"
+      },
+      {
+        "file": "reference-frames/badminton/043.png",
+        "bytes": 87472,
+        "sha256": "a5712fd24ca0ed44a26c4266621bea49e52e8ab7dbaf2545fc1f257711973420"
+      },
+      {
+        "file": "reference-frames/badminton/044.png",
+        "bytes": 87857,
+        "sha256": "fa0a98f4576a15bcbb27be7f27c891a1c021104aecffa53f01d98cc42e5a009a"
+      },
+      {
+        "file": "reference-frames/badminton/045.png",
+        "bytes": 87381,
+        "sha256": "db5275783ca54864631db50f389c1f271bfd3be6e67d182b2e5cc6cd2844b751"
+      },
+      {
+        "file": "reference-frames/badminton/046.png",
+        "bytes": 88394,
+        "sha256": "6e9de4d353798905621b9ad062bcd41544678e6dfa1b4793bc398418e543a556"
+      },
+      {
+        "file": "reference-frames/badminton/047.png",
+        "bytes": 87676,
+        "sha256": "96a83ef8305ff4007f5c8162d52a3e5a8847a574500195a5d65b3cfa71ca9933"
+      },
+      {
+        "file": "reference-frames/badminton/048.png",
+        "bytes": 87755,
+        "sha256": "6f29a0b0c83a01b6b35057c188836a976228302c451ef731fb7fd873dd9093fc"
+      },
+      {
+        "file": "reference-frames/badminton/049.png",
+        "bytes": 87495,
+        "sha256": "7695204b30201526633a35139c4a496d94006dd5f6f27311e3e5d6bbe5655d47"
+      },
+      {
+        "file": "reference-frames/badminton/050.png",
+        "bytes": 88814,
+        "sha256": "b1b78252a745327e4bfaf7188462a84a87a62f23ca8d5993bd53cbe6a99f0258"
+      },
+      {
+        "file": "reference-frames/badminton/051.png",
+        "bytes": 88286,
+        "sha256": "b7d54ae94181a313c70b643e2ae3b9f09817342c665725c9b6b830656076f870"
+      },
+      {
+        "file": "reference-frames/badminton/052.png",
+        "bytes": 88530,
+        "sha256": "dc33148c50006bc37702e36ad648a7a9b39b3c4808db7d6a975c397d106177cc"
+      },
+      {
+        "file": "reference-frames/badminton/053.png",
+        "bytes": 88478,
+        "sha256": "ecc19778abe37428b81bc307abb67da45a83e3633bf6c297fc5447cb17141a89"
+      },
+      {
+        "file": "reference-frames/badminton/054.png",
+        "bytes": 88712,
+        "sha256": "a9ce63a2cfacd28c0e6e46854a7bd2673c3eea71c0edefa2cafc119f7722487b"
+      },
+      {
+        "file": "reference-frames/badminton/055.png",
+        "bytes": 88514,
+        "sha256": "9e60d34ce6da2a59cedf0cb182347c1eed368b5c6331ee8c59a66c9cde26f5c1"
+      },
+      {
+        "file": "reference-frames/badminton/056.png",
+        "bytes": 88524,
+        "sha256": "6a74431e951432ce5c5f0355f3a5c3f7f117d81dc9c30400a5507206a003381d"
+      },
+      {
+        "file": "reference-frames/badminton/057.png",
+        "bytes": 88551,
+        "sha256": "9a9d8154a36e8492a36df395a4547f833959c0282d1ead295b6c2342d5e3251b"
+      },
+      {
+        "file": "reference-frames/badminton/058.png",
+        "bytes": 88666,
+        "sha256": "9181445c3fa1b10a1861ba4ca760430418aa7c9246fa5cc77aa0b714bca5db30"
+      },
+      {
+        "file": "reference-frames/badminton/059.png",
+        "bytes": 88522,
+        "sha256": "61efd4d0291eab47e60814a0c4c565e673f6fd7752bcb93e0ef7a7b5ab57f19f"
+      },
+      {
+        "file": "reference-frames/badminton/060.png",
+        "bytes": 88501,
+        "sha256": "73216c72f559d9fea9551cd4a73b063018fccaf9d99dbafe2a1f5e85dd5b6d92"
+      },
+      {
+        "file": "reference-frames/badminton/061.png",
+        "bytes": 88516,
+        "sha256": "c68755a0140aec373a6ad8a4898b7a753bf12dae1f02abbd7d04f69c61de0455"
+      },
+      {
+        "file": "reference-frames/badminton/062.png",
+        "bytes": 88633,
+        "sha256": "20de4d10afd913efd27fb61e0ae8cce09e29554b3ab7559758a63b39f80cb14d"
+      },
+      {
+        "file": "reference-frames/badminton/063.png",
+        "bytes": 88582,
+        "sha256": "81877e0d03f372912607b5ab19d00792b46fc1083c65916458f085ed13898c95"
+      },
+      {
+        "file": "reference-frames/badminton/064.png",
+        "bytes": 88637,
+        "sha256": "4474f25263d5daa21485ee16da1cc48ee82b569c7f7c139bde17b52496da3b00"
+      },
+      {
+        "file": "reference-frames/badminton/065.png",
+        "bytes": 88642,
+        "sha256": "26fdae4a49369d17054274d783c4843efe081bb7f85084f77e88582e697ff895"
+      },
+      {
+        "file": "reference-frames/badminton/066.png",
+        "bytes": 88765,
+        "sha256": "f4a2dbdda7ca884f5f7da166ff192c9d3160358a998c99671d463b95bde5f035"
+      },
+      {
+        "file": "reference-frames/badminton/067.png",
+        "bytes": 88634,
+        "sha256": "0d7ea32996101c601e439b0a98d55e3aed0c8f1ce20e5e4290fc8fd5c294d66b"
+      },
+      {
+        "file": "reference-frames/badminton/068.png",
+        "bytes": 88601,
+        "sha256": "22c2d95dfee3fcdeeb922f00beec65bb71bebe24239cfd4b838e34d226d1b026"
+      },
+      {
+        "file": "reference-frames/badminton/069.png",
+        "bytes": 88619,
+        "sha256": "79ae2616c13eb1c5efde928f9f89412d0fab7e5ffd866d6d57f96a4674f51c5c"
+      },
+      {
+        "file": "reference-frames/badminton/070.png",
+        "bytes": 88701,
+        "sha256": "aaab0bf83903e49aa3af59252ec290edad30580c2d6dbe0ff9ca3e2a142f7c4e"
+      },
+      {
+        "file": "reference-frames/badminton/071.png",
+        "bytes": 88647,
+        "sha256": "743aa5efeb8e9b8f6171415e591cf0c49400f1348f0ab16a1ca8d441e11b3212"
+      },
+      {
+        "file": "reference-frames/badminton/072.png",
+        "bytes": 88622,
+        "sha256": "86933f39d68af218dd7d1f183839522369fbb47d64e09d35e5f3476297672362"
+      },
+      {
+        "file": "reference-frames/badminton/073.png",
+        "bytes": 88631,
+        "sha256": "52240eff0d662fbe5a233f06bff915f6bb0bcb82d2ce6baebccc716c94863603"
+      },
+      {
+        "file": "reference-frames/badminton/074.png",
+        "bytes": 88720,
+        "sha256": "dbbd89622e0e159178622d740eadf871cc4692fe90c71b07fbbc2614f6452bdd"
+      },
+      {
+        "file": "reference-frames/badminton/075.png",
+        "bytes": 88634,
+        "sha256": "8b5a26f9ca4fc8549a8db05736e59361e5d75a7af73130f565f2071079c5a7c9"
+      },
+      {
+        "file": "reference-frames/badminton/076.png",
+        "bytes": 88641,
+        "sha256": "2c5e50e3d901d1bbafc1b9edcc8a2e594d8ca158a2d9c948efc6e6dafa208a2c"
+      },
+      {
+        "file": "reference-frames/badminton/077.png",
+        "bytes": 88627,
+        "sha256": "0a7e1c3756ad44fb9057faff387a9da98359e39a51f143e6ce810eecd84580e0"
+      },
+      {
+        "file": "reference-frames/badminton/078.png",
+        "bytes": 88793,
+        "sha256": "51bac2b3c8e4edf4e9b10877e04e6821c864ab52371cfffcced8b2d49433c9cb"
+      },
+      {
+        "file": "reference-frames/badminton/079.png",
+        "bytes": 88728,
+        "sha256": "b08231aab14eb9056fa7cedc9af28d841de1e725d5a0c0baea2dc30976b2061c"
+      },
+      {
+        "file": "reference-frames/badminton/080.png",
+        "bytes": 88748,
+        "sha256": "4a033e5934f316442754ff93942c7bca344325556eab9060fb496177c267151d"
+      },
+      {
+        "file": "reference-frames/badminton/081.png",
+        "bytes": 88645,
+        "sha256": "0e7b344f8d9a44030658bf8069a9751c2ce0bcbe02c63d9b6eeeceb4a23ea004"
+      },
+      {
+        "file": "reference-frames/badminton/082.png",
+        "bytes": 88753,
+        "sha256": "e609e65c5041533b520534abf3553d6a5b439e79e51c82440b2b89dce7083069"
+      },
+      {
+        "file": "reference-frames/badminton/083.png",
+        "bytes": 88672,
+        "sha256": "bda5efec1f6b9444dc547566ccc02a1268a7da7935df79cc459e2b68c27d34a4"
+      },
+      {
+        "file": "reference-frames/badminton/084.png",
+        "bytes": 88632,
+        "sha256": "a8bcb1c2538527a912e68b5789d314cea235a0559973fd84a378370bbb514c03"
+      },
+      {
+        "file": "reference-frames/badminton/085.png",
+        "bytes": 88633,
+        "sha256": "6273db426d19782c0c54dc9b009faf2bf7332860b2274e455f9837b131a88810"
+      },
+      {
+        "file": "reference-frames/badminton/086.png",
+        "bytes": 88756,
+        "sha256": "d2cf774dcfa5da9b8a411b59a7f718fa0add09b5df74879675eb35835a853263"
+      },
+      {
+        "file": "reference-frames/badminton/087.png",
+        "bytes": 88683,
+        "sha256": "75aa06d01ed421b70d5de2da78d839f6618b0034e64485b5e252212873194ae5"
+      },
+      {
+        "file": "reference-frames/badminton/088.png",
+        "bytes": 88642,
+        "sha256": "d67d8e34a1dd496c8595ca8a3cfbae43f23ec0fbd3bf484e2ff2e8c4163231e4"
+      },
+      {
+        "file": "reference-frames/badminton/089.png",
+        "bytes": 88677,
+        "sha256": "d5ca73b4ce766e8b58ffcb99f8b9626274d28eb95f4f6ed505c657079df600fa"
+      },
+      {
+        "file": "reference-frames/badminton/090.png",
+        "bytes": 88798,
+        "sha256": "abccbbfff64d3be860c109cda9fa82232e75078eb7da53a15de4649ccf5ad339"
+      },
+      {
+        "file": "reference-frames/badminton/091.png",
+        "bytes": 88930,
+        "sha256": "7252f0308f313c10696d938574981a1836229509bf59db290e475851f9326486"
+      },
+      {
+        "file": "reference-frames/badminton/092.png",
+        "bytes": 86877,
+        "sha256": "3781253e69f8316d8e0b81203626a9b3b6b1745a3b10845fcf7033fe56d28158"
+      },
+      {
+        "file": "reference-frames/badminton/093.png",
+        "bytes": 85407,
+        "sha256": "c96748d78a9bb8967c90b1bca41fe50d556843bbd67dfdb8d925b86577ccd636"
+      },
+      {
+        "file": "reference-frames/badminton/094.png",
+        "bytes": 83817,
+        "sha256": "5d9a7d085257a85866affcb4b012bdd89de6ee7a44287ca7d50113f55481b840"
+      },
+      {
+        "file": "reference-frames/badminton/095.png",
+        "bytes": 81760,
+        "sha256": "919fab0e71480c8adf9e6c4cbaef48d8c7f60a8586dbe90f3fb61368b9056983"
+      },
+      {
+        "file": "reference-frames/badminton/096.png",
+        "bytes": 80720,
+        "sha256": "0bdbacee8f90efd95a09f4420b281e2e0820735e7b8a501a5be338a493d6b7dc"
+      },
+      {
+        "file": "reference-frames/badminton/097.png",
+        "bytes": 78569,
+        "sha256": "3fc0ff88714ea84edfb80f963c857d3dea56709c6841a43fdce8878e9b5e0dd6"
+      },
+      {
+        "file": "reference-frames/badminton/098.png",
+        "bytes": 78703,
+        "sha256": "4e79ae442ea65c6e460f934e2d1e04bf98465eb4b9b7b58109628650cec97165"
+      },
+      {
+        "file": "reference-frames/badminton/099.png",
+        "bytes": 80149,
+        "sha256": "6824c59be8b287db6b0f11456ad1a436be220caa2e2b4a187de4d8441cb8ee4b"
+      },
+      {
+        "file": "reference-frames/badminton/100.png",
+        "bytes": 77013,
+        "sha256": "1d0d8f38834ed6b4a701b1141bde600863d9c2705dc011830c4fc23cb34c3638"
+      },
+      {
+        "file": "reference-frames/badminton/101.png",
+        "bytes": 77776,
+        "sha256": "54f47a15c9433c4589940fa46ba841dedca63cf4c85bbcf98a81a4ee45ef2b0c"
+      },
+      {
+        "file": "reference-frames/badminton/102.png",
+        "bytes": 75807,
+        "sha256": "90e9f80bc24881eafaa8f9207309cfdefbe4e53cc4033f772f70c5a2fda3717d"
+      },
+      {
+        "file": "reference-frames/badminton/103.png",
+        "bytes": 72425,
+        "sha256": "9e8ac9d2cdba0f11950d434a0ae78ee2c210656006919df28c5a3aa624a0dd6f"
+      },
+      {
+        "file": "reference-frames/badminton/104.png",
+        "bytes": 63314,
+        "sha256": "538aed19c79b36760ee92c6e19a58797ac3c45e1f35adddbea53492600799a17"
+      },
+      {
+        "file": "reference-frames/badminton/105.png",
+        "bytes": 68985,
+        "sha256": "9cb5fd70215d8c41cffae51e73b9d2ff6d5276ed4af8de9279c077a6ac61f5cb"
+      },
+      {
+        "file": "reference-frames/badminton/106.png",
+        "bytes": 69210,
+        "sha256": "503c0787867a02b848e983937e748648208e839a51c697de5ead492b552aba61"
+      },
+      {
+        "file": "reference-frames/badminton/107.png",
+        "bytes": 57438,
+        "sha256": "dca4f538c503767cc81f948254800e84e88a6e5629050383fd62bfb2cd3919a0"
+      },
+      {
+        "file": "reference-frames/badminton/108.png",
+        "bytes": 63031,
+        "sha256": "1bd2f71e1111edd64bea244771a16fa509c0e8cfada1416a100a7d315053b03a"
+      },
+      {
+        "file": "reference-frames/badminton/109.png",
+        "bytes": 64453,
+        "sha256": "012c159bd490daeb8b26ce9e4b4cb5e0510b7afa6e18a7821e84b772065f8c86"
+      },
+      {
+        "file": "reference-frames/badminton/110.png",
+        "bytes": 65730,
+        "sha256": "2f7e0b2f9838a08e3252b162082ce426a0504890d10a53fcee28ce050251e304"
+      },
+      {
+        "file": "reference-frames/badminton/111.png",
+        "bytes": 81981,
+        "sha256": "be0f8d17c39980d8347488b45b822d6a46fbe99e30a5af2ae5dc3ccb6d2f7a68"
+      },
+      {
+        "file": "reference-frames/badminton/112.png",
+        "bytes": 73121,
+        "sha256": "47d04c7e77cee3597ca37fb1983bc87fe08b5425c6f6240554ef07cef42c7bad"
+      },
+      {
+        "file": "reference-frames/badminton/113.png",
+        "bytes": 59893,
+        "sha256": "df169469fa750cd1c2b8f83043964499b725dd1d6570c9dafe5d72801be2dc6c"
+      },
+      {
+        "file": "reference-frames/badminton/114.png",
+        "bytes": 45348,
+        "sha256": "cf2636aa79f7bb6f40de3cf89ccb8a6ff264523cf62549db66ba3ac32ec66da9"
+      },
+      {
+        "file": "reference-frames/badminton/115.png",
+        "bytes": 29826,
+        "sha256": "6ed2389e4b46a938b4fba259fdd64145357cbd58cb84a4f4a80cb475c564dbbc"
+      },
+      {
+        "file": "reference-frames/badminton/116.png",
+        "bytes": 16819,
+        "sha256": "87196ffa59aa6941ad7eb8d43de195b4d6618650cc8023a23b6739ab44839348"
+      },
+      {
+        "file": "reference-frames/badminton/117.png",
+        "bytes": 10357,
+        "sha256": "b61b60af46f043c19219a2fde45edf02f3f5b3b2b95c378fbbaf7cfac88da377"
+      }
+    ],
+    "orderedPNGSetSha256": "6639de98462527046a4b7e1527f08912aaa20665b31207a7309b3a73b12e5051"
+  },
+  "source": {
+    "start": 26.092733333333335,
+    "end": 29.996633333333335,
+    "fps": 29.97002997002997,
+    "frameCount": 117,
+    "duration": 3.9039,
+    "sourceReference": "https://cekai.us/works/the-tokyo-2020-kinetic-pictograms/"
+  },
+  "checks": {
+    "frameCountMatches": true,
+    "pixelsMismatchFrames": [],
+    "bboxMismatchFrames": [],
+    "anchor": {
+      "index": 69,
+      "valid": true,
+      "pixels": 54169,
+      "bbox": [
+        333,
+        148,
+        692,
+        799
+      ]
+    },
+    "firstFrameBlank": true,
+    "lastFrameBlank": true,
+    "blankFrameIndices": [
+      0,
+      116
+    ],
+    "emptyPathAgreesWithBlank": true,
+    "pngCountMatches": true,
+    "manifestFrameCountMatches": true
+  },
+  "results": [
+    {
+      "sport": "badminton",
+      "frame": 0,
+      "pngFrame": 1,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 0,
+      "union": 0,
+      "sourcePixels": 0,
+      "renderedPixels": 0,
+      "declaredPixels": 0,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderedBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "declaredBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "bboxMatch": true,
+      "pathEmpty": true
+    },
+    {
+      "sport": "badminton",
+      "frame": 1,
+      "pngFrame": 2,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 7175,
+      "union": 7175,
+      "sourcePixels": 7175,
+      "renderedPixels": 7175,
+      "declaredPixels": 7175,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        638,
+        434,
+        770,
+        583
+      ],
+      "renderedBBox": [
+        638,
+        434,
+        770,
+        583
+      ],
+      "declaredBBox": [
+        638,
+        434,
+        770,
+        583
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 2,
+      "pngFrame": 3,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 7904,
+      "union": 7904,
+      "sourcePixels": 7904,
+      "renderedPixels": 7904,
+      "declaredPixels": 7904,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        639,
+        421,
+        774,
+        574
+      ],
+      "renderedBBox": [
+        639,
+        421,
+        774,
+        574
+      ],
+      "declaredBBox": [
+        639,
+        421,
+        774,
+        574
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 3,
+      "pngFrame": 4,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 8501,
+      "union": 8501,
+      "sourcePixels": 8501,
+      "renderedPixels": 8501,
+      "declaredPixels": 8501,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        639,
+        406,
+        780,
+        562
+      ],
+      "renderedBBox": [
+        639,
+        406,
+        780,
+        562
+      ],
+      "declaredBBox": [
+        639,
+        406,
+        780,
+        562
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 4,
+      "pngFrame": 5,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 8804,
+      "union": 8804,
+      "sourcePixels": 8804,
+      "renderedPixels": 8804,
+      "declaredPixels": 8804,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        637,
+        395,
+        786,
+        551
+      ],
+      "renderedBBox": [
+        637,
+        395,
+        786,
+        551
+      ],
+      "declaredBBox": [
+        637,
+        395,
+        786,
+        551
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 5,
+      "pngFrame": 6,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 9245,
+      "union": 9245,
+      "sourcePixels": 9245,
+      "renderedPixels": 9245,
+      "declaredPixels": 9245,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        630,
+        388,
+        792,
+        544
+      ],
+      "renderedBBox": [
+        630,
+        388,
+        792,
+        544
+      ],
+      "declaredBBox": [
+        630,
+        388,
+        792,
+        544
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 6,
+      "pngFrame": 7,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 10423,
+      "union": 10423,
+      "sourcePixels": 10423,
+      "renderedPixels": 10423,
+      "declaredPixels": 10423,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        617,
+        384,
+        799,
+        550
+      ],
+      "renderedBBox": [
+        617,
+        384,
+        799,
+        550
+      ],
+      "declaredBBox": [
+        617,
+        384,
+        799,
+        550
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 7,
+      "pngFrame": 8,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 12331,
+      "union": 12331,
+      "sourcePixels": 12331,
+      "renderedPixels": 12331,
+      "declaredPixels": 12331,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        598,
+        383,
+        806,
+        578
+      ],
+      "renderedBBox": [
+        598,
+        383,
+        806,
+        578
+      ],
+      "declaredBBox": [
+        598,
+        383,
+        806,
+        578
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 8,
+      "pngFrame": 9,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 14486,
+      "union": 14486,
+      "sourcePixels": 14486,
+      "renderedPixels": 14486,
+      "declaredPixels": 14486,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        580,
+        384,
+        814,
+        616
+      ],
+      "renderedBBox": [
+        580,
+        384,
+        814,
+        616
+      ],
+      "declaredBBox": [
+        580,
+        384,
+        814,
+        616
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 9,
+      "pngFrame": 10,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 16095,
+      "union": 16095,
+      "sourcePixels": 16095,
+      "renderedPixels": 16095,
+      "declaredPixels": 16095,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        577,
+        387,
+        822,
+        638
+      ],
+      "renderedBBox": [
+        577,
+        387,
+        822,
+        638
+      ],
+      "declaredBBox": [
+        577,
+        387,
+        822,
+        638
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 10,
+      "pngFrame": 11,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 21455,
+      "union": 21455,
+      "sourcePixels": 21455,
+      "renderedPixels": 21455,
+      "declaredPixels": 21455,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        576,
+        392,
+        832,
+        688
+      ],
+      "renderedBBox": [
+        576,
+        392,
+        832,
+        688
+      ],
+      "declaredBBox": [
+        576,
+        392,
+        832,
+        688
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 11,
+      "pngFrame": 12,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 27328,
+      "union": 27328,
+      "sourcePixels": 27328,
+      "renderedPixels": 27328,
+      "declaredPixels": 27328,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        578,
+        398,
+        843,
+        700
+      ],
+      "renderedBBox": [
+        578,
+        398,
+        843,
+        700
+      ],
+      "declaredBBox": [
+        578,
+        398,
+        843,
+        700
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 12,
+      "pngFrame": 13,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 29474,
+      "union": 29474,
+      "sourcePixels": 29474,
+      "renderedPixels": 29474,
+      "declaredPixels": 29474,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        581,
+        406,
+        856,
+        722
+      ],
+      "renderedBBox": [
+        581,
+        406,
+        856,
+        722
+      ],
+      "declaredBBox": [
+        581,
+        406,
+        856,
+        722
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 13,
+      "pngFrame": 14,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 32691,
+      "union": 32691,
+      "sourcePixels": 32691,
+      "renderedPixels": 32691,
+      "declaredPixels": 32691,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        571,
+        416,
+        866,
+        751
+      ],
+      "renderedBBox": [
+        571,
+        416,
+        866,
+        751
+      ],
+      "declaredBBox": [
+        571,
+        416,
+        866,
+        751
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 14,
+      "pngFrame": 15,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 37221,
+      "union": 37221,
+      "sourcePixels": 37221,
+      "renderedPixels": 37221,
+      "declaredPixels": 37221,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        528,
+        427,
+        873,
+        783
+      ],
+      "renderedBBox": [
+        528,
+        427,
+        873,
+        783
+      ],
+      "declaredBBox": [
+        528,
+        427,
+        873,
+        783
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 15,
+      "pngFrame": 16,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 40835,
+      "union": 40835,
+      "sourcePixels": 40835,
+      "renderedPixels": 40835,
+      "declaredPixels": 40835,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        484,
+        441,
+        878,
+        825
+      ],
+      "renderedBBox": [
+        484,
+        441,
+        878,
+        825
+      ],
+      "declaredBBox": [
+        484,
+        441,
+        878,
+        825
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 16,
+      "pngFrame": 17,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 44745,
+      "union": 44745,
+      "sourcePixels": 44745,
+      "renderedPixels": 44745,
+      "declaredPixels": 44745,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        446,
+        458,
+        882,
+        872
+      ],
+      "renderedBBox": [
+        446,
+        458,
+        882,
+        872
+      ],
+      "declaredBBox": [
+        446,
+        458,
+        882,
+        872
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 17,
+      "pngFrame": 18,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 47530,
+      "union": 47530,
+      "sourcePixels": 47530,
+      "renderedPixels": 47530,
+      "declaredPixels": 47530,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        423,
+        478,
+        886,
+        918
+      ],
+      "renderedBBox": [
+        423,
+        478,
+        886,
+        918
+      ],
+      "declaredBBox": [
+        423,
+        478,
+        886,
+        918
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 18,
+      "pngFrame": 19,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 49507,
+      "union": 49507,
+      "sourcePixels": 49507,
+      "renderedPixels": 49507,
+      "declaredPixels": 49507,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        414,
+        498,
+        890,
+        959
+      ],
+      "renderedBBox": [
+        414,
+        498,
+        890,
+        959
+      ],
+      "declaredBBox": [
+        414,
+        498,
+        890,
+        959
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 19,
+      "pngFrame": 20,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 49234,
+      "union": 49234,
+      "sourcePixels": 49234,
+      "renderedPixels": 49234,
+      "declaredPixels": 49234,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        413,
+        516,
+        896,
+        960
+      ],
+      "renderedBBox": [
+        413,
+        516,
+        896,
+        960
+      ],
+      "declaredBBox": [
+        413,
+        516,
+        896,
+        960
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 20,
+      "pngFrame": 21,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 48483,
+      "union": 48483,
+      "sourcePixels": 48483,
+      "renderedPixels": 48483,
+      "declaredPixels": 48483,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        412,
+        526,
+        902,
+        960
+      ],
+      "renderedBBox": [
+        412,
+        526,
+        902,
+        960
+      ],
+      "declaredBBox": [
+        412,
+        526,
+        902,
+        960
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 21,
+      "pngFrame": 22,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 49133,
+      "union": 49133,
+      "sourcePixels": 49133,
+      "renderedPixels": 49133,
+      "declaredPixels": 49133,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        387,
+        513,
+        892,
+        960
+      ],
+      "renderedBBox": [
+        387,
+        513,
+        892,
+        960
+      ],
+      "declaredBBox": [
+        387,
+        513,
+        892,
+        960
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 22,
+      "pngFrame": 23,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 51921,
+      "union": 51921,
+      "sourcePixels": 51921,
+      "renderedPixels": 51921,
+      "declaredPixels": 51921,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        360,
+        462,
+        877,
+        960
+      ],
+      "renderedBBox": [
+        360,
+        462,
+        877,
+        960
+      ],
+      "declaredBBox": [
+        360,
+        462,
+        877,
+        960
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 23,
+      "pngFrame": 24,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 52726,
+      "union": 52726,
+      "sourcePixels": 52726,
+      "renderedPixels": 52726,
+      "declaredPixels": 52726,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        338,
+        417,
+        853,
+        946
+      ],
+      "renderedBBox": [
+        338,
+        417,
+        853,
+        946
+      ],
+      "declaredBBox": [
+        338,
+        417,
+        853,
+        946
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 24,
+      "pngFrame": 25,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 53134,
+      "union": 53134,
+      "sourcePixels": 53134,
+      "renderedPixels": 53134,
+      "declaredPixels": 53134,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        332,
+        385,
+        820,
+        931
+      ],
+      "renderedBBox": [
+        332,
+        385,
+        820,
+        931
+      ],
+      "declaredBBox": [
+        332,
+        385,
+        820,
+        931
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 25,
+      "pngFrame": 26,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 53640,
+      "union": 53640,
+      "sourcePixels": 53640,
+      "renderedPixels": 53640,
+      "declaredPixels": 53640,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        349,
+        318,
+        782,
+        924
+      ],
+      "renderedBBox": [
+        349,
+        318,
+        782,
+        924
+      ],
+      "declaredBBox": [
+        349,
+        318,
+        782,
+        924
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 26,
+      "pngFrame": 27,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 55632,
+      "union": 55632,
+      "sourcePixels": 55632,
+      "renderedPixels": 55632,
+      "declaredPixels": 55632,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        382,
+        241,
+        752,
+        923
+      ],
+      "renderedBBox": [
+        382,
+        241,
+        752,
+        923
+      ],
+      "declaredBBox": [
+        382,
+        241,
+        752,
+        923
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 27,
+      "pngFrame": 28,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56249,
+      "union": 56249,
+      "sourcePixels": 56249,
+      "renderedPixels": 56249,
+      "declaredPixels": 56249,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        387,
+        191,
+        739,
+        902
+      ],
+      "renderedBBox": [
+        387,
+        191,
+        739,
+        902
+      ],
+      "declaredBBox": [
+        387,
+        191,
+        739,
+        902
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 28,
+      "pngFrame": 29,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56627,
+      "union": 56627,
+      "sourcePixels": 56627,
+      "renderedPixels": 56627,
+      "declaredPixels": 56627,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        403,
+        0,
+        850,
+        888
+      ],
+      "renderedBBox": [
+        403,
+        0,
+        850,
+        888
+      ],
+      "declaredBBox": [
+        403,
+        0,
+        850,
+        888
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 29,
+      "pngFrame": 30,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56938,
+      "union": 56938,
+      "sourcePixels": 56938,
+      "renderedPixels": 56938,
+      "declaredPixels": 56938,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        417,
+        0,
+        829,
+        874
+      ],
+      "renderedBBox": [
+        417,
+        0,
+        829,
+        874
+      ],
+      "declaredBBox": [
+        417,
+        0,
+        829,
+        874
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 30,
+      "pngFrame": 31,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57086,
+      "union": 57086,
+      "sourcePixels": 57086,
+      "renderedPixels": 57086,
+      "declaredPixels": 57086,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        418,
+        0,
+        807,
+        862
+      ],
+      "renderedBBox": [
+        418,
+        0,
+        807,
+        862
+      ],
+      "declaredBBox": [
+        418,
+        0,
+        807,
+        862
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 31,
+      "pngFrame": 32,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56732,
+      "union": 56732,
+      "sourcePixels": 56732,
+      "renderedPixels": 56732,
+      "declaredPixels": 56732,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        407,
+        0,
+        786,
+        853
+      ],
+      "renderedBBox": [
+        407,
+        0,
+        786,
+        853
+      ],
+      "declaredBBox": [
+        407,
+        0,
+        786,
+        853
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 32,
+      "pngFrame": 33,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56415,
+      "union": 56415,
+      "sourcePixels": 56415,
+      "renderedPixels": 56415,
+      "declaredPixels": 56415,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        394,
+        14,
+        765,
+        845
+      ],
+      "renderedBBox": [
+        394,
+        14,
+        765,
+        845
+      ],
+      "declaredBBox": [
+        394,
+        14,
+        765,
+        845
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 33,
+      "pngFrame": 34,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56345,
+      "union": 56345,
+      "sourcePixels": 56345,
+      "renderedPixels": 56345,
+      "declaredPixels": 56345,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        373,
+        29,
+        744,
+        838
+      ],
+      "renderedBBox": [
+        373,
+        29,
+        744,
+        838
+      ],
+      "declaredBBox": [
+        373,
+        29,
+        744,
+        838
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 34,
+      "pngFrame": 35,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56396,
+      "union": 56396,
+      "sourcePixels": 56396,
+      "renderedPixels": 56396,
+      "declaredPixels": 56396,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        353,
+        46,
+        732,
+        831
+      ],
+      "renderedBBox": [
+        353,
+        46,
+        732,
+        831
+      ],
+      "declaredBBox": [
+        353,
+        46,
+        732,
+        831
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 35,
+      "pngFrame": 36,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56266,
+      "union": 56266,
+      "sourcePixels": 56266,
+      "renderedPixels": 56266,
+      "declaredPixels": 56266,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        338,
+        63,
+        739,
+        825
+      ],
+      "renderedBBox": [
+        338,
+        63,
+        739,
+        825
+      ],
+      "declaredBBox": [
+        338,
+        63,
+        739,
+        825
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 36,
+      "pngFrame": 37,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56108,
+      "union": 56108,
+      "sourcePixels": 56108,
+      "renderedPixels": 56108,
+      "declaredPixels": 56108,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        330,
+        80,
+        738,
+        820
+      ],
+      "renderedBBox": [
+        330,
+        80,
+        738,
+        820
+      ],
+      "declaredBBox": [
+        330,
+        80,
+        738,
+        820
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 37,
+      "pngFrame": 38,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 55505,
+      "union": 55505,
+      "sourcePixels": 55505,
+      "renderedPixels": 55505,
+      "declaredPixels": 55505,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        327,
+        98,
+        730,
+        815
+      ],
+      "renderedBBox": [
+        327,
+        98,
+        730,
+        815
+      ],
+      "declaredBBox": [
+        327,
+        98,
+        730,
+        815
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 38,
+      "pngFrame": 39,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 55027,
+      "union": 55027,
+      "sourcePixels": 55027,
+      "renderedPixels": 55027,
+      "declaredPixels": 55027,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        326,
+        116,
+        718,
+        809
+      ],
+      "renderedBBox": [
+        326,
+        116,
+        718,
+        809
+      ],
+      "declaredBBox": [
+        326,
+        116,
+        718,
+        809
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 39,
+      "pngFrame": 40,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54884,
+      "union": 54884,
+      "sourcePixels": 54884,
+      "renderedPixels": 54884,
+      "declaredPixels": 54884,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        327,
+        132,
+        707,
+        804
+      ],
+      "renderedBBox": [
+        327,
+        132,
+        707,
+        804
+      ],
+      "declaredBBox": [
+        327,
+        132,
+        707,
+        804
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 40,
+      "pngFrame": 41,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 55152,
+      "union": 55152,
+      "sourcePixels": 55152,
+      "renderedPixels": 55152,
+      "declaredPixels": 55152,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        329,
+        148,
+        697,
+        799
+      ],
+      "renderedBBox": [
+        329,
+        148,
+        697,
+        799
+      ],
+      "declaredBBox": [
+        329,
+        148,
+        697,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 41,
+      "pngFrame": 42,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54979,
+      "union": 54979,
+      "sourcePixels": 54979,
+      "renderedPixels": 54979,
+      "declaredPixels": 54979,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        329,
+        148,
+        696,
+        799
+      ],
+      "renderedBBox": [
+        329,
+        148,
+        696,
+        799
+      ],
+      "declaredBBox": [
+        329,
+        148,
+        696,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 42,
+      "pngFrame": 43,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54817,
+      "union": 54817,
+      "sourcePixels": 54817,
+      "renderedPixels": 54817,
+      "declaredPixels": 54817,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        330,
+        148,
+        695,
+        799
+      ],
+      "renderedBBox": [
+        330,
+        148,
+        695,
+        799
+      ],
+      "declaredBBox": [
+        330,
+        148,
+        695,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 43,
+      "pngFrame": 44,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54711,
+      "union": 54711,
+      "sourcePixels": 54711,
+      "renderedPixels": 54711,
+      "declaredPixels": 54711,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        331,
+        148,
+        695,
+        799
+      ],
+      "renderedBBox": [
+        331,
+        148,
+        695,
+        799
+      ],
+      "declaredBBox": [
+        331,
+        148,
+        695,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 44,
+      "pngFrame": 45,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54579,
+      "union": 54579,
+      "sourcePixels": 54579,
+      "renderedPixels": 54579,
+      "declaredPixels": 54579,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        331,
+        148,
+        694,
+        799
+      ],
+      "renderedBBox": [
+        331,
+        148,
+        694,
+        799
+      ],
+      "declaredBBox": [
+        331,
+        148,
+        694,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 45,
+      "pngFrame": 46,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54479,
+      "union": 54479,
+      "sourcePixels": 54479,
+      "renderedPixels": 54479,
+      "declaredPixels": 54479,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        332,
+        148,
+        693,
+        799
+      ],
+      "renderedBBox": [
+        332,
+        148,
+        693,
+        799
+      ],
+      "declaredBBox": [
+        332,
+        148,
+        693,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 46,
+      "pngFrame": 47,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54406,
+      "union": 54406,
+      "sourcePixels": 54406,
+      "renderedPixels": 54406,
+      "declaredPixels": 54406,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        332,
+        148,
+        693,
+        799
+      ],
+      "renderedBBox": [
+        332,
+        148,
+        693,
+        799
+      ],
+      "declaredBBox": [
+        332,
+        148,
+        693,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 47,
+      "pngFrame": 48,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54315,
+      "union": 54315,
+      "sourcePixels": 54315,
+      "renderedPixels": 54315,
+      "declaredPixels": 54315,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        693,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        693,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        693,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 48,
+      "pngFrame": 49,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54271,
+      "union": 54271,
+      "sourcePixels": 54271,
+      "renderedPixels": 54271,
+      "declaredPixels": 54271,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 49,
+      "pngFrame": 50,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54236,
+      "union": 54236,
+      "sourcePixels": 54236,
+      "renderedPixels": 54236,
+      "declaredPixels": 54236,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 50,
+      "pngFrame": 51,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54214,
+      "union": 54214,
+      "sourcePixels": 54214,
+      "renderedPixels": 54214,
+      "declaredPixels": 54214,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 51,
+      "pngFrame": 52,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54204,
+      "union": 54204,
+      "sourcePixels": 54204,
+      "renderedPixels": 54204,
+      "declaredPixels": 54204,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 52,
+      "pngFrame": 53,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54195,
+      "union": 54195,
+      "sourcePixels": 54195,
+      "renderedPixels": 54195,
+      "declaredPixels": 54195,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 53,
+      "pngFrame": 54,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54192,
+      "union": 54192,
+      "sourcePixels": 54192,
+      "renderedPixels": 54192,
+      "declaredPixels": 54192,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 54,
+      "pngFrame": 55,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54195,
+      "union": 54195,
+      "sourcePixels": 54195,
+      "renderedPixels": 54195,
+      "declaredPixels": 54195,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 55,
+      "pngFrame": 56,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54193,
+      "union": 54193,
+      "sourcePixels": 54193,
+      "renderedPixels": 54193,
+      "declaredPixels": 54193,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 56,
+      "pngFrame": 57,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54197,
+      "union": 54197,
+      "sourcePixels": 54197,
+      "renderedPixels": 54197,
+      "declaredPixels": 54197,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 57,
+      "pngFrame": 58,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54194,
+      "union": 54194,
+      "sourcePixels": 54194,
+      "renderedPixels": 54194,
+      "declaredPixels": 54194,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 58,
+      "pngFrame": 59,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54191,
+      "union": 54191,
+      "sourcePixels": 54191,
+      "renderedPixels": 54191,
+      "declaredPixels": 54191,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 59,
+      "pngFrame": 60,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54189,
+      "union": 54189,
+      "sourcePixels": 54189,
+      "renderedPixels": 54189,
+      "declaredPixels": 54189,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 60,
+      "pngFrame": 61,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54188,
+      "union": 54188,
+      "sourcePixels": 54188,
+      "renderedPixels": 54188,
+      "declaredPixels": 54188,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 61,
+      "pngFrame": 62,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54186,
+      "union": 54186,
+      "sourcePixels": 54186,
+      "renderedPixels": 54186,
+      "declaredPixels": 54186,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 62,
+      "pngFrame": 63,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54188,
+      "union": 54188,
+      "sourcePixels": 54188,
+      "renderedPixels": 54188,
+      "declaredPixels": 54188,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 63,
+      "pngFrame": 64,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54180,
+      "union": 54180,
+      "sourcePixels": 54180,
+      "renderedPixels": 54180,
+      "declaredPixels": 54180,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 64,
+      "pngFrame": 65,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54176,
+      "union": 54176,
+      "sourcePixels": 54176,
+      "renderedPixels": 54176,
+      "declaredPixels": 54176,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 65,
+      "pngFrame": 66,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54174,
+      "union": 54174,
+      "sourcePixels": 54174,
+      "renderedPixels": 54174,
+      "declaredPixels": 54174,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 66,
+      "pngFrame": 67,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54177,
+      "union": 54177,
+      "sourcePixels": 54177,
+      "renderedPixels": 54177,
+      "declaredPixels": 54177,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 67,
+      "pngFrame": 68,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54172,
+      "union": 54172,
+      "sourcePixels": 54172,
+      "renderedPixels": 54172,
+      "declaredPixels": 54172,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 68,
+      "pngFrame": 69,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54170,
+      "union": 54170,
+      "sourcePixels": 54170,
+      "renderedPixels": 54170,
+      "declaredPixels": 54170,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 69,
+      "pngFrame": 70,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54169,
+      "union": 54169,
+      "sourcePixels": 54169,
+      "renderedPixels": 54169,
+      "declaredPixels": 54169,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 70,
+      "pngFrame": 71,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54167,
+      "union": 54167,
+      "sourcePixels": 54167,
+      "renderedPixels": 54167,
+      "declaredPixels": 54167,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 71,
+      "pngFrame": 72,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54163,
+      "union": 54163,
+      "sourcePixels": 54163,
+      "renderedPixels": 54163,
+      "declaredPixels": 54163,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 72,
+      "pngFrame": 73,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54163,
+      "union": 54163,
+      "sourcePixels": 54163,
+      "renderedPixels": 54163,
+      "declaredPixels": 54163,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 73,
+      "pngFrame": 74,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54162,
+      "union": 54162,
+      "sourcePixels": 54162,
+      "renderedPixels": 54162,
+      "declaredPixels": 54162,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 74,
+      "pngFrame": 75,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54163,
+      "union": 54163,
+      "sourcePixels": 54163,
+      "renderedPixels": 54163,
+      "declaredPixels": 54163,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 75,
+      "pngFrame": 76,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54161,
+      "union": 54161,
+      "sourcePixels": 54161,
+      "renderedPixels": 54161,
+      "declaredPixels": 54161,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 76,
+      "pngFrame": 77,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54155,
+      "union": 54155,
+      "sourcePixels": 54155,
+      "renderedPixels": 54155,
+      "declaredPixels": 54155,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 77,
+      "pngFrame": 78,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54146,
+      "union": 54146,
+      "sourcePixels": 54146,
+      "renderedPixels": 54146,
+      "declaredPixels": 54146,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 78,
+      "pngFrame": 79,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54145,
+      "union": 54145,
+      "sourcePixels": 54145,
+      "renderedPixels": 54145,
+      "declaredPixels": 54145,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 79,
+      "pngFrame": 80,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54144,
+      "union": 54144,
+      "sourcePixels": 54144,
+      "renderedPixels": 54144,
+      "declaredPixels": 54144,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 80,
+      "pngFrame": 81,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54134,
+      "union": 54134,
+      "sourcePixels": 54134,
+      "renderedPixels": 54134,
+      "declaredPixels": 54134,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 81,
+      "pngFrame": 82,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54129,
+      "union": 54129,
+      "sourcePixels": 54129,
+      "renderedPixels": 54129,
+      "declaredPixels": 54129,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 82,
+      "pngFrame": 83,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54122,
+      "union": 54122,
+      "sourcePixels": 54122,
+      "renderedPixels": 54122,
+      "declaredPixels": 54122,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 83,
+      "pngFrame": 84,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54117,
+      "union": 54117,
+      "sourcePixels": 54117,
+      "renderedPixels": 54117,
+      "declaredPixels": 54117,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 84,
+      "pngFrame": 85,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54115,
+      "union": 54115,
+      "sourcePixels": 54115,
+      "renderedPixels": 54115,
+      "declaredPixels": 54115,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 85,
+      "pngFrame": 86,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54115,
+      "union": 54115,
+      "sourcePixels": 54115,
+      "renderedPixels": 54115,
+      "declaredPixels": 54115,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 86,
+      "pngFrame": 87,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54113,
+      "union": 54113,
+      "sourcePixels": 54113,
+      "renderedPixels": 54113,
+      "declaredPixels": 54113,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 87,
+      "pngFrame": 88,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54111,
+      "union": 54111,
+      "sourcePixels": 54111,
+      "renderedPixels": 54111,
+      "declaredPixels": 54111,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 88,
+      "pngFrame": 89,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54110,
+      "union": 54110,
+      "sourcePixels": 54110,
+      "renderedPixels": 54110,
+      "declaredPixels": 54110,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 89,
+      "pngFrame": 90,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54109,
+      "union": 54109,
+      "sourcePixels": 54109,
+      "renderedPixels": 54109,
+      "declaredPixels": 54109,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 90,
+      "pngFrame": 91,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54104,
+      "union": 54104,
+      "sourcePixels": 54104,
+      "renderedPixels": 54104,
+      "declaredPixels": 54104,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "renderedBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "declaredBBox": [
+        333,
+        148,
+        692,
+        799
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 91,
+      "pngFrame": 92,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 53506,
+      "union": 53506,
+      "sourcePixels": 53506,
+      "renderedPixels": 53506,
+      "declaredPixels": 53506,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        332,
+        148,
+        691,
+        784
+      ],
+      "renderedBBox": [
+        332,
+        148,
+        691,
+        784
+      ],
+      "declaredBBox": [
+        332,
+        148,
+        691,
+        784
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 92,
+      "pngFrame": 93,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 52782,
+      "union": 52782,
+      "sourcePixels": 52782,
+      "renderedPixels": 52782,
+      "declaredPixels": 52782,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        328,
+        148,
+        688,
+        771
+      ],
+      "renderedBBox": [
+        328,
+        148,
+        688,
+        771
+      ],
+      "declaredBBox": [
+        328,
+        148,
+        688,
+        771
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 93,
+      "pngFrame": 94,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 51940,
+      "union": 51940,
+      "sourcePixels": 51940,
+      "renderedPixels": 51940,
+      "declaredPixels": 51940,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        322,
+        148,
+        682,
+        759
+      ],
+      "renderedBBox": [
+        322,
+        148,
+        682,
+        759
+      ],
+      "declaredBBox": [
+        322,
+        148,
+        682,
+        759
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 94,
+      "pngFrame": 95,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 51189,
+      "union": 51189,
+      "sourcePixels": 51189,
+      "renderedPixels": 51189,
+      "declaredPixels": 51189,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        312,
+        148,
+        674,
+        749
+      ],
+      "renderedBBox": [
+        312,
+        148,
+        674,
+        749
+      ],
+      "declaredBBox": [
+        312,
+        148,
+        674,
+        749
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 95,
+      "pngFrame": 96,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 50628,
+      "union": 50628,
+      "sourcePixels": 50628,
+      "renderedPixels": 50628,
+      "declaredPixels": 50628,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        289,
+        148,
+        662,
+        740
+      ],
+      "renderedBBox": [
+        289,
+        148,
+        662,
+        740
+      ],
+      "declaredBBox": [
+        289,
+        148,
+        662,
+        740
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 96,
+      "pngFrame": 97,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 50127,
+      "union": 50127,
+      "sourcePixels": 50127,
+      "renderedPixels": 50127,
+      "declaredPixels": 50127,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        262,
+        147,
+        646,
+        732
+      ],
+      "renderedBBox": [
+        262,
+        147,
+        646,
+        732
+      ],
+      "declaredBBox": [
+        262,
+        147,
+        646,
+        732
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 97,
+      "pngFrame": 98,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 49235,
+      "union": 49235,
+      "sourcePixels": 49235,
+      "renderedPixels": 49235,
+      "declaredPixels": 49235,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        232,
+        147,
+        628,
+        725
+      ],
+      "renderedBBox": [
+        232,
+        147,
+        628,
+        725
+      ],
+      "declaredBBox": [
+        232,
+        147,
+        628,
+        725
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 98,
+      "pngFrame": 99,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 48397,
+      "union": 48397,
+      "sourcePixels": 48397,
+      "renderedPixels": 48397,
+      "declaredPixels": 48397,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        202,
+        147,
+        607,
+        719
+      ],
+      "renderedBBox": [
+        202,
+        147,
+        607,
+        719
+      ],
+      "declaredBBox": [
+        202,
+        147,
+        607,
+        719
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 99,
+      "pngFrame": 100,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 47690,
+      "union": 47690,
+      "sourcePixels": 47690,
+      "renderedPixels": 47690,
+      "declaredPixels": 47690,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        177,
+        146,
+        596,
+        711
+      ],
+      "renderedBBox": [
+        177,
+        146,
+        596,
+        711
+      ],
+      "declaredBBox": [
+        177,
+        146,
+        596,
+        711
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 100,
+      "pngFrame": 101,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 47139,
+      "union": 47139,
+      "sourcePixels": 47139,
+      "renderedPixels": 47139,
+      "declaredPixels": 47139,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        158,
+        146,
+        597,
+        712
+      ],
+      "renderedBBox": [
+        158,
+        146,
+        597,
+        712
+      ],
+      "declaredBBox": [
+        158,
+        146,
+        597,
+        712
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 101,
+      "pngFrame": 102,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 44798,
+      "union": 44798,
+      "sourcePixels": 44798,
+      "renderedPixels": 44798,
+      "declaredPixels": 44798,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        170,
+        146,
+        596,
+        735
+      ],
+      "renderedBBox": [
+        170,
+        146,
+        596,
+        735
+      ],
+      "declaredBBox": [
+        170,
+        146,
+        596,
+        735
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 102,
+      "pngFrame": 103,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 42368,
+      "union": 42368,
+      "sourcePixels": 42368,
+      "renderedPixels": 42368,
+      "declaredPixels": 42368,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        181,
+        145,
+        597,
+        768
+      ],
+      "renderedBBox": [
+        181,
+        145,
+        597,
+        768
+      ],
+      "declaredBBox": [
+        181,
+        145,
+        597,
+        768
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 103,
+      "pngFrame": 104,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 41227,
+      "union": 41227,
+      "sourcePixels": 41227,
+      "renderedPixels": 41227,
+      "declaredPixels": 41227,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        129,
+        145,
+        608,
+        802
+      ],
+      "renderedBBox": [
+        129,
+        145,
+        608,
+        802
+      ],
+      "declaredBBox": [
+        129,
+        145,
+        608,
+        802
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 104,
+      "pngFrame": 105,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 41450,
+      "union": 41450,
+      "sourcePixels": 41450,
+      "renderedPixels": 41450,
+      "declaredPixels": 41450,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        103,
+        145,
+        597,
+        836
+      ],
+      "renderedBBox": [
+        103,
+        145,
+        597,
+        836
+      ],
+      "declaredBBox": [
+        103,
+        145,
+        597,
+        836
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 105,
+      "pngFrame": 106,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 39911,
+      "union": 39911,
+      "sourcePixels": 39911,
+      "renderedPixels": 39911,
+      "declaredPixels": 39911,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        108,
+        144,
+        597,
+        872
+      ],
+      "renderedBBox": [
+        108,
+        144,
+        597,
+        872
+      ],
+      "declaredBBox": [
+        108,
+        144,
+        597,
+        872
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 106,
+      "pngFrame": 107,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 36855,
+      "union": 36855,
+      "sourcePixels": 36855,
+      "renderedPixels": 36855,
+      "declaredPixels": 36855,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        168,
+        144,
+        597,
+        874
+      ],
+      "renderedBBox": [
+        168,
+        144,
+        597,
+        874
+      ],
+      "declaredBBox": [
+        168,
+        144,
+        597,
+        874
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 107,
+      "pngFrame": 108,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 42854,
+      "union": 42854,
+      "sourcePixels": 42854,
+      "renderedPixels": 42854,
+      "declaredPixels": 42854,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        290,
+        60,
+        597,
+        877
+      ],
+      "renderedBBox": [
+        290,
+        60,
+        597,
+        877
+      ],
+      "declaredBBox": [
+        290,
+        60,
+        597,
+        877
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 108,
+      "pngFrame": 109,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 45194,
+      "union": 45194,
+      "sourcePixels": 45194,
+      "renderedPixels": 45194,
+      "declaredPixels": 45194,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        264,
+        0,
+        597,
+        880
+      ],
+      "renderedBBox": [
+        264,
+        0,
+        597,
+        880
+      ],
+      "declaredBBox": [
+        264,
+        0,
+        597,
+        880
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 109,
+      "pngFrame": 110,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 45598,
+      "union": 45598,
+      "sourcePixels": 45598,
+      "renderedPixels": 45598,
+      "declaredPixels": 45598,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        235,
+        133,
+        681,
+        884
+      ],
+      "renderedBBox": [
+        235,
+        133,
+        681,
+        884
+      ],
+      "declaredBBox": [
+        235,
+        133,
+        681,
+        884
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 110,
+      "pngFrame": 111,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 50735,
+      "union": 50735,
+      "sourcePixels": 50735,
+      "renderedPixels": 50735,
+      "declaredPixels": 50735,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        194,
+        150,
+        743,
+        892
+      ],
+      "renderedBBox": [
+        194,
+        150,
+        743,
+        892
+      ],
+      "declaredBBox": [
+        194,
+        150,
+        743,
+        892
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 111,
+      "pngFrame": 112,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 47138,
+      "union": 47138,
+      "sourcePixels": 47138,
+      "renderedPixels": 47138,
+      "declaredPixels": 47138,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        163,
+        166,
+        787,
+        906
+      ],
+      "renderedBBox": [
+        163,
+        166,
+        787,
+        906
+      ],
+      "declaredBBox": [
+        163,
+        166,
+        787,
+        906
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 112,
+      "pngFrame": 113,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 36511,
+      "union": 36511,
+      "sourcePixels": 36511,
+      "renderedPixels": 36511,
+      "declaredPixels": 36511,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        334,
+        249,
+        840,
+        927
+      ],
+      "renderedBBox": [
+        334,
+        249,
+        840,
+        927
+      ],
+      "declaredBBox": [
+        334,
+        249,
+        840,
+        927
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 113,
+      "pngFrame": 114,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 25763,
+      "union": 25763,
+      "sourcePixels": 25763,
+      "renderedPixels": 25763,
+      "declaredPixels": 25763,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        336,
+        341,
+        893,
+        948
+      ],
+      "renderedBBox": [
+        336,
+        341,
+        893,
+        948
+      ],
+      "declaredBBox": [
+        336,
+        341,
+        893,
+        948
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 114,
+      "pngFrame": 115,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 11137,
+      "union": 11137,
+      "sourcePixels": 11137,
+      "renderedPixels": 11137,
+      "declaredPixels": 11137,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        340,
+        395,
+        944,
+        959
+      ],
+      "renderedBBox": [
+        340,
+        395,
+        944,
+        959
+      ],
+      "declaredBBox": [
+        340,
+        395,
+        944,
+        959
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 115,
+      "pngFrame": 116,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 1854,
+      "union": 1854,
+      "sourcePixels": 1854,
+      "renderedPixels": 1854,
+      "declaredPixels": 1854,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        343,
+        415,
+        455,
+        960
+      ],
+      "renderedBBox": [
+        343,
+        415,
+        455,
+        960
+      ],
+      "declaredBBox": [
+        343,
+        415,
+        455,
+        960
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "badminton",
+      "frame": 116,
+      "pngFrame": 117,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 0,
+      "union": 0,
+      "sourcePixels": 0,
+      "renderedPixels": 0,
+      "declaredPixels": 0,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderedBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "declaredBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "bboxMatch": true,
+      "pathEmpty": true
+    }
+  ]
+}

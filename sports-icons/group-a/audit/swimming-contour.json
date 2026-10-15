@@ -1,0 +1,4768 @@
+{
+  "schemaVersion": 1,
+  "group": "a",
+  "sport": "swimming",
+  "passed": true,
+  "frames": 120,
+  "worstIoU": 1,
+  "mismatchedFrames": 0,
+  "method": {
+    "renderer": "Real Google Chrome headless Canvas 2D / Path2D",
+    "fillRule": "evenodd",
+    "scale": 1,
+    "threshold": "R < 133 && B - R > 12 (both decoded reference PNG and rendered vector)",
+    "pathBackground": "#ffffff",
+    "colorSpace": "srgb",
+    "sourceCrop": {
+      "width": 960,
+      "height": 960
+    },
+    "bboxConvention": "[xmin, ymin, xmaxExclusive, ymaxExclusive]; blank = [0,0,0,0]",
+    "frameIndexBase": 0,
+    "pngFileIndexBase": 1,
+    "blankPairIoU": 1,
+    "independence": "No contour-generation code imported; Chromium independently rasterizes SVG path strings.",
+    "scope": "Binary foreground silhouette only. Does not assert RGB, antialiasing, original-video extraction accuracy, semantic sport identity, or device performance."
+  },
+  "provenance": {
+    "generatedAt": "2026-10-15T06:21:12.628Z",
+    "browserVersion": "155.0.8059.40",
+    "executablePath": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "nodeVersion": "v24.21.0",
+    "scriptSha256": "31e8fffad57e6b82381fa5930bc4d4fd2413b831696090c975497ccd90b7d0c4",
+    "manifestSha256": "9eed22c4bb37a6a583c3470c727aad7518cb2d10b5d30168e203d1dd241dff60",
+    "smoke": {
+      "foreground": 12,
+      "expected": 12,
+      "path2DEvenodd": true,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+    }
+  },
+  "sourceData": {
+    "json": {
+      "file": "reference-frames/swimming.json",
+      "bytes": 647024,
+      "sha256": "90843f6fda6cacad857927d6b40262a2b9f597f7077d3139020b0093967ceec3"
+    },
+    "pngs": [
+      {
+        "file": "reference-frames/swimming/001.png",
+        "bytes": 7367,
+        "sha256": "6e0fb433bcb6da525f1cd9efc7dea0a3bed26df68d48984d5a27777fec47938f"
+      },
+      {
+        "file": "reference-frames/swimming/002.png",
+        "bytes": 7371,
+        "sha256": "1c43332b88f28c4d15cb89f60265125117710ceefe86bda6b60a91c9c9367c9b"
+      },
+      {
+        "file": "reference-frames/swimming/003.png",
+        "bytes": 12101,
+        "sha256": "91a0d5d5c712805da5d9b3c453a30c756be4459cf3c47b28cd9e2435e5a16278"
+      },
+      {
+        "file": "reference-frames/swimming/004.png",
+        "bytes": 12540,
+        "sha256": "bae15afb428df3da3bbd988e26b8a844153b8b617c4ec382724e8e62b229b0e2"
+      },
+      {
+        "file": "reference-frames/swimming/005.png",
+        "bytes": 13131,
+        "sha256": "48d718ec4aae777bab63d4336145b9e6efc61483dbb1240788ad97433a88e227"
+      },
+      {
+        "file": "reference-frames/swimming/006.png",
+        "bytes": 14053,
+        "sha256": "469871496add1c806158c18db088e4c75713e92516199dc72e9da31c6e9282b6"
+      },
+      {
+        "file": "reference-frames/swimming/007.png",
+        "bytes": 15371,
+        "sha256": "d179c96db030b5882d8b62ae6d74e978d2c58e016d7b2df09c550021874ac56a"
+      },
+      {
+        "file": "reference-frames/swimming/008.png",
+        "bytes": 16496,
+        "sha256": "2d99608a38ed869dd3b9185dc1cf0e573c4a162611734beb9fc9d122463065c1"
+      },
+      {
+        "file": "reference-frames/swimming/009.png",
+        "bytes": 17365,
+        "sha256": "c21a3d28574463590cf115e3311c273ee30095183d94aea045e60c7e75240202"
+      },
+      {
+        "file": "reference-frames/swimming/010.png",
+        "bytes": 18767,
+        "sha256": "83896c70fcd2a77c6d2ddc7696dc89bea9fe1565fe76d7764d9d3161abc528fd"
+      },
+      {
+        "file": "reference-frames/swimming/011.png",
+        "bytes": 19740,
+        "sha256": "82a3cf05cd6b38fc393847f0a16e8a984706f9ec469c105c08717e80014e3698"
+      },
+      {
+        "file": "reference-frames/swimming/012.png",
+        "bytes": 19214,
+        "sha256": "d5ec3d67895b0fc43284f3c4eb355e8ed7eb904bf601be8c14d657a127e486ce"
+      },
+      {
+        "file": "reference-frames/swimming/013.png",
+        "bytes": 20008,
+        "sha256": "8f38643d3b8503af367f0ec58c23fc78270c952bf795f750b8fc7f30bb5556c6"
+      },
+      {
+        "file": "reference-frames/swimming/014.png",
+        "bytes": 19491,
+        "sha256": "ca36947990f87b5ec6fa88041c6513b83eae13239eb0b77d7c34cccc750d3a5e"
+      },
+      {
+        "file": "reference-frames/swimming/015.png",
+        "bytes": 21846,
+        "sha256": "1d6ac89b28871b56f7be1afae7e658e44297942fbbdaf14765e1ec4624c9e21e"
+      },
+      {
+        "file": "reference-frames/swimming/016.png",
+        "bytes": 23701,
+        "sha256": "927aa55e91a6d26e4a2ddeec1f1e6933f6b73c58b6a5d058c44663b1efd6a14c"
+      },
+      {
+        "file": "reference-frames/swimming/017.png",
+        "bytes": 25322,
+        "sha256": "b1d7979ba99c79d7fd281e1e4c9e314d63cf5413d4b35f07c99e10dc68fbfe11"
+      },
+      {
+        "file": "reference-frames/swimming/018.png",
+        "bytes": 25673,
+        "sha256": "4d79aeaa094a72a52a9132f54a784623dc44919a61915afb617c5db7810b051f"
+      },
+      {
+        "file": "reference-frames/swimming/019.png",
+        "bytes": 26349,
+        "sha256": "fd62cf0cd37daac6c3a3db65709964b5ea4c8ac4e24a3ddd0265687c078c3c40"
+      },
+      {
+        "file": "reference-frames/swimming/020.png",
+        "bytes": 26073,
+        "sha256": "2803ab8e9aad9e75f325c6cb9f1ca64127cca51ad0377c2e6b679f685445191d"
+      },
+      {
+        "file": "reference-frames/swimming/021.png",
+        "bytes": 26119,
+        "sha256": "d26ab5c8b0b78a7fa28f5e0a9f78f51a84d2075b7d53b7b27a8b7df82399a9d8"
+      },
+      {
+        "file": "reference-frames/swimming/022.png",
+        "bytes": 25679,
+        "sha256": "c1dead4daa5ac3318792319b538bb0176825f17aee1b2e670ed12c50852c54c9"
+      },
+      {
+        "file": "reference-frames/swimming/023.png",
+        "bytes": 25903,
+        "sha256": "ddf98b963fdcf6f8154f68077b3114b01393b6f6d8fd5d540848cb8b3b04d19d"
+      },
+      {
+        "file": "reference-frames/swimming/024.png",
+        "bytes": 27312,
+        "sha256": "6d124a8e6d0f1abceb73a6de8760dc54412ea5eae1adaecb71fe0b8ba19edc31"
+      },
+      {
+        "file": "reference-frames/swimming/025.png",
+        "bytes": 30859,
+        "sha256": "1303a34e4ac0837cbe3b7fc51318242316960be981652eaebc2ce0f146dd4248"
+      },
+      {
+        "file": "reference-frames/swimming/026.png",
+        "bytes": 33328,
+        "sha256": "b822802a74ee459c253e7d48dfe21c615e5f4a39f42c2822a444ac7ddbdaacaf"
+      },
+      {
+        "file": "reference-frames/swimming/027.png",
+        "bytes": 37567,
+        "sha256": "85dcd3d8e4d994b3cd2d5b957e909544c6da4d4d28b4a37585d4fe5bb46279cf"
+      },
+      {
+        "file": "reference-frames/swimming/028.png",
+        "bytes": 40351,
+        "sha256": "2ad1106c9503ca2d642be45f193ce43e0b8f1b0017991cf9c32b016b0a76c778"
+      },
+      {
+        "file": "reference-frames/swimming/029.png",
+        "bytes": 39038,
+        "sha256": "788a7a5b895a27874ee9355c48aee0ef567128ee60addbb6159c871f2b336623"
+      },
+      {
+        "file": "reference-frames/swimming/030.png",
+        "bytes": 43982,
+        "sha256": "c8e80f8503f12b2c6aac5e0206219533fb9939da987d98796d4bd847f1deaac8"
+      },
+      {
+        "file": "reference-frames/swimming/031.png",
+        "bytes": 46168,
+        "sha256": "82ad06db1c1c667d23c103e64d119e8d245dc51a532aeaa2dc840b2ee13d1d54"
+      },
+      {
+        "file": "reference-frames/swimming/032.png",
+        "bytes": 51170,
+        "sha256": "b8b249b83284c9dbc2774b74738f3062be3a7361d5d8c9d1d5005001cd2e09c4"
+      },
+      {
+        "file": "reference-frames/swimming/033.png",
+        "bytes": 54922,
+        "sha256": "e3bd2fa822fa04ba2ae11d3c7ab852e5a838855fa2029b99fd399aea4a3ddda9"
+      },
+      {
+        "file": "reference-frames/swimming/034.png",
+        "bytes": 55483,
+        "sha256": "39ffe9236aefc7f60837b3a570ae1cca480998bfd4cd85d5ee9f2ca426d57ffa"
+      },
+      {
+        "file": "reference-frames/swimming/035.png",
+        "bytes": 57945,
+        "sha256": "b8d3a13369edbbd1aea6dc2c092e02e182690a5fd85dfdc54bdf0b4ff36876d6"
+      },
+      {
+        "file": "reference-frames/swimming/036.png",
+        "bytes": 58423,
+        "sha256": "7fee62f459f08e947315812419c3db2a9dc6d33ad0e15806f285463fca5a95c6"
+      },
+      {
+        "file": "reference-frames/swimming/037.png",
+        "bytes": 60875,
+        "sha256": "d4667dc790afa9f3a99fd0601a538381fdb5ae793b162527ffc89687556139c1"
+      },
+      {
+        "file": "reference-frames/swimming/038.png",
+        "bytes": 59665,
+        "sha256": "e8002ad21fb10b1afe8904a06d89e800af94d9ac66d355aacc25db3c490019b4"
+      },
+      {
+        "file": "reference-frames/swimming/039.png",
+        "bytes": 59327,
+        "sha256": "523217bc65e6bb6d1dbc82199c0f19e0a2b3f5179349c5e5856549d0de0291bd"
+      },
+      {
+        "file": "reference-frames/swimming/040.png",
+        "bytes": 58328,
+        "sha256": "8a474cbf57a6171cb010b45b8e0be8622f4c768367100c77b5719b84e4936f0b"
+      },
+      {
+        "file": "reference-frames/swimming/041.png",
+        "bytes": 59892,
+        "sha256": "39bb346def68fa05377e9d27b3b1fde53980e7588eafcc5b7f34aa5cbcc78288"
+      },
+      {
+        "file": "reference-frames/swimming/042.png",
+        "bytes": 59460,
+        "sha256": "697a3188994311f5dc15c82741b19fdaae89d4f874a7b981e2d43ffc64926034"
+      },
+      {
+        "file": "reference-frames/swimming/043.png",
+        "bytes": 58111,
+        "sha256": "f1ad345fc4b025b926c985c06003523ab1f75281ae1e031e60d38c7b5f60de00"
+      },
+      {
+        "file": "reference-frames/swimming/044.png",
+        "bytes": 53862,
+        "sha256": "f15bbe4b13602d3d7fcfe44345db67294a8ee91e2b7765fc4f737744ca8cb14b"
+      },
+      {
+        "file": "reference-frames/swimming/045.png",
+        "bytes": 55003,
+        "sha256": "f72c5ed245636dbeed6473b8d7494be1a2ede96d1b7c6dd4c8538f89e6759e98"
+      },
+      {
+        "file": "reference-frames/swimming/046.png",
+        "bytes": 53944,
+        "sha256": "7bee22efddf2cf12f2e8bf3e789e1b867c992b3555a21114bc63ee5aea9e4f71"
+      },
+      {
+        "file": "reference-frames/swimming/047.png",
+        "bytes": 54392,
+        "sha256": "b37faec1ca237bccc6f099bdddd68c24234fb717b685e33828102287f1e0ef3a"
+      },
+      {
+        "file": "reference-frames/swimming/048.png",
+        "bytes": 54434,
+        "sha256": "4d5ac56d5a034972ab99686b5a7eb51fcaf5847075d2445ae4a6b9fb6ce06a61"
+      },
+      {
+        "file": "reference-frames/swimming/049.png",
+        "bytes": 55568,
+        "sha256": "a7d3d6fbdee89185aef7136d5b4fca1bb3358e318e1c0348208ef0527b781835"
+      },
+      {
+        "file": "reference-frames/swimming/050.png",
+        "bytes": 60158,
+        "sha256": "b2ecdcc1c7f44866590ccbebb0e5a45bbd9f304bfcb301b817dd72dcff16732e"
+      },
+      {
+        "file": "reference-frames/swimming/051.png",
+        "bytes": 62876,
+        "sha256": "99b76cfffc9c736ec98ca09023395d9c654678e18ffa92b3857ac0f5cf4390b8"
+      },
+      {
+        "file": "reference-frames/swimming/052.png",
+        "bytes": 63061,
+        "sha256": "44d7331d41706561f6d6b155c7528f7813e5342eb19884a3721ac9ef11633ffe"
+      },
+      {
+        "file": "reference-frames/swimming/053.png",
+        "bytes": 63127,
+        "sha256": "f6f1988bf7c2a3c3fc53781c57a6026006d7643c9e31d924fb9f91e720459b0d"
+      },
+      {
+        "file": "reference-frames/swimming/054.png",
+        "bytes": 63166,
+        "sha256": "5264b8dba02d62936dfe771d1c15312bbe8dbf7ef849296e39bc41cbf0266c9f"
+      },
+      {
+        "file": "reference-frames/swimming/055.png",
+        "bytes": 63191,
+        "sha256": "46dc8bc414fb735510b3df2367c69c59dd1d274020190baa7752feb616bf82d7"
+      },
+      {
+        "file": "reference-frames/swimming/056.png",
+        "bytes": 63198,
+        "sha256": "6e8722e50dc27220f3b38a6023742609ce9f139dc4268a013ff399cf044ebb19"
+      },
+      {
+        "file": "reference-frames/swimming/057.png",
+        "bytes": 63312,
+        "sha256": "544e44388821aa5eb6f9eeb5eab3e3f48eee24673fc71da57607993f0b257172"
+      },
+      {
+        "file": "reference-frames/swimming/058.png",
+        "bytes": 63248,
+        "sha256": "933ad27dcad4a6dc68d925574bb73b9c72f3626a9c1257a8421336186fea86b6"
+      },
+      {
+        "file": "reference-frames/swimming/059.png",
+        "bytes": 63268,
+        "sha256": "c3875afc4448a7cbe7163aacfb2e94da94cb10daa6e03ae650edbc76347ec78b"
+      },
+      {
+        "file": "reference-frames/swimming/060.png",
+        "bytes": 63237,
+        "sha256": "f80abdf518eb01c707e570181ed5d734e96293cb051231ed8480993a916de11c"
+      },
+      {
+        "file": "reference-frames/swimming/061.png",
+        "bytes": 63283,
+        "sha256": "0d5b878febba02d4b28b19d21d1211e6e9aceca8f309caf2f18c152942505833"
+      },
+      {
+        "file": "reference-frames/swimming/062.png",
+        "bytes": 63262,
+        "sha256": "e4ddf6b587560d7fd4b392bb7b7ff445ebd4378dc5548d8ab4d0e158bf915cd2"
+      },
+      {
+        "file": "reference-frames/swimming/063.png",
+        "bytes": 63266,
+        "sha256": "354993f166a4bc0ba3c4145aef522a3a77c1211c07fdc75349dce2cdb611cb6b"
+      },
+      {
+        "file": "reference-frames/swimming/064.png",
+        "bytes": 63262,
+        "sha256": "e4ddf6b587560d7fd4b392bb7b7ff445ebd4378dc5548d8ab4d0e158bf915cd2"
+      },
+      {
+        "file": "reference-frames/swimming/065.png",
+        "bytes": 63289,
+        "sha256": "b9ea6d36481b3e86a9b2a6f5b62fbbb32241079ff8632b70aed1b8882dbfe76b"
+      },
+      {
+        "file": "reference-frames/swimming/066.png",
+        "bytes": 63274,
+        "sha256": "5a926d168d694b5320cbb8f6346b5d861245d9984a20deeb2f57e0fd05b09006"
+      },
+      {
+        "file": "reference-frames/swimming/067.png",
+        "bytes": 63278,
+        "sha256": "412ad80474414c11ac00413d41d9509031ada00836a62e82247dd9bc2bf2a846"
+      },
+      {
+        "file": "reference-frames/swimming/068.png",
+        "bytes": 63274,
+        "sha256": "5a926d168d694b5320cbb8f6346b5d861245d9984a20deeb2f57e0fd05b09006"
+      },
+      {
+        "file": "reference-frames/swimming/069.png",
+        "bytes": 63291,
+        "sha256": "d3f8cd69956fa3b042a862fa5bef9f64b0343222928e97d77a0893fcc4a98889"
+      },
+      {
+        "file": "reference-frames/swimming/070.png",
+        "bytes": 63268,
+        "sha256": "bf668940f7350d26fe47db887f2686d68839817f6fd6ab13b8fbcbf00647a8b4"
+      },
+      {
+        "file": "reference-frames/swimming/071.png",
+        "bytes": 63272,
+        "sha256": "0a2234e54403f77e24985d7c70f3a8f6de47d8cba2d7b677dc0a1c383ba67a58"
+      },
+      {
+        "file": "reference-frames/swimming/072.png",
+        "bytes": 63268,
+        "sha256": "bf668940f7350d26fe47db887f2686d68839817f6fd6ab13b8fbcbf00647a8b4"
+      },
+      {
+        "file": "reference-frames/swimming/073.png",
+        "bytes": 63294,
+        "sha256": "7d6f64136081ef0a3075532b796d7cec1300ae80d5ebf0f38e03fbaac8465c8e"
+      },
+      {
+        "file": "reference-frames/swimming/074.png",
+        "bytes": 63265,
+        "sha256": "93f40f9bca8ed94e4ca249d2e5b5ff232cb2ec811ecee6147e0e20a04442cedb"
+      },
+      {
+        "file": "reference-frames/swimming/075.png",
+        "bytes": 63269,
+        "sha256": "4343ffb619b294cf51bdb78a7f26618968bf96cf437cac2a2bb2a06e3e71ac1c"
+      },
+      {
+        "file": "reference-frames/swimming/076.png",
+        "bytes": 63289,
+        "sha256": "1d1e7572864a563204c495170bf91341943e1bd9cdea619d4d290e92467875bb"
+      },
+      {
+        "file": "reference-frames/swimming/077.png",
+        "bytes": 63303,
+        "sha256": "102b504df1b730b9c687dec4fcb1440f43bad6bc9640017f9732a23b63a310d5"
+      },
+      {
+        "file": "reference-frames/swimming/078.png",
+        "bytes": 63295,
+        "sha256": "2e51678f00689d3979c217936059bf85d96265d8ef106985c392245dbc6fb7b2"
+      },
+      {
+        "file": "reference-frames/swimming/079.png",
+        "bytes": 63301,
+        "sha256": "c331120ac03dffac61e13aa347cb07686b49d2455fed5d9ff081edab40e76328"
+      },
+      {
+        "file": "reference-frames/swimming/080.png",
+        "bytes": 63299,
+        "sha256": "b62e4712e5aa4bfa491a719567200ad4fd5f9c5b064892bb98fc6da2ec9a7d3b"
+      },
+      {
+        "file": "reference-frames/swimming/081.png",
+        "bytes": 63333,
+        "sha256": "9af9ea272d487aac5b2bf436f9e3fd9299182b7ca6ae8e60e623546070211679"
+      },
+      {
+        "file": "reference-frames/swimming/082.png",
+        "bytes": 63314,
+        "sha256": "0f8b37550a8911580e6b69617069edae70c03355efc5a60615ecfa7b5affd3c3"
+      },
+      {
+        "file": "reference-frames/swimming/083.png",
+        "bytes": 63318,
+        "sha256": "c5def7ffc1b2d900bbe36ce614e9ed108d9b2b04caa649b0a342d056735c71d1"
+      },
+      {
+        "file": "reference-frames/swimming/084.png",
+        "bytes": 63312,
+        "sha256": "485681879ca1e35785f7de6355616a273ddedcf28debb3d2daeabcd89b3a990b"
+      },
+      {
+        "file": "reference-frames/swimming/085.png",
+        "bytes": 63320,
+        "sha256": "ee8041848d1698abc10f69c41beb1cf8823e761775bd5f3f47540d13d78d7dd5"
+      },
+      {
+        "file": "reference-frames/swimming/086.png",
+        "bytes": 63295,
+        "sha256": "ef25de16a45efc31ff55dd82982db2aa9688a298ef52a03cbcd137af639ba727"
+      },
+      {
+        "file": "reference-frames/swimming/087.png",
+        "bytes": 63300,
+        "sha256": "ad786b9469b7ef129bd8e51b3a931b087e09f9998e5753bb27915cc5f9863f49"
+      },
+      {
+        "file": "reference-frames/swimming/088.png",
+        "bytes": 63295,
+        "sha256": "ef25de16a45efc31ff55dd82982db2aa9688a298ef52a03cbcd137af639ba727"
+      },
+      {
+        "file": "reference-frames/swimming/089.png",
+        "bytes": 63323,
+        "sha256": "494ea05732e11739466f7142c8594f66edab84f48d8809d6121d087d511d6b05"
+      },
+      {
+        "file": "reference-frames/swimming/090.png",
+        "bytes": 63321,
+        "sha256": "98d73b61ad33e6e1fa4aa269e76c9da08f576fb57d0eab7f58279b9b1788c7e2"
+      },
+      {
+        "file": "reference-frames/swimming/091.png",
+        "bytes": 63323,
+        "sha256": "ef8c5389aedea4b2d67a385584d797dca669de46e8e8b65bbe4360c45c252dc0"
+      },
+      {
+        "file": "reference-frames/swimming/092.png",
+        "bytes": 63313,
+        "sha256": "e36485f5707dcc487f7864eaa145ca38b5ce4dc99af6aaf83a82eed2ae6e454e"
+      },
+      {
+        "file": "reference-frames/swimming/093.png",
+        "bytes": 63329,
+        "sha256": "291184a16a476b9354cb1dcaf31a31eeb9bb4bd98e1ecca1e77a260d03eef241"
+      },
+      {
+        "file": "reference-frames/swimming/094.png",
+        "bytes": 63552,
+        "sha256": "1a3e8c9d38ee1080989356c2b3b9619f4d94ff8c06f3803436a1b80f5b64746a"
+      },
+      {
+        "file": "reference-frames/swimming/095.png",
+        "bytes": 63913,
+        "sha256": "b0362c514f9120a6b1ee022e8f3a7865565f93d124d335d96fccd577d5f7da8f"
+      },
+      {
+        "file": "reference-frames/swimming/096.png",
+        "bytes": 63806,
+        "sha256": "4458b2d9785ac86e8ef2d95af6cb6ef40c82952d715fe313a63c45092bb86e5e"
+      },
+      {
+        "file": "reference-frames/swimming/097.png",
+        "bytes": 65079,
+        "sha256": "197beb74e4e314adf139eaba18483f2b5ccb9ca88a14b5cefba2baa9bce9febf"
+      },
+      {
+        "file": "reference-frames/swimming/098.png",
+        "bytes": 65585,
+        "sha256": "99a2e6f147157ef8d3697ac5b24971c6dfd3209699fdba2e999feb65320a588d"
+      },
+      {
+        "file": "reference-frames/swimming/099.png",
+        "bytes": 66993,
+        "sha256": "d57717005d632055ec82a348e8ffae8d4a26996651e0cada41009818ee6cc092"
+      },
+      {
+        "file": "reference-frames/swimming/100.png",
+        "bytes": 66182,
+        "sha256": "147a3f3551ef6a3df5c681c90043f25ab9e751135e6b43ea9555dbdd6dc2ccaf"
+      },
+      {
+        "file": "reference-frames/swimming/101.png",
+        "bytes": 66585,
+        "sha256": "815e5f81ed51374404a6275be42c0890d6c9d91325a6eb83bbe11ffc0bb80dde"
+      },
+      {
+        "file": "reference-frames/swimming/102.png",
+        "bytes": 66010,
+        "sha256": "fd842e09a4f58f339cef7413623fbd06b5eb042879155dbe60e4f116495df267"
+      },
+      {
+        "file": "reference-frames/swimming/103.png",
+        "bytes": 65777,
+        "sha256": "4f82888db3f1893f248053f00d66b2d414d873dc11b423dc223ab774144eb706"
+      },
+      {
+        "file": "reference-frames/swimming/104.png",
+        "bytes": 62586,
+        "sha256": "5b025c2b3ae3892525147031aa63a35c4b30c5459b0f657a865167c46d25bf33"
+      },
+      {
+        "file": "reference-frames/swimming/105.png",
+        "bytes": 59029,
+        "sha256": "fbc9abc8c65bfc877e8e586184359e7790f2a5edea5f87e52351cfaf54bb5592"
+      },
+      {
+        "file": "reference-frames/swimming/106.png",
+        "bytes": 52396,
+        "sha256": "9c82b791554d4cfb51d97354edad8127c4d05f685c83faed6f6397a3071b1a30"
+      },
+      {
+        "file": "reference-frames/swimming/107.png",
+        "bytes": 46497,
+        "sha256": "7b5e174e0d2bc36d4ab5575def606938ba592e70aa7ff729b448ce8c705bb819"
+      },
+      {
+        "file": "reference-frames/swimming/108.png",
+        "bytes": 43959,
+        "sha256": "b726ea5f710b2c4ce5e1e39ad97b10b66b218c3c5958463a13429486f319bcec"
+      },
+      {
+        "file": "reference-frames/swimming/109.png",
+        "bytes": 43578,
+        "sha256": "380376833712cedcdf8c78fdd24792829a074388b8a3cbdad191512a51e449b7"
+      },
+      {
+        "file": "reference-frames/swimming/110.png",
+        "bytes": 44703,
+        "sha256": "a29ba71d44ac3aaed8db3b9b46b20f33e35d193f687e485bf1643f51fa42003c"
+      },
+      {
+        "file": "reference-frames/swimming/111.png",
+        "bytes": 48845,
+        "sha256": "da02d4f6be9299bb6c6f599332c709e23c6fc34a190c1aeccee388548b0a9be3"
+      },
+      {
+        "file": "reference-frames/swimming/112.png",
+        "bytes": 45643,
+        "sha256": "ad3250bd462105cfd6028a0d4ed2c0dacf4fe577194ca9fa23a68546b05be4dc"
+      },
+      {
+        "file": "reference-frames/swimming/113.png",
+        "bytes": 39595,
+        "sha256": "f3b419bfa03cdaeafa71669c85ff62a224ee42a5095b61e9dc7e595df35cc004"
+      },
+      {
+        "file": "reference-frames/swimming/114.png",
+        "bytes": 36604,
+        "sha256": "381a0f1b6a2cc23384d25636a64472c530070a08965308d7087622aa25c664ac"
+      },
+      {
+        "file": "reference-frames/swimming/115.png",
+        "bytes": 32701,
+        "sha256": "a44696531025cbd8f0bd3798548f86ed2a04e509819ef6e5e77305d415f03c9d"
+      },
+      {
+        "file": "reference-frames/swimming/116.png",
+        "bytes": 25504,
+        "sha256": "e4ffed11d0a245c9386112a239c97e8d59a3ae7e2792e5f3e05e3a64589f8e09"
+      },
+      {
+        "file": "reference-frames/swimming/117.png",
+        "bytes": 17926,
+        "sha256": "6d7c35e49e72d06fac03b51bba9e675d208ad1e77082149b77894bb90b3842be"
+      },
+      {
+        "file": "reference-frames/swimming/118.png",
+        "bytes": 12380,
+        "sha256": "9ce043997ede93890f46a9029409f3ab13d243a8f99156f802d2862d82a1ce24"
+      },
+      {
+        "file": "reference-frames/swimming/119.png",
+        "bytes": 6599,
+        "sha256": "8fdb8a5fba4be92ee2d279c6f818452d32bf2dbe78942680fe5855c4113c03a2"
+      },
+      {
+        "file": "reference-frames/swimming/120.png",
+        "bytes": 6429,
+        "sha256": "6925c00bee8ad782ef83ff316e8e692435be33199dee0fed36cb6c92153a7896"
+      }
+    ],
+    "orderedPNGSetSha256": "5d3b742732c85c0c907046fdf261899c562a0161faad74092a965fb089d015d4"
+  },
+  "source": {
+    "start": 172.57240000000002,
+    "end": 176.5764,
+    "fps": 29.97002997002997,
+    "frameCount": 120,
+    "duration": 4.0040000000000004,
+    "sourceReference": "https://cekai.us/works/the-tokyo-2020-kinetic-pictograms/"
+  },
+  "checks": {
+    "frameCountMatches": true,
+    "pixelsMismatchFrames": [],
+    "bboxMismatchFrames": [],
+    "anchor": {
+      "index": 60,
+      "valid": true,
+      "pixels": 54753,
+      "bbox": [
+        136,
+        349,
+        829,
+        545
+      ]
+    },
+    "firstFrameBlank": true,
+    "lastFrameBlank": true,
+    "blankFrameIndices": [
+      0,
+      1,
+      118,
+      119
+    ],
+    "emptyPathAgreesWithBlank": true,
+    "pngCountMatches": true,
+    "manifestFrameCountMatches": true
+  },
+  "results": [
+    {
+      "sport": "swimming",
+      "frame": 0,
+      "pngFrame": 1,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 0,
+      "union": 0,
+      "sourcePixels": 0,
+      "renderedPixels": 0,
+      "declaredPixels": 0,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderedBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "declaredBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "bboxMatch": true,
+      "pathEmpty": true
+    },
+    {
+      "sport": "swimming",
+      "frame": 1,
+      "pngFrame": 2,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 0,
+      "union": 0,
+      "sourcePixels": 0,
+      "renderedPixels": 0,
+      "declaredPixels": 0,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderedBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "declaredBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "bboxMatch": true,
+      "pathEmpty": true
+    },
+    {
+      "sport": "swimming",
+      "frame": 2,
+      "pngFrame": 3,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 2655,
+      "union": 2655,
+      "sourcePixels": 2655,
+      "renderedPixels": 2655,
+      "declaredPixels": 2655,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        18,
+        618,
+        76,
+        676
+      ],
+      "renderedBBox": [
+        18,
+        618,
+        76,
+        676
+      ],
+      "declaredBBox": [
+        18,
+        618,
+        76,
+        676
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 3,
+      "pngFrame": 4,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 2828,
+      "union": 2828,
+      "sourcePixels": 2828,
+      "renderedPixels": 2828,
+      "declaredPixels": 2828,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        21,
+        615,
+        81,
+        675
+      ],
+      "renderedBBox": [
+        21,
+        615,
+        81,
+        675
+      ],
+      "declaredBBox": [
+        21,
+        615,
+        81,
+        675
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 4,
+      "pngFrame": 5,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 3320,
+      "union": 3320,
+      "sourcePixels": 3320,
+      "renderedPixels": 3320,
+      "declaredPixels": 3320,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        28,
+        608,
+        95,
+        671
+      ],
+      "renderedBBox": [
+        28,
+        608,
+        95,
+        671
+      ],
+      "declaredBBox": [
+        28,
+        608,
+        95,
+        671
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 5,
+      "pngFrame": 6,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 4051,
+      "union": 4051,
+      "sourcePixels": 4051,
+      "renderedPixels": 4051,
+      "declaredPixels": 4051,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        38,
+        598,
+        116,
+        667
+      ],
+      "renderedBBox": [
+        38,
+        598,
+        116,
+        667
+      ],
+      "declaredBBox": [
+        38,
+        598,
+        116,
+        667
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 6,
+      "pngFrame": 7,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 5027,
+      "union": 5027,
+      "sourcePixels": 5027,
+      "renderedPixels": 5027,
+      "declaredPixels": 5027,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        52,
+        586,
+        142,
+        661
+      ],
+      "renderedBBox": [
+        52,
+        586,
+        142,
+        661
+      ],
+      "declaredBBox": [
+        52,
+        586,
+        142,
+        661
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 7,
+      "pngFrame": 8,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 6219,
+      "union": 6219,
+      "sourcePixels": 6219,
+      "renderedPixels": 6219,
+      "declaredPixels": 6219,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        67,
+        572,
+        173,
+        654
+      ],
+      "renderedBBox": [
+        67,
+        572,
+        173,
+        654
+      ],
+      "declaredBBox": [
+        67,
+        572,
+        173,
+        654
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 8,
+      "pngFrame": 9,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 7606,
+      "union": 7606,
+      "sourcePixels": 7606,
+      "renderedPixels": 7606,
+      "declaredPixels": 7606,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        85,
+        558,
+        208,
+        647
+      ],
+      "renderedBBox": [
+        85,
+        558,
+        208,
+        647
+      ],
+      "declaredBBox": [
+        85,
+        558,
+        208,
+        647
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 9,
+      "pngFrame": 10,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 9136,
+      "union": 9136,
+      "sourcePixels": 9136,
+      "renderedPixels": 9136,
+      "declaredPixels": 9136,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        105,
+        545,
+        246,
+        640
+      ],
+      "renderedBBox": [
+        105,
+        545,
+        246,
+        640
+      ],
+      "declaredBBox": [
+        105,
+        545,
+        246,
+        640
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 10,
+      "pngFrame": 11,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 10748,
+      "union": 10748,
+      "sourcePixels": 10748,
+      "renderedPixels": 10748,
+      "declaredPixels": 10748,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        126,
+        535,
+        287,
+        633
+      ],
+      "renderedBBox": [
+        126,
+        535,
+        287,
+        633
+      ],
+      "declaredBBox": [
+        126,
+        535,
+        287,
+        633
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 11,
+      "pngFrame": 12,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 12300,
+      "union": 12300,
+      "sourcePixels": 12300,
+      "renderedPixels": 12300,
+      "declaredPixels": 12300,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        149,
+        534,
+        330,
+        625
+      ],
+      "renderedBBox": [
+        149,
+        534,
+        330,
+        625
+      ],
+      "declaredBBox": [
+        149,
+        534,
+        330,
+        625
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 12,
+      "pngFrame": 13,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 13692,
+      "union": 13692,
+      "sourcePixels": 13692,
+      "renderedPixels": 13692,
+      "declaredPixels": 13692,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        174,
+        534,
+        373,
+        618
+      ],
+      "renderedBBox": [
+        174,
+        534,
+        373,
+        618
+      ],
+      "declaredBBox": [
+        174,
+        534,
+        373,
+        618
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 13,
+      "pngFrame": 14,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 14873,
+      "union": 14873,
+      "sourcePixels": 14873,
+      "renderedPixels": 14873,
+      "declaredPixels": 14873,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        200,
+        535,
+        415,
+        618
+      ],
+      "renderedBBox": [
+        200,
+        535,
+        415,
+        618
+      ],
+      "declaredBBox": [
+        200,
+        535,
+        415,
+        618
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 14,
+      "pngFrame": 15,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 15843,
+      "union": 15843,
+      "sourcePixels": 15843,
+      "renderedPixels": 15843,
+      "declaredPixels": 15843,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        227,
+        530,
+        455,
+        618
+      ],
+      "renderedBBox": [
+        227,
+        530,
+        455,
+        618
+      ],
+      "declaredBBox": [
+        227,
+        530,
+        455,
+        618
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 15,
+      "pngFrame": 16,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 16623,
+      "union": 16623,
+      "sourcePixels": 16623,
+      "renderedPixels": 16623,
+      "declaredPixels": 16623,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        255,
+        508,
+        491,
+        617
+      ],
+      "renderedBBox": [
+        255,
+        508,
+        491,
+        617
+      ],
+      "declaredBBox": [
+        255,
+        508,
+        491,
+        617
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 16,
+      "pngFrame": 17,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 17359,
+      "union": 17359,
+      "sourcePixels": 17359,
+      "renderedPixels": 17359,
+      "declaredPixels": 17359,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        283,
+        491,
+        532,
+        617
+      ],
+      "renderedBBox": [
+        283,
+        491,
+        532,
+        617
+      ],
+      "declaredBBox": [
+        283,
+        491,
+        532,
+        617
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 17,
+      "pngFrame": 18,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 18135,
+      "union": 18135,
+      "sourcePixels": 18135,
+      "renderedPixels": 18135,
+      "declaredPixels": 18135,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        312,
+        486,
+        581,
+        616
+      ],
+      "renderedBBox": [
+        312,
+        486,
+        581,
+        616
+      ],
+      "declaredBBox": [
+        312,
+        486,
+        581,
+        616
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 18,
+      "pngFrame": 19,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 18877,
+      "union": 18877,
+      "sourcePixels": 18877,
+      "renderedPixels": 18877,
+      "declaredPixels": 18877,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        341,
+        487,
+        633,
+        615
+      ],
+      "renderedBBox": [
+        341,
+        487,
+        633,
+        615
+      ],
+      "declaredBBox": [
+        341,
+        487,
+        633,
+        615
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 19,
+      "pngFrame": 20,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 19363,
+      "union": 19363,
+      "sourcePixels": 19363,
+      "renderedPixels": 19363,
+      "declaredPixels": 19363,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        369,
+        488,
+        685,
+        607
+      ],
+      "renderedBBox": [
+        369,
+        488,
+        685,
+        607
+      ],
+      "declaredBBox": [
+        369,
+        488,
+        685,
+        607
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 20,
+      "pngFrame": 21,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 19617,
+      "union": 19617,
+      "sourcePixels": 19617,
+      "renderedPixels": 19617,
+      "declaredPixels": 19617,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        395,
+        488,
+        735,
+        596
+      ],
+      "renderedBBox": [
+        395,
+        488,
+        735,
+        596
+      ],
+      "declaredBBox": [
+        395,
+        488,
+        735,
+        596
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 21,
+      "pngFrame": 22,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 19503,
+      "union": 19503,
+      "sourcePixels": 19503,
+      "renderedPixels": 19503,
+      "declaredPixels": 19503,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        417,
+        489,
+        778,
+        586
+      ],
+      "renderedBBox": [
+        417,
+        489,
+        778,
+        586
+      ],
+      "declaredBBox": [
+        417,
+        489,
+        778,
+        586
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 22,
+      "pngFrame": 23,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 19289,
+      "union": 19289,
+      "sourcePixels": 19289,
+      "renderedPixels": 19289,
+      "declaredPixels": 19289,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        432,
+        489,
+        802,
+        579
+      ],
+      "renderedBBox": [
+        432,
+        489,
+        802,
+        579
+      ],
+      "declaredBBox": [
+        432,
+        489,
+        802,
+        579
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 23,
+      "pngFrame": 24,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 19199,
+      "union": 19199,
+      "sourcePixels": 19199,
+      "renderedPixels": 19199,
+      "declaredPixels": 19199,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        382,
+        456,
+        807,
+        576
+      ],
+      "renderedBBox": [
+        382,
+        456,
+        807,
+        576
+      ],
+      "declaredBBox": [
+        382,
+        456,
+        807,
+        576
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 24,
+      "pngFrame": 25,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 21515,
+      "union": 21515,
+      "sourcePixels": 21515,
+      "renderedPixels": 21515,
+      "declaredPixels": 21515,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        368,
+        426,
+        811,
+        574
+      ],
+      "renderedBBox": [
+        368,
+        426,
+        811,
+        574
+      ],
+      "declaredBBox": [
+        368,
+        426,
+        811,
+        574
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 25,
+      "pngFrame": 26,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 24235,
+      "union": 24235,
+      "sourcePixels": 24235,
+      "renderedPixels": 24235,
+      "declaredPixels": 24235,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        359,
+        377,
+        815,
+        573
+      ],
+      "renderedBBox": [
+        359,
+        377,
+        815,
+        573
+      ],
+      "declaredBBox": [
+        359,
+        377,
+        815,
+        573
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 26,
+      "pngFrame": 27,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 28003,
+      "union": 28003,
+      "sourcePixels": 28003,
+      "renderedPixels": 28003,
+      "declaredPixels": 28003,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        149,
+        330,
+        818,
+        573
+      ],
+      "renderedBBox": [
+        149,
+        330,
+        818,
+        573
+      ],
+      "declaredBBox": [
+        149,
+        330,
+        818,
+        573
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 27,
+      "pngFrame": 28,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 31577,
+      "union": 31577,
+      "sourcePixels": 31577,
+      "renderedPixels": 31577,
+      "declaredPixels": 31577,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        142,
+        321,
+        822,
+        573
+      ],
+      "renderedBBox": [
+        142,
+        321,
+        822,
+        573
+      ],
+      "declaredBBox": [
+        142,
+        321,
+        822,
+        573
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 28,
+      "pngFrame": 29,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 33308,
+      "union": 33308,
+      "sourcePixels": 33308,
+      "renderedPixels": 33308,
+      "declaredPixels": 33308,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        319,
+        809,
+        569
+      ],
+      "renderedBBox": [
+        136,
+        319,
+        809,
+        569
+      ],
+      "declaredBBox": [
+        136,
+        319,
+        809,
+        569
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 29,
+      "pngFrame": 30,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 35332,
+      "union": 35332,
+      "sourcePixels": 35332,
+      "renderedPixels": 35332,
+      "declaredPixels": 35332,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        130,
+        320,
+        797,
+        567
+      ],
+      "renderedBBox": [
+        130,
+        320,
+        797,
+        567
+      ],
+      "declaredBBox": [
+        130,
+        320,
+        797,
+        567
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 30,
+      "pngFrame": 31,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 36700,
+      "union": 36700,
+      "sourcePixels": 36700,
+      "renderedPixels": 36700,
+      "declaredPixels": 36700,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        124,
+        325,
+        786,
+        565
+      ],
+      "renderedBBox": [
+        124,
+        325,
+        786,
+        565
+      ],
+      "declaredBBox": [
+        124,
+        325,
+        786,
+        565
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 31,
+      "pngFrame": 32,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 38426,
+      "union": 38426,
+      "sourcePixels": 38426,
+      "renderedPixels": 38426,
+      "declaredPixels": 38426,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        119,
+        333,
+        775,
+        576
+      ],
+      "renderedBBox": [
+        119,
+        333,
+        775,
+        576
+      ],
+      "declaredBBox": [
+        119,
+        333,
+        775,
+        576
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 32,
+      "pngFrame": 33,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 40583,
+      "union": 40583,
+      "sourcePixels": 40583,
+      "renderedPixels": 40583,
+      "declaredPixels": 40583,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        119,
+        343,
+        764,
+        590
+      ],
+      "renderedBBox": [
+        119,
+        343,
+        764,
+        590
+      ],
+      "declaredBBox": [
+        119,
+        343,
+        764,
+        590
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 33,
+      "pngFrame": 34,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 41815,
+      "union": 41815,
+      "sourcePixels": 41815,
+      "renderedPixels": 41815,
+      "declaredPixels": 41815,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        126,
+        356,
+        753,
+        606
+      ],
+      "renderedBBox": [
+        126,
+        356,
+        753,
+        606
+      ],
+      "declaredBBox": [
+        126,
+        356,
+        753,
+        606
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 34,
+      "pngFrame": 35,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 43157,
+      "union": 43157,
+      "sourcePixels": 43157,
+      "renderedPixels": 43157,
+      "declaredPixels": 43157,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        130,
+        370,
+        742,
+        625
+      ],
+      "renderedBBox": [
+        130,
+        370,
+        742,
+        625
+      ],
+      "declaredBBox": [
+        130,
+        370,
+        742,
+        625
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 35,
+      "pngFrame": 36,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 44473,
+      "union": 44473,
+      "sourcePixels": 44473,
+      "renderedPixels": 44473,
+      "declaredPixels": 44473,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        386,
+        745,
+        645
+      ],
+      "renderedBBox": [
+        136,
+        386,
+        745,
+        645
+      ],
+      "declaredBBox": [
+        136,
+        386,
+        745,
+        645
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 36,
+      "pngFrame": 37,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 46379,
+      "union": 46379,
+      "sourcePixels": 46379,
+      "renderedPixels": 46379,
+      "declaredPixels": 46379,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        131,
+        402,
+        753,
+        664
+      ],
+      "renderedBBox": [
+        131,
+        402,
+        753,
+        664
+      ],
+      "declaredBBox": [
+        131,
+        402,
+        753,
+        664
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 37,
+      "pngFrame": 38,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 48601,
+      "union": 48601,
+      "sourcePixels": 48601,
+      "renderedPixels": 48601,
+      "declaredPixels": 48601,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        126,
+        418,
+        763,
+        681
+      ],
+      "renderedBBox": [
+        126,
+        418,
+        763,
+        681
+      ],
+      "declaredBBox": [
+        126,
+        418,
+        763,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 38,
+      "pngFrame": 39,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 50162,
+      "union": 50162,
+      "sourcePixels": 50162,
+      "renderedPixels": 50162,
+      "declaredPixels": 50162,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        121,
+        434,
+        775,
+        695
+      ],
+      "renderedBBox": [
+        121,
+        434,
+        775,
+        695
+      ],
+      "declaredBBox": [
+        121,
+        434,
+        775,
+        695
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 39,
+      "pngFrame": 40,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 50890,
+      "union": 50890,
+      "sourcePixels": 50890,
+      "renderedPixels": 50890,
+      "declaredPixels": 50890,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        116,
+        444,
+        788,
+        729
+      ],
+      "renderedBBox": [
+        116,
+        444,
+        788,
+        729
+      ],
+      "declaredBBox": [
+        116,
+        444,
+        788,
+        729
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 40,
+      "pngFrame": 41,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 51348,
+      "union": 51348,
+      "sourcePixels": 51348,
+      "renderedPixels": 51348,
+      "declaredPixels": 51348,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        112,
+        444,
+        803,
+        750
+      ],
+      "renderedBBox": [
+        112,
+        444,
+        803,
+        750
+      ],
+      "declaredBBox": [
+        112,
+        444,
+        803,
+        750
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 41,
+      "pngFrame": 42,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 51355,
+      "union": 51355,
+      "sourcePixels": 51355,
+      "renderedPixels": 51355,
+      "declaredPixels": 51355,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        109,
+        443,
+        819,
+        756
+      ],
+      "renderedBBox": [
+        109,
+        443,
+        819,
+        756
+      ],
+      "declaredBBox": [
+        109,
+        443,
+        819,
+        756
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 42,
+      "pngFrame": 43,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 51152,
+      "union": 51152,
+      "sourcePixels": 51152,
+      "renderedPixels": 51152,
+      "declaredPixels": 51152,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        106,
+        443,
+        837,
+        743
+      ],
+      "renderedBBox": [
+        106,
+        443,
+        837,
+        743
+      ],
+      "declaredBBox": [
+        106,
+        443,
+        837,
+        743
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 43,
+      "pngFrame": 44,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 48696,
+      "union": 48696,
+      "sourcePixels": 48696,
+      "renderedPixels": 48696,
+      "declaredPixels": 48696,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        104,
+        443,
+        839,
+        713
+      ],
+      "renderedBBox": [
+        104,
+        443,
+        839,
+        713
+      ],
+      "declaredBBox": [
+        104,
+        443,
+        839,
+        713
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 44,
+      "pngFrame": 45,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 46169,
+      "union": 46169,
+      "sourcePixels": 46169,
+      "renderedPixels": 46169,
+      "declaredPixels": 46169,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        102,
+        443,
+        837,
+        671
+      ],
+      "renderedBBox": [
+        102,
+        443,
+        837,
+        671
+      ],
+      "declaredBBox": [
+        102,
+        443,
+        837,
+        671
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 45,
+      "pngFrame": 46,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 46043,
+      "union": 46043,
+      "sourcePixels": 46043,
+      "renderedPixels": 46043,
+      "declaredPixels": 46043,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        102,
+        434,
+        838,
+        623
+      ],
+      "renderedBBox": [
+        102,
+        434,
+        838,
+        623
+      ],
+      "declaredBBox": [
+        102,
+        434,
+        838,
+        623
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 46,
+      "pngFrame": 47,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 47386,
+      "union": 47386,
+      "sourcePixels": 47386,
+      "renderedPixels": 47386,
+      "declaredPixels": 47386,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        106,
+        403,
+        838,
+        576
+      ],
+      "renderedBBox": [
+        106,
+        403,
+        838,
+        576
+      ],
+      "declaredBBox": [
+        106,
+        403,
+        838,
+        576
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 47,
+      "pngFrame": 48,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 49738,
+      "union": 49738,
+      "sourcePixels": 49738,
+      "renderedPixels": 49738,
+      "declaredPixels": 49738,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        110,
+        378,
+        836,
+        546
+      ],
+      "renderedBBox": [
+        110,
+        378,
+        836,
+        546
+      ],
+      "declaredBBox": [
+        110,
+        378,
+        836,
+        546
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 48,
+      "pngFrame": 49,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 52519,
+      "union": 52519,
+      "sourcePixels": 52519,
+      "renderedPixels": 52519,
+      "declaredPixels": 52519,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        120,
+        365,
+        834,
+        546
+      ],
+      "renderedBBox": [
+        120,
+        365,
+        834,
+        546
+      ],
+      "declaredBBox": [
+        120,
+        365,
+        834,
+        546
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 49,
+      "pngFrame": 50,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54474,
+      "union": 54474,
+      "sourcePixels": 54474,
+      "renderedPixels": 54474,
+      "declaredPixels": 54474,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        125,
+        356,
+        832,
+        546
+      ],
+      "renderedBBox": [
+        125,
+        356,
+        832,
+        546
+      ],
+      "declaredBBox": [
+        125,
+        356,
+        832,
+        546
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 50,
+      "pngFrame": 51,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54776,
+      "union": 54776,
+      "sourcePixels": 54776,
+      "renderedPixels": 54776,
+      "declaredPixels": 54776,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        138,
+        352,
+        831,
+        545
+      ],
+      "renderedBBox": [
+        138,
+        352,
+        831,
+        545
+      ],
+      "declaredBBox": [
+        138,
+        352,
+        831,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 51,
+      "pngFrame": 52,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54700,
+      "union": 54700,
+      "sourcePixels": 54700,
+      "renderedPixels": 54700,
+      "declaredPixels": 54700,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        350,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        350,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        350,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 52,
+      "pngFrame": 53,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54751,
+      "union": 54751,
+      "sourcePixels": 54751,
+      "renderedPixels": 54751,
+      "declaredPixels": 54751,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 53,
+      "pngFrame": 54,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54750,
+      "union": 54750,
+      "sourcePixels": 54750,
+      "renderedPixels": 54750,
+      "declaredPixels": 54750,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 54,
+      "pngFrame": 55,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54752,
+      "union": 54752,
+      "sourcePixels": 54752,
+      "renderedPixels": 54752,
+      "declaredPixels": 54752,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 55,
+      "pngFrame": 56,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54752,
+      "union": 54752,
+      "sourcePixels": 54752,
+      "renderedPixels": 54752,
+      "declaredPixels": 54752,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 56,
+      "pngFrame": 57,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54752,
+      "union": 54752,
+      "sourcePixels": 54752,
+      "renderedPixels": 54752,
+      "declaredPixels": 54752,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 57,
+      "pngFrame": 58,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54752,
+      "union": 54752,
+      "sourcePixels": 54752,
+      "renderedPixels": 54752,
+      "declaredPixels": 54752,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 58,
+      "pngFrame": 59,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54752,
+      "union": 54752,
+      "sourcePixels": 54752,
+      "renderedPixels": 54752,
+      "declaredPixels": 54752,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 59,
+      "pngFrame": 60,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54751,
+      "union": 54751,
+      "sourcePixels": 54751,
+      "renderedPixels": 54751,
+      "declaredPixels": 54751,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 60,
+      "pngFrame": 61,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54753,
+      "union": 54753,
+      "sourcePixels": 54753,
+      "renderedPixels": 54753,
+      "declaredPixels": 54753,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 61,
+      "pngFrame": 62,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54753,
+      "union": 54753,
+      "sourcePixels": 54753,
+      "renderedPixels": 54753,
+      "declaredPixels": 54753,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 62,
+      "pngFrame": 63,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54753,
+      "union": 54753,
+      "sourcePixels": 54753,
+      "renderedPixels": 54753,
+      "declaredPixels": 54753,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 63,
+      "pngFrame": 64,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54753,
+      "union": 54753,
+      "sourcePixels": 54753,
+      "renderedPixels": 54753,
+      "declaredPixels": 54753,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 64,
+      "pngFrame": 65,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54753,
+      "union": 54753,
+      "sourcePixels": 54753,
+      "renderedPixels": 54753,
+      "declaredPixels": 54753,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 65,
+      "pngFrame": 66,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54753,
+      "union": 54753,
+      "sourcePixels": 54753,
+      "renderedPixels": 54753,
+      "declaredPixels": 54753,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 66,
+      "pngFrame": 67,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54753,
+      "union": 54753,
+      "sourcePixels": 54753,
+      "renderedPixels": 54753,
+      "declaredPixels": 54753,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 67,
+      "pngFrame": 68,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54753,
+      "union": 54753,
+      "sourcePixels": 54753,
+      "renderedPixels": 54753,
+      "declaredPixels": 54753,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 68,
+      "pngFrame": 69,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54753,
+      "union": 54753,
+      "sourcePixels": 54753,
+      "renderedPixels": 54753,
+      "declaredPixels": 54753,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 69,
+      "pngFrame": 70,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54753,
+      "union": 54753,
+      "sourcePixels": 54753,
+      "renderedPixels": 54753,
+      "declaredPixels": 54753,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 70,
+      "pngFrame": 71,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54753,
+      "union": 54753,
+      "sourcePixels": 54753,
+      "renderedPixels": 54753,
+      "declaredPixels": 54753,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 71,
+      "pngFrame": 72,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54753,
+      "union": 54753,
+      "sourcePixels": 54753,
+      "renderedPixels": 54753,
+      "declaredPixels": 54753,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 72,
+      "pngFrame": 73,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54753,
+      "union": 54753,
+      "sourcePixels": 54753,
+      "renderedPixels": 54753,
+      "declaredPixels": 54753,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 73,
+      "pngFrame": 74,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54753,
+      "union": 54753,
+      "sourcePixels": 54753,
+      "renderedPixels": 54753,
+      "declaredPixels": 54753,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 74,
+      "pngFrame": 75,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54753,
+      "union": 54753,
+      "sourcePixels": 54753,
+      "renderedPixels": 54753,
+      "declaredPixels": 54753,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 75,
+      "pngFrame": 76,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54756,
+      "union": 54756,
+      "sourcePixels": 54756,
+      "renderedPixels": 54756,
+      "declaredPixels": 54756,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 76,
+      "pngFrame": 77,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54756,
+      "union": 54756,
+      "sourcePixels": 54756,
+      "renderedPixels": 54756,
+      "declaredPixels": 54756,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 77,
+      "pngFrame": 78,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54756,
+      "union": 54756,
+      "sourcePixels": 54756,
+      "renderedPixels": 54756,
+      "declaredPixels": 54756,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 78,
+      "pngFrame": 79,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54756,
+      "union": 54756,
+      "sourcePixels": 54756,
+      "renderedPixels": 54756,
+      "declaredPixels": 54756,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 79,
+      "pngFrame": 80,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54756,
+      "union": 54756,
+      "sourcePixels": 54756,
+      "renderedPixels": 54756,
+      "declaredPixels": 54756,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 80,
+      "pngFrame": 81,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54756,
+      "union": 54756,
+      "sourcePixels": 54756,
+      "renderedPixels": 54756,
+      "declaredPixels": 54756,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 81,
+      "pngFrame": 82,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54756,
+      "union": 54756,
+      "sourcePixels": 54756,
+      "renderedPixels": 54756,
+      "declaredPixels": 54756,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 82,
+      "pngFrame": 83,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54756,
+      "union": 54756,
+      "sourcePixels": 54756,
+      "renderedPixels": 54756,
+      "declaredPixels": 54756,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 83,
+      "pngFrame": 84,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54756,
+      "union": 54756,
+      "sourcePixels": 54756,
+      "renderedPixels": 54756,
+      "declaredPixels": 54756,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 84,
+      "pngFrame": 85,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54756,
+      "union": 54756,
+      "sourcePixels": 54756,
+      "renderedPixels": 54756,
+      "declaredPixels": 54756,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 85,
+      "pngFrame": 86,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54756,
+      "union": 54756,
+      "sourcePixels": 54756,
+      "renderedPixels": 54756,
+      "declaredPixels": 54756,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 86,
+      "pngFrame": 87,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54756,
+      "union": 54756,
+      "sourcePixels": 54756,
+      "renderedPixels": 54756,
+      "declaredPixels": 54756,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 87,
+      "pngFrame": 88,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54756,
+      "union": 54756,
+      "sourcePixels": 54756,
+      "renderedPixels": 54756,
+      "declaredPixels": 54756,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 88,
+      "pngFrame": 89,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54756,
+      "union": 54756,
+      "sourcePixels": 54756,
+      "renderedPixels": 54756,
+      "declaredPixels": 54756,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 89,
+      "pngFrame": 90,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54755,
+      "union": 54755,
+      "sourcePixels": 54755,
+      "renderedPixels": 54755,
+      "declaredPixels": 54755,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 90,
+      "pngFrame": 91,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54755,
+      "union": 54755,
+      "sourcePixels": 54755,
+      "renderedPixels": 54755,
+      "declaredPixels": 54755,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 91,
+      "pngFrame": 92,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54756,
+      "union": 54756,
+      "sourcePixels": 54756,
+      "renderedPixels": 54756,
+      "declaredPixels": 54756,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 92,
+      "pngFrame": 93,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54754,
+      "union": 54754,
+      "sourcePixels": 54754,
+      "renderedPixels": 54754,
+      "declaredPixels": 54754,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        829,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 93,
+      "pngFrame": 94,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54538,
+      "union": 54538,
+      "sourcePixels": 54538,
+      "renderedPixels": 54538,
+      "declaredPixels": 54538,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        349,
+        830,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        349,
+        830,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        349,
+        830,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 94,
+      "pngFrame": 95,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54492,
+      "union": 54492,
+      "sourcePixels": 54492,
+      "renderedPixels": 54492,
+      "declaredPixels": 54492,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        348,
+        830,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        348,
+        830,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        348,
+        830,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 95,
+      "pngFrame": 96,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54345,
+      "union": 54345,
+      "sourcePixels": 54345,
+      "renderedPixels": 54345,
+      "declaredPixels": 54345,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        345,
+        831,
+        546
+      ],
+      "renderedBBox": [
+        136,
+        345,
+        831,
+        546
+      ],
+      "declaredBBox": [
+        136,
+        345,
+        831,
+        546
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 96,
+      "pngFrame": 97,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 53760,
+      "union": 53760,
+      "sourcePixels": 53760,
+      "renderedPixels": 53760,
+      "declaredPixels": 53760,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        344,
+        831,
+        546
+      ],
+      "renderedBBox": [
+        136,
+        344,
+        831,
+        546
+      ],
+      "declaredBBox": [
+        136,
+        344,
+        831,
+        546
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 97,
+      "pngFrame": 98,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 53165,
+      "union": 53165,
+      "sourcePixels": 53165,
+      "renderedPixels": 53165,
+      "declaredPixels": 53165,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        342,
+        831,
+        547
+      ],
+      "renderedBBox": [
+        136,
+        342,
+        831,
+        547
+      ],
+      "declaredBBox": [
+        136,
+        342,
+        831,
+        547
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 98,
+      "pngFrame": 99,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 52274,
+      "union": 52274,
+      "sourcePixels": 52274,
+      "renderedPixels": 52274,
+      "declaredPixels": 52274,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        340,
+        830,
+        547
+      ],
+      "renderedBBox": [
+        136,
+        340,
+        830,
+        547
+      ],
+      "declaredBBox": [
+        136,
+        340,
+        830,
+        547
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 99,
+      "pngFrame": 100,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 51303,
+      "union": 51303,
+      "sourcePixels": 51303,
+      "renderedPixels": 51303,
+      "declaredPixels": 51303,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        338,
+        829,
+        548
+      ],
+      "renderedBBox": [
+        136,
+        338,
+        829,
+        548
+      ],
+      "declaredBBox": [
+        136,
+        338,
+        829,
+        548
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 100,
+      "pngFrame": 101,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 50218,
+      "union": 50218,
+      "sourcePixels": 50218,
+      "renderedPixels": 50218,
+      "declaredPixels": 50218,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        337,
+        825,
+        548
+      ],
+      "renderedBBox": [
+        136,
+        337,
+        825,
+        548
+      ],
+      "declaredBBox": [
+        136,
+        337,
+        825,
+        548
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 101,
+      "pngFrame": 102,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 49010,
+      "union": 49010,
+      "sourcePixels": 49010,
+      "renderedPixels": 49010,
+      "declaredPixels": 49010,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        336,
+        821,
+        549
+      ],
+      "renderedBBox": [
+        136,
+        336,
+        821,
+        549
+      ],
+      "declaredBBox": [
+        136,
+        336,
+        821,
+        549
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 102,
+      "pngFrame": 103,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 47740,
+      "union": 47740,
+      "sourcePixels": 47740,
+      "renderedPixels": 47740,
+      "declaredPixels": 47740,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        336,
+        811,
+        549
+      ],
+      "renderedBBox": [
+        136,
+        336,
+        811,
+        549
+      ],
+      "declaredBBox": [
+        136,
+        336,
+        811,
+        549
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 103,
+      "pngFrame": 104,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 44577,
+      "union": 44577,
+      "sourcePixels": 44577,
+      "renderedPixels": 44577,
+      "declaredPixels": 44577,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        335,
+        792,
+        550
+      ],
+      "renderedBBox": [
+        136,
+        335,
+        792,
+        550
+      ],
+      "declaredBBox": [
+        136,
+        335,
+        792,
+        550
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 104,
+      "pngFrame": 105,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 40892,
+      "union": 40892,
+      "sourcePixels": 40892,
+      "renderedPixels": 40892,
+      "declaredPixels": 40892,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        333,
+        766,
+        550
+      ],
+      "renderedBBox": [
+        136,
+        333,
+        766,
+        550
+      ],
+      "declaredBBox": [
+        136,
+        333,
+        766,
+        550
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 105,
+      "pngFrame": 106,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 37286,
+      "union": 37286,
+      "sourcePixels": 37286,
+      "renderedPixels": 37286,
+      "declaredPixels": 37286,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        331,
+        698,
+        550
+      ],
+      "renderedBBox": [
+        136,
+        331,
+        698,
+        550
+      ],
+      "declaredBBox": [
+        136,
+        331,
+        698,
+        550
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 106,
+      "pngFrame": 107,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 34350,
+      "union": 34350,
+      "sourcePixels": 34350,
+      "renderedPixels": 34350,
+      "declaredPixels": 34350,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        326,
+        676,
+        550
+      ],
+      "renderedBBox": [
+        136,
+        326,
+        676,
+        550
+      ],
+      "declaredBBox": [
+        136,
+        326,
+        676,
+        550
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 107,
+      "pngFrame": 108,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 35091,
+      "union": 35091,
+      "sourcePixels": 35091,
+      "renderedPixels": 35091,
+      "declaredPixels": 35091,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        326,
+        676,
+        544
+      ],
+      "renderedBBox": [
+        136,
+        326,
+        676,
+        544
+      ],
+      "declaredBBox": [
+        136,
+        326,
+        676,
+        544
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 108,
+      "pngFrame": 109,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 37837,
+      "union": 37837,
+      "sourcePixels": 37837,
+      "renderedPixels": 37837,
+      "declaredPixels": 37837,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        136,
+        319,
+        684,
+        545
+      ],
+      "renderedBBox": [
+        136,
+        319,
+        684,
+        545
+      ],
+      "declaredBBox": [
+        136,
+        319,
+        684,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 109,
+      "pngFrame": 110,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 41492,
+      "union": 41492,
+      "sourcePixels": 41492,
+      "renderedPixels": 41492,
+      "declaredPixels": 41492,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        158,
+        318,
+        697,
+        545
+      ],
+      "renderedBBox": [
+        158,
+        318,
+        697,
+        545
+      ],
+      "declaredBBox": [
+        158,
+        318,
+        697,
+        545
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 110,
+      "pngFrame": 111,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 44900,
+      "union": 44900,
+      "sourcePixels": 44900,
+      "renderedPixels": 44900,
+      "declaredPixels": 44900,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        208,
+        314,
+        750,
+        546
+      ],
+      "renderedBBox": [
+        208,
+        314,
+        750,
+        546
+      ],
+      "declaredBBox": [
+        208,
+        314,
+        750,
+        546
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 111,
+      "pngFrame": 112,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 42769,
+      "union": 42769,
+      "sourcePixels": 42769,
+      "renderedPixels": 42769,
+      "declaredPixels": 42769,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        274,
+        341,
+        773,
+        543
+      ],
+      "renderedBBox": [
+        274,
+        341,
+        773,
+        543
+      ],
+      "declaredBBox": [
+        274,
+        341,
+        773,
+        543
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 112,
+      "pngFrame": 113,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 37122,
+      "union": 37122,
+      "sourcePixels": 37122,
+      "renderedPixels": 37122,
+      "declaredPixels": 37122,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        352,
+        365,
+        797,
+        546
+      ],
+      "renderedBBox": [
+        352,
+        365,
+        797,
+        546
+      ],
+      "declaredBBox": [
+        352,
+        365,
+        797,
+        546
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 113,
+      "pngFrame": 114,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 29270,
+      "union": 29270,
+      "sourcePixels": 29270,
+      "renderedPixels": 29270,
+      "declaredPixels": 29270,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        435,
+        390,
+        823,
+        546
+      ],
+      "renderedBBox": [
+        435,
+        390,
+        823,
+        546
+      ],
+      "declaredBBox": [
+        435,
+        390,
+        823,
+        546
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 114,
+      "pngFrame": 115,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 18619,
+      "union": 18619,
+      "sourcePixels": 18619,
+      "renderedPixels": 18619,
+      "declaredPixels": 18619,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        515,
+        418,
+        851,
+        546
+      ],
+      "renderedBBox": [
+        515,
+        418,
+        851,
+        546
+      ],
+      "declaredBBox": [
+        515,
+        418,
+        851,
+        546
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 115,
+      "pngFrame": 116,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 10198,
+      "union": 10198,
+      "sourcePixels": 10198,
+      "renderedPixels": 10198,
+      "declaredPixels": 10198,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        582,
+        472,
+        879,
+        546
+      ],
+      "renderedBBox": [
+        582,
+        472,
+        879,
+        546
+      ],
+      "declaredBBox": [
+        582,
+        472,
+        879,
+        546
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 116,
+      "pngFrame": 117,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 4411,
+      "union": 4411,
+      "sourcePixels": 4411,
+      "renderedPixels": 4411,
+      "declaredPixels": 4411,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        626,
+        497,
+        906,
+        549
+      ],
+      "renderedBBox": [
+        626,
+        497,
+        906,
+        549
+      ],
+      "declaredBBox": [
+        626,
+        497,
+        906,
+        549
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 117,
+      "pngFrame": 118,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 1829,
+      "union": 1829,
+      "sourcePixels": 1829,
+      "renderedPixels": 1829,
+      "declaredPixels": 1829,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        641,
+        502,
+        930,
+        559
+      ],
+      "renderedBBox": [
+        641,
+        502,
+        930,
+        559
+      ],
+      "declaredBBox": [
+        641,
+        502,
+        930,
+        559
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "swimming",
+      "frame": 118,
+      "pngFrame": 119,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 0,
+      "union": 0,
+      "sourcePixels": 0,
+      "renderedPixels": 0,
+      "declaredPixels": 0,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderedBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "declaredBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "bboxMatch": true,
+      "pathEmpty": true
+    },
+    {
+      "sport": "swimming",
+      "frame": 119,
+      "pngFrame": 120,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 0,
+      "union": 0,
+      "sourcePixels": 0,
+      "renderedPixels": 0,
+      "declaredPixels": 0,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderedBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "declaredBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "bboxMatch": true,
+      "pathEmpty": true
+    }
+  ]
+}

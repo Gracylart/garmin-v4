@@ -1,0 +1,4689 @@
+{
+  "schemaVersion": 1,
+  "group": "a",
+  "sport": "cycling",
+  "passed": true,
+  "frames": 118,
+  "worstIoU": 1,
+  "mismatchedFrames": 0,
+  "method": {
+    "renderer": "Real Google Chrome headless Canvas 2D / Path2D",
+    "fillRule": "evenodd",
+    "scale": 1,
+    "threshold": "R < 133 && B - R > 12 (both decoded reference PNG and rendered vector)",
+    "pathBackground": "#ffffff",
+    "colorSpace": "srgb",
+    "sourceCrop": {
+      "width": 960,
+      "height": 960
+    },
+    "bboxConvention": "[xmin, ymin, xmaxExclusive, ymaxExclusive]; blank = [0,0,0,0]",
+    "frameIndexBase": 0,
+    "pngFileIndexBase": 1,
+    "blankPairIoU": 1,
+    "independence": "No contour-generation code imported; Chromium independently rasterizes SVG path strings.",
+    "scope": "Binary foreground silhouette only. Does not assert RGB, antialiasing, original-video extraction accuracy, semantic sport identity, or device performance."
+  },
+  "provenance": {
+    "generatedAt": "2026-10-15T06:21:12.628Z",
+    "browserVersion": "155.0.8059.40",
+    "executablePath": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "nodeVersion": "v24.21.0",
+    "scriptSha256": "31e8fffad57e6b82381fa5930bc4d4fd2413b831696090c975497ccd90b7d0c4",
+    "manifestSha256": "9eed22c4bb37a6a583c3470c727aad7518cb2d10b5d30168e203d1dd241dff60",
+    "smoke": {
+      "foreground": 12,
+      "expected": 12,
+      "path2DEvenodd": true,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+    }
+  },
+  "sourceData": {
+    "json": {
+      "file": "reference-frames/cycling.json",
+      "bytes": 1579381,
+      "sha256": "6907b332a95c12e5b1bf3cea54b9bac505d861dad27da8187cb170b0f26eaae0"
+    },
+    "pngs": [
+      {
+        "file": "reference-frames/cycling/001.png",
+        "bytes": 7345,
+        "sha256": "87a995191f8930f65aa78bad47c2f4e8d2d14ca6c6a6be6cbf9329b0ad2e7304"
+      },
+      {
+        "file": "reference-frames/cycling/002.png",
+        "bytes": 21696,
+        "sha256": "63738d95b8e77ca1070e6c53393351bcc29ef7eb16bf2dfb3926764753d5a076"
+      },
+      {
+        "file": "reference-frames/cycling/003.png",
+        "bytes": 25906,
+        "sha256": "81f752ab6883e7852638dc07e6914f6e3be5b2aefbfefb3b78d09f395245c683"
+      },
+      {
+        "file": "reference-frames/cycling/004.png",
+        "bytes": 35325,
+        "sha256": "80469ec0f59e00943abbd823150896d877db665711b8ffed7b845e74c42bb326"
+      },
+      {
+        "file": "reference-frames/cycling/005.png",
+        "bytes": 37385,
+        "sha256": "94aecd39736027cf28e1ab2ee52a0d2715b4235cd61c40a33f3967eea937b0c7"
+      },
+      {
+        "file": "reference-frames/cycling/006.png",
+        "bytes": 40762,
+        "sha256": "224c22cd8740da856c16047ba44798ec36ac5761952aa30e65ab389723fcc1b8"
+      },
+      {
+        "file": "reference-frames/cycling/007.png",
+        "bytes": 45107,
+        "sha256": "4722134dafbe580111290119ea1fe0c79cf60b8d0a1bcd4a51bb347d54dc6f16"
+      },
+      {
+        "file": "reference-frames/cycling/008.png",
+        "bytes": 46511,
+        "sha256": "3741df9314e51842e269f72e8d5f99a83905bdb8067c914d8ff5f2d8c812e0d7"
+      },
+      {
+        "file": "reference-frames/cycling/009.png",
+        "bytes": 51403,
+        "sha256": "8ab4dc5a045a5aa93d0d9ca8aa0f23fcff2b116a7c0eeb2f8fbed3e4a9ba94c6"
+      },
+      {
+        "file": "reference-frames/cycling/010.png",
+        "bytes": 53704,
+        "sha256": "529410bdbcec432bd03e3e7bdbb783f50eff1eed355503d7c4e587f42b2fa740"
+      },
+      {
+        "file": "reference-frames/cycling/011.png",
+        "bytes": 58993,
+        "sha256": "d1941f1736fe87ce087306efeca79f26fb9fd5afb977a1c58dcb9fad688515bc"
+      },
+      {
+        "file": "reference-frames/cycling/012.png",
+        "bytes": 59694,
+        "sha256": "e8a3ee94b6b6861862b28dcdead47cb3715a756425d6a4b05387997a55d9bd6e"
+      },
+      {
+        "file": "reference-frames/cycling/013.png",
+        "bytes": 63596,
+        "sha256": "25d49b60b33a5d86cf1d995f22eef1c8c04efbe3a7c02c1730c4be9520407430"
+      },
+      {
+        "file": "reference-frames/cycling/014.png",
+        "bytes": 66781,
+        "sha256": "ad10d1d58fbb9480671c86bf75fe88011479e3ecfbf9fdd87496a31da71d3eb2"
+      },
+      {
+        "file": "reference-frames/cycling/015.png",
+        "bytes": 68018,
+        "sha256": "6c40def0fe48c562094e3104af9d133ac26b9d104592fc53f83d1cbec42289ad"
+      },
+      {
+        "file": "reference-frames/cycling/016.png",
+        "bytes": 71937,
+        "sha256": "883ccd6b0a1e7fd12002e1d1f1d0ab83a7471bea1d6b69788a0c812f758843de"
+      },
+      {
+        "file": "reference-frames/cycling/017.png",
+        "bytes": 73625,
+        "sha256": "eeeb454688edc01bbe88100585ac6564b7fa449122c71b193bce53b5df6620d7"
+      },
+      {
+        "file": "reference-frames/cycling/018.png",
+        "bytes": 73249,
+        "sha256": "51eeebfa241b0e022e4ed77471df2fa40a6462baef3f4d44655bc0445486bc00"
+      },
+      {
+        "file": "reference-frames/cycling/019.png",
+        "bytes": 78548,
+        "sha256": "5b125b9a9a95cea4501103fd19c45d397b13c2f13b6e9770c86e119a79ab05c4"
+      },
+      {
+        "file": "reference-frames/cycling/020.png",
+        "bytes": 86000,
+        "sha256": "d93d7f58699c5ff168f6ba4f40119aae91520774de209ffa500456efb7aab5e9"
+      },
+      {
+        "file": "reference-frames/cycling/021.png",
+        "bytes": 89309,
+        "sha256": "2026423de5f80114e66c9e61d8fca4ccc7f32119500f9d4ad05fd7a268513623"
+      },
+      {
+        "file": "reference-frames/cycling/022.png",
+        "bytes": 91024,
+        "sha256": "56d0c3e0ba56bee8a0cc877c840ebbaee3fb444f73b16a11f0962b55a0475f92"
+      },
+      {
+        "file": "reference-frames/cycling/023.png",
+        "bytes": 93348,
+        "sha256": "ae420c1b41016cf627698232a18faca1257b290c10e9833df40d0f8594866d3d"
+      },
+      {
+        "file": "reference-frames/cycling/024.png",
+        "bytes": 98303,
+        "sha256": "54cd92b9a6d7b1d585a65d8a689855c0a69d1e858883eedeab261f1f9bf74ba2"
+      },
+      {
+        "file": "reference-frames/cycling/025.png",
+        "bytes": 102461,
+        "sha256": "3d038f871ca6797a4d12db329e0a58b2ff0789e0c77f810727281b8c85d6219a"
+      },
+      {
+        "file": "reference-frames/cycling/026.png",
+        "bytes": 103889,
+        "sha256": "016a40a92b96465aea322fd19266fcb3f801b24d07f662607573ddad20911b6b"
+      },
+      {
+        "file": "reference-frames/cycling/027.png",
+        "bytes": 108531,
+        "sha256": "ae77b064db42a09ce542a90fc2270ed905d7cd776e1be1df10e88bb76c8a39ec"
+      },
+      {
+        "file": "reference-frames/cycling/028.png",
+        "bytes": 112462,
+        "sha256": "487811ea5c3e9d52f094753b031af3659f7fde2d7ed916d663ababaab97799f4"
+      },
+      {
+        "file": "reference-frames/cycling/029.png",
+        "bytes": 117856,
+        "sha256": "9b48fe6e7e225cb2cf597a070a24d3467753b46b87ff2f8e13ace08c41302fa2"
+      },
+      {
+        "file": "reference-frames/cycling/030.png",
+        "bytes": 117725,
+        "sha256": "adf6485c1128ff5a618387c979da06c04cf6bf9c1f49da38bb35abce56cfe02a"
+      },
+      {
+        "file": "reference-frames/cycling/031.png",
+        "bytes": 116873,
+        "sha256": "30fa7fdb15052df7535ea24809975c0d53ab5ddc9a2f724c72853807854fe343"
+      },
+      {
+        "file": "reference-frames/cycling/032.png",
+        "bytes": 113800,
+        "sha256": "3ba7840c24511dd7f06678de10f68aa76f316f115fc7c8ecd4346b4951d91641"
+      },
+      {
+        "file": "reference-frames/cycling/033.png",
+        "bytes": 113416,
+        "sha256": "5fad5ab4b2b722a19d63627b7313f9a6b42421e7abc8ab127ded26d5d00ce853"
+      },
+      {
+        "file": "reference-frames/cycling/034.png",
+        "bytes": 112951,
+        "sha256": "8940994894ccff33b3112c3436cd1899beb7b8e6cf48810fa6cb9cfdf12b82b8"
+      },
+      {
+        "file": "reference-frames/cycling/035.png",
+        "bytes": 113293,
+        "sha256": "776812d4d3b3b1eb21e263d58b9f01efd1cb9eed1c15fb66c1b470d48bc5033e"
+      },
+      {
+        "file": "reference-frames/cycling/036.png",
+        "bytes": 114179,
+        "sha256": "f4326db2a4e21db7dc827a59a55bcd485f7fc6a4734162587b1c2616208be345"
+      },
+      {
+        "file": "reference-frames/cycling/037.png",
+        "bytes": 117918,
+        "sha256": "190dce3dc9729d1d76b9bc2f22eaa143c0889b9b37b0f2fe1e7703f0f754f83f"
+      },
+      {
+        "file": "reference-frames/cycling/038.png",
+        "bytes": 119053,
+        "sha256": "c976e71e8b2259f0058d146ad02c711fe53eb92fbd98d9e6766fa90d89aee3d4"
+      },
+      {
+        "file": "reference-frames/cycling/039.png",
+        "bytes": 119492,
+        "sha256": "b6aa7033ad91da31887c856621ac101a63825d748f9c858f5f1d5a174ce275f6"
+      },
+      {
+        "file": "reference-frames/cycling/040.png",
+        "bytes": 120581,
+        "sha256": "c169474e491a36a52d6c0b7e9cc0b5a5414b20896c0a00aa2e5f69e41452a22f"
+      },
+      {
+        "file": "reference-frames/cycling/041.png",
+        "bytes": 122495,
+        "sha256": "a6cf6952f999d3dea578bfbc6e7413fa213c1e8262bdfa3d3c9132d960b3fe1f"
+      },
+      {
+        "file": "reference-frames/cycling/042.png",
+        "bytes": 114681,
+        "sha256": "af167d4501b6eb90fd368638e39646d31db97b00eefe3e49196a9492a6fde134"
+      },
+      {
+        "file": "reference-frames/cycling/043.png",
+        "bytes": 116751,
+        "sha256": "443ec50d3c85ffea724e91b5aca36f91567f87eaf19d37b59fa77886419e733e"
+      },
+      {
+        "file": "reference-frames/cycling/044.png",
+        "bytes": 118093,
+        "sha256": "5c98c4d5d94d5b30a4d03469fc2cf84690e484a88e9e3a537f9ab484a044a9d6"
+      },
+      {
+        "file": "reference-frames/cycling/045.png",
+        "bytes": 118299,
+        "sha256": "2127cbab49f6fb07f8b2b6c6b026a5bbc4d944ae0ed1d6cb01008cd7fbda90d2"
+      },
+      {
+        "file": "reference-frames/cycling/046.png",
+        "bytes": 119729,
+        "sha256": "8f8fc32f25b4bc05f668bb2fe6aa72381a934c9a1a19b36cddc3250110a34b9d"
+      },
+      {
+        "file": "reference-frames/cycling/047.png",
+        "bytes": 119393,
+        "sha256": "2061224f8e8e0bf4d86ed1570b6006bb7aec3231b04aeabb38968eb557ce3af9"
+      },
+      {
+        "file": "reference-frames/cycling/048.png",
+        "bytes": 119986,
+        "sha256": "ddba90d298850c3b5d39fdfb309dc0bd1f95c6eb46824acfb14b36c7fa74a5a3"
+      },
+      {
+        "file": "reference-frames/cycling/049.png",
+        "bytes": 120100,
+        "sha256": "8cf433cb46d947ddd903ec6faceba9f40cfe1396edbf14536ba3a762c40def50"
+      },
+      {
+        "file": "reference-frames/cycling/050.png",
+        "bytes": 120605,
+        "sha256": "8ca45f31f61c10aaa18424c84a98cefe0d2150ac126c3942e5aeab3f9faafabb"
+      },
+      {
+        "file": "reference-frames/cycling/051.png",
+        "bytes": 120499,
+        "sha256": "93ab3882c9b89c561c548ed6c387f729f3749a1f6be0a38068412e5ce72f4787"
+      },
+      {
+        "file": "reference-frames/cycling/052.png",
+        "bytes": 120679,
+        "sha256": "82ac18d27ec1cc00d5cddb0f13e10eff2bb81614fa7f5d90c04b014746897ffa"
+      },
+      {
+        "file": "reference-frames/cycling/053.png",
+        "bytes": 120673,
+        "sha256": "461f796eb9ab3a0a2ab61c01b93a8b97c77ead2df0555b785386935f33a7d0ce"
+      },
+      {
+        "file": "reference-frames/cycling/054.png",
+        "bytes": 120735,
+        "sha256": "303665c872c97d82406c4267db6a9e32ad9fe20a3638bcf6cefb5f3b358acd8e"
+      },
+      {
+        "file": "reference-frames/cycling/055.png",
+        "bytes": 120582,
+        "sha256": "4eeddbb0f2cc9ee14034d2085c6bbc3ce2e04ee350246262569c79133409469a"
+      },
+      {
+        "file": "reference-frames/cycling/056.png",
+        "bytes": 120567,
+        "sha256": "c2f0412affc0a7061f4d3ab48c13af92a821a2c4ad183cee34fb3183bf3e691b"
+      },
+      {
+        "file": "reference-frames/cycling/057.png",
+        "bytes": 120623,
+        "sha256": "9618f14c9319dfb17461aed46867a2d1d1aeb75b25ab31329f067d46b80d626c"
+      },
+      {
+        "file": "reference-frames/cycling/058.png",
+        "bytes": 120787,
+        "sha256": "c12c77307f32f4e65668384e2a0e921fd39ed83193a82e1f4aca23c5708582f6"
+      },
+      {
+        "file": "reference-frames/cycling/059.png",
+        "bytes": 120762,
+        "sha256": "ee1ce90f69bb5f58462fe6ec79eeb5e5e0ecadd9d046d05df6eb475c185bfec9"
+      },
+      {
+        "file": "reference-frames/cycling/060.png",
+        "bytes": 120767,
+        "sha256": "b7a81a1afe75c3f730b6706bcd021be86c275d0a34903229ae8fc6e0d5dfded6"
+      },
+      {
+        "file": "reference-frames/cycling/061.png",
+        "bytes": 120773,
+        "sha256": "701b8ae33f6a06ffbbf0af9a0e4441793af9848b479016c70e9436c6465e0d1b"
+      },
+      {
+        "file": "reference-frames/cycling/062.png",
+        "bytes": 120803,
+        "sha256": "e669a204daf2db2f93b0c8f76cfa66030abe53f3259d8204c1b7824185a354c8"
+      },
+      {
+        "file": "reference-frames/cycling/063.png",
+        "bytes": 120794,
+        "sha256": "77e2dd166c5ba4e634fe466ea202560b78e65c335b166ee353ee4d5e310cb518"
+      },
+      {
+        "file": "reference-frames/cycling/064.png",
+        "bytes": 120788,
+        "sha256": "fdc252c3bcf22013cc5ce052a3767e4821ec19e6a04961014940371b0a0e4209"
+      },
+      {
+        "file": "reference-frames/cycling/065.png",
+        "bytes": 120794,
+        "sha256": "77e2dd166c5ba4e634fe466ea202560b78e65c335b166ee353ee4d5e310cb518"
+      },
+      {
+        "file": "reference-frames/cycling/066.png",
+        "bytes": 120815,
+        "sha256": "069cff8befb9e63391bb2ffe3cae11f06bccae7a96ff671a4961211b2d40168a"
+      },
+      {
+        "file": "reference-frames/cycling/067.png",
+        "bytes": 120797,
+        "sha256": "de0c1f893b83616d98f18d90e48778e8dac3f72131f7abb6493ca4f9f9fdf31a"
+      },
+      {
+        "file": "reference-frames/cycling/068.png",
+        "bytes": 120792,
+        "sha256": "3a390933419e985b1a008283d1e31ba0ca3756ea608326182c91f58432540f2b"
+      },
+      {
+        "file": "reference-frames/cycling/069.png",
+        "bytes": 120797,
+        "sha256": "de0c1f893b83616d98f18d90e48778e8dac3f72131f7abb6493ca4f9f9fdf31a"
+      },
+      {
+        "file": "reference-frames/cycling/070.png",
+        "bytes": 120804,
+        "sha256": "2ceeea6b636b4eeba874f7ee9542ecea77beb9710c7e4692cd85426a8454991f"
+      },
+      {
+        "file": "reference-frames/cycling/071.png",
+        "bytes": 120774,
+        "sha256": "48edca91bf53d7abadefcd3cc87170246bfc6c9a4dbd7d7dbaf436739b8a3797"
+      },
+      {
+        "file": "reference-frames/cycling/072.png",
+        "bytes": 120739,
+        "sha256": "fcfc04278cfdd2b950fe897d6eab0afcf3ea450ef35ee47f6ff9195e6fada55a"
+      },
+      {
+        "file": "reference-frames/cycling/073.png",
+        "bytes": 120717,
+        "sha256": "62024f7e8f6d83ebfdaf203aa4007f925225d4a6ec6c72dde0c1094f6ecc3704"
+      },
+      {
+        "file": "reference-frames/cycling/074.png",
+        "bytes": 120770,
+        "sha256": "3d9a0983d9c5d1f1b2bde7fb63aa64abf9c42d53b9fd3bea88b774a359ed3519"
+      },
+      {
+        "file": "reference-frames/cycling/075.png",
+        "bytes": 120749,
+        "sha256": "c9cc61706cccf28343c4483f5767ed22c8ce3ad09e9cf19dce379512410b5680"
+      },
+      {
+        "file": "reference-frames/cycling/076.png",
+        "bytes": 120741,
+        "sha256": "5608918b8fd7e7e20558f88adf4f1011dfaae37d357129b961ebc84e02616cd2"
+      },
+      {
+        "file": "reference-frames/cycling/077.png",
+        "bytes": 120749,
+        "sha256": "c9cc61706cccf28343c4483f5767ed22c8ce3ad09e9cf19dce379512410b5680"
+      },
+      {
+        "file": "reference-frames/cycling/078.png",
+        "bytes": 120777,
+        "sha256": "6a4cf6fbc6f55ff385b48963c5bd78b0cf256bfb33bf2046a2c113332fbd30ad"
+      },
+      {
+        "file": "reference-frames/cycling/079.png",
+        "bytes": 120766,
+        "sha256": "cba527286d8410a14b9558d13c5ea33e0cb75ff02490d6c359933cf4b5307f24"
+      },
+      {
+        "file": "reference-frames/cycling/080.png",
+        "bytes": 120750,
+        "sha256": "64aabde61431b7bb13b771326d5973645635e9ddfb7bed8fb8e1f276d7085a6a"
+      },
+      {
+        "file": "reference-frames/cycling/081.png",
+        "bytes": 120759,
+        "sha256": "7a593c3eacfae232e5bc2d051a858feea3e0930fd3121dd0f81fd3be0824863d"
+      },
+      {
+        "file": "reference-frames/cycling/082.png",
+        "bytes": 120802,
+        "sha256": "836678566a57072fdb6937471337952b5dd2e33766dec76310f2dc63c250215c"
+      },
+      {
+        "file": "reference-frames/cycling/083.png",
+        "bytes": 120768,
+        "sha256": "e7137916530962b8087464fa28bc723c5a7e49473f32a9092ea5110256f7e579"
+      },
+      {
+        "file": "reference-frames/cycling/084.png",
+        "bytes": 120760,
+        "sha256": "6e6a779b91182ca10c7121c377894634da40a479a01e457ee10cea799cbf8cdc"
+      },
+      {
+        "file": "reference-frames/cycling/085.png",
+        "bytes": 120768,
+        "sha256": "e7137916530962b8087464fa28bc723c5a7e49473f32a9092ea5110256f7e579"
+      },
+      {
+        "file": "reference-frames/cycling/086.png",
+        "bytes": 120791,
+        "sha256": "7b712163eaadcb59a12d7e656dbb151ddb1c504d729532d8c26d2c5a57752e29"
+      },
+      {
+        "file": "reference-frames/cycling/087.png",
+        "bytes": 120778,
+        "sha256": "a68a4fb1543f380b0d18b6eaacd040999ba0a7af80f940a860d5aca2456acad7"
+      },
+      {
+        "file": "reference-frames/cycling/088.png",
+        "bytes": 120768,
+        "sha256": "8ff64095a93bc53c705f21b1ded415ee800661e3fc086d1e5bc5a71402bf5d1f"
+      },
+      {
+        "file": "reference-frames/cycling/089.png",
+        "bytes": 120787,
+        "sha256": "ce7b9e54f9b4490f2798459a14e6dd5616909876a1a55abf0f7891182b3b54c2"
+      },
+      {
+        "file": "reference-frames/cycling/090.png",
+        "bytes": 120814,
+        "sha256": "0bda12df14cf9bfdf3821fc2fc387caca860a79cb48bc679b65728741b74b834"
+      },
+      {
+        "file": "reference-frames/cycling/091.png",
+        "bytes": 120516,
+        "sha256": "3ce2e6d76d19eeb22d5f527b74255dd1dc7a7c87a0767c84d23c608f888ff2a2"
+      },
+      {
+        "file": "reference-frames/cycling/092.png",
+        "bytes": 119431,
+        "sha256": "531e56b6e980eae43902ce1d9ac6969f77efd4948b5cb501cc4d2b4542ab06d5"
+      },
+      {
+        "file": "reference-frames/cycling/093.png",
+        "bytes": 118366,
+        "sha256": "349cd277c1fd6ee4c9bed4313afd638de3f16fb5d53f035e8cb12497b63d2d10"
+      },
+      {
+        "file": "reference-frames/cycling/094.png",
+        "bytes": 118958,
+        "sha256": "49dd6e8569c7444d3f28bc49b6f151c23d0190ba31154259b4e293bf9cadc4cf"
+      },
+      {
+        "file": "reference-frames/cycling/095.png",
+        "bytes": 116837,
+        "sha256": "f82e6fe115518224ab15c3d7cde61d9e301b5a874b25be279b4bf6a5795fc4d3"
+      },
+      {
+        "file": "reference-frames/cycling/096.png",
+        "bytes": 112636,
+        "sha256": "38731d57db3c67b6ec1a4cadcfce3bd0396b2109591c783fb14a48d2ec2a62c7"
+      },
+      {
+        "file": "reference-frames/cycling/097.png",
+        "bytes": 108309,
+        "sha256": "be00601710a7c851a4db6e262757575b2ad0b052f93d87a470e20522990ffbe4"
+      },
+      {
+        "file": "reference-frames/cycling/098.png",
+        "bytes": 107420,
+        "sha256": "d4fdc337b57c84cf7db14a53392f23a28783050389e97e066a859be3779e068e"
+      },
+      {
+        "file": "reference-frames/cycling/099.png",
+        "bytes": 108068,
+        "sha256": "9a823dee5c9d402d685eec9b3f44b5646285bf6d5d9f0ef2ec41bd8f27dd146e"
+      },
+      {
+        "file": "reference-frames/cycling/100.png",
+        "bytes": 106581,
+        "sha256": "f1cab711d346f3913fa969e6efcae11847bb4994a1824c9e4e7b53743b21bac6"
+      },
+      {
+        "file": "reference-frames/cycling/101.png",
+        "bytes": 106654,
+        "sha256": "0625dae75d5bf59ed1252bb7aba50eb21211b5814fb8bb7568733a24582c1178"
+      },
+      {
+        "file": "reference-frames/cycling/102.png",
+        "bytes": 102994,
+        "sha256": "3b988d56834961737cac74a200b49d65b4a2229d4734716d0df657436d4ea795"
+      },
+      {
+        "file": "reference-frames/cycling/103.png",
+        "bytes": 102580,
+        "sha256": "2a7da3058dbb5e22fdaf8429ffc392525b5819cdd855d73cf744f82d62edb448"
+      },
+      {
+        "file": "reference-frames/cycling/104.png",
+        "bytes": 98751,
+        "sha256": "a9fa5f4fc6f60704ebd7d2e4156e1b05415fa3a7c2519c5aa7002471a2f37e18"
+      },
+      {
+        "file": "reference-frames/cycling/105.png",
+        "bytes": 92574,
+        "sha256": "e85d8deac9fc4b0ea39d2264658227f19d6c42acc85627851dfa37763e0cffd4"
+      },
+      {
+        "file": "reference-frames/cycling/106.png",
+        "bytes": 87253,
+        "sha256": "9a2814056166dcc2f31de2af628f24d41efcc902b86cc62d8347dc8cc06bad0f"
+      },
+      {
+        "file": "reference-frames/cycling/107.png",
+        "bytes": 85357,
+        "sha256": "35e4afc2fa36bdb0a8ef5e4a786602022d109c07e0a1ba8727137a1834854236"
+      },
+      {
+        "file": "reference-frames/cycling/108.png",
+        "bytes": 79826,
+        "sha256": "92ebc49a0f469bd36c391aaac2686bb5647def4bbed93503ad3c4996b037b79d"
+      },
+      {
+        "file": "reference-frames/cycling/109.png",
+        "bytes": 76661,
+        "sha256": "91506c4654d3343ca6ed2faa7139d912566000081b3890a6adf29f77966978b2"
+      },
+      {
+        "file": "reference-frames/cycling/110.png",
+        "bytes": 74026,
+        "sha256": "be7d03fc67080277e8e325d80fe255992c6aa0bd32f8a1e654c68d79a0ee4f9e"
+      },
+      {
+        "file": "reference-frames/cycling/111.png",
+        "bytes": 66911,
+        "sha256": "a2e0ae8eab59eab693d7159d661faa4b406901baa76d2618d3747ac07966c6b1"
+      },
+      {
+        "file": "reference-frames/cycling/112.png",
+        "bytes": 55084,
+        "sha256": "9c90a52ab09a031ff611038ad5d08a0377a0c2ecad95d477261ebac328882b69"
+      },
+      {
+        "file": "reference-frames/cycling/113.png",
+        "bytes": 40959,
+        "sha256": "a7d3625f8daa992e7ddba9cba5559c23dfd5bdaa8ae233857f1e1290ab941a2f"
+      },
+      {
+        "file": "reference-frames/cycling/114.png",
+        "bytes": 31987,
+        "sha256": "98e2d26ad68e3db09d50918bed8bb2a44d95f096d33c9edf22e9e606f5e34258"
+      },
+      {
+        "file": "reference-frames/cycling/115.png",
+        "bytes": 24875,
+        "sha256": "cdee62d00655fb43d2a82b4021983f346ef3f620aea6edf6506a5be4cb7114b9"
+      },
+      {
+        "file": "reference-frames/cycling/116.png",
+        "bytes": 21126,
+        "sha256": "c883f8fe418e9e9b18bc2ef473d582d9bbe1b2dd510e3f1d6aa65d707fe47d83"
+      },
+      {
+        "file": "reference-frames/cycling/117.png",
+        "bytes": 8818,
+        "sha256": "a59c307767edde4e3f9be76f905fa76d9172121510e4797ad9540432a621f0c1"
+      },
+      {
+        "file": "reference-frames/cycling/118.png",
+        "bytes": 8728,
+        "sha256": "e072e6561ae871008d9a34594d5d08ae4a72f41611f4f81215e7381d9e70755d"
+      }
+    ],
+    "orderedPNGSetSha256": "640d96b3d3514acb4015fcbf15ef4bd8a363530f613c3deed4f5020b91d7eaab"
+  },
+  "source": {
+    "start": 70.70396666666667,
+    "end": 74.64123333333333,
+    "fps": 29.97002997002997,
+    "frameCount": 118,
+    "duration": 3.937266666666667,
+    "sourceReference": "https://cekai.us/works/the-tokyo-2020-kinetic-pictograms/"
+  },
+  "checks": {
+    "frameCountMatches": true,
+    "pixelsMismatchFrames": [],
+    "bboxMismatchFrames": [],
+    "anchor": {
+      "index": 59,
+      "valid": true,
+      "pixels": 59022,
+      "bbox": [
+        212,
+        216,
+        756,
+        697
+      ]
+    },
+    "firstFrameBlank": true,
+    "lastFrameBlank": true,
+    "blankFrameIndices": [
+      0,
+      116,
+      117
+    ],
+    "emptyPathAgreesWithBlank": true,
+    "pngCountMatches": true,
+    "manifestFrameCountMatches": true
+  },
+  "results": [
+    {
+      "sport": "cycling",
+      "frame": 0,
+      "pngFrame": 1,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 0,
+      "union": 0,
+      "sourcePixels": 0,
+      "renderedPixels": 0,
+      "declaredPixels": 0,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderedBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "declaredBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "bboxMatch": true,
+      "pathEmpty": true
+    },
+    {
+      "sport": "cycling",
+      "frame": 1,
+      "pngFrame": 2,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 6593,
+      "union": 6593,
+      "sourcePixels": 6593,
+      "renderedPixels": 6593,
+      "declaredPixels": 6593,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        383,
+        234,
+        570,
+        600
+      ],
+      "renderedBBox": [
+        383,
+        234,
+        570,
+        600
+      ],
+      "declaredBBox": [
+        383,
+        234,
+        570,
+        600
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 2,
+      "pngFrame": 3,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 9578,
+      "union": 9578,
+      "sourcePixels": 9578,
+      "renderedPixels": 9578,
+      "declaredPixels": 9578,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        381,
+        232,
+        572,
+        613
+      ],
+      "renderedBBox": [
+        381,
+        232,
+        572,
+        613
+      ],
+      "declaredBBox": [
+        381,
+        232,
+        572,
+        613
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 3,
+      "pngFrame": 4,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 15023,
+      "union": 15023,
+      "sourcePixels": 15023,
+      "renderedPixels": 15023,
+      "declaredPixels": 15023,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        378,
+        222,
+        575,
+        633
+      ],
+      "renderedBBox": [
+        378,
+        222,
+        575,
+        633
+      ],
+      "declaredBBox": [
+        378,
+        222,
+        575,
+        633
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 4,
+      "pngFrame": 5,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 19882,
+      "union": 19882,
+      "sourcePixels": 19882,
+      "renderedPixels": 19882,
+      "declaredPixels": 19882,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        374,
+        217,
+        579,
+        658
+      ],
+      "renderedBBox": [
+        374,
+        217,
+        579,
+        658
+      ],
+      "declaredBBox": [
+        374,
+        217,
+        579,
+        658
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 5,
+      "pngFrame": 6,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 23618,
+      "union": 23618,
+      "sourcePixels": 23618,
+      "renderedPixels": 23618,
+      "declaredPixels": 23618,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        370,
+        216,
+        577,
+        682
+      ],
+      "renderedBBox": [
+        370,
+        216,
+        577,
+        682
+      ],
+      "declaredBBox": [
+        370,
+        216,
+        577,
+        682
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 6,
+      "pngFrame": 7,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 26492,
+      "union": 26492,
+      "sourcePixels": 26492,
+      "renderedPixels": 26492,
+      "declaredPixels": 26492,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        370,
+        216,
+        577,
+        696
+      ],
+      "renderedBBox": [
+        370,
+        216,
+        577,
+        696
+      ],
+      "declaredBBox": [
+        370,
+        216,
+        577,
+        696
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 7,
+      "pngFrame": 8,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 28924,
+      "union": 28924,
+      "sourcePixels": 28924,
+      "renderedPixels": 28924,
+      "declaredPixels": 28924,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        369,
+        216,
+        576,
+        697
+      ],
+      "renderedBBox": [
+        369,
+        216,
+        576,
+        697
+      ],
+      "declaredBBox": [
+        369,
+        216,
+        576,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 8,
+      "pngFrame": 9,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 31732,
+      "union": 31732,
+      "sourcePixels": 31732,
+      "renderedPixels": 31732,
+      "declaredPixels": 31732,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        369,
+        216,
+        583,
+        697
+      ],
+      "renderedBBox": [
+        369,
+        216,
+        583,
+        697
+      ],
+      "declaredBBox": [
+        369,
+        216,
+        583,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 9,
+      "pngFrame": 10,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 34732,
+      "union": 34732,
+      "sourcePixels": 34732,
+      "renderedPixels": 34732,
+      "declaredPixels": 34732,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        370,
+        216,
+        604,
+        697
+      ],
+      "renderedBBox": [
+        370,
+        216,
+        604,
+        697
+      ],
+      "declaredBBox": [
+        370,
+        216,
+        604,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 10,
+      "pngFrame": 11,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 37650,
+      "union": 37650,
+      "sourcePixels": 37650,
+      "renderedPixels": 37650,
+      "declaredPixels": 37650,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        371,
+        216,
+        623,
+        693
+      ],
+      "renderedBBox": [
+        371,
+        216,
+        623,
+        693
+      ],
+      "declaredBBox": [
+        371,
+        216,
+        623,
+        693
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 11,
+      "pngFrame": 12,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 38848,
+      "union": 38848,
+      "sourcePixels": 38848,
+      "renderedPixels": 38848,
+      "declaredPixels": 38848,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        374,
+        216,
+        628,
+        692
+      ],
+      "renderedBBox": [
+        374,
+        216,
+        628,
+        692
+      ],
+      "declaredBBox": [
+        374,
+        216,
+        628,
+        692
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 12,
+      "pngFrame": 13,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 39312,
+      "union": 39312,
+      "sourcePixels": 39312,
+      "renderedPixels": 39312,
+      "declaredPixels": 39312,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        378,
+        216,
+        630,
+        697
+      ],
+      "renderedBBox": [
+        378,
+        216,
+        630,
+        697
+      ],
+      "declaredBBox": [
+        378,
+        216,
+        630,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 13,
+      "pngFrame": 14,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 40108,
+      "union": 40108,
+      "sourcePixels": 40108,
+      "renderedPixels": 40108,
+      "declaredPixels": 40108,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        383,
+        216,
+        632,
+        697
+      ],
+      "renderedBBox": [
+        383,
+        216,
+        632,
+        697
+      ],
+      "declaredBBox": [
+        383,
+        216,
+        632,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 14,
+      "pngFrame": 15,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 41125,
+      "union": 41125,
+      "sourcePixels": 41125,
+      "renderedPixels": 41125,
+      "declaredPixels": 41125,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        389,
+        216,
+        633,
+        697
+      ],
+      "renderedBBox": [
+        389,
+        216,
+        633,
+        697
+      ],
+      "declaredBBox": [
+        389,
+        216,
+        633,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 15,
+      "pngFrame": 16,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 42054,
+      "union": 42054,
+      "sourcePixels": 42054,
+      "renderedPixels": 42054,
+      "declaredPixels": 42054,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        387,
+        216,
+        634,
+        697
+      ],
+      "renderedBBox": [
+        387,
+        216,
+        634,
+        697
+      ],
+      "declaredBBox": [
+        387,
+        216,
+        634,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 16,
+      "pngFrame": 17,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 42008,
+      "union": 42008,
+      "sourcePixels": 42008,
+      "renderedPixels": 42008,
+      "declaredPixels": 42008,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        374,
+        216,
+        635,
+        697
+      ],
+      "renderedBBox": [
+        374,
+        216,
+        635,
+        697
+      ],
+      "declaredBBox": [
+        374,
+        216,
+        635,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 17,
+      "pngFrame": 18,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 42090,
+      "union": 42090,
+      "sourcePixels": 42090,
+      "renderedPixels": 42090,
+      "declaredPixels": 42090,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        361,
+        216,
+        634,
+        697
+      ],
+      "renderedBBox": [
+        361,
+        216,
+        634,
+        697
+      ],
+      "declaredBBox": [
+        361,
+        216,
+        634,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 18,
+      "pngFrame": 19,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 44458,
+      "union": 44458,
+      "sourcePixels": 44458,
+      "renderedPixels": 44458,
+      "declaredPixels": 44458,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        349,
+        216,
+        635,
+        697
+      ],
+      "renderedBBox": [
+        349,
+        216,
+        635,
+        697
+      ],
+      "declaredBBox": [
+        349,
+        216,
+        635,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 19,
+      "pngFrame": 20,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 47170,
+      "union": 47170,
+      "sourcePixels": 47170,
+      "renderedPixels": 47170,
+      "declaredPixels": 47170,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        337,
+        216,
+        637,
+        697
+      ],
+      "renderedBBox": [
+        337,
+        216,
+        637,
+        697
+      ],
+      "declaredBBox": [
+        337,
+        216,
+        637,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 20,
+      "pngFrame": 21,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 47558,
+      "union": 47558,
+      "sourcePixels": 47558,
+      "renderedPixels": 47558,
+      "declaredPixels": 47558,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        327,
+        216,
+        641,
+        697
+      ],
+      "renderedBBox": [
+        327,
+        216,
+        641,
+        697
+      ],
+      "declaredBBox": [
+        327,
+        216,
+        641,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 21,
+      "pngFrame": 22,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 49481,
+      "union": 49481,
+      "sourcePixels": 49481,
+      "renderedPixels": 49481,
+      "declaredPixels": 49481,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        317,
+        216,
+        647,
+        697
+      ],
+      "renderedBBox": [
+        317,
+        216,
+        647,
+        697
+      ],
+      "declaredBBox": [
+        317,
+        216,
+        647,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 22,
+      "pngFrame": 23,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 51608,
+      "union": 51608,
+      "sourcePixels": 51608,
+      "renderedPixels": 51608,
+      "declaredPixels": 51608,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        309,
+        216,
+        654,
+        697
+      ],
+      "renderedBBox": [
+        309,
+        216,
+        654,
+        697
+      ],
+      "declaredBBox": [
+        309,
+        216,
+        654,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 23,
+      "pngFrame": 24,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 52798,
+      "union": 52798,
+      "sourcePixels": 52798,
+      "renderedPixels": 52798,
+      "declaredPixels": 52798,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        302,
+        216,
+        663,
+        697
+      ],
+      "renderedBBox": [
+        302,
+        216,
+        663,
+        697
+      ],
+      "declaredBBox": [
+        302,
+        216,
+        663,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 24,
+      "pngFrame": 25,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 53612,
+      "union": 53612,
+      "sourcePixels": 53612,
+      "renderedPixels": 53612,
+      "declaredPixels": 53612,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        295,
+        216,
+        671,
+        697
+      ],
+      "renderedBBox": [
+        295,
+        216,
+        671,
+        697
+      ],
+      "declaredBBox": [
+        295,
+        216,
+        671,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 25,
+      "pngFrame": 26,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 55085,
+      "union": 55085,
+      "sourcePixels": 55085,
+      "renderedPixels": 55085,
+      "declaredPixels": 55085,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        289,
+        216,
+        680,
+        697
+      ],
+      "renderedBBox": [
+        289,
+        216,
+        680,
+        697
+      ],
+      "declaredBBox": [
+        289,
+        216,
+        680,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 26,
+      "pngFrame": 27,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58103,
+      "union": 58103,
+      "sourcePixels": 58103,
+      "renderedPixels": 58103,
+      "declaredPixels": 58103,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        283,
+        216,
+        690,
+        697
+      ],
+      "renderedBBox": [
+        283,
+        216,
+        690,
+        697
+      ],
+      "declaredBBox": [
+        283,
+        216,
+        690,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 27,
+      "pngFrame": 28,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 60616,
+      "union": 60616,
+      "sourcePixels": 60616,
+      "renderedPixels": 60616,
+      "declaredPixels": 60616,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        276,
+        216,
+        700,
+        697
+      ],
+      "renderedBBox": [
+        276,
+        216,
+        700,
+        697
+      ],
+      "declaredBBox": [
+        276,
+        216,
+        700,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 28,
+      "pngFrame": 29,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62586,
+      "union": 62586,
+      "sourcePixels": 62586,
+      "renderedPixels": 62586,
+      "declaredPixels": 62586,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        270,
+        216,
+        709,
+        697
+      ],
+      "renderedBBox": [
+        270,
+        216,
+        709,
+        697
+      ],
+      "declaredBBox": [
+        270,
+        216,
+        709,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 29,
+      "pngFrame": 30,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 64387,
+      "union": 64387,
+      "sourcePixels": 64387,
+      "renderedPixels": 64387,
+      "declaredPixels": 64387,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        264,
+        216,
+        717,
+        697
+      ],
+      "renderedBBox": [
+        264,
+        216,
+        717,
+        697
+      ],
+      "declaredBBox": [
+        264,
+        216,
+        717,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 30,
+      "pngFrame": 31,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 64682,
+      "union": 64682,
+      "sourcePixels": 64682,
+      "renderedPixels": 64682,
+      "declaredPixels": 64682,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        257,
+        216,
+        723,
+        697
+      ],
+      "renderedBBox": [
+        257,
+        216,
+        723,
+        697
+      ],
+      "declaredBBox": [
+        257,
+        216,
+        723,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 31,
+      "pngFrame": 32,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 64290,
+      "union": 64290,
+      "sourcePixels": 64290,
+      "renderedPixels": 64290,
+      "declaredPixels": 64290,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        250,
+        216,
+        729,
+        697
+      ],
+      "renderedBBox": [
+        250,
+        216,
+        729,
+        697
+      ],
+      "declaredBBox": [
+        250,
+        216,
+        729,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 32,
+      "pngFrame": 33,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 63610,
+      "union": 63610,
+      "sourcePixels": 63610,
+      "renderedPixels": 63610,
+      "declaredPixels": 63610,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        244,
+        216,
+        733,
+        697
+      ],
+      "renderedBBox": [
+        244,
+        216,
+        733,
+        697
+      ],
+      "declaredBBox": [
+        244,
+        216,
+        733,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 33,
+      "pngFrame": 34,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 63893,
+      "union": 63893,
+      "sourcePixels": 63893,
+      "renderedPixels": 63893,
+      "declaredPixels": 63893,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        238,
+        216,
+        737,
+        697
+      ],
+      "renderedBBox": [
+        238,
+        216,
+        737,
+        697
+      ],
+      "declaredBBox": [
+        238,
+        216,
+        737,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 34,
+      "pngFrame": 35,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 64779,
+      "union": 64779,
+      "sourcePixels": 64779,
+      "renderedPixels": 64779,
+      "declaredPixels": 64779,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        233,
+        216,
+        740,
+        697
+      ],
+      "renderedBBox": [
+        233,
+        216,
+        740,
+        697
+      ],
+      "declaredBBox": [
+        233,
+        216,
+        740,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 35,
+      "pngFrame": 36,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 65052,
+      "union": 65052,
+      "sourcePixels": 65052,
+      "renderedPixels": 65052,
+      "declaredPixels": 65052,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        228,
+        216,
+        743,
+        697
+      ],
+      "renderedBBox": [
+        228,
+        216,
+        743,
+        697
+      ],
+      "declaredBBox": [
+        228,
+        216,
+        743,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 36,
+      "pngFrame": 37,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 64562,
+      "union": 64562,
+      "sourcePixels": 64562,
+      "renderedPixels": 64562,
+      "declaredPixels": 64562,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        224,
+        216,
+        745,
+        697
+      ],
+      "renderedBBox": [
+        224,
+        216,
+        745,
+        697
+      ],
+      "declaredBBox": [
+        224,
+        216,
+        745,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 37,
+      "pngFrame": 38,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61960,
+      "union": 61960,
+      "sourcePixels": 61960,
+      "renderedPixels": 61960,
+      "declaredPixels": 61960,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        221,
+        216,
+        748,
+        697
+      ],
+      "renderedBBox": [
+        221,
+        216,
+        748,
+        697
+      ],
+      "declaredBBox": [
+        221,
+        216,
+        748,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 38,
+      "pngFrame": 39,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61971,
+      "union": 61971,
+      "sourcePixels": 61971,
+      "renderedPixels": 61971,
+      "declaredPixels": 61971,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        219,
+        216,
+        750,
+        697
+      ],
+      "renderedBBox": [
+        219,
+        216,
+        750,
+        697
+      ],
+      "declaredBBox": [
+        219,
+        216,
+        750,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 39,
+      "pngFrame": 40,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62528,
+      "union": 62528,
+      "sourcePixels": 62528,
+      "renderedPixels": 62528,
+      "declaredPixels": 62528,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        217,
+        216,
+        752,
+        697
+      ],
+      "renderedBBox": [
+        217,
+        216,
+        752,
+        697
+      ],
+      "declaredBBox": [
+        217,
+        216,
+        752,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 40,
+      "pngFrame": 41,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62560,
+      "union": 62560,
+      "sourcePixels": 62560,
+      "renderedPixels": 62560,
+      "declaredPixels": 62560,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        215,
+        216,
+        753,
+        697
+      ],
+      "renderedBBox": [
+        215,
+        216,
+        753,
+        697
+      ],
+      "declaredBBox": [
+        215,
+        216,
+        753,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 41,
+      "pngFrame": 42,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61930,
+      "union": 61930,
+      "sourcePixels": 61930,
+      "renderedPixels": 61930,
+      "declaredPixels": 61930,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        214,
+        216,
+        754,
+        697
+      ],
+      "renderedBBox": [
+        214,
+        216,
+        754,
+        697
+      ],
+      "declaredBBox": [
+        214,
+        216,
+        754,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 42,
+      "pngFrame": 43,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61412,
+      "union": 61412,
+      "sourcePixels": 61412,
+      "renderedPixels": 61412,
+      "declaredPixels": 61412,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        213,
+        216,
+        755,
+        697
+      ],
+      "renderedBBox": [
+        213,
+        216,
+        755,
+        697
+      ],
+      "declaredBBox": [
+        213,
+        216,
+        755,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 43,
+      "pngFrame": 44,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 60944,
+      "union": 60944,
+      "sourcePixels": 60944,
+      "renderedPixels": 60944,
+      "declaredPixels": 60944,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        755,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        755,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        755,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 44,
+      "pngFrame": 45,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 60449,
+      "union": 60449,
+      "sourcePixels": 60449,
+      "renderedPixels": 60449,
+      "declaredPixels": 60449,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 45,
+      "pngFrame": 46,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 60004,
+      "union": 60004,
+      "sourcePixels": 60004,
+      "renderedPixels": 60004,
+      "declaredPixels": 60004,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 46,
+      "pngFrame": 47,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59641,
+      "union": 59641,
+      "sourcePixels": 59641,
+      "renderedPixels": 59641,
+      "declaredPixels": 59641,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 47,
+      "pngFrame": 48,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59356,
+      "union": 59356,
+      "sourcePixels": 59356,
+      "renderedPixels": 59356,
+      "declaredPixels": 59356,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 48,
+      "pngFrame": 49,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59154,
+      "union": 59154,
+      "sourcePixels": 59154,
+      "renderedPixels": 59154,
+      "declaredPixels": 59154,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 49,
+      "pngFrame": 50,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59057,
+      "union": 59057,
+      "sourcePixels": 59057,
+      "renderedPixels": 59057,
+      "declaredPixels": 59057,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 50,
+      "pngFrame": 51,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59037,
+      "union": 59037,
+      "sourcePixels": 59037,
+      "renderedPixels": 59037,
+      "declaredPixels": 59037,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 51,
+      "pngFrame": 52,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59035,
+      "union": 59035,
+      "sourcePixels": 59035,
+      "renderedPixels": 59035,
+      "declaredPixels": 59035,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 52,
+      "pngFrame": 53,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59034,
+      "union": 59034,
+      "sourcePixels": 59034,
+      "renderedPixels": 59034,
+      "declaredPixels": 59034,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 53,
+      "pngFrame": 54,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59036,
+      "union": 59036,
+      "sourcePixels": 59036,
+      "renderedPixels": 59036,
+      "declaredPixels": 59036,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 54,
+      "pngFrame": 55,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59036,
+      "union": 59036,
+      "sourcePixels": 59036,
+      "renderedPixels": 59036,
+      "declaredPixels": 59036,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 55,
+      "pngFrame": 56,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59037,
+      "union": 59037,
+      "sourcePixels": 59037,
+      "renderedPixels": 59037,
+      "declaredPixels": 59037,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 56,
+      "pngFrame": 57,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59029,
+      "union": 59029,
+      "sourcePixels": 59029,
+      "renderedPixels": 59029,
+      "declaredPixels": 59029,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 57,
+      "pngFrame": 58,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59024,
+      "union": 59024,
+      "sourcePixels": 59024,
+      "renderedPixels": 59024,
+      "declaredPixels": 59024,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 58,
+      "pngFrame": 59,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59022,
+      "union": 59022,
+      "sourcePixels": 59022,
+      "renderedPixels": 59022,
+      "declaredPixels": 59022,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 59,
+      "pngFrame": 60,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59022,
+      "union": 59022,
+      "sourcePixels": 59022,
+      "renderedPixels": 59022,
+      "declaredPixels": 59022,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 60,
+      "pngFrame": 61,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59022,
+      "union": 59022,
+      "sourcePixels": 59022,
+      "renderedPixels": 59022,
+      "declaredPixels": 59022,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 61,
+      "pngFrame": 62,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59022,
+      "union": 59022,
+      "sourcePixels": 59022,
+      "renderedPixels": 59022,
+      "declaredPixels": 59022,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 62,
+      "pngFrame": 63,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59022,
+      "union": 59022,
+      "sourcePixels": 59022,
+      "renderedPixels": 59022,
+      "declaredPixels": 59022,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 63,
+      "pngFrame": 64,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59022,
+      "union": 59022,
+      "sourcePixels": 59022,
+      "renderedPixels": 59022,
+      "declaredPixels": 59022,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 64,
+      "pngFrame": 65,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59022,
+      "union": 59022,
+      "sourcePixels": 59022,
+      "renderedPixels": 59022,
+      "declaredPixels": 59022,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 65,
+      "pngFrame": 66,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59022,
+      "union": 59022,
+      "sourcePixels": 59022,
+      "renderedPixels": 59022,
+      "declaredPixels": 59022,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 66,
+      "pngFrame": 67,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59022,
+      "union": 59022,
+      "sourcePixels": 59022,
+      "renderedPixels": 59022,
+      "declaredPixels": 59022,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 67,
+      "pngFrame": 68,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59022,
+      "union": 59022,
+      "sourcePixels": 59022,
+      "renderedPixels": 59022,
+      "declaredPixels": 59022,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 68,
+      "pngFrame": 69,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59022,
+      "union": 59022,
+      "sourcePixels": 59022,
+      "renderedPixels": 59022,
+      "declaredPixels": 59022,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 69,
+      "pngFrame": 70,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59022,
+      "union": 59022,
+      "sourcePixels": 59022,
+      "renderedPixels": 59022,
+      "declaredPixels": 59022,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 70,
+      "pngFrame": 71,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59022,
+      "union": 59022,
+      "sourcePixels": 59022,
+      "renderedPixels": 59022,
+      "declaredPixels": 59022,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 71,
+      "pngFrame": 72,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59022,
+      "union": 59022,
+      "sourcePixels": 59022,
+      "renderedPixels": 59022,
+      "declaredPixels": 59022,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 72,
+      "pngFrame": 73,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59025,
+      "union": 59025,
+      "sourcePixels": 59025,
+      "renderedPixels": 59025,
+      "declaredPixels": 59025,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 73,
+      "pngFrame": 74,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59024,
+      "union": 59024,
+      "sourcePixels": 59024,
+      "renderedPixels": 59024,
+      "declaredPixels": 59024,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 74,
+      "pngFrame": 75,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59024,
+      "union": 59024,
+      "sourcePixels": 59024,
+      "renderedPixels": 59024,
+      "declaredPixels": 59024,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 75,
+      "pngFrame": 76,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59024,
+      "union": 59024,
+      "sourcePixels": 59024,
+      "renderedPixels": 59024,
+      "declaredPixels": 59024,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 76,
+      "pngFrame": 77,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59024,
+      "union": 59024,
+      "sourcePixels": 59024,
+      "renderedPixels": 59024,
+      "declaredPixels": 59024,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 77,
+      "pngFrame": 78,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59024,
+      "union": 59024,
+      "sourcePixels": 59024,
+      "renderedPixels": 59024,
+      "declaredPixels": 59024,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 78,
+      "pngFrame": 79,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59024,
+      "union": 59024,
+      "sourcePixels": 59024,
+      "renderedPixels": 59024,
+      "declaredPixels": 59024,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 79,
+      "pngFrame": 80,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59024,
+      "union": 59024,
+      "sourcePixels": 59024,
+      "renderedPixels": 59024,
+      "declaredPixels": 59024,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 80,
+      "pngFrame": 81,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59024,
+      "union": 59024,
+      "sourcePixels": 59024,
+      "renderedPixels": 59024,
+      "declaredPixels": 59024,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 81,
+      "pngFrame": 82,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59024,
+      "union": 59024,
+      "sourcePixels": 59024,
+      "renderedPixels": 59024,
+      "declaredPixels": 59024,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 82,
+      "pngFrame": 83,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59024,
+      "union": 59024,
+      "sourcePixels": 59024,
+      "renderedPixels": 59024,
+      "declaredPixels": 59024,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 83,
+      "pngFrame": 84,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59024,
+      "union": 59024,
+      "sourcePixels": 59024,
+      "renderedPixels": 59024,
+      "declaredPixels": 59024,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 84,
+      "pngFrame": 85,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59024,
+      "union": 59024,
+      "sourcePixels": 59024,
+      "renderedPixels": 59024,
+      "declaredPixels": 59024,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 85,
+      "pngFrame": 86,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59024,
+      "union": 59024,
+      "sourcePixels": 59024,
+      "renderedPixels": 59024,
+      "declaredPixels": 59024,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 86,
+      "pngFrame": 87,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59024,
+      "union": 59024,
+      "sourcePixels": 59024,
+      "renderedPixels": 59024,
+      "declaredPixels": 59024,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 87,
+      "pngFrame": 88,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59024,
+      "union": 59024,
+      "sourcePixels": 59024,
+      "renderedPixels": 59024,
+      "declaredPixels": 59024,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 88,
+      "pngFrame": 89,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59020,
+      "union": 59020,
+      "sourcePixels": 59020,
+      "renderedPixels": 59020,
+      "declaredPixels": 59020,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 89,
+      "pngFrame": 90,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59019,
+      "union": 59019,
+      "sourcePixels": 59019,
+      "renderedPixels": 59019,
+      "declaredPixels": 59019,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        212,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 90,
+      "pngFrame": 91,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59017,
+      "union": 59017,
+      "sourcePixels": 59017,
+      "renderedPixels": 59017,
+      "declaredPixels": 59017,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        211,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        211,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        211,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 91,
+      "pngFrame": 92,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58488,
+      "union": 58488,
+      "sourcePixels": 58488,
+      "renderedPixels": 58488,
+      "declaredPixels": 58488,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        211,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        211,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        211,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 92,
+      "pngFrame": 93,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58128,
+      "union": 58128,
+      "sourcePixels": 58128,
+      "renderedPixels": 58128,
+      "declaredPixels": 58128,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        211,
+        216,
+        756,
+        697
+      ],
+      "renderedBBox": [
+        211,
+        216,
+        756,
+        697
+      ],
+      "declaredBBox": [
+        211,
+        216,
+        756,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 93,
+      "pngFrame": 94,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57765,
+      "union": 57765,
+      "sourcePixels": 57765,
+      "renderedPixels": 57765,
+      "declaredPixels": 57765,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        211,
+        217,
+        755,
+        697
+      ],
+      "renderedBBox": [
+        211,
+        217,
+        755,
+        697
+      ],
+      "declaredBBox": [
+        211,
+        217,
+        755,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 94,
+      "pngFrame": 95,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57183,
+      "union": 57183,
+      "sourcePixels": 57183,
+      "renderedPixels": 57183,
+      "declaredPixels": 57183,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        210,
+        217,
+        755,
+        697
+      ],
+      "renderedBBox": [
+        210,
+        217,
+        755,
+        697
+      ],
+      "declaredBBox": [
+        210,
+        217,
+        755,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 95,
+      "pngFrame": 96,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56314,
+      "union": 56314,
+      "sourcePixels": 56314,
+      "renderedPixels": 56314,
+      "declaredPixels": 56314,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        209,
+        218,
+        754,
+        697
+      ],
+      "renderedBBox": [
+        209,
+        218,
+        754,
+        697
+      ],
+      "declaredBBox": [
+        209,
+        218,
+        754,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 96,
+      "pngFrame": 97,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54656,
+      "union": 54656,
+      "sourcePixels": 54656,
+      "renderedPixels": 54656,
+      "declaredPixels": 54656,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        208,
+        219,
+        753,
+        697
+      ],
+      "renderedBBox": [
+        208,
+        219,
+        753,
+        697
+      ],
+      "declaredBBox": [
+        208,
+        219,
+        753,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 97,
+      "pngFrame": 98,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 52260,
+      "union": 52260,
+      "sourcePixels": 52260,
+      "renderedPixels": 52260,
+      "declaredPixels": 52260,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        207,
+        221,
+        752,
+        697
+      ],
+      "renderedBBox": [
+        207,
+        221,
+        752,
+        697
+      ],
+      "declaredBBox": [
+        207,
+        221,
+        752,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 98,
+      "pngFrame": 99,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 50173,
+      "union": 50173,
+      "sourcePixels": 50173,
+      "renderedPixels": 50173,
+      "declaredPixels": 50173,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        206,
+        222,
+        750,
+        697
+      ],
+      "renderedBBox": [
+        206,
+        222,
+        750,
+        697
+      ],
+      "declaredBBox": [
+        206,
+        222,
+        750,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 99,
+      "pngFrame": 100,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 48621,
+      "union": 48621,
+      "sourcePixels": 48621,
+      "renderedPixels": 48621,
+      "declaredPixels": 48621,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        205,
+        224,
+        750,
+        697
+      ],
+      "renderedBBox": [
+        205,
+        224,
+        750,
+        697
+      ],
+      "declaredBBox": [
+        205,
+        224,
+        750,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 100,
+      "pngFrame": 101,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 49081,
+      "union": 49081,
+      "sourcePixels": 49081,
+      "renderedPixels": 49081,
+      "declaredPixels": 49081,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        205,
+        225,
+        750,
+        697
+      ],
+      "renderedBBox": [
+        205,
+        225,
+        750,
+        697
+      ],
+      "declaredBBox": [
+        205,
+        225,
+        750,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 101,
+      "pngFrame": 102,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 48952,
+      "union": 48952,
+      "sourcePixels": 48952,
+      "renderedPixels": 48952,
+      "declaredPixels": 48952,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        206,
+        227,
+        751,
+        697
+      ],
+      "renderedBBox": [
+        206,
+        227,
+        751,
+        697
+      ],
+      "declaredBBox": [
+        206,
+        227,
+        751,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 102,
+      "pngFrame": 103,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 49006,
+      "union": 49006,
+      "sourcePixels": 49006,
+      "renderedPixels": 49006,
+      "declaredPixels": 49006,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        208,
+        228,
+        753,
+        697
+      ],
+      "renderedBBox": [
+        208,
+        228,
+        753,
+        697
+      ],
+      "declaredBBox": [
+        208,
+        228,
+        753,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 103,
+      "pngFrame": 104,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 47874,
+      "union": 47874,
+      "sourcePixels": 47874,
+      "renderedPixels": 47874,
+      "declaredPixels": 47874,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        211,
+        228,
+        755,
+        697
+      ],
+      "renderedBBox": [
+        211,
+        228,
+        755,
+        697
+      ],
+      "declaredBBox": [
+        211,
+        228,
+        755,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 104,
+      "pngFrame": 105,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 46075,
+      "union": 46075,
+      "sourcePixels": 46075,
+      "renderedPixels": 46075,
+      "declaredPixels": 46075,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        216,
+        228,
+        757,
+        697
+      ],
+      "renderedBBox": [
+        216,
+        228,
+        757,
+        697
+      ],
+      "declaredBBox": [
+        216,
+        228,
+        757,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 105,
+      "pngFrame": 106,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 44732,
+      "union": 44732,
+      "sourcePixels": 44732,
+      "renderedPixels": 44732,
+      "declaredPixels": 44732,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        266,
+        226,
+        714,
+        697
+      ],
+      "renderedBBox": [
+        266,
+        226,
+        714,
+        697
+      ],
+      "declaredBBox": [
+        266,
+        226,
+        714,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 106,
+      "pngFrame": 107,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 43025,
+      "union": 43025,
+      "sourcePixels": 43025,
+      "renderedPixels": 43025,
+      "declaredPixels": 43025,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        352,
+        223,
+        674,
+        692
+      ],
+      "renderedBBox": [
+        352,
+        223,
+        674,
+        692
+      ],
+      "declaredBBox": [
+        352,
+        223,
+        674,
+        692
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 107,
+      "pngFrame": 108,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 41604,
+      "union": 41604,
+      "sourcePixels": 41604,
+      "renderedPixels": 41604,
+      "declaredPixels": 41604,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        350,
+        219,
+        678,
+        694
+      ],
+      "renderedBBox": [
+        350,
+        219,
+        678,
+        694
+      ],
+      "declaredBBox": [
+        350,
+        219,
+        678,
+        694
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 108,
+      "pngFrame": 109,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 41227,
+      "union": 41227,
+      "sourcePixels": 41227,
+      "renderedPixels": 41227,
+      "declaredPixels": 41227,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        315,
+        214,
+        689,
+        697
+      ],
+      "renderedBBox": [
+        315,
+        214,
+        689,
+        697
+      ],
+      "declaredBBox": [
+        315,
+        214,
+        689,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 109,
+      "pngFrame": 110,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 38875,
+      "union": 38875,
+      "sourcePixels": 38875,
+      "renderedPixels": 38875,
+      "declaredPixels": 38875,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        285,
+        209,
+        727,
+        697
+      ],
+      "renderedBBox": [
+        285,
+        209,
+        727,
+        697
+      ],
+      "declaredBBox": [
+        285,
+        209,
+        727,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 110,
+      "pngFrame": 111,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 34483,
+      "union": 34483,
+      "sourcePixels": 34483,
+      "renderedPixels": 34483,
+      "declaredPixels": 34483,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        264,
+        205,
+        755,
+        697
+      ],
+      "renderedBBox": [
+        264,
+        205,
+        755,
+        697
+      ],
+      "declaredBBox": [
+        264,
+        205,
+        755,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 111,
+      "pngFrame": 112,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 28992,
+      "union": 28992,
+      "sourcePixels": 28992,
+      "renderedPixels": 28992,
+      "declaredPixels": 28992,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        252,
+        196,
+        774,
+        679
+      ],
+      "renderedBBox": [
+        252,
+        196,
+        774,
+        679
+      ],
+      "declaredBBox": [
+        252,
+        196,
+        774,
+        679
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 112,
+      "pngFrame": 113,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 19648,
+      "union": 19648,
+      "sourcePixels": 19648,
+      "renderedPixels": 19648,
+      "declaredPixels": 19648,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        247,
+        179,
+        784,
+        648
+      ],
+      "renderedBBox": [
+        247,
+        179,
+        784,
+        648
+      ],
+      "declaredBBox": [
+        247,
+        179,
+        784,
+        648
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 113,
+      "pngFrame": 114,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 13773,
+      "union": 13773,
+      "sourcePixels": 13773,
+      "renderedPixels": 13773,
+      "declaredPixels": 13773,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        246,
+        165,
+        789,
+        646
+      ],
+      "renderedBBox": [
+        246,
+        165,
+        789,
+        646
+      ],
+      "declaredBBox": [
+        246,
+        165,
+        789,
+        646
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 114,
+      "pngFrame": 115,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 5859,
+      "union": 5859,
+      "sourcePixels": 5859,
+      "renderedPixels": 5859,
+      "declaredPixels": 5859,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        247,
+        168,
+        792,
+        653
+      ],
+      "renderedBBox": [
+        247,
+        168,
+        792,
+        653
+      ],
+      "declaredBBox": [
+        247,
+        168,
+        792,
+        653
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 115,
+      "pngFrame": 116,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 3182,
+      "union": 3182,
+      "sourcePixels": 3182,
+      "renderedPixels": 3182,
+      "declaredPixels": 3182,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        247,
+        175,
+        792,
+        655
+      ],
+      "renderedBBox": [
+        247,
+        175,
+        792,
+        655
+      ],
+      "declaredBBox": [
+        247,
+        175,
+        792,
+        655
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "cycling",
+      "frame": 116,
+      "pngFrame": 117,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 0,
+      "union": 0,
+      "sourcePixels": 0,
+      "renderedPixels": 0,
+      "declaredPixels": 0,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderedBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "declaredBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "bboxMatch": true,
+      "pathEmpty": true
+    },
+    {
+      "sport": "cycling",
+      "frame": 117,
+      "pngFrame": 118,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 0,
+      "union": 0,
+      "sourcePixels": 0,
+      "renderedPixels": 0,
+      "declaredPixels": 0,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderedBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "declaredBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "bboxMatch": true,
+      "pathEmpty": true
+    }
+  ]
+}

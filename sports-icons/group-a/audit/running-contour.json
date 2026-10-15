@@ -1,0 +1,4650 @@
+{
+  "schemaVersion": 1,
+  "group": "a",
+  "sport": "running",
+  "passed": true,
+  "frames": 117,
+  "worstIoU": 1,
+  "mismatchedFrames": 0,
+  "method": {
+    "renderer": "Real Google Chrome headless Canvas 2D / Path2D",
+    "fillRule": "evenodd",
+    "scale": 1,
+    "threshold": "R < 133 && B - R > 12 (both decoded reference PNG and rendered vector)",
+    "pathBackground": "#ffffff",
+    "colorSpace": "srgb",
+    "sourceCrop": {
+      "width": 960,
+      "height": 960
+    },
+    "bboxConvention": "[xmin, ymin, xmaxExclusive, ymaxExclusive]; blank = [0,0,0,0]",
+    "frameIndexBase": 0,
+    "pngFileIndexBase": 1,
+    "blankPairIoU": 1,
+    "independence": "No contour-generation code imported; Chromium independently rasterizes SVG path strings.",
+    "scope": "Binary foreground silhouette only. Does not assert RGB, antialiasing, original-video extraction accuracy, semantic sport identity, or device performance."
+  },
+  "provenance": {
+    "generatedAt": "2026-10-15T06:21:12.628Z",
+    "browserVersion": "155.0.8059.40",
+    "executablePath": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "nodeVersion": "v24.21.0",
+    "scriptSha256": "31e8fffad57e6b82381fa5930bc4d4fd2413b831696090c975497ccd90b7d0c4",
+    "manifestSha256": "9eed22c4bb37a6a583c3470c727aad7518cb2d10b5d30168e203d1dd241dff60",
+    "smoke": {
+      "foreground": 12,
+      "expected": 12,
+      "path2DEvenodd": true,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+    }
+  },
+  "sourceData": {
+    "json": {
+      "file": "reference-frames/running.json",
+      "bytes": 1010410,
+      "sha256": "dbdb583ab8755ef6ce121933bca95a9d91cf049f1ffaa7560f2564f1c3b744ca"
+    },
+    "pngs": [
+      {
+        "file": "reference-frames/running/001.png",
+        "bytes": 4769,
+        "sha256": "bf9b8d640c64780cad6c31b7131571295374dc9a2381361bf94ff1dae152776f"
+      },
+      {
+        "file": "reference-frames/running/002.png",
+        "bytes": 11240,
+        "sha256": "2d428e41c2f20cd922ea4f1952b976a5347835585528b3faa9fb8ea2f6a3f313"
+      },
+      {
+        "file": "reference-frames/running/003.png",
+        "bytes": 16287,
+        "sha256": "fcd670680e5952042131d08deabcc7c3ca059ee9cf2fcda3b1e933f86afff5a2"
+      },
+      {
+        "file": "reference-frames/running/004.png",
+        "bytes": 19349,
+        "sha256": "d6b2009e3075fe2d6d4df312537a06b936f33d5a5c8aff28d9b8626fb49407fc"
+      },
+      {
+        "file": "reference-frames/running/005.png",
+        "bytes": 19603,
+        "sha256": "bb6df187e3eae860529c0e614606825049211e8ae0f9b99a6797a9595765d969"
+      },
+      {
+        "file": "reference-frames/running/006.png",
+        "bytes": 21935,
+        "sha256": "49b9fbe5571645649827155d797aa4ebbe43706666cce7a91e13ab6a096d9a1a"
+      },
+      {
+        "file": "reference-frames/running/007.png",
+        "bytes": 27939,
+        "sha256": "7ea37a7adcab5ad93053131e943d2e2d91b420b877269a707ffb249235ec2d1f"
+      },
+      {
+        "file": "reference-frames/running/008.png",
+        "bytes": 30142,
+        "sha256": "15ef2c74a0f9b1b8a328489142e562133e6faa16ba312b8d9d64a40488e2f179"
+      },
+      {
+        "file": "reference-frames/running/009.png",
+        "bytes": 33792,
+        "sha256": "3e9abb81abe8e0800ac95af8a3026ba0237792d8e7a919c7007ada2b56c62a84"
+      },
+      {
+        "file": "reference-frames/running/010.png",
+        "bytes": 35427,
+        "sha256": "a65f9ea6b4180d5fa83db75ad4c10ca16cb87a3eca1f2f0af23c8dd998669b4f"
+      },
+      {
+        "file": "reference-frames/running/011.png",
+        "bytes": 38449,
+        "sha256": "23fbbb888dee7a86c8dec1845373ad409724cd7e1dc490457fd11a11a3e479fa"
+      },
+      {
+        "file": "reference-frames/running/012.png",
+        "bytes": 42687,
+        "sha256": "aa0a9c8fb180bcee9ff061ab289757f15c1a908457b7861a3475c0e5a63ab563"
+      },
+      {
+        "file": "reference-frames/running/013.png",
+        "bytes": 43957,
+        "sha256": "5af33a12b73d739ae7ec063381af083980fb393e29d9aa89bc113b1af88064e6"
+      },
+      {
+        "file": "reference-frames/running/014.png",
+        "bytes": 43588,
+        "sha256": "ba4ab047abed58ac8c6d5948e7ada092a1486e55d462f15db50b31378e4ceba1"
+      },
+      {
+        "file": "reference-frames/running/015.png",
+        "bytes": 45271,
+        "sha256": "3393e765582503b82fbcaaf3b381f399ad2ba25ad72b229d47b558b699ef49d4"
+      },
+      {
+        "file": "reference-frames/running/016.png",
+        "bytes": 46142,
+        "sha256": "7c6fffcf137cfb3317874fa6ce10ad9db180144001bd66acf47b8becd5e30cdb"
+      },
+      {
+        "file": "reference-frames/running/017.png",
+        "bytes": 50788,
+        "sha256": "4482752f1be78c789c5e33fab0fd72409b0aaeb01c324779edec8b89d26244db"
+      },
+      {
+        "file": "reference-frames/running/018.png",
+        "bytes": 53553,
+        "sha256": "1450866d831bc46d8429e37e7f25c3f1dcaa3247a0359118abf3d45e1070522c"
+      },
+      {
+        "file": "reference-frames/running/019.png",
+        "bytes": 55541,
+        "sha256": "49f234c59b91079cfb725c37704c303078b908de11e416ab0f26d94b8e378eb1"
+      },
+      {
+        "file": "reference-frames/running/020.png",
+        "bytes": 56345,
+        "sha256": "2cb399900e43b1d54ee3d5923feae3393a7d86aaf9a8f8be0645c66476a94bb6"
+      },
+      {
+        "file": "reference-frames/running/021.png",
+        "bytes": 56431,
+        "sha256": "1659e157d4f5297a6450a7e7f11deb77bd66f8b484a5bfa84e26df0a196e5f01"
+      },
+      {
+        "file": "reference-frames/running/022.png",
+        "bytes": 60249,
+        "sha256": "781fab5eb5465750dd9e58a3381b0547e81a724cebb4f8df39dddfc5d949b5d2"
+      },
+      {
+        "file": "reference-frames/running/023.png",
+        "bytes": 61929,
+        "sha256": "6b6282b99703df0773f517d02a4813658279f5a305dfe0020a7e3dea6c354327"
+      },
+      {
+        "file": "reference-frames/running/024.png",
+        "bytes": 61563,
+        "sha256": "a8b4c4d8744734f584e438fc1d40f92772e12097403dba4e47f51f941e2b32d5"
+      },
+      {
+        "file": "reference-frames/running/025.png",
+        "bytes": 59595,
+        "sha256": "6f87e54e5649a3a0710d1070225ba726c1fe46a3c31dfb742002ce34bd8bdf79"
+      },
+      {
+        "file": "reference-frames/running/026.png",
+        "bytes": 60000,
+        "sha256": "2d8cc5fce6a37919cf86b2c8444f6e81f388e003a5f073dacde5fc8fa791ac01"
+      },
+      {
+        "file": "reference-frames/running/027.png",
+        "bytes": 55458,
+        "sha256": "31a304f3aa2fa8ee92987992973f74cd0802d032ac1223e5ec3e133faa98bdb4"
+      },
+      {
+        "file": "reference-frames/running/028.png",
+        "bytes": 52929,
+        "sha256": "3a8fced9a99cfc49361d904f00bb6e8cf0d66609546faee39eb6fff984c44e72"
+      },
+      {
+        "file": "reference-frames/running/029.png",
+        "bytes": 57579,
+        "sha256": "da58ed2c6ecd5ebfd9b2c5d4bccab426a6b2f11e729423a6f38d08b3576a23de"
+      },
+      {
+        "file": "reference-frames/running/030.png",
+        "bytes": 64407,
+        "sha256": "9e6af860e4c155ae1ad530dcfdf921a2509f8fc009fa4b0694cc34c290435de3"
+      },
+      {
+        "file": "reference-frames/running/031.png",
+        "bytes": 68892,
+        "sha256": "e8f2bd414b50759fc21ea8e51f221248113f3f6087639e4e806d8faebff20ba3"
+      },
+      {
+        "file": "reference-frames/running/032.png",
+        "bytes": 63278,
+        "sha256": "ec960598ca552000eb855e105f3ef62becd936f17bad16fdd64ef738753e3c52"
+      },
+      {
+        "file": "reference-frames/running/033.png",
+        "bytes": 61456,
+        "sha256": "38048aeaa4aa60b0f92809337f198b02c7f0c08139c3dde380e6bfaa9f7d1c6a"
+      },
+      {
+        "file": "reference-frames/running/034.png",
+        "bytes": 64032,
+        "sha256": "e1eab6237b108c560bf9e9a840184f759e308ca2ee06941e71c364305aa98d4b"
+      },
+      {
+        "file": "reference-frames/running/035.png",
+        "bytes": 66284,
+        "sha256": "708463fcd30e8f86974e735b8828e9ca9266987f1bf402555f8ac97dbebe07c6"
+      },
+      {
+        "file": "reference-frames/running/036.png",
+        "bytes": 71676,
+        "sha256": "813c397e9d30b3f60bee1384c6e54b395e969dc1a6669284dad4af34760b96e3"
+      },
+      {
+        "file": "reference-frames/running/037.png",
+        "bytes": 71666,
+        "sha256": "a3648fd58c4f0c91bc6754ba08a60ab9322a3c1788095e4be953a8af0fc00889"
+      },
+      {
+        "file": "reference-frames/running/038.png",
+        "bytes": 71698,
+        "sha256": "674e5a0de00e7db1ff9d1e6b79d858b385400f916eb81b9ed1cdf536e558a56f"
+      },
+      {
+        "file": "reference-frames/running/039.png",
+        "bytes": 71506,
+        "sha256": "237e942abbe3304d94b1ce4eb32c18481395f3ce874e6ce04b3e9df9ccd0e372"
+      },
+      {
+        "file": "reference-frames/running/040.png",
+        "bytes": 71368,
+        "sha256": "f36522899dc5f1b19d15d29602bb1d021b90724d29fadb90ec6b33cbaa9a6281"
+      },
+      {
+        "file": "reference-frames/running/041.png",
+        "bytes": 71253,
+        "sha256": "61be92ddfd8136dc9c58ec61a57824a3e41a70456bd3ee25a1e2f562f430cb75"
+      },
+      {
+        "file": "reference-frames/running/042.png",
+        "bytes": 72027,
+        "sha256": "d16dd44e6dbb40cb5631d713e80d8b0b84f14433f97e58438351565f14fc2526"
+      },
+      {
+        "file": "reference-frames/running/043.png",
+        "bytes": 72335,
+        "sha256": "e27b50d9741843151b2c2b502a8b9278a2178b789b139446a5b2be23c1934c4f"
+      },
+      {
+        "file": "reference-frames/running/044.png",
+        "bytes": 73045,
+        "sha256": "bfe67738fd21cf987d3f1095215789dd685a357f00f43f152a619b96e65abf35"
+      },
+      {
+        "file": "reference-frames/running/045.png",
+        "bytes": 72784,
+        "sha256": "03a6714736eab4873c9f30c36a7bc5287d283c8bf94b73873ea482acd2464068"
+      },
+      {
+        "file": "reference-frames/running/046.png",
+        "bytes": 73180,
+        "sha256": "b17cf2372e3d19b718feb7283e38bc4691b5f87b7d76bcae778258bdd710cdea"
+      },
+      {
+        "file": "reference-frames/running/047.png",
+        "bytes": 72976,
+        "sha256": "bbea29eeb8b5edafb7ee45492a268a9e2a447a77218998019be5935739864673"
+      },
+      {
+        "file": "reference-frames/running/048.png",
+        "bytes": 73117,
+        "sha256": "be67792285c323ea40c167f892652a7cdb5de983f8806c097aa543b01a27b605"
+      },
+      {
+        "file": "reference-frames/running/049.png",
+        "bytes": 72743,
+        "sha256": "0086d7f3454adf3ca8d1126f75553c455448620c09358f9c4d361dfc48d5e6b8"
+      },
+      {
+        "file": "reference-frames/running/050.png",
+        "bytes": 73319,
+        "sha256": "132b4ed37a8857cb88b08557e61a3a3ec25d28fdcca6fedff3bfae016bd22aef"
+      },
+      {
+        "file": "reference-frames/running/051.png",
+        "bytes": 72891,
+        "sha256": "fce64496156a4035bdfaaf950230cbe6af11e76d3eb284d7dbc4773e6a9cfba1"
+      },
+      {
+        "file": "reference-frames/running/052.png",
+        "bytes": 72901,
+        "sha256": "8376d036c4319fa5e955eb3567a90670b8def3e0b93168605b31eea0c45d4e7e"
+      },
+      {
+        "file": "reference-frames/running/053.png",
+        "bytes": 72905,
+        "sha256": "1f49ce898e6780456ce1d0521c2db55d2e30ab0d246e815311464060b7f02d30"
+      },
+      {
+        "file": "reference-frames/running/054.png",
+        "bytes": 73143,
+        "sha256": "32644c01f623a3e5d981b7eab7ce70724d647fbb3bd5c3f1cd52dd006fa0ab10"
+      },
+      {
+        "file": "reference-frames/running/055.png",
+        "bytes": 73063,
+        "sha256": "3631355706ccd2f6b76848a18732b64c49c1efddd5401b0c09dda91fcdb09ff6"
+      },
+      {
+        "file": "reference-frames/running/056.png",
+        "bytes": 73094,
+        "sha256": "629d2e31a0324ada6186d7e1d51485ded39aba41f140df41cdbebe177b400078"
+      },
+      {
+        "file": "reference-frames/running/057.png",
+        "bytes": 73080,
+        "sha256": "8839a2cb028ebec4fb9e90a209e94e681c9bc6a5f5bcf2f11abbd5f47dd3c50a"
+      },
+      {
+        "file": "reference-frames/running/058.png",
+        "bytes": 73089,
+        "sha256": "8cf1a6c29ab2e2c70ef6c6fd12122315118951ef84282a501d6f7292bb1eda2e"
+      },
+      {
+        "file": "reference-frames/running/059.png",
+        "bytes": 73035,
+        "sha256": "365ce5635b6d4d1954ef9dfba521a1094546c1e0293e257d5ad43e86bface5d5"
+      },
+      {
+        "file": "reference-frames/running/060.png",
+        "bytes": 73030,
+        "sha256": "8935af59542c5acb6cc491def6437af33ef506002cb4824401e2b509f79dd2e3"
+      },
+      {
+        "file": "reference-frames/running/061.png",
+        "bytes": 73029,
+        "sha256": "6403b8d9c0a4678dd0130084f559b4f7f3ec45be54a78fb7bdaad325dc696303"
+      },
+      {
+        "file": "reference-frames/running/062.png",
+        "bytes": 73113,
+        "sha256": "cd3b608cc9aa598805f20ae21c02e3ac638a9a49d014ce3d82e878a11163b830"
+      },
+      {
+        "file": "reference-frames/running/063.png",
+        "bytes": 73031,
+        "sha256": "c6437b947f3ba885115edd26a3beeedc17b8b1141178c5373469b8b4e7e8e96d"
+      },
+      {
+        "file": "reference-frames/running/064.png",
+        "bytes": 73034,
+        "sha256": "125df38e1095c6a55e642d81bfe8070bba775669c5f78292d19b4e528e076bf9"
+      },
+      {
+        "file": "reference-frames/running/065.png",
+        "bytes": 73023,
+        "sha256": "25385d52af9160eb6f8bf2dcfa9d3e5fb9e83ae67cd2b214f81bf0f1ca5d46ba"
+      },
+      {
+        "file": "reference-frames/running/066.png",
+        "bytes": 73139,
+        "sha256": "e8b9933fd2457ba5dca43e872ec4f38819f93d1cb0775bdbe856a8ffd4ca2c49"
+      },
+      {
+        "file": "reference-frames/running/067.png",
+        "bytes": 73065,
+        "sha256": "227a03a24eb8e02b60097757465510f2ca5988cdcc219d4acde11956eeac4767"
+      },
+      {
+        "file": "reference-frames/running/068.png",
+        "bytes": 73062,
+        "sha256": "d936b3ae866a224d150f74f628a43418151d5df7ce2fed585ffa2275c844a5d6"
+      },
+      {
+        "file": "reference-frames/running/069.png",
+        "bytes": 73059,
+        "sha256": "e0ab0c28522587f414b522d4c8e8553fe22db96085a67ea0710585d02d314dc8"
+      },
+      {
+        "file": "reference-frames/running/070.png",
+        "bytes": 73131,
+        "sha256": "2ef028e4a69ef391dc037130be91339a4869e19a8b79749e23a4b73aa0b4ec3f"
+      },
+      {
+        "file": "reference-frames/running/071.png",
+        "bytes": 73055,
+        "sha256": "c74e6abd9a3ccf7ab15f6b6483fb4da98ef672b37428687e654ffb02bc811d2a"
+      },
+      {
+        "file": "reference-frames/running/072.png",
+        "bytes": 73056,
+        "sha256": "0656da8f52206ab76e938702f9c5e8a06554aef3cc64ac84766c3b448efe4dbd"
+      },
+      {
+        "file": "reference-frames/running/073.png",
+        "bytes": 73055,
+        "sha256": "c74e6abd9a3ccf7ab15f6b6483fb4da98ef672b37428687e654ffb02bc811d2a"
+      },
+      {
+        "file": "reference-frames/running/074.png",
+        "bytes": 73125,
+        "sha256": "d71d4c2ca0aa8d6ecd5ae20d1fb29fcda3941fa866d6109bb5191811fa7cd12a"
+      },
+      {
+        "file": "reference-frames/running/075.png",
+        "bytes": 73063,
+        "sha256": "2a9e0ce6fe81814fef595dd010325dde339ea7ce6bbc1fcc850228e39139d3da"
+      },
+      {
+        "file": "reference-frames/running/076.png",
+        "bytes": 73065,
+        "sha256": "46700b601a2e07ff23a03e64c53c57ae32c2d417560700dffb0d13208e751c1e"
+      },
+      {
+        "file": "reference-frames/running/077.png",
+        "bytes": 73063,
+        "sha256": "2a9e0ce6fe81814fef595dd010325dde339ea7ce6bbc1fcc850228e39139d3da"
+      },
+      {
+        "file": "reference-frames/running/078.png",
+        "bytes": 73119,
+        "sha256": "c120f0d95e567dee0f44544b4de65e3ebf33428a774403642619eeafaae309d4"
+      },
+      {
+        "file": "reference-frames/running/079.png",
+        "bytes": 73049,
+        "sha256": "0f8d1c0a3d7ff14a29ed1cb70f285f03909528bbf4ea1b42b5132a2ed4ab65d6"
+      },
+      {
+        "file": "reference-frames/running/080.png",
+        "bytes": 73051,
+        "sha256": "1de6b5318ac183778549bfe6af2131916b0336fd808b81f5e91dab703132c5fd"
+      },
+      {
+        "file": "reference-frames/running/081.png",
+        "bytes": 73046,
+        "sha256": "73488b38d8a9726cd404482941acc6fd06eb18b38d7a0749ad7ce39238fbc479"
+      },
+      {
+        "file": "reference-frames/running/082.png",
+        "bytes": 73059,
+        "sha256": "9d643b0d969e5155271894419ff87097d4f59e73f4bd9bc2c77c55015d606443"
+      },
+      {
+        "file": "reference-frames/running/083.png",
+        "bytes": 73021,
+        "sha256": "7d820033cf1fe1ee46b0f8d92f67a4bb73e2ea126a98543258169e9ef137c857"
+      },
+      {
+        "file": "reference-frames/running/084.png",
+        "bytes": 73010,
+        "sha256": "b8272377fe13b8787755b6c49beb8ee541f827ed07bd217812c513991deeee45"
+      },
+      {
+        "file": "reference-frames/running/085.png",
+        "bytes": 73008,
+        "sha256": "455199e6be49c0bd846c12cc12c645b7c52f4c1b28ff3a17a78d2dd711032eb9"
+      },
+      {
+        "file": "reference-frames/running/086.png",
+        "bytes": 73094,
+        "sha256": "cb6fdff4c13d70c8b180cbeef493f392951a0ed1c14db33bbb1cc9e4b5dbdf3f"
+      },
+      {
+        "file": "reference-frames/running/087.png",
+        "bytes": 73044,
+        "sha256": "63e27d97da8e659ab618559e154f25a27c3dac305ada6541a2a9f1dfa46e4fbb"
+      },
+      {
+        "file": "reference-frames/running/088.png",
+        "bytes": 73041,
+        "sha256": "eae4515a6b6d6cfc3e86fd7495270df04101c01e2fed7d3e0723727c8deca49f"
+      },
+      {
+        "file": "reference-frames/running/089.png",
+        "bytes": 73044,
+        "sha256": "63e27d97da8e659ab618559e154f25a27c3dac305ada6541a2a9f1dfa46e4fbb"
+      },
+      {
+        "file": "reference-frames/running/090.png",
+        "bytes": 73120,
+        "sha256": "c56b97b7781a18476d2b15c5a65f640f943b3bc60bde6b8bd16968defb78f88c"
+      },
+      {
+        "file": "reference-frames/running/091.png",
+        "bytes": 74673,
+        "sha256": "e59d3820aafa6b437a9920947600a6f57a70240352d4f456454a31e5acf1b82b"
+      },
+      {
+        "file": "reference-frames/running/092.png",
+        "bytes": 77899,
+        "sha256": "4b6580b08627cb439153193ba01a41458bd9a6d495a81b0921db1fab6aea6336"
+      },
+      {
+        "file": "reference-frames/running/093.png",
+        "bytes": 78679,
+        "sha256": "a127c35fecfcfc095df8a29c7cfbf5d8d8ebdfef6e519a704fb95044432d522d"
+      },
+      {
+        "file": "reference-frames/running/094.png",
+        "bytes": 78093,
+        "sha256": "4dffdf066272f28c4c0ab8fa1e5d0331645e06bf0c89b0dcbd75a98316c50ca2"
+      },
+      {
+        "file": "reference-frames/running/095.png",
+        "bytes": 78620,
+        "sha256": "dd070272fa9a90bedb99f267cf0dd1854f98fee6f7783386b440dd5e784d938a"
+      },
+      {
+        "file": "reference-frames/running/096.png",
+        "bytes": 75065,
+        "sha256": "04fab360a2c8f4e5a3d5e54fbe4b00af81129747790b7227b29acba7082a1331"
+      },
+      {
+        "file": "reference-frames/running/097.png",
+        "bytes": 76261,
+        "sha256": "038c1078f32755e93c43d879bf0da211362daaba4ecde0fc27173820a7428dad"
+      },
+      {
+        "file": "reference-frames/running/098.png",
+        "bytes": 73853,
+        "sha256": "4514271de09117d69cf133403d72236eaf1614952e48945318120182792a9e91"
+      },
+      {
+        "file": "reference-frames/running/099.png",
+        "bytes": 71364,
+        "sha256": "95812baa000ba71c4c357931043756ca31c7b6aa6e1bb630bacc4095aeddc9c6"
+      },
+      {
+        "file": "reference-frames/running/100.png",
+        "bytes": 71462,
+        "sha256": "5f7749628fb1e045684c8b47d57ca1134c4f9239d74dd2d2a7a25e371f4749d3"
+      },
+      {
+        "file": "reference-frames/running/101.png",
+        "bytes": 67085,
+        "sha256": "de40a78590a0591e95eb48707a503173df993411783931e5254dee4b9cdd9480"
+      },
+      {
+        "file": "reference-frames/running/102.png",
+        "bytes": 58219,
+        "sha256": "9ab556f65cd5f4a3600d0ea7d2e493b7838ec88736f3bf49eb9de54fe7ccd1f3"
+      },
+      {
+        "file": "reference-frames/running/103.png",
+        "bytes": 51550,
+        "sha256": "87389f7f94829a818d06e6ecb9f5111927accd7ab959a61b2bc7ba9c5e152d9d"
+      },
+      {
+        "file": "reference-frames/running/104.png",
+        "bytes": 55482,
+        "sha256": "8cbc79e55a93258dd80cceb458e2d47db62656dc93269d5a36d11ba42d6a06ed"
+      },
+      {
+        "file": "reference-frames/running/105.png",
+        "bytes": 55155,
+        "sha256": "7fe0cd0edff4f8067887162d3330000f60e5ba79e3a68353bd083c2cf0931ddb"
+      },
+      {
+        "file": "reference-frames/running/106.png",
+        "bytes": 55300,
+        "sha256": "487d5c7d1279e6fa0f3761f7c98936255122b13cacbee6c434b1cf32c7a2599f"
+      },
+      {
+        "file": "reference-frames/running/107.png",
+        "bytes": 56421,
+        "sha256": "6097df340bf3bf0ffa13336fcce113cde678dc7825cfa7a12769341d1b78a5f4"
+      },
+      {
+        "file": "reference-frames/running/108.png",
+        "bytes": 60109,
+        "sha256": "a23d7a3c6678ae3da456bd1acdf0994c1194cbd9aedb5621247d9bf95be49883"
+      },
+      {
+        "file": "reference-frames/running/109.png",
+        "bytes": 62352,
+        "sha256": "6845fa63d5481653f9d9b8debf2044a11a4586861b1868afa850c26c86f0889f"
+      },
+      {
+        "file": "reference-frames/running/110.png",
+        "bytes": 58843,
+        "sha256": "027e904be88ab506efe834539285cb4cf0e6a20620b637548881c48945a770b7"
+      },
+      {
+        "file": "reference-frames/running/111.png",
+        "bytes": 54812,
+        "sha256": "2f506227b99a3a8354a1835ac0b626cae6ae30bdba2fe2df2acb864e6e6632a3"
+      },
+      {
+        "file": "reference-frames/running/112.png",
+        "bytes": 44985,
+        "sha256": "3ec6ad6d394ddfd00776248b8c4519d568b924d6bd08fd9cb0099f23baa7bafc"
+      },
+      {
+        "file": "reference-frames/running/113.png",
+        "bytes": 35097,
+        "sha256": "21375f24db580ebad96026ce1b387815e82bc254678b430362d5b6ecbfec9303"
+      },
+      {
+        "file": "reference-frames/running/114.png",
+        "bytes": 27245,
+        "sha256": "7d7bea3681113347515e9177c94fa27adaafb9b157181a73ea0af2c2675f892d"
+      },
+      {
+        "file": "reference-frames/running/115.png",
+        "bytes": 23012,
+        "sha256": "949553eccb519822b9438dd2c5430fd2f1c08374a1979576fff7082d0064894e"
+      },
+      {
+        "file": "reference-frames/running/116.png",
+        "bytes": 7981,
+        "sha256": "2d94f80e674e179de33793934ff521ec39e1a1b45fa99cfc62859f0bcbf1d8e4"
+      },
+      {
+        "file": "reference-frames/running/117.png",
+        "bytes": 7863,
+        "sha256": "947f5740ba1d6353b47e03dcf28ad0407aecb9bfe5c9192aedf0f00cfe043bbc"
+      }
+    ],
+    "orderedPNGSetSha256": "4217623478ce072b260e973c88081f6e1ee9cde01a821e45b3db1f850635b234"
+  },
+  "source": {
+    "start": 5.839166666666666,
+    "end": 9.743066666666667,
+    "fps": 29.97002997002997,
+    "frameCount": 117,
+    "duration": 3.9039,
+    "sourceReference": "https://cekai.us/works/the-tokyo-2020-kinetic-pictograms/"
+  },
+  "checks": {
+    "frameCountMatches": true,
+    "pixelsMismatchFrames": [],
+    "bboxMismatchFrames": [],
+    "anchor": {
+      "index": 58,
+      "valid": true,
+      "pixels": 56976,
+      "bbox": [
+        195,
+        255,
+        770,
+        681
+      ]
+    },
+    "firstFrameBlank": true,
+    "lastFrameBlank": true,
+    "blankFrameIndices": [
+      0,
+      115,
+      116
+    ],
+    "emptyPathAgreesWithBlank": true,
+    "pngCountMatches": true,
+    "manifestFrameCountMatches": true
+  },
+  "results": [
+    {
+      "sport": "running",
+      "frame": 0,
+      "pngFrame": 1,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 0,
+      "union": 0,
+      "sourcePixels": 0,
+      "renderedPixels": 0,
+      "declaredPixels": 0,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderedBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "declaredBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "bboxMatch": true,
+      "pathEmpty": true
+    },
+    {
+      "sport": "running",
+      "frame": 1,
+      "pngFrame": 2,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 1314,
+      "union": 1314,
+      "sourcePixels": 1314,
+      "renderedPixels": 1314,
+      "declaredPixels": 1314,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        415,
+        489,
+        543,
+        679
+      ],
+      "renderedBBox": [
+        415,
+        489,
+        543,
+        679
+      ],
+      "declaredBBox": [
+        415,
+        489,
+        543,
+        679
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 2,
+      "pngFrame": 3,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 5022,
+      "union": 5022,
+      "sourcePixels": 5022,
+      "renderedPixels": 5022,
+      "declaredPixels": 5022,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        367,
+        439,
+        544,
+        678
+      ],
+      "renderedBBox": [
+        367,
+        439,
+        544,
+        678
+      ],
+      "declaredBBox": [
+        367,
+        439,
+        544,
+        678
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 3,
+      "pngFrame": 4,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 7316,
+      "union": 7316,
+      "sourcePixels": 7316,
+      "renderedPixels": 7316,
+      "declaredPixels": 7316,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        360,
+        429,
+        544,
+        677
+      ],
+      "renderedBBox": [
+        360,
+        429,
+        544,
+        677
+      ],
+      "declaredBBox": [
+        360,
+        429,
+        544,
+        677
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 4,
+      "pngFrame": 5,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 8326,
+      "union": 8326,
+      "sourcePixels": 8326,
+      "renderedPixels": 8326,
+      "declaredPixels": 8326,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        356,
+        420,
+        545,
+        677
+      ],
+      "renderedBBox": [
+        356,
+        420,
+        545,
+        677
+      ],
+      "declaredBBox": [
+        356,
+        420,
+        545,
+        677
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 5,
+      "pngFrame": 6,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 9425,
+      "union": 9425,
+      "sourcePixels": 9425,
+      "renderedPixels": 9425,
+      "declaredPixels": 9425,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        355,
+        412,
+        546,
+        677
+      ],
+      "renderedBBox": [
+        355,
+        412,
+        546,
+        677
+      ],
+      "declaredBBox": [
+        355,
+        412,
+        546,
+        677
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 6,
+      "pngFrame": 7,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 12187,
+      "union": 12187,
+      "sourcePixels": 12187,
+      "renderedPixels": 12187,
+      "declaredPixels": 12187,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        355,
+        372,
+        620,
+        677
+      ],
+      "renderedBBox": [
+        355,
+        372,
+        620,
+        677
+      ],
+      "declaredBBox": [
+        355,
+        372,
+        620,
+        677
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 7,
+      "pngFrame": 8,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 14623,
+      "union": 14623,
+      "sourcePixels": 14623,
+      "renderedPixels": 14623,
+      "declaredPixels": 14623,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        355,
+        371,
+        625,
+        677
+      ],
+      "renderedBBox": [
+        355,
+        371,
+        625,
+        677
+      ],
+      "declaredBBox": [
+        355,
+        371,
+        625,
+        677
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 8,
+      "pngFrame": 9,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 17606,
+      "union": 17606,
+      "sourcePixels": 17606,
+      "renderedPixels": 17606,
+      "declaredPixels": 17606,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        356,
+        358,
+        629,
+        677
+      ],
+      "renderedBBox": [
+        356,
+        358,
+        629,
+        677
+      ],
+      "declaredBBox": [
+        356,
+        358,
+        629,
+        677
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 9,
+      "pngFrame": 10,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 20397,
+      "union": 20397,
+      "sourcePixels": 20397,
+      "renderedPixels": 20397,
+      "declaredPixels": 20397,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        357,
+        348,
+        634,
+        677
+      ],
+      "renderedBBox": [
+        357,
+        348,
+        634,
+        677
+      ],
+      "declaredBBox": [
+        357,
+        348,
+        634,
+        677
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 10,
+      "pngFrame": 11,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 23364,
+      "union": 23364,
+      "sourcePixels": 23364,
+      "renderedPixels": 23364,
+      "declaredPixels": 23364,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        357,
+        340,
+        639,
+        676
+      ],
+      "renderedBBox": [
+        357,
+        340,
+        639,
+        676
+      ],
+      "declaredBBox": [
+        357,
+        340,
+        639,
+        676
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 11,
+      "pngFrame": 12,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 27555,
+      "union": 27555,
+      "sourcePixels": 27555,
+      "renderedPixels": 27555,
+      "declaredPixels": 27555,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        357,
+        330,
+        646,
+        664
+      ],
+      "renderedBBox": [
+        357,
+        330,
+        646,
+        664
+      ],
+      "declaredBBox": [
+        357,
+        330,
+        646,
+        664
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 12,
+      "pngFrame": 13,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 31362,
+      "union": 31362,
+      "sourcePixels": 31362,
+      "renderedPixels": 31362,
+      "declaredPixels": 31362,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        357,
+        320,
+        655,
+        643
+      ],
+      "renderedBBox": [
+        357,
+        320,
+        655,
+        643
+      ],
+      "declaredBBox": [
+        357,
+        320,
+        655,
+        643
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 13,
+      "pngFrame": 14,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 32653,
+      "union": 32653,
+      "sourcePixels": 32653,
+      "renderedPixels": 32653,
+      "declaredPixels": 32653,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        357,
+        310,
+        666,
+        614
+      ],
+      "renderedBBox": [
+        357,
+        310,
+        666,
+        614
+      ],
+      "declaredBBox": [
+        357,
+        310,
+        666,
+        614
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 14,
+      "pngFrame": 15,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 32700,
+      "union": 32700,
+      "sourcePixels": 32700,
+      "renderedPixels": 32700,
+      "declaredPixels": 32700,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        356,
+        301,
+        678,
+        584
+      ],
+      "renderedBBox": [
+        356,
+        301,
+        678,
+        584
+      ],
+      "declaredBBox": [
+        356,
+        301,
+        678,
+        584
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 15,
+      "pngFrame": 16,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 33963,
+      "union": 33963,
+      "sourcePixels": 33963,
+      "renderedPixels": 33963,
+      "declaredPixels": 33963,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        355,
+        292,
+        690,
+        586
+      ],
+      "renderedBBox": [
+        355,
+        292,
+        690,
+        586
+      ],
+      "declaredBBox": [
+        355,
+        292,
+        690,
+        586
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 16,
+      "pngFrame": 17,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 37122,
+      "union": 37122,
+      "sourcePixels": 37122,
+      "renderedPixels": 37122,
+      "declaredPixels": 37122,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        355,
+        280,
+        703,
+        593
+      ],
+      "renderedBBox": [
+        355,
+        280,
+        703,
+        593
+      ],
+      "declaredBBox": [
+        355,
+        280,
+        703,
+        593
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 17,
+      "pngFrame": 18,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 39701,
+      "union": 39701,
+      "sourcePixels": 39701,
+      "renderedPixels": 39701,
+      "declaredPixels": 39701,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        357,
+        270,
+        716,
+        622
+      ],
+      "renderedBBox": [
+        357,
+        270,
+        716,
+        622
+      ],
+      "declaredBBox": [
+        357,
+        270,
+        716,
+        622
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 18,
+      "pngFrame": 19,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 41802,
+      "union": 41802,
+      "sourcePixels": 41802,
+      "renderedPixels": 41802,
+      "declaredPixels": 41802,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        358,
+        262,
+        729,
+        652
+      ],
+      "renderedBBox": [
+        358,
+        262,
+        729,
+        652
+      ],
+      "declaredBBox": [
+        358,
+        262,
+        729,
+        652
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 19,
+      "pngFrame": 20,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 41078,
+      "union": 41078,
+      "sourcePixels": 41078,
+      "renderedPixels": 41078,
+      "declaredPixels": 41078,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        360,
+        256,
+        741,
+        684
+      ],
+      "renderedBBox": [
+        360,
+        256,
+        741,
+        684
+      ],
+      "declaredBBox": [
+        360,
+        256,
+        741,
+        684
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 20,
+      "pngFrame": 21,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 39488,
+      "union": 39488,
+      "sourcePixels": 39488,
+      "renderedPixels": 39488,
+      "declaredPixels": 39488,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        363,
+        251,
+        753,
+        670
+      ],
+      "renderedBBox": [
+        363,
+        251,
+        753,
+        670
+      ],
+      "declaredBBox": [
+        363,
+        251,
+        753,
+        670
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 21,
+      "pngFrame": 22,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 41096,
+      "union": 41096,
+      "sourcePixels": 41096,
+      "renderedPixels": 41096,
+      "declaredPixels": 41096,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        365,
+        250,
+        765,
+        689
+      ],
+      "renderedBBox": [
+        365,
+        250,
+        765,
+        689
+      ],
+      "declaredBBox": [
+        365,
+        250,
+        765,
+        689
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 22,
+      "pngFrame": 23,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 41689,
+      "union": 41689,
+      "sourcePixels": 41689,
+      "renderedPixels": 41689,
+      "declaredPixels": 41689,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        363,
+        254,
+        781,
+        700
+      ],
+      "renderedBBox": [
+        363,
+        254,
+        781,
+        700
+      ],
+      "declaredBBox": [
+        363,
+        254,
+        781,
+        700
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 23,
+      "pngFrame": 24,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 42142,
+      "union": 42142,
+      "sourcePixels": 42142,
+      "renderedPixels": 42142,
+      "declaredPixels": 42142,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        356,
+        259,
+        797,
+        703
+      ],
+      "renderedBBox": [
+        356,
+        259,
+        797,
+        703
+      ],
+      "declaredBBox": [
+        356,
+        259,
+        797,
+        703
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 24,
+      "pngFrame": 25,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 42836,
+      "union": 42836,
+      "sourcePixels": 42836,
+      "renderedPixels": 42836,
+      "declaredPixels": 42836,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        352,
+        267,
+        806,
+        698
+      ],
+      "renderedBBox": [
+        352,
+        267,
+        806,
+        698
+      ],
+      "declaredBBox": [
+        352,
+        267,
+        806,
+        698
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 25,
+      "pngFrame": 26,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 44696,
+      "union": 44696,
+      "sourcePixels": 44696,
+      "renderedPixels": 44696,
+      "declaredPixels": 44696,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        348,
+        273,
+        816,
+        685
+      ],
+      "renderedBBox": [
+        348,
+        273,
+        816,
+        685
+      ],
+      "declaredBBox": [
+        348,
+        273,
+        816,
+        685
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 26,
+      "pngFrame": 27,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 44460,
+      "union": 44460,
+      "sourcePixels": 44460,
+      "renderedPixels": 44460,
+      "declaredPixels": 44460,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        324,
+        270,
+        817,
+        648
+      ],
+      "renderedBBox": [
+        324,
+        270,
+        817,
+        648
+      ],
+      "declaredBBox": [
+        324,
+        270,
+        817,
+        648
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 27,
+      "pngFrame": 28,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 44510,
+      "union": 44510,
+      "sourcePixels": 44510,
+      "renderedPixels": 44510,
+      "declaredPixels": 44510,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        276,
+        267,
+        806,
+        615
+      ],
+      "renderedBBox": [
+        276,
+        267,
+        806,
+        615
+      ],
+      "declaredBBox": [
+        276,
+        267,
+        806,
+        615
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 28,
+      "pngFrame": 29,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 47504,
+      "union": 47504,
+      "sourcePixels": 47504,
+      "renderedPixels": 47504,
+      "declaredPixels": 47504,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        268,
+        264,
+        767,
+        615
+      ],
+      "renderedBBox": [
+        268,
+        264,
+        767,
+        615
+      ],
+      "declaredBBox": [
+        268,
+        264,
+        767,
+        615
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 29,
+      "pngFrame": 30,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 50419,
+      "union": 50419,
+      "sourcePixels": 50419,
+      "renderedPixels": 50419,
+      "declaredPixels": 50419,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        249,
+        262,
+        727,
+        621
+      ],
+      "renderedBBox": [
+        249,
+        262,
+        727,
+        621
+      ],
+      "declaredBBox": [
+        249,
+        262,
+        727,
+        621
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 30,
+      "pngFrame": 31,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 52815,
+      "union": 52815,
+      "sourcePixels": 52815,
+      "renderedPixels": 52815,
+      "declaredPixels": 52815,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        245,
+        260,
+        702,
+        629
+      ],
+      "renderedBBox": [
+        245,
+        260,
+        702,
+        629
+      ],
+      "declaredBBox": [
+        245,
+        260,
+        702,
+        629
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 31,
+      "pngFrame": 32,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 52983,
+      "union": 52983,
+      "sourcePixels": 52983,
+      "renderedPixels": 52983,
+      "declaredPixels": 52983,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        273,
+        258,
+        706,
+        641
+      ],
+      "renderedBBox": [
+        273,
+        258,
+        706,
+        641
+      ],
+      "declaredBBox": [
+        273,
+        258,
+        706,
+        641
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 32,
+      "pngFrame": 33,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 55512,
+      "union": 55512,
+      "sourcePixels": 55512,
+      "renderedPixels": 55512,
+      "declaredPixels": 55512,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        242,
+        257,
+        710,
+        654
+      ],
+      "renderedBBox": [
+        242,
+        257,
+        710,
+        654
+      ],
+      "declaredBBox": [
+        242,
+        257,
+        710,
+        654
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 33,
+      "pngFrame": 34,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57873,
+      "union": 57873,
+      "sourcePixels": 57873,
+      "renderedPixels": 57873,
+      "declaredPixels": 57873,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        218,
+        256,
+        713,
+        667
+      ],
+      "renderedBBox": [
+        218,
+        256,
+        713,
+        667
+      ],
+      "declaredBBox": [
+        218,
+        256,
+        713,
+        667
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 34,
+      "pngFrame": 35,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58547,
+      "union": 58547,
+      "sourcePixels": 58547,
+      "renderedPixels": 58547,
+      "declaredPixels": 58547,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        201,
+        255,
+        716,
+        677
+      ],
+      "renderedBBox": [
+        201,
+        255,
+        716,
+        677
+      ],
+      "declaredBBox": [
+        201,
+        255,
+        716,
+        677
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 35,
+      "pngFrame": 36,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59174,
+      "union": 59174,
+      "sourcePixels": 59174,
+      "renderedPixels": 59174,
+      "declaredPixels": 59174,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        193,
+        255,
+        719,
+        681
+      ],
+      "renderedBBox": [
+        193,
+        255,
+        719,
+        681
+      ],
+      "declaredBBox": [
+        193,
+        255,
+        719,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 36,
+      "pngFrame": 37,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59004,
+      "union": 59004,
+      "sourcePixels": 59004,
+      "renderedPixels": 59004,
+      "declaredPixels": 59004,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        191,
+        255,
+        726,
+        681
+      ],
+      "renderedBBox": [
+        191,
+        255,
+        726,
+        681
+      ],
+      "declaredBBox": [
+        191,
+        255,
+        726,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 37,
+      "pngFrame": 38,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58822,
+      "union": 58822,
+      "sourcePixels": 58822,
+      "renderedPixels": 58822,
+      "declaredPixels": 58822,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        190,
+        255,
+        733,
+        681
+      ],
+      "renderedBBox": [
+        190,
+        255,
+        733,
+        681
+      ],
+      "declaredBBox": [
+        190,
+        255,
+        733,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 38,
+      "pngFrame": 39,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58695,
+      "union": 58695,
+      "sourcePixels": 58695,
+      "renderedPixels": 58695,
+      "declaredPixels": 58695,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        190,
+        255,
+        739,
+        681
+      ],
+      "renderedBBox": [
+        190,
+        255,
+        739,
+        681
+      ],
+      "declaredBBox": [
+        190,
+        255,
+        739,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 39,
+      "pngFrame": 40,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58538,
+      "union": 58538,
+      "sourcePixels": 58538,
+      "renderedPixels": 58538,
+      "declaredPixels": 58538,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        190,
+        255,
+        745,
+        681
+      ],
+      "renderedBBox": [
+        190,
+        255,
+        745,
+        681
+      ],
+      "declaredBBox": [
+        190,
+        255,
+        745,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 40,
+      "pngFrame": 41,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58410,
+      "union": 58410,
+      "sourcePixels": 58410,
+      "renderedPixels": 58410,
+      "declaredPixels": 58410,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        190,
+        255,
+        749,
+        681
+      ],
+      "renderedBBox": [
+        190,
+        255,
+        749,
+        681
+      ],
+      "declaredBBox": [
+        190,
+        255,
+        749,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 41,
+      "pngFrame": 42,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58317,
+      "union": 58317,
+      "sourcePixels": 58317,
+      "renderedPixels": 58317,
+      "declaredPixels": 58317,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        190,
+        255,
+        754,
+        681
+      ],
+      "renderedBBox": [
+        190,
+        255,
+        754,
+        681
+      ],
+      "declaredBBox": [
+        190,
+        255,
+        754,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 42,
+      "pngFrame": 43,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58210,
+      "union": 58210,
+      "sourcePixels": 58210,
+      "renderedPixels": 58210,
+      "declaredPixels": 58210,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        191,
+        255,
+        757,
+        681
+      ],
+      "renderedBBox": [
+        191,
+        255,
+        757,
+        681
+      ],
+      "declaredBBox": [
+        191,
+        255,
+        757,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 43,
+      "pngFrame": 44,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57981,
+      "union": 57981,
+      "sourcePixels": 57981,
+      "renderedPixels": 57981,
+      "declaredPixels": 57981,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        192,
+        255,
+        761,
+        681
+      ],
+      "renderedBBox": [
+        192,
+        255,
+        761,
+        681
+      ],
+      "declaredBBox": [
+        192,
+        255,
+        761,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 44,
+      "pngFrame": 45,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57747,
+      "union": 57747,
+      "sourcePixels": 57747,
+      "renderedPixels": 57747,
+      "declaredPixels": 57747,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        192,
+        255,
+        763,
+        681
+      ],
+      "renderedBBox": [
+        192,
+        255,
+        763,
+        681
+      ],
+      "declaredBBox": [
+        192,
+        255,
+        763,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 45,
+      "pngFrame": 46,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57538,
+      "union": 57538,
+      "sourcePixels": 57538,
+      "renderedPixels": 57538,
+      "declaredPixels": 57538,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        193,
+        255,
+        765,
+        681
+      ],
+      "renderedBBox": [
+        193,
+        255,
+        765,
+        681
+      ],
+      "declaredBBox": [
+        193,
+        255,
+        765,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 46,
+      "pngFrame": 47,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57364,
+      "union": 57364,
+      "sourcePixels": 57364,
+      "renderedPixels": 57364,
+      "declaredPixels": 57364,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        194,
+        255,
+        767,
+        681
+      ],
+      "renderedBBox": [
+        194,
+        255,
+        767,
+        681
+      ],
+      "declaredBBox": [
+        194,
+        255,
+        767,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 47,
+      "pngFrame": 48,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57185,
+      "union": 57185,
+      "sourcePixels": 57185,
+      "renderedPixels": 57185,
+      "declaredPixels": 57185,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        194,
+        255,
+        768,
+        681
+      ],
+      "renderedBBox": [
+        194,
+        255,
+        768,
+        681
+      ],
+      "declaredBBox": [
+        194,
+        255,
+        768,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 48,
+      "pngFrame": 49,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57020,
+      "union": 57020,
+      "sourcePixels": 57020,
+      "renderedPixels": 57020,
+      "declaredPixels": 57020,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        769,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        769,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        769,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 49,
+      "pngFrame": 50,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57002,
+      "union": 57002,
+      "sourcePixels": 57002,
+      "renderedPixels": 57002,
+      "declaredPixels": 57002,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 50,
+      "pngFrame": 51,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56991,
+      "union": 56991,
+      "sourcePixels": 56991,
+      "renderedPixels": 56991,
+      "declaredPixels": 56991,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 51,
+      "pngFrame": 52,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56990,
+      "union": 56990,
+      "sourcePixels": 56990,
+      "renderedPixels": 56990,
+      "declaredPixels": 56990,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 52,
+      "pngFrame": 53,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56991,
+      "union": 56991,
+      "sourcePixels": 56991,
+      "renderedPixels": 56991,
+      "declaredPixels": 56991,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 53,
+      "pngFrame": 54,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56974,
+      "union": 56974,
+      "sourcePixels": 56974,
+      "renderedPixels": 56974,
+      "declaredPixels": 56974,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 54,
+      "pngFrame": 55,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56975,
+      "union": 56975,
+      "sourcePixels": 56975,
+      "renderedPixels": 56975,
+      "declaredPixels": 56975,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 55,
+      "pngFrame": 56,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56976,
+      "union": 56976,
+      "sourcePixels": 56976,
+      "renderedPixels": 56976,
+      "declaredPixels": 56976,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 56,
+      "pngFrame": 57,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56976,
+      "union": 56976,
+      "sourcePixels": 56976,
+      "renderedPixels": 56976,
+      "declaredPixels": 56976,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 57,
+      "pngFrame": 58,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56976,
+      "union": 56976,
+      "sourcePixels": 56976,
+      "renderedPixels": 56976,
+      "declaredPixels": 56976,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 58,
+      "pngFrame": 59,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56976,
+      "union": 56976,
+      "sourcePixels": 56976,
+      "renderedPixels": 56976,
+      "declaredPixels": 56976,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 59,
+      "pngFrame": 60,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56976,
+      "union": 56976,
+      "sourcePixels": 56976,
+      "renderedPixels": 56976,
+      "declaredPixels": 56976,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 60,
+      "pngFrame": 61,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56976,
+      "union": 56976,
+      "sourcePixels": 56976,
+      "renderedPixels": 56976,
+      "declaredPixels": 56976,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 61,
+      "pngFrame": 62,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56976,
+      "union": 56976,
+      "sourcePixels": 56976,
+      "renderedPixels": 56976,
+      "declaredPixels": 56976,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 62,
+      "pngFrame": 63,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56975,
+      "union": 56975,
+      "sourcePixels": 56975,
+      "renderedPixels": 56975,
+      "declaredPixels": 56975,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 63,
+      "pngFrame": 64,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56975,
+      "union": 56975,
+      "sourcePixels": 56975,
+      "renderedPixels": 56975,
+      "declaredPixels": 56975,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 64,
+      "pngFrame": 65,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56975,
+      "union": 56975,
+      "sourcePixels": 56975,
+      "renderedPixels": 56975,
+      "declaredPixels": 56975,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 65,
+      "pngFrame": 66,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56976,
+      "union": 56976,
+      "sourcePixels": 56976,
+      "renderedPixels": 56976,
+      "declaredPixels": 56976,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 66,
+      "pngFrame": 67,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56976,
+      "union": 56976,
+      "sourcePixels": 56976,
+      "renderedPixels": 56976,
+      "declaredPixels": 56976,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 67,
+      "pngFrame": 68,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56976,
+      "union": 56976,
+      "sourcePixels": 56976,
+      "renderedPixels": 56976,
+      "declaredPixels": 56976,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 68,
+      "pngFrame": 69,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56976,
+      "union": 56976,
+      "sourcePixels": 56976,
+      "renderedPixels": 56976,
+      "declaredPixels": 56976,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 69,
+      "pngFrame": 70,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56976,
+      "union": 56976,
+      "sourcePixels": 56976,
+      "renderedPixels": 56976,
+      "declaredPixels": 56976,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 70,
+      "pngFrame": 71,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56976,
+      "union": 56976,
+      "sourcePixels": 56976,
+      "renderedPixels": 56976,
+      "declaredPixels": 56976,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 71,
+      "pngFrame": 72,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56976,
+      "union": 56976,
+      "sourcePixels": 56976,
+      "renderedPixels": 56976,
+      "declaredPixels": 56976,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 72,
+      "pngFrame": 73,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56976,
+      "union": 56976,
+      "sourcePixels": 56976,
+      "renderedPixels": 56976,
+      "declaredPixels": 56976,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 73,
+      "pngFrame": 74,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56976,
+      "union": 56976,
+      "sourcePixels": 56976,
+      "renderedPixels": 56976,
+      "declaredPixels": 56976,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 74,
+      "pngFrame": 75,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56976,
+      "union": 56976,
+      "sourcePixels": 56976,
+      "renderedPixels": 56976,
+      "declaredPixels": 56976,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 75,
+      "pngFrame": 76,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56976,
+      "union": 56976,
+      "sourcePixels": 56976,
+      "renderedPixels": 56976,
+      "declaredPixels": 56976,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 76,
+      "pngFrame": 77,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56976,
+      "union": 56976,
+      "sourcePixels": 56976,
+      "renderedPixels": 56976,
+      "declaredPixels": 56976,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 77,
+      "pngFrame": 78,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56976,
+      "union": 56976,
+      "sourcePixels": 56976,
+      "renderedPixels": 56976,
+      "declaredPixels": 56976,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 78,
+      "pngFrame": 79,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56977,
+      "union": 56977,
+      "sourcePixels": 56977,
+      "renderedPixels": 56977,
+      "declaredPixels": 56977,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 79,
+      "pngFrame": 80,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56977,
+      "union": 56977,
+      "sourcePixels": 56977,
+      "renderedPixels": 56977,
+      "declaredPixels": 56977,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 80,
+      "pngFrame": 81,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56977,
+      "union": 56977,
+      "sourcePixels": 56977,
+      "renderedPixels": 56977,
+      "declaredPixels": 56977,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 81,
+      "pngFrame": 82,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56977,
+      "union": 56977,
+      "sourcePixels": 56977,
+      "renderedPixels": 56977,
+      "declaredPixels": 56977,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 82,
+      "pngFrame": 83,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56977,
+      "union": 56977,
+      "sourcePixels": 56977,
+      "renderedPixels": 56977,
+      "declaredPixels": 56977,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 83,
+      "pngFrame": 84,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56977,
+      "union": 56977,
+      "sourcePixels": 56977,
+      "renderedPixels": 56977,
+      "declaredPixels": 56977,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 84,
+      "pngFrame": 85,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56977,
+      "union": 56977,
+      "sourcePixels": 56977,
+      "renderedPixels": 56977,
+      "declaredPixels": 56977,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 85,
+      "pngFrame": 86,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56977,
+      "union": 56977,
+      "sourcePixels": 56977,
+      "renderedPixels": 56977,
+      "declaredPixels": 56977,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 86,
+      "pngFrame": 87,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56977,
+      "union": 56977,
+      "sourcePixels": 56977,
+      "renderedPixels": 56977,
+      "declaredPixels": 56977,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 87,
+      "pngFrame": 88,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56977,
+      "union": 56977,
+      "sourcePixels": 56977,
+      "renderedPixels": 56977,
+      "declaredPixels": 56977,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 88,
+      "pngFrame": 89,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56977,
+      "union": 56977,
+      "sourcePixels": 56977,
+      "renderedPixels": 56977,
+      "declaredPixels": 56977,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 89,
+      "pngFrame": 90,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56977,
+      "union": 56977,
+      "sourcePixels": 56977,
+      "renderedPixels": 56977,
+      "declaredPixels": 56977,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "renderedBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "declaredBBox": [
+        195,
+        255,
+        770,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 90,
+      "pngFrame": 91,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57823,
+      "union": 57823,
+      "sourcePixels": 57823,
+      "renderedPixels": 57823,
+      "declaredPixels": 57823,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        255,
+        775,
+        676
+      ],
+      "renderedBBox": [
+        197,
+        255,
+        775,
+        676
+      ],
+      "declaredBBox": [
+        197,
+        255,
+        775,
+        676
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 91,
+      "pngFrame": 92,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57654,
+      "union": 57654,
+      "sourcePixels": 57654,
+      "renderedPixels": 57654,
+      "declaredPixels": 57654,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        200,
+        256,
+        782,
+        672
+      ],
+      "renderedBBox": [
+        200,
+        256,
+        782,
+        672
+      ],
+      "declaredBBox": [
+        200,
+        256,
+        782,
+        672
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 92,
+      "pngFrame": 93,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57067,
+      "union": 57067,
+      "sourcePixels": 57067,
+      "renderedPixels": 57067,
+      "declaredPixels": 57067,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        205,
+        257,
+        787,
+        667
+      ],
+      "renderedBBox": [
+        205,
+        257,
+        787,
+        667
+      ],
+      "declaredBBox": [
+        205,
+        257,
+        787,
+        667
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 93,
+      "pngFrame": 94,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56557,
+      "union": 56557,
+      "sourcePixels": 56557,
+      "renderedPixels": 56557,
+      "declaredPixels": 56557,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        210,
+        259,
+        789,
+        663
+      ],
+      "renderedBBox": [
+        210,
+        259,
+        789,
+        663
+      ],
+      "declaredBBox": [
+        210,
+        259,
+        789,
+        663
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 94,
+      "pngFrame": 95,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 55904,
+      "union": 55904,
+      "sourcePixels": 55904,
+      "renderedPixels": 55904,
+      "declaredPixels": 55904,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        217,
+        260,
+        790,
+        658
+      ],
+      "renderedBBox": [
+        217,
+        260,
+        790,
+        658
+      ],
+      "declaredBBox": [
+        217,
+        260,
+        790,
+        658
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 95,
+      "pngFrame": 96,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 55121,
+      "union": 55121,
+      "sourcePixels": 55121,
+      "renderedPixels": 55121,
+      "declaredPixels": 55121,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        223,
+        263,
+        788,
+        661
+      ],
+      "renderedBBox": [
+        223,
+        263,
+        788,
+        661
+      ],
+      "declaredBBox": [
+        223,
+        263,
+        788,
+        661
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 96,
+      "pngFrame": 97,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54059,
+      "union": 54059,
+      "sourcePixels": 54059,
+      "renderedPixels": 54059,
+      "declaredPixels": 54059,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        229,
+        266,
+        780,
+        675
+      ],
+      "renderedBBox": [
+        229,
+        266,
+        780,
+        675
+      ],
+      "declaredBBox": [
+        229,
+        266,
+        780,
+        675
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 97,
+      "pngFrame": 98,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 52871,
+      "union": 52871,
+      "sourcePixels": 52871,
+      "renderedPixels": 52871,
+      "declaredPixels": 52871,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        236,
+        269,
+        764,
+        688
+      ],
+      "renderedBBox": [
+        236,
+        269,
+        764,
+        688
+      ],
+      "declaredBBox": [
+        236,
+        269,
+        764,
+        688
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 98,
+      "pngFrame": 99,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 50440,
+      "union": 50440,
+      "sourcePixels": 50440,
+      "renderedPixels": 50440,
+      "declaredPixels": 50440,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        241,
+        272,
+        747,
+        691
+      ],
+      "renderedBBox": [
+        241,
+        272,
+        747,
+        691
+      ],
+      "declaredBBox": [
+        241,
+        272,
+        747,
+        691
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 99,
+      "pngFrame": 100,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 48092,
+      "union": 48092,
+      "sourcePixels": 48092,
+      "renderedPixels": 48092,
+      "declaredPixels": 48092,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        244,
+        275,
+        750,
+        694
+      ],
+      "renderedBBox": [
+        244,
+        275,
+        750,
+        694
+      ],
+      "declaredBBox": [
+        244,
+        275,
+        750,
+        694
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 100,
+      "pngFrame": 101,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 44875,
+      "union": 44875,
+      "sourcePixels": 44875,
+      "renderedPixels": 44875,
+      "declaredPixels": 44875,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        266,
+        278,
+        752,
+        697
+      ],
+      "renderedBBox": [
+        266,
+        278,
+        752,
+        697
+      ],
+      "declaredBBox": [
+        266,
+        278,
+        752,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 101,
+      "pngFrame": 102,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 41836,
+      "union": 41836,
+      "sourcePixels": 41836,
+      "renderedPixels": 41836,
+      "declaredPixels": 41836,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        286,
+        281,
+        754,
+        700
+      ],
+      "renderedBBox": [
+        286,
+        281,
+        754,
+        700
+      ],
+      "declaredBBox": [
+        286,
+        281,
+        754,
+        700
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 102,
+      "pngFrame": 103,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 37769,
+      "union": 37769,
+      "sourcePixels": 37769,
+      "renderedPixels": 37769,
+      "declaredPixels": 37769,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        305,
+        284,
+        756,
+        702
+      ],
+      "renderedBBox": [
+        305,
+        284,
+        756,
+        702
+      ],
+      "declaredBBox": [
+        305,
+        284,
+        756,
+        702
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 103,
+      "pngFrame": 104,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 37335,
+      "union": 37335,
+      "sourcePixels": 37335,
+      "renderedPixels": 37335,
+      "declaredPixels": 37335,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        323,
+        287,
+        758,
+        705
+      ],
+      "renderedBBox": [
+        323,
+        287,
+        758,
+        705
+      ],
+      "declaredBBox": [
+        323,
+        287,
+        758,
+        705
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 104,
+      "pngFrame": 105,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 35987,
+      "union": 35987,
+      "sourcePixels": 35987,
+      "renderedPixels": 35987,
+      "declaredPixels": 35987,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        340,
+        290,
+        760,
+        708
+      ],
+      "renderedBBox": [
+        340,
+        290,
+        760,
+        708
+      ],
+      "declaredBBox": [
+        340,
+        290,
+        760,
+        708
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 105,
+      "pngFrame": 106,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 35869,
+      "union": 35869,
+      "sourcePixels": 35869,
+      "renderedPixels": 35869,
+      "declaredPixels": 35869,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        357,
+        292,
+        761,
+        711
+      ],
+      "renderedBBox": [
+        357,
+        292,
+        761,
+        711
+      ],
+      "declaredBBox": [
+        357,
+        292,
+        761,
+        711
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 106,
+      "pngFrame": 107,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 35748,
+      "union": 35748,
+      "sourcePixels": 35748,
+      "renderedPixels": 35748,
+      "declaredPixels": 35748,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        340,
+        294,
+        763,
+        713
+      ],
+      "renderedBBox": [
+        340,
+        294,
+        763,
+        713
+      ],
+      "declaredBBox": [
+        340,
+        294,
+        763,
+        713
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 107,
+      "pngFrame": 108,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 35298,
+      "union": 35298,
+      "sourcePixels": 35298,
+      "renderedPixels": 35298,
+      "declaredPixels": 35298,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        323,
+        292,
+        773,
+        716
+      ],
+      "renderedBBox": [
+        323,
+        292,
+        773,
+        716
+      ],
+      "declaredBBox": [
+        323,
+        292,
+        773,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 108,
+      "pngFrame": 109,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 34064,
+      "union": 34064,
+      "sourcePixels": 34064,
+      "renderedPixels": 34064,
+      "declaredPixels": 34064,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        306,
+        274,
+        773,
+        719
+      ],
+      "renderedBBox": [
+        306,
+        274,
+        773,
+        719
+      ],
+      "declaredBBox": [
+        306,
+        274,
+        773,
+        719
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 109,
+      "pngFrame": 110,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 31270,
+      "union": 31270,
+      "sourcePixels": 31270,
+      "renderedPixels": 31270,
+      "declaredPixels": 31270,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        286,
+        256,
+        768,
+        710
+      ],
+      "renderedBBox": [
+        286,
+        256,
+        768,
+        710
+      ],
+      "declaredBBox": [
+        286,
+        256,
+        768,
+        710
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 110,
+      "pngFrame": 111,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 27596,
+      "union": 27596,
+      "sourcePixels": 27596,
+      "renderedPixels": 27596,
+      "declaredPixels": 27596,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        266,
+        248,
+        760,
+        702
+      ],
+      "renderedBBox": [
+        266,
+        248,
+        760,
+        702
+      ],
+      "declaredBBox": [
+        266,
+        248,
+        760,
+        702
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 111,
+      "pngFrame": 112,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 21839,
+      "union": 21839,
+      "sourcePixels": 21839,
+      "renderedPixels": 21839,
+      "declaredPixels": 21839,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        247,
+        242,
+        750,
+        693
+      ],
+      "renderedBBox": [
+        247,
+        242,
+        750,
+        693
+      ],
+      "declaredBBox": [
+        247,
+        242,
+        750,
+        693
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 112,
+      "pngFrame": 113,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 15012,
+      "union": 15012,
+      "sourcePixels": 15012,
+      "renderedPixels": 15012,
+      "declaredPixels": 15012,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        227,
+        257,
+        741,
+        684
+      ],
+      "renderedBBox": [
+        227,
+        257,
+        741,
+        684
+      ],
+      "declaredBBox": [
+        227,
+        257,
+        741,
+        684
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 113,
+      "pngFrame": 114,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 9933,
+      "union": 9933,
+      "sourcePixels": 9933,
+      "renderedPixels": 9933,
+      "declaredPixels": 9933,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        208,
+        245,
+        733,
+        676
+      ],
+      "renderedBBox": [
+        208,
+        245,
+        733,
+        676
+      ],
+      "declaredBBox": [
+        208,
+        245,
+        733,
+        676
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 114,
+      "pngFrame": 115,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 7301,
+      "union": 7301,
+      "sourcePixels": 7301,
+      "renderedPixels": 7301,
+      "declaredPixels": 7301,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        580,
+        216,
+        728,
+        528
+      ],
+      "renderedBBox": [
+        580,
+        216,
+        728,
+        528
+      ],
+      "declaredBBox": [
+        580,
+        216,
+        728,
+        528
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "running",
+      "frame": 115,
+      "pngFrame": 116,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 0,
+      "union": 0,
+      "sourcePixels": 0,
+      "renderedPixels": 0,
+      "declaredPixels": 0,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderedBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "declaredBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "bboxMatch": true,
+      "pathEmpty": true
+    },
+    {
+      "sport": "running",
+      "frame": 116,
+      "pngFrame": 117,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 0,
+      "union": 0,
+      "sourcePixels": 0,
+      "renderedPixels": 0,
+      "declaredPixels": 0,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderedBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "declaredBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "bboxMatch": true,
+      "pathEmpty": true
+    }
+  ]
+}

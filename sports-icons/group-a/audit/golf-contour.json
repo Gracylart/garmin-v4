@@ -1,0 +1,4883 @@
+{
+  "schemaVersion": 1,
+  "group": "a",
+  "sport": "golf",
+  "passed": true,
+  "frames": 123,
+  "worstIoU": 1,
+  "mismatchedFrames": 0,
+  "method": {
+    "renderer": "Real Google Chrome headless Canvas 2D / Path2D",
+    "fillRule": "evenodd",
+    "scale": 1,
+    "threshold": "R < 133 && B - R > 12 (both decoded reference PNG and rendered vector)",
+    "pathBackground": "#ffffff",
+    "colorSpace": "srgb",
+    "sourceCrop": {
+      "width": 960,
+      "height": 960
+    },
+    "bboxConvention": "[xmin, ymin, xmaxExclusive, ymaxExclusive]; blank = [0,0,0,0]",
+    "frameIndexBase": 0,
+    "pngFileIndexBase": 1,
+    "blankPairIoU": 1,
+    "independence": "No contour-generation code imported; Chromium independently rasterizes SVG path strings.",
+    "scope": "Binary foreground silhouette only. Does not assert RGB, antialiasing, original-video extraction accuracy, semantic sport identity, or device performance."
+  },
+  "provenance": {
+    "generatedAt": "2026-10-15T06:21:12.628Z",
+    "browserVersion": "155.0.8059.40",
+    "executablePath": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "nodeVersion": "v24.21.0",
+    "scriptSha256": "31e8fffad57e6b82381fa5930bc4d4fd2413b831696090c975497ccd90b7d0c4",
+    "manifestSha256": "9eed22c4bb37a6a583c3470c727aad7518cb2d10b5d30168e203d1dd241dff60",
+    "smoke": {
+      "foreground": 12,
+      "expected": 12,
+      "path2DEvenodd": true,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+    }
+  },
+  "sourceData": {
+    "json": {
+      "file": "reference-frames/golf.json",
+      "bytes": 612577,
+      "sha256": "09ffa7e591ccc31b6015f25888e8644972b0320d48958643867e561b9cd5be68"
+    },
+    "pngs": [
+      {
+        "file": "reference-frames/golf/001.png",
+        "bytes": 8328,
+        "sha256": "d67d95d23d13d1ff64d64c97d17a6b52de924cd502b94f19ec964f85360cb3d7"
+      },
+      {
+        "file": "reference-frames/golf/002.png",
+        "bytes": 27480,
+        "sha256": "75de92cba5646f136e36066bfa8fd91fa97995171030835922bdc13d82357887"
+      },
+      {
+        "file": "reference-frames/golf/003.png",
+        "bytes": 29888,
+        "sha256": "926a957427a44517197ee5f786525c43a782056f4d8b184672531beddf373965"
+      },
+      {
+        "file": "reference-frames/golf/004.png",
+        "bytes": 33269,
+        "sha256": "05b6ee91c4452b370f4138fc29648b20fae13e3869dca5263fef0c2c9735ac1a"
+      },
+      {
+        "file": "reference-frames/golf/005.png",
+        "bytes": 39452,
+        "sha256": "07589600d1b5aba7f936fe9ba633830df0a3512e8d5e0e468165ae613be3d275"
+      },
+      {
+        "file": "reference-frames/golf/006.png",
+        "bytes": 46059,
+        "sha256": "6b094f576ebe4b62ef2834707ad9576aabc71b30275d144e0cc94e3bfbb29410"
+      },
+      {
+        "file": "reference-frames/golf/007.png",
+        "bytes": 53610,
+        "sha256": "2048103cf5e9beca6fc9f90f30bb433ea55ea5d5358e1d3c7244a8f63a539065"
+      },
+      {
+        "file": "reference-frames/golf/008.png",
+        "bytes": 58538,
+        "sha256": "d6b3e69b7fff045b51311e518bd6b6d500acfb2d0dea59a95320cbf851d5c85f"
+      },
+      {
+        "file": "reference-frames/golf/009.png",
+        "bytes": 61954,
+        "sha256": "cd6850cce2c68ec0f994acae09236cdb580387ad8b9e04751ae5b1e0379dc58d"
+      },
+      {
+        "file": "reference-frames/golf/010.png",
+        "bytes": 61993,
+        "sha256": "47ea7b0b1c841b372a7c472de7ed613c098d4eb5581473fc2b5012277461ab6d"
+      },
+      {
+        "file": "reference-frames/golf/011.png",
+        "bytes": 60019,
+        "sha256": "cbb9b1dbbe98c21400f0f9778a8344ab95b4ee487b9751f15f2344c010e98e68"
+      },
+      {
+        "file": "reference-frames/golf/012.png",
+        "bytes": 54714,
+        "sha256": "b6c60700323c718ccfc230073855356bd5b694e6fc2ac18284ace8eeca5f0701"
+      },
+      {
+        "file": "reference-frames/golf/013.png",
+        "bytes": 48029,
+        "sha256": "5ae54c0d05ad288d39232b1ff332d61eddb9a0e6c2e2b4a81df11f4465e8d529"
+      },
+      {
+        "file": "reference-frames/golf/014.png",
+        "bytes": 40427,
+        "sha256": "be2b49936383305259490362ad99b4ef95acff9f958b0b6507bedf611c3eeae2"
+      },
+      {
+        "file": "reference-frames/golf/015.png",
+        "bytes": 48122,
+        "sha256": "350f01dbb46a9f24ca3a64f21c9ed84fec48cfaf1cd4c9a7b22db045b1ab7be4"
+      },
+      {
+        "file": "reference-frames/golf/016.png",
+        "bytes": 56581,
+        "sha256": "918919b093819e75fdc0a149cedd25427ecefb1fdfda9c7faa7e8ed1a1d6fe97"
+      },
+      {
+        "file": "reference-frames/golf/017.png",
+        "bytes": 65009,
+        "sha256": "dd96c7a88ec5856a76b668741503aae905b52350e26388ec277eb0d8341abe78"
+      },
+      {
+        "file": "reference-frames/golf/018.png",
+        "bytes": 66118,
+        "sha256": "c2be871383972c886e250c87257081bd527e9c211f000f9923e1481a8c7a6843"
+      },
+      {
+        "file": "reference-frames/golf/019.png",
+        "bytes": 68440,
+        "sha256": "e7354b114ead712520f78367a176fc7dddd950b014f563ad51cca5b6bc9bda9b"
+      },
+      {
+        "file": "reference-frames/golf/020.png",
+        "bytes": 66831,
+        "sha256": "203cecf2cb0c28575a98a40b23c3d621de4faa371e752841fc0913ee0fde4cfd"
+      },
+      {
+        "file": "reference-frames/golf/021.png",
+        "bytes": 65462,
+        "sha256": "28999f34a719298a56a2430b8249f3c6f25d83c9120fd25ff9d9db8731a0d64e"
+      },
+      {
+        "file": "reference-frames/golf/022.png",
+        "bytes": 63420,
+        "sha256": "0586ac95afe1e85a6b17e0d9baff1a7ca0bce1d9eed42077df66bc3674953d61"
+      },
+      {
+        "file": "reference-frames/golf/023.png",
+        "bytes": 64843,
+        "sha256": "fc6b22194136acbeedcb86a957b21418f2b205b1f929b6c71039bd18a70cf65b"
+      },
+      {
+        "file": "reference-frames/golf/024.png",
+        "bytes": 64599,
+        "sha256": "2ce3cb616ef865913bb3a244e5d2fd28b252be53004a32dbce0809a9d230f468"
+      },
+      {
+        "file": "reference-frames/golf/025.png",
+        "bytes": 66271,
+        "sha256": "6857da779481af7a29cb50a68a51519f0e54baf2050a98a45dcb57c199eae580"
+      },
+      {
+        "file": "reference-frames/golf/026.png",
+        "bytes": 65649,
+        "sha256": "945dec4757c065d2581b3e117ad67bb0f594f4591b7bbfeeae007d49706192fd"
+      },
+      {
+        "file": "reference-frames/golf/027.png",
+        "bytes": 88962,
+        "sha256": "0bfc27471fb741f27e2f82ec358050066e9567c199a28ae962384bc8d4a0f407"
+      },
+      {
+        "file": "reference-frames/golf/028.png",
+        "bytes": 87306,
+        "sha256": "f456b0237eada2f7922ab738291afa9d587fbeeb8d63b35336efeaeea69fd0a7"
+      },
+      {
+        "file": "reference-frames/golf/029.png",
+        "bytes": 62808,
+        "sha256": "9598349205abbfd5039acf22327c14242001cb66de5939f37c18fa131a9c2668"
+      },
+      {
+        "file": "reference-frames/golf/030.png",
+        "bytes": 56452,
+        "sha256": "e47982964f42493bc7a6e21476ddd5f6db6ddc3b03c8387029e09e9f5d8e266b"
+      },
+      {
+        "file": "reference-frames/golf/031.png",
+        "bytes": 53195,
+        "sha256": "55fda5884715a0bafbd927eedb60e4623361fb88b574058c7f53060fb4005b74"
+      },
+      {
+        "file": "reference-frames/golf/032.png",
+        "bytes": 57103,
+        "sha256": "599e79fc21e5dfe89e6f942df1e1fe44b1cdcd86ad1e6b0effb860c821da806f"
+      },
+      {
+        "file": "reference-frames/golf/033.png",
+        "bytes": 59467,
+        "sha256": "f5be54118de4b4bef10224e3c726c17f10fa03f1ae7acc90b7f960c860fa8c67"
+      },
+      {
+        "file": "reference-frames/golf/034.png",
+        "bytes": 76876,
+        "sha256": "8e652f8f1aedf755a6b1679c393c58e87e522b42d9c4f1c02036655ddd60c50b"
+      },
+      {
+        "file": "reference-frames/golf/035.png",
+        "bytes": 76901,
+        "sha256": "605166676758a42a0218e6c5cc67868a186bb04caf0c087adb25e8f12d72baa1"
+      },
+      {
+        "file": "reference-frames/golf/036.png",
+        "bytes": 99579,
+        "sha256": "b50d8208a103e101a61c4bf6c1970e964bf27dfd3af9f0b674f11270aea91eda"
+      },
+      {
+        "file": "reference-frames/golf/037.png",
+        "bytes": 116736,
+        "sha256": "b190fdf34fc9816ec074145d830e7d5786c2240cf4afca78526a8698bbfc1910"
+      },
+      {
+        "file": "reference-frames/golf/038.png",
+        "bytes": 119391,
+        "sha256": "d8289c4f9edc61a3d43fb077d4b94ac0a0b9459417a16634120103e347586630"
+      },
+      {
+        "file": "reference-frames/golf/039.png",
+        "bytes": 110013,
+        "sha256": "fc27711fcc8d45a8400982f257ad1c818f8dd191cb9bb5cb913890f90b3b2b25"
+      },
+      {
+        "file": "reference-frames/golf/040.png",
+        "bytes": 92927,
+        "sha256": "233bd154c8b9f13bce66e6c375d413bee1ef46cd3255970df5e9133ff6965592"
+      },
+      {
+        "file": "reference-frames/golf/041.png",
+        "bytes": 82093,
+        "sha256": "3923316d13151661d3b009b78aabfdf79cb6c60662fa1e6da12cb9d6014bf5ae"
+      },
+      {
+        "file": "reference-frames/golf/042.png",
+        "bytes": 84380,
+        "sha256": "b995f08b432623b825befae01d1f3201a803dc0ff7294b284298329b4bdd9fa1"
+      },
+      {
+        "file": "reference-frames/golf/043.png",
+        "bytes": 84444,
+        "sha256": "2a5612deef17d97975ca3e9751aefa26ae4d41bf398af467b13c248e7c9ca38c"
+      },
+      {
+        "file": "reference-frames/golf/044.png",
+        "bytes": 83532,
+        "sha256": "06900b388d5dcb8a1a934ab75f2868aabb51f385e7aa65802f57e285ca9a7432"
+      },
+      {
+        "file": "reference-frames/golf/045.png",
+        "bytes": 83820,
+        "sha256": "075e18a3f9e890ec17a801b3258d0356c4c34e6c396bb0ac53c85e6bebffeea1"
+      },
+      {
+        "file": "reference-frames/golf/046.png",
+        "bytes": 83245,
+        "sha256": "e044594428cf4a69e44dfae477fe8947b02e087f73c9428e4599c59d277ee48c"
+      },
+      {
+        "file": "reference-frames/golf/047.png",
+        "bytes": 83428,
+        "sha256": "014c9ae7f148a03717191f4ce39d42e0205053b3a10f8c1373690bf7dbf93700"
+      },
+      {
+        "file": "reference-frames/golf/048.png",
+        "bytes": 83243,
+        "sha256": "c94c6d9b654a28ffc9c9160a0f8defc65140cb1e451070a07306db6baa25074d"
+      },
+      {
+        "file": "reference-frames/golf/049.png",
+        "bytes": 83507,
+        "sha256": "47e8e80caf1bbef2e74ae3674ebf19b3d5dffb6dcbb5c442719f219fa0216bb2"
+      },
+      {
+        "file": "reference-frames/golf/050.png",
+        "bytes": 78566,
+        "sha256": "435539c45595506a9c3575cf64f2640bd7900e1491bb912226caa37da7f383b7"
+      },
+      {
+        "file": "reference-frames/golf/051.png",
+        "bytes": 80303,
+        "sha256": "281574b33d2b60a6a575503ed4d087a5e2e03c29f323f186e883382df101775b"
+      },
+      {
+        "file": "reference-frames/golf/052.png",
+        "bytes": 80965,
+        "sha256": "76179192ef882650af87a4311ca099c226d2ec6d8cc831aadb1bb33f746f856e"
+      },
+      {
+        "file": "reference-frames/golf/053.png",
+        "bytes": 81024,
+        "sha256": "67d4184989c8bfe065fdaa470cc13b4108483503c3ce1cfb3d481a55353b8d48"
+      },
+      {
+        "file": "reference-frames/golf/054.png",
+        "bytes": 81172,
+        "sha256": "961fcce49cd3624766df826d702ffbf048a66a2da160b77ee4c56d4ac75ed92a"
+      },
+      {
+        "file": "reference-frames/golf/055.png",
+        "bytes": 81143,
+        "sha256": "55ab9e326539c193e80ce01a400a41c1f961aa5873a3c08066536ebce9154c11"
+      },
+      {
+        "file": "reference-frames/golf/056.png",
+        "bytes": 81141,
+        "sha256": "708fdb7f452045ace138ff254dd755685ea476843a68b7aa63b3859e579c23f8"
+      },
+      {
+        "file": "reference-frames/golf/057.png",
+        "bytes": 81138,
+        "sha256": "3599663074139ce4476595f76ac872d470685e68de2b086d5e702768f7032b83"
+      },
+      {
+        "file": "reference-frames/golf/058.png",
+        "bytes": 81072,
+        "sha256": "262e5e2f5bcd37b583954067dba55f4898f1f2534b7967906578cd7c7e566d3c"
+      },
+      {
+        "file": "reference-frames/golf/059.png",
+        "bytes": 81049,
+        "sha256": "3368d30dc8a2891f87066b0a7f7e98903ba3c93531adc150a9ba451d935edaa8"
+      },
+      {
+        "file": "reference-frames/golf/060.png",
+        "bytes": 81049,
+        "sha256": "5742ee7f9dccca79f069b77ed6d745baab8e1c7aea2e623c83454b468e1a732f"
+      },
+      {
+        "file": "reference-frames/golf/061.png",
+        "bytes": 81049,
+        "sha256": "3368d30dc8a2891f87066b0a7f7e98903ba3c93531adc150a9ba451d935edaa8"
+      },
+      {
+        "file": "reference-frames/golf/062.png",
+        "bytes": 81074,
+        "sha256": "9591c17b55d8b33d5590bab4f2e03cc24d2132b78d4dd13238e0296a4e310170"
+      },
+      {
+        "file": "reference-frames/golf/063.png",
+        "bytes": 81057,
+        "sha256": "f870cefc6f46eeb18f266cdb5d6e15bbfb015b5baaf8b9916131cd54be20dd40"
+      },
+      {
+        "file": "reference-frames/golf/064.png",
+        "bytes": 81056,
+        "sha256": "bdf66047b65f658f0cb63ec6b487e829e14c2da9d0b2ff2d54a496be565a3872"
+      },
+      {
+        "file": "reference-frames/golf/065.png",
+        "bytes": 81057,
+        "sha256": "f870cefc6f46eeb18f266cdb5d6e15bbfb015b5baaf8b9916131cd54be20dd40"
+      },
+      {
+        "file": "reference-frames/golf/066.png",
+        "bytes": 81077,
+        "sha256": "abca7023414d34350da02a741c694c4c828c62e81bb774a5c5dc86b1b04544c6"
+      },
+      {
+        "file": "reference-frames/golf/067.png",
+        "bytes": 81072,
+        "sha256": "3f2bddc025f3994450c2126276a0a1384853b57ab87eb2d7643b736e6b828b7e"
+      },
+      {
+        "file": "reference-frames/golf/068.png",
+        "bytes": 81068,
+        "sha256": "b54cd7dbf6c1a3d101772a9c7e168e551156b14f4b552c682ad7b8f707b4dd33"
+      },
+      {
+        "file": "reference-frames/golf/069.png",
+        "bytes": 81080,
+        "sha256": "22c3460279ca0fc5d78aa617b31a80cca8d80ca440e1333b67782c06cc00fd4d"
+      },
+      {
+        "file": "reference-frames/golf/070.png",
+        "bytes": 81105,
+        "sha256": "dfaefd5e57aa15f9876c91355a6e6272f89afa89e290a1522b2252cd0cf428d1"
+      },
+      {
+        "file": "reference-frames/golf/071.png",
+        "bytes": 81080,
+        "sha256": "22c3460279ca0fc5d78aa617b31a80cca8d80ca440e1333b67782c06cc00fd4d"
+      },
+      {
+        "file": "reference-frames/golf/072.png",
+        "bytes": 81080,
+        "sha256": "87a81ce1c742e410a1299ee199ede7b9a66edda655093c61b63517d0d614f82d"
+      },
+      {
+        "file": "reference-frames/golf/073.png",
+        "bytes": 81080,
+        "sha256": "22c3460279ca0fc5d78aa617b31a80cca8d80ca440e1333b67782c06cc00fd4d"
+      },
+      {
+        "file": "reference-frames/golf/074.png",
+        "bytes": 81105,
+        "sha256": "dfaefd5e57aa15f9876c91355a6e6272f89afa89e290a1522b2252cd0cf428d1"
+      },
+      {
+        "file": "reference-frames/golf/075.png",
+        "bytes": 81080,
+        "sha256": "22c3460279ca0fc5d78aa617b31a80cca8d80ca440e1333b67782c06cc00fd4d"
+      },
+      {
+        "file": "reference-frames/golf/076.png",
+        "bytes": 81080,
+        "sha256": "87a81ce1c742e410a1299ee199ede7b9a66edda655093c61b63517d0d614f82d"
+      },
+      {
+        "file": "reference-frames/golf/077.png",
+        "bytes": 81080,
+        "sha256": "22c3460279ca0fc5d78aa617b31a80cca8d80ca440e1333b67782c06cc00fd4d"
+      },
+      {
+        "file": "reference-frames/golf/078.png",
+        "bytes": 81105,
+        "sha256": "dfaefd5e57aa15f9876c91355a6e6272f89afa89e290a1522b2252cd0cf428d1"
+      },
+      {
+        "file": "reference-frames/golf/079.png",
+        "bytes": 81076,
+        "sha256": "2a35109c525d66f0c7888bcee92346c6378bc8f7e1843e13cec1c598b77bb896"
+      },
+      {
+        "file": "reference-frames/golf/080.png",
+        "bytes": 81082,
+        "sha256": "de336e80ef49cf9795e899182f5ff665031e4927c31f24f35ef4f04e88231722"
+      },
+      {
+        "file": "reference-frames/golf/081.png",
+        "bytes": 81076,
+        "sha256": "989bb6a4155ab3a451eab136ea7d4a3a38e4edfcef687a9aa423c869d6506c52"
+      },
+      {
+        "file": "reference-frames/golf/082.png",
+        "bytes": 81098,
+        "sha256": "4949ce752125d34c15ac63fe815faae6b86a141538da5382dc645b275a86b7af"
+      },
+      {
+        "file": "reference-frames/golf/083.png",
+        "bytes": 81071,
+        "sha256": "03efaa3ff0e90a7e8a08bc5b828665e1de13bd7a90eefb5c80455876b5d895b4"
+      },
+      {
+        "file": "reference-frames/golf/084.png",
+        "bytes": 81063,
+        "sha256": "eec7b60343797a58add423938bdea0876107e94f9283bc4ad3851d8ca4b1add7"
+      },
+      {
+        "file": "reference-frames/golf/085.png",
+        "bytes": 81088,
+        "sha256": "3751d5bbea8ceafd7281056ef790c3b878d5914e6e04f935b54eb911d7681a41"
+      },
+      {
+        "file": "reference-frames/golf/086.png",
+        "bytes": 81141,
+        "sha256": "858ae0fdf536134da798e81aa15179c7c7cd6cd5d05332690040aef30ef4f650"
+      },
+      {
+        "file": "reference-frames/golf/087.png",
+        "bytes": 81119,
+        "sha256": "4639c2256579f65401011b9164e9031b3d2f7e84d1124d99fafa09fe9b65aeb8"
+      },
+      {
+        "file": "reference-frames/golf/088.png",
+        "bytes": 81121,
+        "sha256": "bf03ec689b0ade3883d16dfcc29848a2ccef7ea60291f7d58c5557c96d2b6c63"
+      },
+      {
+        "file": "reference-frames/golf/089.png",
+        "bytes": 81121,
+        "sha256": "a6254761b7fde4c7da9f96e07a5720422b831f21d5bfa744ced4ab3da5ffe566"
+      },
+      {
+        "file": "reference-frames/golf/090.png",
+        "bytes": 81145,
+        "sha256": "24e2dc11d18587f744c0c30e72eb92493c66de480f615104301c689fbb054a21"
+      },
+      {
+        "file": "reference-frames/golf/091.png",
+        "bytes": 81199,
+        "sha256": "3ca6d823db0cfe73f7cff6682bfc3e6ed932befb131458f71c02219ac7cb2e8c"
+      },
+      {
+        "file": "reference-frames/golf/092.png",
+        "bytes": 81219,
+        "sha256": "b789be499ccc5ddd71ceae9f7fbc4013a891171628b53cbdf81445e47e7e72d4"
+      },
+      {
+        "file": "reference-frames/golf/093.png",
+        "bytes": 81617,
+        "sha256": "3b743ae3902a3226df5d86086b3f9a35d8a6ef8be7c49d52d15d9014cb0215c2"
+      },
+      {
+        "file": "reference-frames/golf/094.png",
+        "bytes": 82544,
+        "sha256": "bb51592109eca2e4dfb4a8ebfd2346c56a3b868d2ee1ace7ddc08ce46fc66b50"
+      },
+      {
+        "file": "reference-frames/golf/095.png",
+        "bytes": 75105,
+        "sha256": "59de7cddad4d66ab7f7681e76e2b6a66e52b447aa9c935541a298092263b4310"
+      },
+      {
+        "file": "reference-frames/golf/096.png",
+        "bytes": 73040,
+        "sha256": "437f044b5e5e38e35588634f32c70920b7bed76dcb10cd3c1ba5586301310368"
+      },
+      {
+        "file": "reference-frames/golf/097.png",
+        "bytes": 72916,
+        "sha256": "ead8f5933b94117337ee275b9b450d0b69bf88f2bbe9a48fb6a7b14faa4140c6"
+      },
+      {
+        "file": "reference-frames/golf/098.png",
+        "bytes": 73675,
+        "sha256": "8c52daf183728e4600a79e4da270e2fcc86391e74e8808893f1c1d374693cd1b"
+      },
+      {
+        "file": "reference-frames/golf/099.png",
+        "bytes": 76900,
+        "sha256": "8b9e0e0649c223ef56374c1826c8f3cb9ab3327c1db5749fb14c36e9127cf944"
+      },
+      {
+        "file": "reference-frames/golf/100.png",
+        "bytes": 78122,
+        "sha256": "a83ff43fab4d4fa2e0c2d6c8cc6a8b1283d13cce47d33296f7b19e845659dc9d"
+      },
+      {
+        "file": "reference-frames/golf/101.png",
+        "bytes": 79013,
+        "sha256": "ed23d0b98fa53dd3f10eacdc15d1a7a52cdf40b8e70f42b4e3d227f35afa9184"
+      },
+      {
+        "file": "reference-frames/golf/102.png",
+        "bytes": 80804,
+        "sha256": "500c3fcafd7ada57bdb588415f646e94f3d0cf6c4df4ebab9886f8ed0a480c35"
+      },
+      {
+        "file": "reference-frames/golf/103.png",
+        "bytes": 63540,
+        "sha256": "78029329d8499f9f2da4a8e5664bc7d9c9d72d477b3260396f7f43233a19dba3"
+      },
+      {
+        "file": "reference-frames/golf/104.png",
+        "bytes": 80455,
+        "sha256": "ec52253544fe4838099ded5d616ddc609489648cbabec597fdfd993b80a996e3"
+      },
+      {
+        "file": "reference-frames/golf/105.png",
+        "bytes": 81255,
+        "sha256": "b897b3fb70b00b5a68ef66d49cb7b04a31f9e8222aa0a607c41cb18483b4644d"
+      },
+      {
+        "file": "reference-frames/golf/106.png",
+        "bytes": 83759,
+        "sha256": "ecfc6e042a0fe01b5111f01d155f5f06ea5cc1bc873df2e66b47d0eca3636993"
+      },
+      {
+        "file": "reference-frames/golf/107.png",
+        "bytes": 82876,
+        "sha256": "de3f14c36229adce95c8b20dbd9500b6d4b331994136fee9aa8add4caf538762"
+      },
+      {
+        "file": "reference-frames/golf/108.png",
+        "bytes": 78335,
+        "sha256": "9a9d6a9b7813f4aff515255cbc3f0246094c97db779451bbabc0e107618ffcaa"
+      },
+      {
+        "file": "reference-frames/golf/109.png",
+        "bytes": 76286,
+        "sha256": "31be6868682b015d1a5c18d8ee7bbb6538fd02eb0e5baeecff58637f95320f56"
+      },
+      {
+        "file": "reference-frames/golf/110.png",
+        "bytes": 72720,
+        "sha256": "cf4ac245053fe7a7bd4641df375c80d78cf8e650eec4b96dbd7b5f768ca41386"
+      },
+      {
+        "file": "reference-frames/golf/111.png",
+        "bytes": 65128,
+        "sha256": "342e697aec247e1443669deec3fe18a20013df81a849224e75872290cf0ec87f"
+      },
+      {
+        "file": "reference-frames/golf/112.png",
+        "bytes": 57350,
+        "sha256": "a27102c52ab1ab33ce3ae16b3ad90228b461d765459aee886b63112c84c454f4"
+      },
+      {
+        "file": "reference-frames/golf/113.png",
+        "bytes": 57155,
+        "sha256": "6dbf3b8f202ef0c84875752a3ec28ef771216b10098f53452a3fc0a328e114e1"
+      },
+      {
+        "file": "reference-frames/golf/114.png",
+        "bytes": 57225,
+        "sha256": "8cd556b49592c0655357894f5cfdd5dee2ae5a93cbf1f70f50d50d84703de7be"
+      },
+      {
+        "file": "reference-frames/golf/115.png",
+        "bytes": 56307,
+        "sha256": "c760e81d9f08a2f207bcf407bb3bca3b455a19437996283adaa335a3db413512"
+      },
+      {
+        "file": "reference-frames/golf/116.png",
+        "bytes": 52366,
+        "sha256": "4799f04062c7771cb282bd33e3aa234c14efea220ca8bc1c0a602cfe1740662e"
+      },
+      {
+        "file": "reference-frames/golf/117.png",
+        "bytes": 44458,
+        "sha256": "84e9bb0e1e47c19652684380fe59332a18225425b986e7bb178e8e50ce6828c9"
+      },
+      {
+        "file": "reference-frames/golf/118.png",
+        "bytes": 38115,
+        "sha256": "e63b0b5c52be946140191f34657ee983f9c28b5862042c43246bd873bfcea166"
+      },
+      {
+        "file": "reference-frames/golf/119.png",
+        "bytes": 34231,
+        "sha256": "a343012d134b15dac05d28a07d27c0c509f636dd2cc73699ffd161c4914085d4"
+      },
+      {
+        "file": "reference-frames/golf/120.png",
+        "bytes": 29592,
+        "sha256": "60e6db07d03eaae2ea642e6e40a8b22c3e3880df00807851b1bd5aef690f2e82"
+      },
+      {
+        "file": "reference-frames/golf/121.png",
+        "bytes": 19322,
+        "sha256": "2816847653a5f5b419a6dcd1eaf3edfd53d03cdd2efa79e75a2f940b6409e6c4"
+      },
+      {
+        "file": "reference-frames/golf/122.png",
+        "bytes": 14086,
+        "sha256": "547f319a8aa8e62e89f3939a86953d1cc86484a2729e49bc3c0bab93dff947e0"
+      },
+      {
+        "file": "reference-frames/golf/123.png",
+        "bytes": 7858,
+        "sha256": "345da46ad8ebc0721f165adf099e6a8c21f05512f41992e76fd93d8d0404b750"
+      }
+    ],
+    "orderedPNGSetSha256": "5368e07206ee2e1f28369bfe165aa34becec5896e01523338f89edf1c8ab6d0b"
+  },
+  "source": {
+    "start": 103.47003333333333,
+    "end": 107.57413333333334,
+    "fps": 29.97002997002997,
+    "frameCount": 123,
+    "duration": 4.1041,
+    "sourceReference": "https://cekai.us/works/the-tokyo-2020-kinetic-pictograms/"
+  },
+  "checks": {
+    "frameCountMatches": true,
+    "pixelsMismatchFrames": [],
+    "bboxMismatchFrames": [],
+    "anchor": {
+      "index": 71,
+      "valid": true,
+      "pixels": 58717,
+      "bbox": [
+        187,
+        274,
+        782,
+        668
+      ]
+    },
+    "firstFrameBlank": true,
+    "lastFrameBlank": true,
+    "blankFrameIndices": [
+      0,
+      122
+    ],
+    "emptyPathAgreesWithBlank": true,
+    "pngCountMatches": true,
+    "manifestFrameCountMatches": true
+  },
+  "results": [
+    {
+      "sport": "golf",
+      "frame": 0,
+      "pngFrame": 1,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 0,
+      "union": 0,
+      "sourcePixels": 0,
+      "renderedPixels": 0,
+      "declaredPixels": 0,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderedBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "declaredBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "bboxMatch": true,
+      "pathEmpty": true
+    },
+    {
+      "sport": "golf",
+      "frame": 1,
+      "pngFrame": 2,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 13488,
+      "union": 13488,
+      "sourcePixels": 13488,
+      "renderedPixels": 13488,
+      "declaredPixels": 13488,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        463,
+        409,
+        597,
+        606
+      ],
+      "renderedBBox": [
+        463,
+        409,
+        597,
+        606
+      ],
+      "declaredBBox": [
+        463,
+        409,
+        597,
+        606
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 2,
+      "pngFrame": 3,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 16758,
+      "union": 16758,
+      "sourcePixels": 16758,
+      "renderedPixels": 16758,
+      "declaredPixels": 16758,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        456,
+        403,
+        599,
+        616
+      ],
+      "renderedBBox": [
+        456,
+        403,
+        599,
+        616
+      ],
+      "declaredBBox": [
+        456,
+        403,
+        599,
+        616
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 3,
+      "pngFrame": 4,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 22039,
+      "union": 22039,
+      "sourcePixels": 22039,
+      "renderedPixels": 22039,
+      "declaredPixels": 22039,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        454,
+        400,
+        603,
+        648
+      ],
+      "renderedBBox": [
+        454,
+        400,
+        603,
+        648
+      ],
+      "declaredBBox": [
+        454,
+        400,
+        603,
+        648
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 4,
+      "pngFrame": 5,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 28801,
+      "union": 28801,
+      "sourcePixels": 28801,
+      "renderedPixels": 28801,
+      "declaredPixels": 28801,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        440,
+        400,
+        610,
+        697
+      ],
+      "renderedBBox": [
+        440,
+        400,
+        610,
+        697
+      ],
+      "declaredBBox": [
+        440,
+        400,
+        610,
+        697
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 5,
+      "pngFrame": 6,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 36008,
+      "union": 36008,
+      "sourcePixels": 36008,
+      "renderedPixels": 36008,
+      "declaredPixels": 36008,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        415,
+        400,
+        617,
+        749
+      ],
+      "renderedBBox": [
+        415,
+        400,
+        617,
+        749
+      ],
+      "declaredBBox": [
+        415,
+        400,
+        617,
+        749
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 6,
+      "pngFrame": 7,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 42339,
+      "union": 42339,
+      "sourcePixels": 42339,
+      "renderedPixels": 42339,
+      "declaredPixels": 42339,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        385,
+        400,
+        626,
+        797
+      ],
+      "renderedBBox": [
+        385,
+        400,
+        626,
+        797
+      ],
+      "declaredBBox": [
+        385,
+        400,
+        626,
+        797
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 7,
+      "pngFrame": 8,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 46962,
+      "union": 46962,
+      "sourcePixels": 46962,
+      "renderedPixels": 46962,
+      "declaredPixels": 46962,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        356,
+        400,
+        636,
+        825
+      ],
+      "renderedBBox": [
+        356,
+        400,
+        636,
+        825
+      ],
+      "declaredBBox": [
+        356,
+        400,
+        636,
+        825
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 8,
+      "pngFrame": 9,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 49222,
+      "union": 49222,
+      "sourcePixels": 49222,
+      "renderedPixels": 49222,
+      "declaredPixels": 49222,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        400,
+        646,
+        832
+      ],
+      "renderedBBox": [
+        333,
+        400,
+        646,
+        832
+      ],
+      "declaredBBox": [
+        333,
+        400,
+        646,
+        832
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 9,
+      "pngFrame": 10,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 49333,
+      "union": 49333,
+      "sourcePixels": 49333,
+      "renderedPixels": 49333,
+      "declaredPixels": 49333,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        321,
+        400,
+        656,
+        823
+      ],
+      "renderedBBox": [
+        321,
+        400,
+        656,
+        823
+      ],
+      "declaredBBox": [
+        321,
+        400,
+        656,
+        823
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 10,
+      "pngFrame": 11,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 46183,
+      "union": 46183,
+      "sourcePixels": 46183,
+      "renderedPixels": 46183,
+      "declaredPixels": 46183,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        322,
+        400,
+        665,
+        792
+      ],
+      "renderedBBox": [
+        322,
+        400,
+        665,
+        792
+      ],
+      "declaredBBox": [
+        322,
+        400,
+        665,
+        792
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 11,
+      "pngFrame": 12,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 41375,
+      "union": 41375,
+      "sourcePixels": 41375,
+      "renderedPixels": 41375,
+      "declaredPixels": 41375,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        339,
+        401,
+        674,
+        750
+      ],
+      "renderedBBox": [
+        339,
+        401,
+        674,
+        750
+      ],
+      "declaredBBox": [
+        339,
+        401,
+        674,
+        750
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 12,
+      "pngFrame": 13,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 35317,
+      "union": 35317,
+      "sourcePixels": 35317,
+      "renderedPixels": 35317,
+      "declaredPixels": 35317,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        368,
+        401,
+        680,
+        699
+      ],
+      "renderedBBox": [
+        368,
+        401,
+        680,
+        699
+      ],
+      "declaredBBox": [
+        368,
+        401,
+        680,
+        699
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 13,
+      "pngFrame": 14,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 28991,
+      "union": 28991,
+      "sourcePixels": 28991,
+      "renderedPixels": 28991,
+      "declaredPixels": 28991,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        395,
+        402,
+        686,
+        642
+      ],
+      "renderedBBox": [
+        395,
+        402,
+        686,
+        642
+      ],
+      "declaredBBox": [
+        395,
+        402,
+        686,
+        642
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 14,
+      "pngFrame": 15,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 28954,
+      "union": 28954,
+      "sourcePixels": 28954,
+      "renderedPixels": 28954,
+      "declaredPixels": 28954,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        394,
+        282,
+        689,
+        623
+      ],
+      "renderedBBox": [
+        394,
+        282,
+        689,
+        623
+      ],
+      "declaredBBox": [
+        394,
+        282,
+        689,
+        623
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 15,
+      "pngFrame": 16,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 31321,
+      "union": 31321,
+      "sourcePixels": 31321,
+      "renderedPixels": 31321,
+      "declaredPixels": 31321,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        395,
+        131,
+        725,
+        625
+      ],
+      "renderedBBox": [
+        395,
+        131,
+        725,
+        625
+      ],
+      "declaredBBox": [
+        395,
+        131,
+        725,
+        625
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 16,
+      "pngFrame": 17,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 34943,
+      "union": 34943,
+      "sourcePixels": 34943,
+      "renderedPixels": 34943,
+      "declaredPixels": 34943,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        397,
+        13,
+        821,
+        626
+      ],
+      "renderedBBox": [
+        397,
+        13,
+        821,
+        626
+      ],
+      "declaredBBox": [
+        397,
+        13,
+        821,
+        626
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 17,
+      "pngFrame": 18,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 39102,
+      "union": 39102,
+      "sourcePixels": 39102,
+      "renderedPixels": 39102,
+      "declaredPixels": 39102,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        401,
+        1,
+        830,
+        627
+      ],
+      "renderedBBox": [
+        401,
+        1,
+        830,
+        627
+      ],
+      "declaredBBox": [
+        401,
+        1,
+        830,
+        627
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 18,
+      "pngFrame": 19,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 43320,
+      "union": 43320,
+      "sourcePixels": 43320,
+      "renderedPixels": 43320,
+      "declaredPixels": 43320,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        406,
+        27,
+        808,
+        628
+      ],
+      "renderedBBox": [
+        406,
+        27,
+        808,
+        628
+      ],
+      "declaredBBox": [
+        406,
+        27,
+        808,
+        628
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 19,
+      "pngFrame": 20,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 46043,
+      "union": 46043,
+      "sourcePixels": 46043,
+      "renderedPixels": 46043,
+      "declaredPixels": 46043,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        412,
+        80,
+        767,
+        628
+      ],
+      "renderedBBox": [
+        412,
+        80,
+        767,
+        628
+      ],
+      "declaredBBox": [
+        412,
+        80,
+        767,
+        628
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 20,
+      "pngFrame": 21,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 47196,
+      "union": 47196,
+      "sourcePixels": 47196,
+      "renderedPixels": 47196,
+      "declaredPixels": 47196,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        417,
+        156,
+        736,
+        629
+      ],
+      "renderedBBox": [
+        417,
+        156,
+        736,
+        629
+      ],
+      "declaredBBox": [
+        417,
+        156,
+        736,
+        629
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 21,
+      "pngFrame": 22,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 47303,
+      "union": 47303,
+      "sourcePixels": 47303,
+      "renderedPixels": 47303,
+      "declaredPixels": 47303,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        419,
+        234,
+        740,
+        631
+      ],
+      "renderedBBox": [
+        419,
+        234,
+        740,
+        631
+      ],
+      "declaredBBox": [
+        419,
+        234,
+        740,
+        631
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 22,
+      "pngFrame": 23,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 47487,
+      "union": 47487,
+      "sourcePixels": 47487,
+      "renderedPixels": 47487,
+      "declaredPixels": 47487,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        416,
+        212,
+        742,
+        634
+      ],
+      "renderedBBox": [
+        416,
+        212,
+        742,
+        634
+      ],
+      "declaredBBox": [
+        416,
+        212,
+        742,
+        634
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 23,
+      "pngFrame": 24,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 45120,
+      "union": 45120,
+      "sourcePixels": 45120,
+      "renderedPixels": 45120,
+      "declaredPixels": 45120,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        408,
+        22,
+        750,
+        638
+      ],
+      "renderedBBox": [
+        408,
+        22,
+        750,
+        638
+      ],
+      "declaredBBox": [
+        408,
+        22,
+        750,
+        638
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 24,
+      "pngFrame": 25,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 37488,
+      "union": 37488,
+      "sourcePixels": 37488,
+      "renderedPixels": 37488,
+      "declaredPixels": 37488,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        397,
+        0,
+        763,
+        642
+      ],
+      "renderedBBox": [
+        397,
+        0,
+        763,
+        642
+      ],
+      "declaredBBox": [
+        397,
+        0,
+        763,
+        642
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 25,
+      "pngFrame": 26,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 46266,
+      "union": 46266,
+      "sourcePixels": 46266,
+      "renderedPixels": 46266,
+      "declaredPixels": 46266,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        395,
+        129,
+        693,
+        645
+      ],
+      "renderedBBox": [
+        395,
+        129,
+        693,
+        645
+      ],
+      "declaredBBox": [
+        395,
+        129,
+        693,
+        645
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 26,
+      "pngFrame": 27,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 72274,
+      "union": 72274,
+      "sourcePixels": 72274,
+      "renderedPixels": 72274,
+      "declaredPixels": 72274,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        150,
+        416,
+        648,
+        892
+      ],
+      "renderedBBox": [
+        150,
+        416,
+        648,
+        892
+      ],
+      "declaredBBox": [
+        150,
+        416,
+        648,
+        892
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 27,
+      "pngFrame": 28,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 65704,
+      "union": 65704,
+      "sourcePixels": 65704,
+      "renderedPixels": 65704,
+      "declaredPixels": 65704,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        90,
+        424,
+        599,
+        960
+      ],
+      "renderedBBox": [
+        90,
+        424,
+        599,
+        960
+      ],
+      "declaredBBox": [
+        90,
+        424,
+        599,
+        960
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 28,
+      "pngFrame": 29,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 38778,
+      "union": 38778,
+      "sourcePixels": 38778,
+      "renderedPixels": 38778,
+      "declaredPixels": 38778,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        84,
+        426,
+        566,
+        960
+      ],
+      "renderedBBox": [
+        84,
+        426,
+        566,
+        960
+      ],
+      "declaredBBox": [
+        84,
+        426,
+        566,
+        960
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 29,
+      "pngFrame": 30,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 42982,
+      "union": 42982,
+      "sourcePixels": 42982,
+      "renderedPixels": 42982,
+      "declaredPixels": 42982,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        392,
+        428,
+        586,
+        960
+      ],
+      "renderedBBox": [
+        392,
+        428,
+        586,
+        960
+      ],
+      "declaredBBox": [
+        392,
+        428,
+        586,
+        960
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 30,
+      "pngFrame": 31,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56474,
+      "union": 56474,
+      "sourcePixels": 56474,
+      "renderedPixels": 56474,
+      "declaredPixels": 56474,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        408,
+        429,
+        626,
+        960
+      ],
+      "renderedBBox": [
+        408,
+        429,
+        626,
+        960
+      ],
+      "declaredBBox": [
+        408,
+        429,
+        626,
+        960
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 31,
+      "pngFrame": 32,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58881,
+      "union": 58881,
+      "sourcePixels": 58881,
+      "renderedPixels": 58881,
+      "declaredPixels": 58881,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        385,
+        430,
+        664,
+        960
+      ],
+      "renderedBBox": [
+        385,
+        430,
+        664,
+        960
+      ],
+      "declaredBBox": [
+        385,
+        430,
+        664,
+        960
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 32,
+      "pngFrame": 33,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59510,
+      "union": 59510,
+      "sourcePixels": 59510,
+      "renderedPixels": 59510,
+      "declaredPixels": 59510,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        377,
+        432,
+        690,
+        960
+      ],
+      "renderedBBox": [
+        377,
+        432,
+        690,
+        960
+      ],
+      "declaredBBox": [
+        377,
+        432,
+        690,
+        960
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 33,
+      "pngFrame": 34,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 78942,
+      "union": 78942,
+      "sourcePixels": 78942,
+      "renderedPixels": 78942,
+      "declaredPixels": 78942,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        389,
+        433,
+        888,
+        960
+      ],
+      "renderedBBox": [
+        389,
+        433,
+        888,
+        960
+      ],
+      "declaredBBox": [
+        389,
+        433,
+        888,
+        960
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 34,
+      "pngFrame": 35,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 98912,
+      "union": 98912,
+      "sourcePixels": 98912,
+      "renderedPixels": 98912,
+      "declaredPixels": 98912,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        414,
+        171,
+        957,
+        960
+      ],
+      "renderedBBox": [
+        414,
+        171,
+        957,
+        960
+      ],
+      "declaredBBox": [
+        414,
+        171,
+        957,
+        960
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 35,
+      "pngFrame": 36,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 110829,
+      "union": 110829,
+      "sourcePixels": 110829,
+      "renderedPixels": 110829,
+      "declaredPixels": 110829,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        444,
+        0,
+        960,
+        897
+      ],
+      "renderedBBox": [
+        444,
+        0,
+        960,
+        897
+      ],
+      "declaredBBox": [
+        444,
+        0,
+        960,
+        897
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 36,
+      "pngFrame": 37,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 118253,
+      "union": 118253,
+      "sourcePixels": 118253,
+      "renderedPixels": 118253,
+      "declaredPixels": 118253,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        445,
+        0,
+        960,
+        764
+      ],
+      "renderedBBox": [
+        445,
+        0,
+        960,
+        764
+      ],
+      "declaredBBox": [
+        445,
+        0,
+        960,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 37,
+      "pngFrame": 38,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 118703,
+      "union": 118703,
+      "sourcePixels": 118703,
+      "renderedPixels": 118703,
+      "declaredPixels": 118703,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        352,
+        0,
+        960,
+        675
+      ],
+      "renderedBBox": [
+        352,
+        0,
+        960,
+        675
+      ],
+      "declaredBBox": [
+        352,
+        0,
+        960,
+        675
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 38,
+      "pngFrame": 39,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 112190,
+      "union": 112190,
+      "sourcePixels": 112190,
+      "renderedPixels": 112190,
+      "declaredPixels": 112190,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        240,
+        0,
+        922,
+        672
+      ],
+      "renderedBBox": [
+        240,
+        0,
+        922,
+        672
+      ],
+      "declaredBBox": [
+        240,
+        0,
+        922,
+        672
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 39,
+      "pngFrame": 40,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 73949,
+      "union": 73949,
+      "sourcePixels": 73949,
+      "renderedPixels": 73949,
+      "declaredPixels": 73949,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        194,
+        276,
+        800,
+        670
+      ],
+      "renderedBBox": [
+        194,
+        276,
+        800,
+        670
+      ],
+      "declaredBBox": [
+        194,
+        276,
+        800,
+        670
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 40,
+      "pngFrame": 41,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62996,
+      "union": 62996,
+      "sourcePixels": 62996,
+      "renderedPixels": 62996,
+      "declaredPixels": 62996,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        204,
+        273,
+        787,
+        669
+      ],
+      "renderedBBox": [
+        204,
+        273,
+        787,
+        669
+      ],
+      "declaredBBox": [
+        204,
+        273,
+        787,
+        669
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 41,
+      "pngFrame": 42,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 60680,
+      "union": 60680,
+      "sourcePixels": 60680,
+      "renderedPixels": 60680,
+      "declaredPixels": 60680,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        186,
+        274,
+        784,
+        669
+      ],
+      "renderedBBox": [
+        186,
+        274,
+        784,
+        669
+      ],
+      "declaredBBox": [
+        186,
+        274,
+        784,
+        669
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 42,
+      "pngFrame": 43,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 60530,
+      "union": 60530,
+      "sourcePixels": 60530,
+      "renderedPixels": 60530,
+      "declaredPixels": 60530,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        186,
+        274,
+        783,
+        669
+      ],
+      "renderedBBox": [
+        186,
+        274,
+        783,
+        669
+      ],
+      "declaredBBox": [
+        186,
+        274,
+        783,
+        669
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 43,
+      "pngFrame": 44,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 60378,
+      "union": 60378,
+      "sourcePixels": 60378,
+      "renderedPixels": 60378,
+      "declaredPixels": 60378,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        186,
+        274,
+        783,
+        669
+      ],
+      "renderedBBox": [
+        186,
+        274,
+        783,
+        669
+      ],
+      "declaredBBox": [
+        186,
+        274,
+        783,
+        669
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 44,
+      "pngFrame": 45,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59986,
+      "union": 59986,
+      "sourcePixels": 59986,
+      "renderedPixels": 59986,
+      "declaredPixels": 59986,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        186,
+        274,
+        783,
+        669
+      ],
+      "renderedBBox": [
+        186,
+        274,
+        783,
+        669
+      ],
+      "declaredBBox": [
+        186,
+        274,
+        783,
+        669
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 45,
+      "pngFrame": 46,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59669,
+      "union": 59669,
+      "sourcePixels": 59669,
+      "renderedPixels": 59669,
+      "declaredPixels": 59669,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        186,
+        274,
+        783,
+        669
+      ],
+      "renderedBBox": [
+        186,
+        274,
+        783,
+        669
+      ],
+      "declaredBBox": [
+        186,
+        274,
+        783,
+        669
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 46,
+      "pngFrame": 47,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59392,
+      "union": 59392,
+      "sourcePixels": 59392,
+      "renderedPixels": 59392,
+      "declaredPixels": 59392,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        186,
+        274,
+        782,
+        669
+      ],
+      "renderedBBox": [
+        186,
+        274,
+        782,
+        669
+      ],
+      "declaredBBox": [
+        186,
+        274,
+        782,
+        669
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 47,
+      "pngFrame": 48,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59155,
+      "union": 59155,
+      "sourcePixels": 59155,
+      "renderedPixels": 59155,
+      "declaredPixels": 59155,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        669
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        669
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        669
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 48,
+      "pngFrame": 49,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58993,
+      "union": 58993,
+      "sourcePixels": 58993,
+      "renderedPixels": 58993,
+      "declaredPixels": 58993,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 49,
+      "pngFrame": 50,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58860,
+      "union": 58860,
+      "sourcePixels": 58860,
+      "renderedPixels": 58860,
+      "declaredPixels": 58860,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 50,
+      "pngFrame": 51,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58769,
+      "union": 58769,
+      "sourcePixels": 58769,
+      "renderedPixels": 58769,
+      "declaredPixels": 58769,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 51,
+      "pngFrame": 52,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58724,
+      "union": 58724,
+      "sourcePixels": 58724,
+      "renderedPixels": 58724,
+      "declaredPixels": 58724,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 52,
+      "pngFrame": 53,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58718,
+      "union": 58718,
+      "sourcePixels": 58718,
+      "renderedPixels": 58718,
+      "declaredPixels": 58718,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 53,
+      "pngFrame": 54,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58721,
+      "union": 58721,
+      "sourcePixels": 58721,
+      "renderedPixels": 58721,
+      "declaredPixels": 58721,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 54,
+      "pngFrame": 55,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58719,
+      "union": 58719,
+      "sourcePixels": 58719,
+      "renderedPixels": 58719,
+      "declaredPixels": 58719,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 55,
+      "pngFrame": 56,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58719,
+      "union": 58719,
+      "sourcePixels": 58719,
+      "renderedPixels": 58719,
+      "declaredPixels": 58719,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 56,
+      "pngFrame": 57,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58719,
+      "union": 58719,
+      "sourcePixels": 58719,
+      "renderedPixels": 58719,
+      "declaredPixels": 58719,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 57,
+      "pngFrame": 58,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58719,
+      "union": 58719,
+      "sourcePixels": 58719,
+      "renderedPixels": 58719,
+      "declaredPixels": 58719,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 58,
+      "pngFrame": 59,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58719,
+      "union": 58719,
+      "sourcePixels": 58719,
+      "renderedPixels": 58719,
+      "declaredPixels": 58719,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 59,
+      "pngFrame": 60,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58719,
+      "union": 58719,
+      "sourcePixels": 58719,
+      "renderedPixels": 58719,
+      "declaredPixels": 58719,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 60,
+      "pngFrame": 61,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58719,
+      "union": 58719,
+      "sourcePixels": 58719,
+      "renderedPixels": 58719,
+      "declaredPixels": 58719,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 61,
+      "pngFrame": 62,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58719,
+      "union": 58719,
+      "sourcePixels": 58719,
+      "renderedPixels": 58719,
+      "declaredPixels": 58719,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 62,
+      "pngFrame": 63,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58719,
+      "union": 58719,
+      "sourcePixels": 58719,
+      "renderedPixels": 58719,
+      "declaredPixels": 58719,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 63,
+      "pngFrame": 64,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58719,
+      "union": 58719,
+      "sourcePixels": 58719,
+      "renderedPixels": 58719,
+      "declaredPixels": 58719,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 64,
+      "pngFrame": 65,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58719,
+      "union": 58719,
+      "sourcePixels": 58719,
+      "renderedPixels": 58719,
+      "declaredPixels": 58719,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 65,
+      "pngFrame": 66,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58719,
+      "union": 58719,
+      "sourcePixels": 58719,
+      "renderedPixels": 58719,
+      "declaredPixels": 58719,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 66,
+      "pngFrame": 67,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58717,
+      "union": 58717,
+      "sourcePixels": 58717,
+      "renderedPixels": 58717,
+      "declaredPixels": 58717,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 67,
+      "pngFrame": 68,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58717,
+      "union": 58717,
+      "sourcePixels": 58717,
+      "renderedPixels": 58717,
+      "declaredPixels": 58717,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 68,
+      "pngFrame": 69,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58717,
+      "union": 58717,
+      "sourcePixels": 58717,
+      "renderedPixels": 58717,
+      "declaredPixels": 58717,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 69,
+      "pngFrame": 70,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58717,
+      "union": 58717,
+      "sourcePixels": 58717,
+      "renderedPixels": 58717,
+      "declaredPixels": 58717,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 70,
+      "pngFrame": 71,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58717,
+      "union": 58717,
+      "sourcePixels": 58717,
+      "renderedPixels": 58717,
+      "declaredPixels": 58717,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 71,
+      "pngFrame": 72,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58717,
+      "union": 58717,
+      "sourcePixels": 58717,
+      "renderedPixels": 58717,
+      "declaredPixels": 58717,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 72,
+      "pngFrame": 73,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58717,
+      "union": 58717,
+      "sourcePixels": 58717,
+      "renderedPixels": 58717,
+      "declaredPixels": 58717,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 73,
+      "pngFrame": 74,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58717,
+      "union": 58717,
+      "sourcePixels": 58717,
+      "renderedPixels": 58717,
+      "declaredPixels": 58717,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 74,
+      "pngFrame": 75,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58717,
+      "union": 58717,
+      "sourcePixels": 58717,
+      "renderedPixels": 58717,
+      "declaredPixels": 58717,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 75,
+      "pngFrame": 76,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58717,
+      "union": 58717,
+      "sourcePixels": 58717,
+      "renderedPixels": 58717,
+      "declaredPixels": 58717,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 76,
+      "pngFrame": 77,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58717,
+      "union": 58717,
+      "sourcePixels": 58717,
+      "renderedPixels": 58717,
+      "declaredPixels": 58717,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 77,
+      "pngFrame": 78,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58717,
+      "union": 58717,
+      "sourcePixels": 58717,
+      "renderedPixels": 58717,
+      "declaredPixels": 58717,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 78,
+      "pngFrame": 79,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58717,
+      "union": 58717,
+      "sourcePixels": 58717,
+      "renderedPixels": 58717,
+      "declaredPixels": 58717,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 79,
+      "pngFrame": 80,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58717,
+      "union": 58717,
+      "sourcePixels": 58717,
+      "renderedPixels": 58717,
+      "declaredPixels": 58717,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 80,
+      "pngFrame": 81,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58717,
+      "union": 58717,
+      "sourcePixels": 58717,
+      "renderedPixels": 58717,
+      "declaredPixels": 58717,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 81,
+      "pngFrame": 82,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58717,
+      "union": 58717,
+      "sourcePixels": 58717,
+      "renderedPixels": 58717,
+      "declaredPixels": 58717,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 82,
+      "pngFrame": 83,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58715,
+      "union": 58715,
+      "sourcePixels": 58715,
+      "renderedPixels": 58715,
+      "declaredPixels": 58715,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 83,
+      "pngFrame": 84,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58714,
+      "union": 58714,
+      "sourcePixels": 58714,
+      "renderedPixels": 58714,
+      "declaredPixels": 58714,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 84,
+      "pngFrame": 85,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58713,
+      "union": 58713,
+      "sourcePixels": 58713,
+      "renderedPixels": 58713,
+      "declaredPixels": 58713,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 85,
+      "pngFrame": 86,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58714,
+      "union": 58714,
+      "sourcePixels": 58714,
+      "renderedPixels": 58714,
+      "declaredPixels": 58714,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 86,
+      "pngFrame": 87,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58714,
+      "union": 58714,
+      "sourcePixels": 58714,
+      "renderedPixels": 58714,
+      "declaredPixels": 58714,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 87,
+      "pngFrame": 88,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58714,
+      "union": 58714,
+      "sourcePixels": 58714,
+      "renderedPixels": 58714,
+      "declaredPixels": 58714,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 88,
+      "pngFrame": 89,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58714,
+      "union": 58714,
+      "sourcePixels": 58714,
+      "renderedPixels": 58714,
+      "declaredPixels": 58714,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 89,
+      "pngFrame": 90,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58714,
+      "union": 58714,
+      "sourcePixels": 58714,
+      "renderedPixels": 58714,
+      "declaredPixels": 58714,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 90,
+      "pngFrame": 91,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58714,
+      "union": 58714,
+      "sourcePixels": 58714,
+      "renderedPixels": 58714,
+      "declaredPixels": 58714,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 91,
+      "pngFrame": 92,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58714,
+      "union": 58714,
+      "sourcePixels": 58714,
+      "renderedPixels": 58714,
+      "declaredPixels": 58714,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "renderedBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "declaredBBox": [
+        187,
+        274,
+        782,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 92,
+      "pngFrame": 93,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58785,
+      "union": 58785,
+      "sourcePixels": 58785,
+      "renderedPixels": 58785,
+      "declaredPixels": 58785,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        195,
+        274,
+        781,
+        668
+      ],
+      "renderedBBox": [
+        195,
+        274,
+        781,
+        668
+      ],
+      "declaredBBox": [
+        195,
+        274,
+        781,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 93,
+      "pngFrame": 94,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58886,
+      "union": 58886,
+      "sourcePixels": 58886,
+      "renderedPixels": 58886,
+      "declaredPixels": 58886,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        229,
+        273,
+        779,
+        681
+      ],
+      "renderedBBox": [
+        229,
+        273,
+        779,
+        681
+      ],
+      "declaredBBox": [
+        229,
+        273,
+        779,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 94,
+      "pngFrame": 95,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56774,
+      "union": 56774,
+      "sourcePixels": 56774,
+      "renderedPixels": 56774,
+      "declaredPixels": 56774,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        317,
+        272,
+        775,
+        760
+      ],
+      "renderedBBox": [
+        317,
+        272,
+        775,
+        760
+      ],
+      "declaredBBox": [
+        317,
+        272,
+        775,
+        760
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 95,
+      "pngFrame": 96,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56515,
+      "union": 56515,
+      "sourcePixels": 56515,
+      "renderedPixels": 56515,
+      "declaredPixels": 56515,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        410,
+        271,
+        773,
+        807
+      ],
+      "renderedBBox": [
+        410,
+        271,
+        773,
+        807
+      ],
+      "declaredBBox": [
+        410,
+        271,
+        773,
+        807
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 96,
+      "pngFrame": 97,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56725,
+      "union": 56725,
+      "sourcePixels": 56725,
+      "renderedPixels": 56725,
+      "declaredPixels": 56725,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        437,
+        271,
+        775,
+        816
+      ],
+      "renderedBBox": [
+        437,
+        271,
+        775,
+        816
+      ],
+      "declaredBBox": [
+        437,
+        271,
+        775,
+        816
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 97,
+      "pngFrame": 98,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56916,
+      "union": 56916,
+      "sourcePixels": 56916,
+      "renderedPixels": 56916,
+      "declaredPixels": 56916,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        411,
+        274,
+        786,
+        805
+      ],
+      "renderedBBox": [
+        411,
+        274,
+        786,
+        805
+      ],
+      "declaredBBox": [
+        411,
+        274,
+        786,
+        805
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 98,
+      "pngFrame": 99,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57416,
+      "union": 57416,
+      "sourcePixels": 57416,
+      "renderedPixels": 57416,
+      "declaredPixels": 57416,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        363,
+        279,
+        803,
+        772
+      ],
+      "renderedBBox": [
+        363,
+        279,
+        803,
+        772
+      ],
+      "declaredBBox": [
+        363,
+        279,
+        803,
+        772
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 99,
+      "pngFrame": 100,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58223,
+      "union": 58223,
+      "sourcePixels": 58223,
+      "renderedPixels": 58223,
+      "declaredPixels": 58223,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        314,
+        288,
+        822,
+        717
+      ],
+      "renderedBBox": [
+        314,
+        288,
+        822,
+        717
+      ],
+      "declaredBBox": [
+        314,
+        288,
+        822,
+        717
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 100,
+      "pngFrame": 101,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 60064,
+      "union": 60064,
+      "sourcePixels": 60064,
+      "renderedPixels": 60064,
+      "declaredPixels": 60064,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        275,
+        301,
+        840,
+        671
+      ],
+      "renderedBBox": [
+        275,
+        301,
+        840,
+        671
+      ],
+      "declaredBBox": [
+        275,
+        301,
+        840,
+        671
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 101,
+      "pngFrame": 102,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62917,
+      "union": 62917,
+      "sourcePixels": 62917,
+      "renderedPixels": 62917,
+      "declaredPixels": 62917,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        256,
+        318,
+        858,
+        672
+      ],
+      "renderedBBox": [
+        256,
+        318,
+        858,
+        672
+      ],
+      "declaredBBox": [
+        256,
+        318,
+        858,
+        672
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 102,
+      "pngFrame": 103,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 63857,
+      "union": 63857,
+      "sourcePixels": 63857,
+      "renderedPixels": 63857,
+      "declaredPixels": 63857,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        262,
+        339,
+        873,
+        672
+      ],
+      "renderedBBox": [
+        262,
+        339,
+        873,
+        672
+      ],
+      "declaredBBox": [
+        262,
+        339,
+        873,
+        672
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 103,
+      "pngFrame": 104,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 64694,
+      "union": 64694,
+      "sourcePixels": 64694,
+      "renderedPixels": 64694,
+      "declaredPixels": 64694,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        297,
+        241,
+        886,
+        673
+      ],
+      "renderedBBox": [
+        297,
+        241,
+        886,
+        673
+      ],
+      "declaredBBox": [
+        297,
+        241,
+        886,
+        673
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 104,
+      "pngFrame": 105,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 65346,
+      "union": 65346,
+      "sourcePixels": 65346,
+      "renderedPixels": 65346,
+      "declaredPixels": 65346,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        359,
+        147,
+        900,
+        673
+      ],
+      "renderedBBox": [
+        359,
+        147,
+        900,
+        673
+      ],
+      "declaredBBox": [
+        359,
+        147,
+        900,
+        673
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 105,
+      "pngFrame": 106,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 65903,
+      "union": 65903,
+      "sourcePixels": 65903,
+      "renderedPixels": 65903,
+      "declaredPixels": 65903,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        442,
+        71,
+        922,
+        674
+      ],
+      "renderedBBox": [
+        442,
+        71,
+        922,
+        674
+      ],
+      "declaredBBox": [
+        442,
+        71,
+        922,
+        674
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 106,
+      "pngFrame": 107,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 66149,
+      "union": 66149,
+      "sourcePixels": 66149,
+      "renderedPixels": 66149,
+      "declaredPixels": 66149,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        484,
+        19,
+        938,
+        674
+      ],
+      "renderedBBox": [
+        484,
+        19,
+        938,
+        674
+      ],
+      "declaredBBox": [
+        484,
+        19,
+        938,
+        674
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 107,
+      "pngFrame": 108,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 65554,
+      "union": 65554,
+      "sourcePixels": 65554,
+      "renderedPixels": 65554,
+      "declaredPixels": 65554,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        487,
+        0,
+        950,
+        676
+      ],
+      "renderedBBox": [
+        487,
+        0,
+        950,
+        676
+      ],
+      "declaredBBox": [
+        487,
+        0,
+        950,
+        676
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 108,
+      "pngFrame": 109,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 63881,
+      "union": 63881,
+      "sourcePixels": 63881,
+      "renderedPixels": 63881,
+      "declaredPixels": 63881,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        489,
+        0,
+        958,
+        692
+      ],
+      "renderedBBox": [
+        489,
+        0,
+        958,
+        692
+      ],
+      "declaredBBox": [
+        489,
+        0,
+        958,
+        692
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 109,
+      "pngFrame": 110,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 64297,
+      "union": 64297,
+      "sourcePixels": 64297,
+      "renderedPixels": 64297,
+      "declaredPixels": 64297,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        491,
+        0,
+        960,
+        704
+      ],
+      "renderedBBox": [
+        491,
+        0,
+        960,
+        704
+      ],
+      "declaredBBox": [
+        491,
+        0,
+        960,
+        704
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 110,
+      "pngFrame": 111,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 65405,
+      "union": 65405,
+      "sourcePixels": 65405,
+      "renderedPixels": 65405,
+      "declaredPixels": 65405,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        492,
+        9,
+        960,
+        712
+      ],
+      "renderedBBox": [
+        492,
+        9,
+        960,
+        712
+      ],
+      "declaredBBox": [
+        492,
+        9,
+        960,
+        712
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 111,
+      "pngFrame": 112,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 64122,
+      "union": 64122,
+      "sourcePixels": 64122,
+      "renderedPixels": 64122,
+      "declaredPixels": 64122,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        492,
+        58,
+        960,
+        716
+      ],
+      "renderedBBox": [
+        492,
+        58,
+        960,
+        716
+      ],
+      "declaredBBox": [
+        492,
+        58,
+        960,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 112,
+      "pngFrame": 113,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 64159,
+      "union": 64159,
+      "sourcePixels": 64159,
+      "renderedPixels": 64159,
+      "declaredPixels": 64159,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        492,
+        114,
+        960,
+        716
+      ],
+      "renderedBBox": [
+        492,
+        114,
+        960,
+        716
+      ],
+      "declaredBBox": [
+        492,
+        114,
+        960,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 113,
+      "pngFrame": 114,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 64133,
+      "union": 64133,
+      "sourcePixels": 64133,
+      "renderedPixels": 64133,
+      "declaredPixels": 64133,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        492,
+        177,
+        960,
+        733
+      ],
+      "renderedBBox": [
+        492,
+        177,
+        960,
+        733
+      ],
+      "declaredBBox": [
+        492,
+        177,
+        960,
+        733
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 114,
+      "pngFrame": 115,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 63698,
+      "union": 63698,
+      "sourcePixels": 63698,
+      "renderedPixels": 63698,
+      "declaredPixels": 63698,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        492,
+        242,
+        960,
+        798
+      ],
+      "renderedBBox": [
+        492,
+        242,
+        960,
+        798
+      ],
+      "declaredBBox": [
+        492,
+        242,
+        960,
+        798
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 115,
+      "pngFrame": 116,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58324,
+      "union": 58324,
+      "sourcePixels": 58324,
+      "renderedPixels": 58324,
+      "declaredPixels": 58324,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        492,
+        305,
+        960,
+        861
+      ],
+      "renderedBBox": [
+        492,
+        305,
+        960,
+        861
+      ],
+      "declaredBBox": [
+        492,
+        305,
+        960,
+        861
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 116,
+      "pngFrame": 117,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 47101,
+      "union": 47101,
+      "sourcePixels": 47101,
+      "renderedPixels": 47101,
+      "declaredPixels": 47101,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        492,
+        362,
+        960,
+        918
+      ],
+      "renderedBBox": [
+        492,
+        362,
+        960,
+        918
+      ],
+      "declaredBBox": [
+        492,
+        362,
+        960,
+        918
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 117,
+      "pngFrame": 118,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 36770,
+      "union": 36770,
+      "sourcePixels": 36770,
+      "renderedPixels": 36770,
+      "declaredPixels": 36770,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        492,
+        407,
+        960,
+        960
+      ],
+      "renderedBBox": [
+        492,
+        407,
+        960,
+        960
+      ],
+      "declaredBBox": [
+        492,
+        407,
+        960,
+        960
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 118,
+      "pngFrame": 119,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 28100,
+      "union": 28100,
+      "sourcePixels": 28100,
+      "renderedPixels": 28100,
+      "declaredPixels": 28100,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        492,
+        429,
+        960,
+        960
+      ],
+      "renderedBBox": [
+        492,
+        429,
+        960,
+        960
+      ],
+      "declaredBBox": [
+        492,
+        429,
+        960,
+        960
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 119,
+      "pngFrame": 120,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 19548,
+      "union": 19548,
+      "sourcePixels": 19548,
+      "renderedPixels": 19548,
+      "declaredPixels": 19548,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        495,
+        432,
+        960,
+        960
+      ],
+      "renderedBBox": [
+        495,
+        432,
+        960,
+        960
+      ],
+      "declaredBBox": [
+        495,
+        432,
+        960,
+        960
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 120,
+      "pngFrame": 121,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 9338,
+      "union": 9338,
+      "sourcePixels": 9338,
+      "renderedPixels": 9338,
+      "declaredPixels": 9338,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        507,
+        444,
+        960,
+        560
+      ],
+      "renderedBBox": [
+        507,
+        444,
+        960,
+        560
+      ],
+      "declaredBBox": [
+        507,
+        444,
+        960,
+        560
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 121,
+      "pngFrame": 122,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 4398,
+      "union": 4398,
+      "sourcePixels": 4398,
+      "renderedPixels": 4398,
+      "declaredPixels": 4398,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        517,
+        454,
+        592,
+        529
+      ],
+      "renderedBBox": [
+        517,
+        454,
+        592,
+        529
+      ],
+      "declaredBBox": [
+        517,
+        454,
+        592,
+        529
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "golf",
+      "frame": 122,
+      "pngFrame": 123,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 0,
+      "union": 0,
+      "sourcePixels": 0,
+      "renderedPixels": 0,
+      "declaredPixels": 0,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderedBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "declaredBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "bboxMatch": true,
+      "pathEmpty": true
+    }
+  ]
+}

@@ -1,0 +1,4727 @@
+{
+  "schemaVersion": 1,
+  "group": "a",
+  "sport": "basketball",
+  "passed": true,
+  "frames": 119,
+  "worstIoU": 1,
+  "mismatchedFrames": 0,
+  "method": {
+    "renderer": "Real Google Chrome headless Canvas 2D / Path2D",
+    "fillRule": "evenodd",
+    "scale": 1,
+    "threshold": "R < 133 && B - R > 12 (both decoded reference PNG and rendered vector)",
+    "pathBackground": "#ffffff",
+    "colorSpace": "srgb",
+    "sourceCrop": {
+      "width": 960,
+      "height": 960
+    },
+    "bboxConvention": "[xmin, ymin, xmaxExclusive, ymaxExclusive]; blank = [0,0,0,0]",
+    "frameIndexBase": 0,
+    "pngFileIndexBase": 1,
+    "blankPairIoU": 1,
+    "independence": "No contour-generation code imported; Chromium independently rasterizes SVG path strings.",
+    "scope": "Binary foreground silhouette only. Does not assert RGB, antialiasing, original-video extraction accuracy, semantic sport identity, or device performance."
+  },
+  "provenance": {
+    "generatedAt": "2026-10-15T06:21:12.628Z",
+    "browserVersion": "155.0.8059.40",
+    "executablePath": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "nodeVersion": "v24.21.0",
+    "scriptSha256": "31e8fffad57e6b82381fa5930bc4d4fd2413b831696090c975497ccd90b7d0c4",
+    "manifestSha256": "9eed22c4bb37a6a583c3470c727aad7518cb2d10b5d30168e203d1dd241dff60",
+    "smoke": {
+      "foreground": 12,
+      "expected": 12,
+      "path2DEvenodd": true,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+    }
+  },
+  "sourceData": {
+    "json": {
+      "file": "reference-frames/basketball.json",
+      "bytes": 628050,
+      "sha256": "07f8fcf207c3b8de11344de247922b34eaf910ccd43ce8fbc69229a3659c9161"
+    },
+    "pngs": [
+      {
+        "file": "reference-frames/basketball/001.png",
+        "bytes": 8787,
+        "sha256": "0df2a2ac78875d9097a2586f5623b4b6ead0be388a96301c482e7f77dd19b8f7"
+      },
+      {
+        "file": "reference-frames/basketball/002.png",
+        "bytes": 23041,
+        "sha256": "7767c33db0805a2ab884287edaf1809698f1c8fd8fb6a7c78d05de1136ad01f0"
+      },
+      {
+        "file": "reference-frames/basketball/003.png",
+        "bytes": 32339,
+        "sha256": "279c171f228c8324e04637ae6c4ca5fcaeeba3ccca8fac0a47bb5451a126a025"
+      },
+      {
+        "file": "reference-frames/basketball/004.png",
+        "bytes": 37541,
+        "sha256": "2b40a873ca2b1533c2a32e4c7783f8c27a6108d7209146f19c580712d1a94b19"
+      },
+      {
+        "file": "reference-frames/basketball/005.png",
+        "bytes": 42617,
+        "sha256": "cf63381b9dc2d53c68fdef5738d1e61f0104437db82111347c51e9860bbb2969"
+      },
+      {
+        "file": "reference-frames/basketball/006.png",
+        "bytes": 45719,
+        "sha256": "5eb0fa29c3f165efc08b3bf1d40d888c3d0b76da9172159681660a90b2ecb3ba"
+      },
+      {
+        "file": "reference-frames/basketball/007.png",
+        "bytes": 47252,
+        "sha256": "68996e4f84c6fcc961f1a72f486ba11cf7e9e9205cba65ce33950a25ff6d8c17"
+      },
+      {
+        "file": "reference-frames/basketball/008.png",
+        "bytes": 50862,
+        "sha256": "27477bf6915121969434582495cced2ddadc67c6516e9e97d13872d0dffc2c2b"
+      },
+      {
+        "file": "reference-frames/basketball/009.png",
+        "bytes": 55538,
+        "sha256": "d7c664a92c16cb42114f616a9d29051a1af026a6e2f96c0f26e32c412ac6d27e"
+      },
+      {
+        "file": "reference-frames/basketball/010.png",
+        "bytes": 55065,
+        "sha256": "457c99aa3c14b6035258bf767d236ac8857eb0d1e64bd7cb238bf7c148963c8a"
+      },
+      {
+        "file": "reference-frames/basketball/011.png",
+        "bytes": 56076,
+        "sha256": "0a6d5910f35612559c462621301af97d497cd96fad5ee997ac8e229c7553837c"
+      },
+      {
+        "file": "reference-frames/basketball/012.png",
+        "bytes": 60400,
+        "sha256": "52b1d37e964de281bc0877c6cc0d5f0ce664513c87746fb28baa4db34effd362"
+      },
+      {
+        "file": "reference-frames/basketball/013.png",
+        "bytes": 62336,
+        "sha256": "0435d495606c57ae09ac6d997d770ab6441de7b36525daa3cb6a61d05d1d4ecb"
+      },
+      {
+        "file": "reference-frames/basketball/014.png",
+        "bytes": 65275,
+        "sha256": "5c79f45e87f6eea27971e882ed61004526ab0ed2dedbe079678e557f9db98b6b"
+      },
+      {
+        "file": "reference-frames/basketball/015.png",
+        "bytes": 69091,
+        "sha256": "d30d48333b29a821412f0e96a6597b5031f58fcbb504b8bd734c0d5dc0bf8301"
+      },
+      {
+        "file": "reference-frames/basketball/016.png",
+        "bytes": 70404,
+        "sha256": "1a3184c0b8dd9408a0d6781c96aa7017b4a02c5b3379054270748f65aa67c26b"
+      },
+      {
+        "file": "reference-frames/basketball/017.png",
+        "bytes": 74237,
+        "sha256": "9885858685315d2c4ac815c648d21fb1ba994e9c8e7d663d077d7b40928248bc"
+      },
+      {
+        "file": "reference-frames/basketball/018.png",
+        "bytes": 71624,
+        "sha256": "dd862bb511416f0a5ccbdcceeac4d1b56ff07d9b7e2746e6da2517872106ecbe"
+      },
+      {
+        "file": "reference-frames/basketball/019.png",
+        "bytes": 72687,
+        "sha256": "6b1bfd6a8b019ccfdd28a4481310b01ce014b77d4915ce0a2ce7a9dea133f68d"
+      },
+      {
+        "file": "reference-frames/basketball/020.png",
+        "bytes": 74877,
+        "sha256": "ed9d5c1d5c7708fad060fd64fd9fc42feed06d288775bb60ddb3a70b3e5304c6"
+      },
+      {
+        "file": "reference-frames/basketball/021.png",
+        "bytes": 72993,
+        "sha256": "0ec01aa7430cf239cc5613f46ec6648f42582f8f3ed2a1591bceba469dbef863"
+      },
+      {
+        "file": "reference-frames/basketball/022.png",
+        "bytes": 71409,
+        "sha256": "17246b824ebd56f4d99d3811c0460862966aa801ad7145dff1ecc463059feacd"
+      },
+      {
+        "file": "reference-frames/basketball/023.png",
+        "bytes": 75019,
+        "sha256": "59e2f20072880b1a0b7d92e987f456ed7233adbbb38136b184cd74ec89db6083"
+      },
+      {
+        "file": "reference-frames/basketball/024.png",
+        "bytes": 77928,
+        "sha256": "6e12bc8ff861fb50895aa06063f09816b0970bcaad9eccc9aab75bded4d1ef7f"
+      },
+      {
+        "file": "reference-frames/basketball/025.png",
+        "bytes": 79597,
+        "sha256": "90641aafff80f73b32875cd8f8d0ad851683233b0c2b33b81da8ef73a8297f69"
+      },
+      {
+        "file": "reference-frames/basketball/026.png",
+        "bytes": 79739,
+        "sha256": "8710d4c8fc465634e159a99aa1fefb20d2bcfd02fb1c6cf5d8e03697280385a0"
+      },
+      {
+        "file": "reference-frames/basketball/027.png",
+        "bytes": 78236,
+        "sha256": "9afd8df5192907dba54bb003047f7744eec8e1f3b90deae4670cf82ea566a1c5"
+      },
+      {
+        "file": "reference-frames/basketball/028.png",
+        "bytes": 86943,
+        "sha256": "7298e1b835ef5859b528feab33a7293918041eba8c8d98d39faabc4cb659f764"
+      },
+      {
+        "file": "reference-frames/basketball/029.png",
+        "bytes": 90126,
+        "sha256": "5d5fee539506eb4c470fce7b325599ddfc82399f92e2da76c7722b74b7029239"
+      },
+      {
+        "file": "reference-frames/basketball/030.png",
+        "bytes": 90872,
+        "sha256": "bfd8ca1834eb1049d3928d1975fb73d8d928400832fd21e0c2ca71083929b3cd"
+      },
+      {
+        "file": "reference-frames/basketball/031.png",
+        "bytes": 88198,
+        "sha256": "fc004b1a7bc1a6b98c792adab61f9856028e8e431bb28d55867f5c6e2ba97004"
+      },
+      {
+        "file": "reference-frames/basketball/032.png",
+        "bytes": 91033,
+        "sha256": "06c91231a0e11ade4a96417f83521d218455727e9fccc3bcb526462072c6f2c2"
+      },
+      {
+        "file": "reference-frames/basketball/033.png",
+        "bytes": 92551,
+        "sha256": "2ad4e3acd995c017ae4fc715b057247df1c391d5536afac0589220c9465c1ad9"
+      },
+      {
+        "file": "reference-frames/basketball/034.png",
+        "bytes": 91236,
+        "sha256": "8baa05f81f8a90996dd8302b6288a8c2e81934eff12a70231147afe30168e465"
+      },
+      {
+        "file": "reference-frames/basketball/035.png",
+        "bytes": 90346,
+        "sha256": "a868d4dcaf44233ba96efe0aec388f0242901ecc92faab4ec81f028e5342ab36"
+      },
+      {
+        "file": "reference-frames/basketball/036.png",
+        "bytes": 93281,
+        "sha256": "6a58a763b4899cc271c8c6e06cd6cb11983909009f6f0123936ecb64f591ceaa"
+      },
+      {
+        "file": "reference-frames/basketball/037.png",
+        "bytes": 95957,
+        "sha256": "4254a43c10b3fac8fda916a6c11d087bef414db6435ce30c96361177a77d2596"
+      },
+      {
+        "file": "reference-frames/basketball/038.png",
+        "bytes": 97503,
+        "sha256": "eff8935219e37dd223e1468571702d8ccfae36e329d385d59cfae5bafba819f4"
+      },
+      {
+        "file": "reference-frames/basketball/039.png",
+        "bytes": 96393,
+        "sha256": "28166bdd231d197bf30616c1d314c9e9a2c4a57723bb2435977c44d885f6a8f1"
+      },
+      {
+        "file": "reference-frames/basketball/040.png",
+        "bytes": 96078,
+        "sha256": "5ec3e30afff99f1e765616b714565cf799582cd0b1c2dee5a5bef9623357949d"
+      },
+      {
+        "file": "reference-frames/basketball/041.png",
+        "bytes": 97010,
+        "sha256": "0bdec74877e1399e9b4b9d359ea0c155270f527a7b2d469e927d073a8a00fea4"
+      },
+      {
+        "file": "reference-frames/basketball/042.png",
+        "bytes": 98841,
+        "sha256": "b085785244a1f171979eedc94a3e08626579f60d26683cff7c38fc12fb17ed38"
+      },
+      {
+        "file": "reference-frames/basketball/043.png",
+        "bytes": 98215,
+        "sha256": "ffdd04c8751f502df5873eef43329db4d602c225659a623d05262e4027971265"
+      },
+      {
+        "file": "reference-frames/basketball/044.png",
+        "bytes": 98807,
+        "sha256": "c77c2d2897a3c831d80d17e9381dd07882376d9202793e708b7f9d17fae7cebb"
+      },
+      {
+        "file": "reference-frames/basketball/045.png",
+        "bytes": 99276,
+        "sha256": "950d5fd988753fc42e580b642597331d8466709c89a08966be613d484b1b7410"
+      },
+      {
+        "file": "reference-frames/basketball/046.png",
+        "bytes": 98882,
+        "sha256": "eee7e8217bfc384c6c255c65508b2e72d97f93a36120f57c6e240ae9fc5151f3"
+      },
+      {
+        "file": "reference-frames/basketball/047.png",
+        "bytes": 100192,
+        "sha256": "a9df39f0d6ad8c0eec38ed87b6b3f370466c40fcef9d6da54d18d6d5e4fe002d"
+      },
+      {
+        "file": "reference-frames/basketball/048.png",
+        "bytes": 99818,
+        "sha256": "54c1cea04b80fe2471a813a73d205cd66fef8a393ba4bff96a259d326b5d617f"
+      },
+      {
+        "file": "reference-frames/basketball/049.png",
+        "bytes": 100229,
+        "sha256": "5085bc82fda35a3ddd887ee686456f19f1503e9cd6e1d4027d2ef0bb288ffb18"
+      },
+      {
+        "file": "reference-frames/basketball/050.png",
+        "bytes": 100040,
+        "sha256": "48d54775e17d2e1d92e7d1f972dd2b4399aec4b3dfbbcd76084b5121789ec7a5"
+      },
+      {
+        "file": "reference-frames/basketball/051.png",
+        "bytes": 100678,
+        "sha256": "8c533a887bcf7ac929060520160a1d33711da24fb575a26b7a43a90cb90e4c0f"
+      },
+      {
+        "file": "reference-frames/basketball/052.png",
+        "bytes": 100306,
+        "sha256": "ffddfb2448b31b29e6644201c4d9d13f73216ab3945758c90479960abbd6f2ba"
+      },
+      {
+        "file": "reference-frames/basketball/053.png",
+        "bytes": 100499,
+        "sha256": "7f51d1eedafa6a1a4216e3b07fe6c5b3532255c76a234ff53649259ed97b339f"
+      },
+      {
+        "file": "reference-frames/basketball/054.png",
+        "bytes": 100504,
+        "sha256": "7fefc3484a2cceb41678f6acef35596dbff3189cce7fc49de56474e6f37072da"
+      },
+      {
+        "file": "reference-frames/basketball/055.png",
+        "bytes": 100689,
+        "sha256": "e6f8be0523e9553fa8cb73d776d56e7771c266c15b70a07300f4c12651c82ab8"
+      },
+      {
+        "file": "reference-frames/basketball/056.png",
+        "bytes": 100452,
+        "sha256": "eab3b4328ef48454f5735a35dae4412a417b70fa3b6214f70e99aa95c62d91de"
+      },
+      {
+        "file": "reference-frames/basketball/057.png",
+        "bytes": 100497,
+        "sha256": "15d65a30ba322881b5ea98652bfa97a4ba42bcece5b28e8a8b416c580090a778"
+      },
+      {
+        "file": "reference-frames/basketball/058.png",
+        "bytes": 100523,
+        "sha256": "807fcc68b75ed0d9a04a1279a7003f56e26b8f5ff888b7fdfe6f1de70f1a716f"
+      },
+      {
+        "file": "reference-frames/basketball/059.png",
+        "bytes": 100713,
+        "sha256": "7ccaa77f877f7b7f67953a44e505fa497f336e39fa4ca1c318ceecb2c7bac72e"
+      },
+      {
+        "file": "reference-frames/basketball/060.png",
+        "bytes": 100598,
+        "sha256": "daea3acbffae0ef095bff440ae49463b4da54dba81c8c9239507b690010e296b"
+      },
+      {
+        "file": "reference-frames/basketball/061.png",
+        "bytes": 100589,
+        "sha256": "83d21acf47044ea4417a6862238ca0ffb1fc7ce0aa3d738e14c3dbc8dc18e46a"
+      },
+      {
+        "file": "reference-frames/basketball/062.png",
+        "bytes": 100599,
+        "sha256": "7035d18e0fb53785e942e17afaf9a1330ff0343863d216c4ed9af6707ad8dbc1"
+      },
+      {
+        "file": "reference-frames/basketball/063.png",
+        "bytes": 100722,
+        "sha256": "cf9e4a0c7c72ef433a7d84db13b87d703356f98507254570dc9f281c927f554b"
+      },
+      {
+        "file": "reference-frames/basketball/064.png",
+        "bytes": 100683,
+        "sha256": "6332ec24eb7da1bad78631922a3192c3fd0867c5c0d9eab77038cae30a28f5a5"
+      },
+      {
+        "file": "reference-frames/basketball/065.png",
+        "bytes": 100662,
+        "sha256": "ce9ddc9bfc5e0cf847aa232ed19b3ba4f6b50945fe3a7378beb8570b0cd33893"
+      },
+      {
+        "file": "reference-frames/basketball/066.png",
+        "bytes": 100683,
+        "sha256": "6332ec24eb7da1bad78631922a3192c3fd0867c5c0d9eab77038cae30a28f5a5"
+      },
+      {
+        "file": "reference-frames/basketball/067.png",
+        "bytes": 100784,
+        "sha256": "2e35af8668f322e58b6e1ee4b6edce9fe43f3f26e39e73de71837eb26699e4e1"
+      },
+      {
+        "file": "reference-frames/basketball/068.png",
+        "bytes": 100677,
+        "sha256": "cea08f9e1596bbda3e867777c906df13d5fa6c005915eca5f0dab2f4601fd4bf"
+      },
+      {
+        "file": "reference-frames/basketball/069.png",
+        "bytes": 100659,
+        "sha256": "a110e25dbaf2081179f8d92a963e149dfa23d6ead9e6fe0b76d6370d13191f26"
+      },
+      {
+        "file": "reference-frames/basketball/070.png",
+        "bytes": 100677,
+        "sha256": "cea08f9e1596bbda3e867777c906df13d5fa6c005915eca5f0dab2f4601fd4bf"
+      },
+      {
+        "file": "reference-frames/basketball/071.png",
+        "bytes": 100780,
+        "sha256": "5dfab21555872f607a19d3e524889c1c02d39be5fb2f19ac4684b06d827c41ee"
+      },
+      {
+        "file": "reference-frames/basketball/072.png",
+        "bytes": 100672,
+        "sha256": "d7edf94528a1fc39fcf9bed604e5263115575f880b2541e7880bbb7800e648ac"
+      },
+      {
+        "file": "reference-frames/basketball/073.png",
+        "bytes": 100659,
+        "sha256": "b3a2575a772f396ddf540c38db2c80db2ae7bfce8233c45144b9db28d450da14"
+      },
+      {
+        "file": "reference-frames/basketball/074.png",
+        "bytes": 100678,
+        "sha256": "37c66a12fbcc6e25a2c017823867af13b26b18e7aac4e8e23ec2f663ff500790"
+      },
+      {
+        "file": "reference-frames/basketball/075.png",
+        "bytes": 100771,
+        "sha256": "abab906a394f6edce92f6032e79e5da9028ad925adcc759e5fdea4083320aaca"
+      },
+      {
+        "file": "reference-frames/basketball/076.png",
+        "bytes": 100660,
+        "sha256": "94a63e2b7434aee5189c0ecdfa50ed76a6237cd37e51a6d6a25ef830b28bb714"
+      },
+      {
+        "file": "reference-frames/basketball/077.png",
+        "bytes": 100642,
+        "sha256": "56b4401becfaeabc256611807f1927c7c1012d26caa1864d79bdd3f526f42caf"
+      },
+      {
+        "file": "reference-frames/basketball/078.png",
+        "bytes": 100659,
+        "sha256": "4c4cc64d7b6c11b1777e88be185cf65f6b6518e1d9259ac6d742fe0ee421d5c8"
+      },
+      {
+        "file": "reference-frames/basketball/079.png",
+        "bytes": 100748,
+        "sha256": "5b5543a2c50d3114eb3d41b5e584009fb593e13693b2cc23358d30c660e52413"
+      },
+      {
+        "file": "reference-frames/basketball/080.png",
+        "bytes": 100669,
+        "sha256": "476cdda44ec59f52f5f81e78a0bac76b4d59b2e115f7f23d148814dda614f88e"
+      },
+      {
+        "file": "reference-frames/basketball/081.png",
+        "bytes": 100652,
+        "sha256": "4815e3dd0694592f37b074fc27b05f273c4e297d84b583374d28204a9311abe9"
+      },
+      {
+        "file": "reference-frames/basketball/082.png",
+        "bytes": 100670,
+        "sha256": "abb28b67d1880a4016833b33b2ae60e1b0e57f30f0d0d4db1b3d29ef616af6e0"
+      },
+      {
+        "file": "reference-frames/basketball/083.png",
+        "bytes": 100763,
+        "sha256": "af58b0c69105bcfd3a2015ada7ed605b5f23272f9e5f7c9fd6dc894aae07d907"
+      },
+      {
+        "file": "reference-frames/basketball/084.png",
+        "bytes": 100665,
+        "sha256": "0bb785dba91b46823c92bd6392dabca4215780655f3beb6f123b2edbddcba441"
+      },
+      {
+        "file": "reference-frames/basketball/085.png",
+        "bytes": 100649,
+        "sha256": "c185a6b890897394519ecac43952660f2806998d2253a6c2a26b47ae1be7e873"
+      },
+      {
+        "file": "reference-frames/basketball/086.png",
+        "bytes": 100665,
+        "sha256": "0bb785dba91b46823c92bd6392dabca4215780655f3beb6f123b2edbddcba441"
+      },
+      {
+        "file": "reference-frames/basketball/087.png",
+        "bytes": 100772,
+        "sha256": "1d4e69c842ba39907ad698b2d1c6d8a92203050dabff49a66ac335769d80a106"
+      },
+      {
+        "file": "reference-frames/basketball/088.png",
+        "bytes": 100771,
+        "sha256": "af421ae14050d57c0412365ee501a5f7e9f5d2460fcc9df3c18a91ec447b6389"
+      },
+      {
+        "file": "reference-frames/basketball/089.png",
+        "bytes": 100755,
+        "sha256": "1e4b640538d6f6fa6549006a5592eaa5907736b1d40a51cfa18d36010b6558a8"
+      },
+      {
+        "file": "reference-frames/basketball/090.png",
+        "bytes": 100773,
+        "sha256": "653085e2993577835c8ca84bb3e2e038523e5724d9590c4e33b604d3fc6bfe25"
+      },
+      {
+        "file": "reference-frames/basketball/091.png",
+        "bytes": 100829,
+        "sha256": "93c94513ebf139e4d336b5c89d4578e3762cde36751dbffe5aa3b953385a4903"
+      },
+      {
+        "file": "reference-frames/basketball/092.png",
+        "bytes": 100871,
+        "sha256": "16ec4b65bce5dbdb896cfe7ef0b093da4c92485838417cc452a319ab7bfbf73b"
+      },
+      {
+        "file": "reference-frames/basketball/093.png",
+        "bytes": 100104,
+        "sha256": "d0a9f9eeb5eb0677d1698766dfd804234e26d4ede03dccea77d3ca21ecb5a8a9"
+      },
+      {
+        "file": "reference-frames/basketball/094.png",
+        "bytes": 99421,
+        "sha256": "b0998b340f6145895ca80a15f59540ebf4156ff63d5147730d69d8e9c1bc3809"
+      },
+      {
+        "file": "reference-frames/basketball/095.png",
+        "bytes": 100063,
+        "sha256": "6bde76bbe67c495cc44fc9bfbb16525d51af55dc35a1a13194a7c14d89761b86"
+      },
+      {
+        "file": "reference-frames/basketball/096.png",
+        "bytes": 98100,
+        "sha256": "c35fa003e9919bae601dda59fc4240c284484d9114dda8dbde75ccf419b1b80c"
+      },
+      {
+        "file": "reference-frames/basketball/097.png",
+        "bytes": 96337,
+        "sha256": "01e6aa8e27b6cb4a3383bdbc6f718e44248522dc9ae44b3ef1fd8814c9a3735e"
+      },
+      {
+        "file": "reference-frames/basketball/098.png",
+        "bytes": 97203,
+        "sha256": "01e924107be2dfd0663a4155f58e08303a045040d1d2a78a938e2d2c3e728b30"
+      },
+      {
+        "file": "reference-frames/basketball/099.png",
+        "bytes": 96950,
+        "sha256": "b0afbbf1bc3910665a6572ec194eb310b2a1a59213a7ab81530de4a58b5ecbfe"
+      },
+      {
+        "file": "reference-frames/basketball/100.png",
+        "bytes": 95907,
+        "sha256": "2b601253389246d47c1877b172d131e970d76ffd3032c964b8c4140d7ba246b3"
+      },
+      {
+        "file": "reference-frames/basketball/101.png",
+        "bytes": 95751,
+        "sha256": "2ed9c8cfc109e7081a639dcd9334e7ce183b4f32d30f3c950a3ce601be6f9c3e"
+      },
+      {
+        "file": "reference-frames/basketball/102.png",
+        "bytes": 95974,
+        "sha256": "cf0577c6e2922ee207728a2896a077eb9981ad5e4d391db468f38729166aac0e"
+      },
+      {
+        "file": "reference-frames/basketball/103.png",
+        "bytes": 94858,
+        "sha256": "408f431a6a5860b77c173c2aeb93dbd11a65b748ed31e2e2ac5e1b8a94637879"
+      },
+      {
+        "file": "reference-frames/basketball/104.png",
+        "bytes": 93387,
+        "sha256": "7e621b0cb823b60fec6f5d53cd2d009002aaf0af7081c9bcd5b2cbaa7e8ea1df"
+      },
+      {
+        "file": "reference-frames/basketball/105.png",
+        "bytes": 93213,
+        "sha256": "8d8fec3e856984aa7778da4d6432080f1d7ce6ce24286e66c4c8b54c45523120"
+      },
+      {
+        "file": "reference-frames/basketball/106.png",
+        "bytes": 90790,
+        "sha256": "0d95f8a5773fb028b6d561b49bec4589f90d1f92ac3141d7f1e631f8f06472d4"
+      },
+      {
+        "file": "reference-frames/basketball/107.png",
+        "bytes": 98209,
+        "sha256": "2fbc20f036a9250316565ad6f8b7620bc3c714915dbf4089a5b515c4e7432540"
+      },
+      {
+        "file": "reference-frames/basketball/108.png",
+        "bytes": 95295,
+        "sha256": "b1073bc440232236a9f88058ed6ca64a939bf5b3ff0bb3adb27c293993f3e248"
+      },
+      {
+        "file": "reference-frames/basketball/109.png",
+        "bytes": 92393,
+        "sha256": "2b340e7c04c55bc314078216d641d3baaf49aed6db85ab0fa2d542f9f6f3e268"
+      },
+      {
+        "file": "reference-frames/basketball/110.png",
+        "bytes": 86982,
+        "sha256": "be68aebb73fb147bede89983fd308976b8d6b36b9c1cca1eb0969206df166fe8"
+      },
+      {
+        "file": "reference-frames/basketball/111.png",
+        "bytes": 87665,
+        "sha256": "24adb5ead55d2270f71311e50ebbeb730f20df191f29776e1705499f98b87ece"
+      },
+      {
+        "file": "reference-frames/basketball/112.png",
+        "bytes": 93840,
+        "sha256": "97935d01c6ad2e8d1bc6e6ab99084a547f474e9d73c65182ef74a7e8d6442a0c"
+      },
+      {
+        "file": "reference-frames/basketball/113.png",
+        "bytes": 91909,
+        "sha256": "eecac434c4b1f0e71d2a861fd1c76f172664a71b0d0b0a083f659512f661b321"
+      },
+      {
+        "file": "reference-frames/basketball/114.png",
+        "bytes": 84928,
+        "sha256": "ab2ee048a46986172bcad98c38dafa3b85a0c364e583f8499b5c6a6d1c4ded93"
+      },
+      {
+        "file": "reference-frames/basketball/115.png",
+        "bytes": 70251,
+        "sha256": "119039304dae8107c298ed96e8c32abaa734ea0b623f721cbd2fdbaa170c3542"
+      },
+      {
+        "file": "reference-frames/basketball/116.png",
+        "bytes": 49863,
+        "sha256": "172ce7d9314af0172bea7ac3035cda56640f5c5ff4b2c645ee5148d16d554618"
+      },
+      {
+        "file": "reference-frames/basketball/117.png",
+        "bytes": 34171,
+        "sha256": "6b2f8e7c367b5a1a2fcd1cbe7ff9f3e72b6efde4aa9592678428ef54af87c53b"
+      },
+      {
+        "file": "reference-frames/basketball/118.png",
+        "bytes": 20567,
+        "sha256": "4d958e8c329b91cb791833ba2326652b120aea6a91a2dbb523e5b896f45e6412"
+      },
+      {
+        "file": "reference-frames/basketball/119.png",
+        "bytes": 12199,
+        "sha256": "c9fd766b16a20b9e36783230c8aeb48c19a5e129954aba283bbd175a6c5539eb"
+      }
+    ],
+    "orderedPNGSetSha256": "a7eb432b087d0297b6b8afcc7b39e8bf8fd6d2c44cd8cdf65da412f192438b13"
+  },
+  "source": {
+    "start": 38.17146666666667,
+    "end": 42.1421,
+    "fps": 29.97002997002997,
+    "frameCount": 119,
+    "duration": 3.9706333333333332,
+    "sourceReference": "https://cekai.us/works/the-tokyo-2020-kinetic-pictograms/"
+  },
+  "checks": {
+    "frameCountMatches": true,
+    "pixelsMismatchFrames": [],
+    "bboxMismatchFrames": [],
+    "anchor": {
+      "index": 71,
+      "valid": true,
+      "pixels": 61661,
+      "bbox": [
+        197,
+        165,
+        689,
+        766
+      ]
+    },
+    "firstFrameBlank": true,
+    "lastFrameBlank": true,
+    "blankFrameIndices": [
+      0,
+      118
+    ],
+    "emptyPathAgreesWithBlank": true,
+    "pngCountMatches": true,
+    "manifestFrameCountMatches": true
+  },
+  "results": [
+    {
+      "sport": "basketball",
+      "frame": 0,
+      "pngFrame": 1,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 0,
+      "union": 0,
+      "sourcePixels": 0,
+      "renderedPixels": 0,
+      "declaredPixels": 0,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderedBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "declaredBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "bboxMatch": true,
+      "pathEmpty": true
+    },
+    {
+      "sport": "basketball",
+      "frame": 1,
+      "pngFrame": 2,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 9626,
+      "union": 9626,
+      "sourcePixels": 9626,
+      "renderedPixels": 9626,
+      "declaredPixels": 9626,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        434,
+        338,
+        572,
+        621
+      ],
+      "renderedBBox": [
+        434,
+        338,
+        572,
+        621
+      ],
+      "declaredBBox": [
+        434,
+        338,
+        572,
+        621
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 2,
+      "pngFrame": 3,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 15553,
+      "union": 15553,
+      "sourcePixels": 15553,
+      "renderedPixels": 15553,
+      "declaredPixels": 15553,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        396,
+        340,
+        577,
+        668
+      ],
+      "renderedBBox": [
+        396,
+        340,
+        577,
+        668
+      ],
+      "declaredBBox": [
+        396,
+        340,
+        577,
+        668
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 3,
+      "pngFrame": 4,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 22493,
+      "union": 22493,
+      "sourcePixels": 22493,
+      "renderedPixels": 22493,
+      "declaredPixels": 22493,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        389,
+        342,
+        587,
+        734
+      ],
+      "renderedBBox": [
+        389,
+        342,
+        587,
+        734
+      ],
+      "declaredBBox": [
+        389,
+        342,
+        587,
+        734
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 4,
+      "pngFrame": 5,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 26971,
+      "union": 26971,
+      "sourcePixels": 26971,
+      "renderedPixels": 26971,
+      "declaredPixels": 26971,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        393,
+        344,
+        604,
+        813
+      ],
+      "renderedBBox": [
+        393,
+        344,
+        604,
+        813
+      ],
+      "declaredBBox": [
+        393,
+        344,
+        604,
+        813
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 5,
+      "pngFrame": 6,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 29294,
+      "union": 29294,
+      "sourcePixels": 29294,
+      "renderedPixels": 29294,
+      "declaredPixels": 29294,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        400,
+        346,
+        632,
+        852
+      ],
+      "renderedBBox": [
+        400,
+        346,
+        632,
+        852
+      ],
+      "declaredBBox": [
+        400,
+        346,
+        632,
+        852
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 6,
+      "pngFrame": 7,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 31943,
+      "union": 31943,
+      "sourcePixels": 31943,
+      "renderedPixels": 31943,
+      "declaredPixels": 31943,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        406,
+        347,
+        637,
+        870
+      ],
+      "renderedBBox": [
+        406,
+        347,
+        637,
+        870
+      ],
+      "declaredBBox": [
+        406,
+        347,
+        637,
+        870
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 7,
+      "pngFrame": 8,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 36329,
+      "union": 36329,
+      "sourcePixels": 36329,
+      "renderedPixels": 36329,
+      "declaredPixels": 36329,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        413,
+        348,
+        647,
+        878
+      ],
+      "renderedBBox": [
+        413,
+        348,
+        647,
+        878
+      ],
+      "declaredBBox": [
+        413,
+        348,
+        647,
+        878
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 8,
+      "pngFrame": 9,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 40485,
+      "union": 40485,
+      "sourcePixels": 40485,
+      "renderedPixels": 40485,
+      "declaredPixels": 40485,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        410,
+        350,
+        656,
+        887
+      ],
+      "renderedBBox": [
+        410,
+        350,
+        656,
+        887
+      ],
+      "declaredBBox": [
+        410,
+        350,
+        656,
+        887
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 9,
+      "pngFrame": 10,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 39962,
+      "union": 39962,
+      "sourcePixels": 39962,
+      "renderedPixels": 39962,
+      "declaredPixels": 39962,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        406,
+        352,
+        654,
+        892
+      ],
+      "renderedBBox": [
+        406,
+        352,
+        654,
+        892
+      ],
+      "declaredBBox": [
+        406,
+        352,
+        654,
+        892
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 10,
+      "pngFrame": 11,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 40966,
+      "union": 40966,
+      "sourcePixels": 40966,
+      "renderedPixels": 40966,
+      "declaredPixels": 40966,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        381,
+        354,
+        647,
+        894
+      ],
+      "renderedBBox": [
+        381,
+        354,
+        647,
+        894
+      ],
+      "declaredBBox": [
+        381,
+        354,
+        647,
+        894
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 11,
+      "pngFrame": 12,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 43485,
+      "union": 43485,
+      "sourcePixels": 43485,
+      "renderedPixels": 43485,
+      "declaredPixels": 43485,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        360,
+        357,
+        647,
+        892
+      ],
+      "renderedBBox": [
+        360,
+        357,
+        647,
+        892
+      ],
+      "declaredBBox": [
+        360,
+        357,
+        647,
+        892
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 12,
+      "pngFrame": 13,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 46213,
+      "union": 46213,
+      "sourcePixels": 46213,
+      "renderedPixels": 46213,
+      "declaredPixels": 46213,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        356,
+        363,
+        659,
+        910
+      ],
+      "renderedBBox": [
+        356,
+        363,
+        659,
+        910
+      ],
+      "declaredBBox": [
+        356,
+        363,
+        659,
+        910
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 13,
+      "pngFrame": 14,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 47715,
+      "union": 47715,
+      "sourcePixels": 47715,
+      "renderedPixels": 47715,
+      "declaredPixels": 47715,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        350,
+        0,
+        669,
+        925
+      ],
+      "renderedBBox": [
+        350,
+        0,
+        669,
+        925
+      ],
+      "declaredBBox": [
+        350,
+        0,
+        669,
+        925
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 14,
+      "pngFrame": 15,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 50221,
+      "union": 50221,
+      "sourcePixels": 50221,
+      "renderedPixels": 50221,
+      "declaredPixels": 50221,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        348,
+        0,
+        677,
+        936
+      ],
+      "renderedBBox": [
+        348,
+        0,
+        677,
+        936
+      ],
+      "declaredBBox": [
+        348,
+        0,
+        677,
+        936
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 15,
+      "pngFrame": 16,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 51726,
+      "union": 51726,
+      "sourcePixels": 51726,
+      "renderedPixels": 51726,
+      "declaredPixels": 51726,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        341,
+        0,
+        684,
+        943
+      ],
+      "renderedBBox": [
+        341,
+        0,
+        684,
+        943
+      ],
+      "declaredBBox": [
+        341,
+        0,
+        684,
+        943
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 16,
+      "pngFrame": 17,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 52039,
+      "union": 52039,
+      "sourcePixels": 52039,
+      "renderedPixels": 52039,
+      "declaredPixels": 52039,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        334,
+        1,
+        700,
+        947
+      ],
+      "renderedBBox": [
+        334,
+        1,
+        700,
+        947
+      ],
+      "declaredBBox": [
+        334,
+        1,
+        700,
+        947
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 17,
+      "pngFrame": 18,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 50464,
+      "union": 50464,
+      "sourcePixels": 50464,
+      "renderedPixels": 50464,
+      "declaredPixels": 50464,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        326,
+        9,
+        721,
+        904
+      ],
+      "renderedBBox": [
+        326,
+        9,
+        721,
+        904
+      ],
+      "declaredBBox": [
+        326,
+        9,
+        721,
+        904
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 18,
+      "pngFrame": 19,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 49949,
+      "union": 49949,
+      "sourcePixels": 49949,
+      "renderedPixels": 49949,
+      "declaredPixels": 49949,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        318,
+        18,
+        742,
+        869
+      ],
+      "renderedBBox": [
+        318,
+        18,
+        742,
+        869
+      ],
+      "declaredBBox": [
+        318,
+        18,
+        742,
+        869
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 19,
+      "pngFrame": 20,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 50467,
+      "union": 50467,
+      "sourcePixels": 50467,
+      "renderedPixels": 50467,
+      "declaredPixels": 50467,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        310,
+        26,
+        762,
+        839
+      ],
+      "renderedBBox": [
+        310,
+        26,
+        762,
+        839
+      ],
+      "declaredBBox": [
+        310,
+        26,
+        762,
+        839
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 20,
+      "pngFrame": 21,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 47445,
+      "union": 47445,
+      "sourcePixels": 47445,
+      "renderedPixels": 47445,
+      "declaredPixels": 47445,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        302,
+        35,
+        776,
+        784
+      ],
+      "renderedBBox": [
+        302,
+        35,
+        776,
+        784
+      ],
+      "declaredBBox": [
+        302,
+        35,
+        776,
+        784
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 21,
+      "pngFrame": 22,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 46335,
+      "union": 46335,
+      "sourcePixels": 46335,
+      "renderedPixels": 46335,
+      "declaredPixels": 46335,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        294,
+        43,
+        786,
+        737
+      ],
+      "renderedBBox": [
+        294,
+        43,
+        786,
+        737
+      ],
+      "declaredBBox": [
+        294,
+        43,
+        786,
+        737
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 22,
+      "pngFrame": 23,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 47347,
+      "union": 47347,
+      "sourcePixels": 47347,
+      "renderedPixels": 47347,
+      "declaredPixels": 47347,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        286,
+        52,
+        792,
+        700
+      ],
+      "renderedBBox": [
+        286,
+        52,
+        792,
+        700
+      ],
+      "declaredBBox": [
+        286,
+        52,
+        792,
+        700
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 23,
+      "pngFrame": 24,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 48563,
+      "union": 48563,
+      "sourcePixels": 48563,
+      "renderedPixels": 48563,
+      "declaredPixels": 48563,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        279,
+        61,
+        794,
+        676
+      ],
+      "renderedBBox": [
+        279,
+        61,
+        794,
+        676
+      ],
+      "declaredBBox": [
+        279,
+        61,
+        794,
+        676
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 24,
+      "pngFrame": 25,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 49458,
+      "union": 49458,
+      "sourcePixels": 49458,
+      "renderedPixels": 49458,
+      "declaredPixels": 49458,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        271,
+        69,
+        794,
+        681
+      ],
+      "renderedBBox": [
+        271,
+        69,
+        794,
+        681
+      ],
+      "declaredBBox": [
+        271,
+        69,
+        794,
+        681
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 25,
+      "pngFrame": 26,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 50561,
+      "union": 50561,
+      "sourcePixels": 50561,
+      "renderedPixels": 50561,
+      "declaredPixels": 50561,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        264,
+        78,
+        800,
+        688
+      ],
+      "renderedBBox": [
+        264,
+        78,
+        800,
+        688
+      ],
+      "declaredBBox": [
+        264,
+        78,
+        800,
+        688
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 26,
+      "pngFrame": 27,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 52481,
+      "union": 52481,
+      "sourcePixels": 52481,
+      "renderedPixels": 52481,
+      "declaredPixels": 52481,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        257,
+        86,
+        814,
+        695
+      ],
+      "renderedBBox": [
+        257,
+        86,
+        814,
+        695
+      ],
+      "declaredBBox": [
+        257,
+        86,
+        814,
+        695
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 27,
+      "pngFrame": 28,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54323,
+      "union": 54323,
+      "sourcePixels": 54323,
+      "renderedPixels": 54323,
+      "declaredPixels": 54323,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        250,
+        94,
+        825,
+        702
+      ],
+      "renderedBBox": [
+        250,
+        94,
+        825,
+        702
+      ],
+      "declaredBBox": [
+        250,
+        94,
+        825,
+        702
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 28,
+      "pngFrame": 29,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56189,
+      "union": 56189,
+      "sourcePixels": 56189,
+      "renderedPixels": 56189,
+      "declaredPixels": 56189,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        244,
+        102,
+        834,
+        709
+      ],
+      "renderedBBox": [
+        244,
+        102,
+        834,
+        709
+      ],
+      "declaredBBox": [
+        244,
+        102,
+        834,
+        709
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 29,
+      "pngFrame": 30,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57272,
+      "union": 57272,
+      "sourcePixels": 57272,
+      "renderedPixels": 57272,
+      "declaredPixels": 57272,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        238,
+        110,
+        840,
+        716
+      ],
+      "renderedBBox": [
+        238,
+        110,
+        840,
+        716
+      ],
+      "declaredBBox": [
+        238,
+        110,
+        840,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 30,
+      "pngFrame": 31,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58096,
+      "union": 58096,
+      "sourcePixels": 58096,
+      "renderedPixels": 58096,
+      "declaredPixels": 58096,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        232,
+        117,
+        837,
+        722
+      ],
+      "renderedBBox": [
+        232,
+        117,
+        837,
+        722
+      ],
+      "declaredBBox": [
+        232,
+        117,
+        837,
+        722
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 31,
+      "pngFrame": 32,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57980,
+      "union": 57980,
+      "sourcePixels": 57980,
+      "renderedPixels": 57980,
+      "declaredPixels": 57980,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        227,
+        125,
+        830,
+        728
+      ],
+      "renderedBBox": [
+        227,
+        125,
+        830,
+        728
+      ],
+      "declaredBBox": [
+        227,
+        125,
+        830,
+        728
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 32,
+      "pngFrame": 33,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58705,
+      "union": 58705,
+      "sourcePixels": 58705,
+      "renderedPixels": 58705,
+      "declaredPixels": 58705,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        223,
+        131,
+        816,
+        733
+      ],
+      "renderedBBox": [
+        223,
+        131,
+        816,
+        733
+      ],
+      "declaredBBox": [
+        223,
+        131,
+        816,
+        733
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 33,
+      "pngFrame": 34,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59065,
+      "union": 59065,
+      "sourcePixels": 59065,
+      "renderedPixels": 59065,
+      "declaredPixels": 59065,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        219,
+        138,
+        796,
+        738
+      ],
+      "renderedBBox": [
+        219,
+        138,
+        796,
+        738
+      ],
+      "declaredBBox": [
+        219,
+        138,
+        796,
+        738
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 34,
+      "pngFrame": 35,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 59407,
+      "union": 59407,
+      "sourcePixels": 59407,
+      "renderedPixels": 59407,
+      "declaredPixels": 59407,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        215,
+        143,
+        770,
+        742
+      ],
+      "renderedBBox": [
+        215,
+        143,
+        770,
+        742
+      ],
+      "declaredBBox": [
+        215,
+        143,
+        770,
+        742
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 35,
+      "pngFrame": 36,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 60774,
+      "union": 60774,
+      "sourcePixels": 60774,
+      "renderedPixels": 60774,
+      "declaredPixels": 60774,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        212,
+        149,
+        738,
+        746
+      ],
+      "renderedBBox": [
+        212,
+        149,
+        738,
+        746
+      ],
+      "declaredBBox": [
+        212,
+        149,
+        738,
+        746
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 36,
+      "pngFrame": 37,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61259,
+      "union": 61259,
+      "sourcePixels": 61259,
+      "renderedPixels": 61259,
+      "declaredPixels": 61259,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        208,
+        153,
+        710,
+        749
+      ],
+      "renderedBBox": [
+        208,
+        153,
+        710,
+        749
+      ],
+      "declaredBBox": [
+        208,
+        153,
+        710,
+        749
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 37,
+      "pngFrame": 38,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61537,
+      "union": 61537,
+      "sourcePixels": 61537,
+      "renderedPixels": 61537,
+      "declaredPixels": 61537,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        206,
+        157,
+        702,
+        753
+      ],
+      "renderedBBox": [
+        206,
+        157,
+        702,
+        753
+      ],
+      "declaredBBox": [
+        206,
+        157,
+        702,
+        753
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 38,
+      "pngFrame": 39,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61816,
+      "union": 61816,
+      "sourcePixels": 61816,
+      "renderedPixels": 61816,
+      "declaredPixels": 61816,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        204,
+        160,
+        696,
+        756
+      ],
+      "renderedBBox": [
+        204,
+        160,
+        696,
+        756
+      ],
+      "declaredBBox": [
+        204,
+        160,
+        696,
+        756
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 39,
+      "pngFrame": 40,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62033,
+      "union": 62033,
+      "sourcePixels": 62033,
+      "renderedPixels": 62033,
+      "declaredPixels": 62033,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        202,
+        163,
+        691,
+        759
+      ],
+      "renderedBBox": [
+        202,
+        163,
+        691,
+        759
+      ],
+      "declaredBBox": [
+        202,
+        163,
+        691,
+        759
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 40,
+      "pngFrame": 41,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62331,
+      "union": 62331,
+      "sourcePixels": 62331,
+      "renderedPixels": 62331,
+      "declaredPixels": 62331,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        201,
+        165,
+        688,
+        763
+      ],
+      "renderedBBox": [
+        201,
+        165,
+        688,
+        763
+      ],
+      "declaredBBox": [
+        201,
+        165,
+        688,
+        763
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 41,
+      "pngFrame": 42,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62589,
+      "union": 62589,
+      "sourcePixels": 62589,
+      "renderedPixels": 62589,
+      "declaredPixels": 62589,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        200,
+        165,
+        688,
+        767
+      ],
+      "renderedBBox": [
+        200,
+        165,
+        688,
+        767
+      ],
+      "declaredBBox": [
+        200,
+        165,
+        688,
+        767
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 42,
+      "pngFrame": 43,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62502,
+      "union": 62502,
+      "sourcePixels": 62502,
+      "renderedPixels": 62502,
+      "declaredPixels": 62502,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        199,
+        165,
+        688,
+        767
+      ],
+      "renderedBBox": [
+        199,
+        165,
+        688,
+        767
+      ],
+      "declaredBBox": [
+        199,
+        165,
+        688,
+        767
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 43,
+      "pngFrame": 44,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62380,
+      "union": 62380,
+      "sourcePixels": 62380,
+      "renderedPixels": 62380,
+      "declaredPixels": 62380,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        198,
+        165,
+        689,
+        767
+      ],
+      "renderedBBox": [
+        198,
+        165,
+        689,
+        767
+      ],
+      "declaredBBox": [
+        198,
+        165,
+        689,
+        767
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 44,
+      "pngFrame": 45,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62263,
+      "union": 62263,
+      "sourcePixels": 62263,
+      "renderedPixels": 62263,
+      "declaredPixels": 62263,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        767
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        767
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        767
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 45,
+      "pngFrame": 46,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62160,
+      "union": 62160,
+      "sourcePixels": 62160,
+      "renderedPixels": 62160,
+      "declaredPixels": 62160,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        767
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        767
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        767
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 46,
+      "pngFrame": 47,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61979,
+      "union": 61979,
+      "sourcePixels": 61979,
+      "renderedPixels": 61979,
+      "declaredPixels": 61979,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        767
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        767
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        767
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 47,
+      "pngFrame": 48,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61861,
+      "union": 61861,
+      "sourcePixels": 61861,
+      "renderedPixels": 61861,
+      "declaredPixels": 61861,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 48,
+      "pngFrame": 49,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61806,
+      "union": 61806,
+      "sourcePixels": 61806,
+      "renderedPixels": 61806,
+      "declaredPixels": 61806,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 49,
+      "pngFrame": 50,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61712,
+      "union": 61712,
+      "sourcePixels": 61712,
+      "renderedPixels": 61712,
+      "declaredPixels": 61712,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 50,
+      "pngFrame": 51,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61671,
+      "union": 61671,
+      "sourcePixels": 61671,
+      "renderedPixels": 61671,
+      "declaredPixels": 61671,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 51,
+      "pngFrame": 52,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61662,
+      "union": 61662,
+      "sourcePixels": 61662,
+      "renderedPixels": 61662,
+      "declaredPixels": 61662,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 52,
+      "pngFrame": 53,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61652,
+      "union": 61652,
+      "sourcePixels": 61652,
+      "renderedPixels": 61652,
+      "declaredPixels": 61652,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 53,
+      "pngFrame": 54,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61651,
+      "union": 61651,
+      "sourcePixels": 61651,
+      "renderedPixels": 61651,
+      "declaredPixels": 61651,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 54,
+      "pngFrame": 55,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61652,
+      "union": 61652,
+      "sourcePixels": 61652,
+      "renderedPixels": 61652,
+      "declaredPixels": 61652,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 55,
+      "pngFrame": 56,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61657,
+      "union": 61657,
+      "sourcePixels": 61657,
+      "renderedPixels": 61657,
+      "declaredPixels": 61657,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 56,
+      "pngFrame": 57,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61661,
+      "union": 61661,
+      "sourcePixels": 61661,
+      "renderedPixels": 61661,
+      "declaredPixels": 61661,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 57,
+      "pngFrame": 58,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61661,
+      "union": 61661,
+      "sourcePixels": 61661,
+      "renderedPixels": 61661,
+      "declaredPixels": 61661,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 58,
+      "pngFrame": 59,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61661,
+      "union": 61661,
+      "sourcePixels": 61661,
+      "renderedPixels": 61661,
+      "declaredPixels": 61661,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 59,
+      "pngFrame": 60,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61661,
+      "union": 61661,
+      "sourcePixels": 61661,
+      "renderedPixels": 61661,
+      "declaredPixels": 61661,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 60,
+      "pngFrame": 61,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61661,
+      "union": 61661,
+      "sourcePixels": 61661,
+      "renderedPixels": 61661,
+      "declaredPixels": 61661,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 61,
+      "pngFrame": 62,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61661,
+      "union": 61661,
+      "sourcePixels": 61661,
+      "renderedPixels": 61661,
+      "declaredPixels": 61661,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 62,
+      "pngFrame": 63,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61661,
+      "union": 61661,
+      "sourcePixels": 61661,
+      "renderedPixels": 61661,
+      "declaredPixels": 61661,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 63,
+      "pngFrame": 64,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61661,
+      "union": 61661,
+      "sourcePixels": 61661,
+      "renderedPixels": 61661,
+      "declaredPixels": 61661,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 64,
+      "pngFrame": 65,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61661,
+      "union": 61661,
+      "sourcePixels": 61661,
+      "renderedPixels": 61661,
+      "declaredPixels": 61661,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 65,
+      "pngFrame": 66,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61661,
+      "union": 61661,
+      "sourcePixels": 61661,
+      "renderedPixels": 61661,
+      "declaredPixels": 61661,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 66,
+      "pngFrame": 67,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61661,
+      "union": 61661,
+      "sourcePixels": 61661,
+      "renderedPixels": 61661,
+      "declaredPixels": 61661,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 67,
+      "pngFrame": 68,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61661,
+      "union": 61661,
+      "sourcePixels": 61661,
+      "renderedPixels": 61661,
+      "declaredPixels": 61661,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 68,
+      "pngFrame": 69,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61661,
+      "union": 61661,
+      "sourcePixels": 61661,
+      "renderedPixels": 61661,
+      "declaredPixels": 61661,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 69,
+      "pngFrame": 70,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61661,
+      "union": 61661,
+      "sourcePixels": 61661,
+      "renderedPixels": 61661,
+      "declaredPixels": 61661,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 70,
+      "pngFrame": 71,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61661,
+      "union": 61661,
+      "sourcePixels": 61661,
+      "renderedPixels": 61661,
+      "declaredPixels": 61661,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 71,
+      "pngFrame": 72,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61661,
+      "union": 61661,
+      "sourcePixels": 61661,
+      "renderedPixels": 61661,
+      "declaredPixels": 61661,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 72,
+      "pngFrame": 73,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61661,
+      "union": 61661,
+      "sourcePixels": 61661,
+      "renderedPixels": 61661,
+      "declaredPixels": 61661,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 73,
+      "pngFrame": 74,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61663,
+      "union": 61663,
+      "sourcePixels": 61663,
+      "renderedPixels": 61663,
+      "declaredPixels": 61663,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 74,
+      "pngFrame": 75,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61663,
+      "union": 61663,
+      "sourcePixels": 61663,
+      "renderedPixels": 61663,
+      "declaredPixels": 61663,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 75,
+      "pngFrame": 76,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61663,
+      "union": 61663,
+      "sourcePixels": 61663,
+      "renderedPixels": 61663,
+      "declaredPixels": 61663,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 76,
+      "pngFrame": 77,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61663,
+      "union": 61663,
+      "sourcePixels": 61663,
+      "renderedPixels": 61663,
+      "declaredPixels": 61663,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 77,
+      "pngFrame": 78,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61663,
+      "union": 61663,
+      "sourcePixels": 61663,
+      "renderedPixels": 61663,
+      "declaredPixels": 61663,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 78,
+      "pngFrame": 79,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61663,
+      "union": 61663,
+      "sourcePixels": 61663,
+      "renderedPixels": 61663,
+      "declaredPixels": 61663,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 79,
+      "pngFrame": 80,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61663,
+      "union": 61663,
+      "sourcePixels": 61663,
+      "renderedPixels": 61663,
+      "declaredPixels": 61663,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 80,
+      "pngFrame": 81,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61663,
+      "union": 61663,
+      "sourcePixels": 61663,
+      "renderedPixels": 61663,
+      "declaredPixels": 61663,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 81,
+      "pngFrame": 82,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61663,
+      "union": 61663,
+      "sourcePixels": 61663,
+      "renderedPixels": 61663,
+      "declaredPixels": 61663,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 82,
+      "pngFrame": 83,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61663,
+      "union": 61663,
+      "sourcePixels": 61663,
+      "renderedPixels": 61663,
+      "declaredPixels": 61663,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 83,
+      "pngFrame": 84,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61663,
+      "union": 61663,
+      "sourcePixels": 61663,
+      "renderedPixels": 61663,
+      "declaredPixels": 61663,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 84,
+      "pngFrame": 85,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61663,
+      "union": 61663,
+      "sourcePixels": 61663,
+      "renderedPixels": 61663,
+      "declaredPixels": 61663,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 85,
+      "pngFrame": 86,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61663,
+      "union": 61663,
+      "sourcePixels": 61663,
+      "renderedPixels": 61663,
+      "declaredPixels": 61663,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 86,
+      "pngFrame": 87,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61663,
+      "union": 61663,
+      "sourcePixels": 61663,
+      "renderedPixels": 61663,
+      "declaredPixels": 61663,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 87,
+      "pngFrame": 88,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61663,
+      "union": 61663,
+      "sourcePixels": 61663,
+      "renderedPixels": 61663,
+      "declaredPixels": 61663,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 88,
+      "pngFrame": 89,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61663,
+      "union": 61663,
+      "sourcePixels": 61663,
+      "renderedPixels": 61663,
+      "declaredPixels": 61663,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 89,
+      "pngFrame": 90,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61663,
+      "union": 61663,
+      "sourcePixels": 61663,
+      "renderedPixels": 61663,
+      "declaredPixels": 61663,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 90,
+      "pngFrame": 91,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61663,
+      "union": 61663,
+      "sourcePixels": 61663,
+      "renderedPixels": 61663,
+      "declaredPixels": 61663,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 91,
+      "pngFrame": 92,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61663,
+      "union": 61663,
+      "sourcePixels": 61663,
+      "renderedPixels": 61663,
+      "declaredPixels": 61663,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 92,
+      "pngFrame": 93,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61622,
+      "union": 61622,
+      "sourcePixels": 61622,
+      "renderedPixels": 61622,
+      "declaredPixels": 61622,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        688,
+        766
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        688,
+        766
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        688,
+        766
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 93,
+      "pngFrame": 94,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61654,
+      "union": 61654,
+      "sourcePixels": 61654,
+      "renderedPixels": 61654,
+      "declaredPixels": 61654,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        688,
+        765
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        688,
+        765
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        688,
+        765
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 94,
+      "pngFrame": 95,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61618,
+      "union": 61618,
+      "sourcePixels": 61618,
+      "renderedPixels": 61618,
+      "declaredPixels": 61618,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        688,
+        763
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        688,
+        763
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        688,
+        763
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 95,
+      "pngFrame": 96,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61567,
+      "union": 61567,
+      "sourcePixels": 61567,
+      "renderedPixels": 61567,
+      "declaredPixels": 61567,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        689,
+        760
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        689,
+        760
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        689,
+        760
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 96,
+      "pngFrame": 97,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61481,
+      "union": 61481,
+      "sourcePixels": 61481,
+      "renderedPixels": 61481,
+      "declaredPixels": 61481,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        691,
+        756
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        691,
+        756
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        691,
+        756
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 97,
+      "pngFrame": 98,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61380,
+      "union": 61380,
+      "sourcePixels": 61380,
+      "renderedPixels": 61380,
+      "declaredPixels": 61380,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        693,
+        751
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        693,
+        751
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        693,
+        751
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 98,
+      "pngFrame": 99,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61258,
+      "union": 61258,
+      "sourcePixels": 61258,
+      "renderedPixels": 61258,
+      "declaredPixels": 61258,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        703,
+        745
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        703,
+        745
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        703,
+        745
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 99,
+      "pngFrame": 100,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61133,
+      "union": 61133,
+      "sourcePixels": 61133,
+      "renderedPixels": 61133,
+      "declaredPixels": 61133,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        713,
+        739
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        713,
+        739
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        713,
+        739
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 100,
+      "pngFrame": 101,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 60847,
+      "union": 60847,
+      "sourcePixels": 60847,
+      "renderedPixels": 60847,
+      "declaredPixels": 60847,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        719,
+        735
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        719,
+        735
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        719,
+        735
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 101,
+      "pngFrame": 102,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 60557,
+      "union": 60557,
+      "sourcePixels": 60557,
+      "renderedPixels": 60557,
+      "declaredPixels": 60557,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        722,
+        733
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        722,
+        733
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        722,
+        733
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 102,
+      "pngFrame": 103,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 60768,
+      "union": 60768,
+      "sourcePixels": 60768,
+      "renderedPixels": 60768,
+      "declaredPixels": 60768,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        735,
+        738
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        735,
+        738
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        735,
+        738
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 103,
+      "pngFrame": 104,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 60246,
+      "union": 60246,
+      "sourcePixels": 60246,
+      "renderedPixels": 60246,
+      "declaredPixels": 60246,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        736,
+        752
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        736,
+        752
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        736,
+        752
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 104,
+      "pngFrame": 105,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 60718,
+      "union": 60718,
+      "sourcePixels": 60718,
+      "renderedPixels": 60718,
+      "declaredPixels": 60718,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        165,
+        731,
+        771
+      ],
+      "renderedBBox": [
+        197,
+        165,
+        731,
+        771
+      ],
+      "declaredBBox": [
+        197,
+        165,
+        731,
+        771
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 105,
+      "pngFrame": 106,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 60889,
+      "union": 60889,
+      "sourcePixels": 60889,
+      "renderedPixels": 60889,
+      "declaredPixels": 60889,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        151,
+        715,
+        790
+      ],
+      "renderedBBox": [
+        197,
+        151,
+        715,
+        790
+      ],
+      "declaredBBox": [
+        197,
+        151,
+        715,
+        790
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 106,
+      "pngFrame": 107,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 62412,
+      "union": 62412,
+      "sourcePixels": 62412,
+      "renderedPixels": 62412,
+      "declaredPixels": 62412,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        78,
+        663,
+        807
+      ],
+      "renderedBBox": [
+        197,
+        78,
+        663,
+        807
+      ],
+      "declaredBBox": [
+        197,
+        78,
+        663,
+        807
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 107,
+      "pngFrame": 108,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 64990,
+      "union": 64990,
+      "sourcePixels": 64990,
+      "renderedPixels": 64990,
+      "declaredPixels": 64990,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        62,
+        541,
+        821
+      ],
+      "renderedBBox": [
+        197,
+        62,
+        541,
+        821
+      ],
+      "declaredBBox": [
+        197,
+        62,
+        541,
+        821
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 108,
+      "pngFrame": 109,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57153,
+      "union": 57153,
+      "sourcePixels": 57153,
+      "renderedPixels": 57153,
+      "declaredPixels": 57153,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        113,
+        522,
+        829
+      ],
+      "renderedBBox": [
+        197,
+        113,
+        522,
+        829
+      ],
+      "declaredBBox": [
+        197,
+        113,
+        522,
+        829
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 109,
+      "pngFrame": 110,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 55162,
+      "union": 55162,
+      "sourcePixels": 55162,
+      "renderedPixels": 55162,
+      "declaredPixels": 55162,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        153,
+        492,
+        825
+      ],
+      "renderedBBox": [
+        197,
+        153,
+        492,
+        825
+      ],
+      "declaredBBox": [
+        197,
+        153,
+        492,
+        825
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 110,
+      "pngFrame": 111,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54993,
+      "union": 54993,
+      "sourcePixels": 54993,
+      "renderedPixels": 54993,
+      "declaredPixels": 54993,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        171,
+        154,
+        452,
+        815
+      ],
+      "renderedBBox": [
+        171,
+        154,
+        452,
+        815
+      ],
+      "declaredBBox": [
+        171,
+        154,
+        452,
+        815
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 111,
+      "pngFrame": 112,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 55377,
+      "union": 55377,
+      "sourcePixels": 55377,
+      "renderedPixels": 55377,
+      "declaredPixels": 55377,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        130,
+        135,
+        428,
+        800
+      ],
+      "renderedBBox": [
+        130,
+        135,
+        428,
+        800
+      ],
+      "declaredBBox": [
+        130,
+        135,
+        428,
+        800
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 112,
+      "pngFrame": 113,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56311,
+      "union": 56311,
+      "sourcePixels": 56311,
+      "renderedPixels": 56311,
+      "declaredPixels": 56311,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        93,
+        160,
+        438,
+        782
+      ],
+      "renderedBBox": [
+        93,
+        160,
+        438,
+        782
+      ],
+      "declaredBBox": [
+        93,
+        160,
+        438,
+        782
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 113,
+      "pngFrame": 114,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 46974,
+      "union": 46974,
+      "sourcePixels": 46974,
+      "renderedPixels": 46974,
+      "declaredPixels": 46974,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        62,
+        186,
+        442,
+        762
+      ],
+      "renderedBBox": [
+        62,
+        186,
+        442,
+        762
+      ],
+      "declaredBBox": [
+        62,
+        186,
+        442,
+        762
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 114,
+      "pngFrame": 115,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 32050,
+      "union": 32050,
+      "sourcePixels": 32050,
+      "renderedPixels": 32050,
+      "declaredPixels": 32050,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        35,
+        173,
+        432,
+        742
+      ],
+      "renderedBBox": [
+        35,
+        173,
+        432,
+        742
+      ],
+      "declaredBBox": [
+        35,
+        173,
+        432,
+        742
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 115,
+      "pngFrame": 116,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 15687,
+      "union": 15687,
+      "sourcePixels": 15687,
+      "renderedPixels": 15687,
+      "declaredPixels": 15687,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        15,
+        158,
+        396,
+        727
+      ],
+      "renderedBBox": [
+        15,
+        158,
+        396,
+        727
+      ],
+      "declaredBBox": [
+        15,
+        158,
+        396,
+        727
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 116,
+      "pngFrame": 117,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 9274,
+      "union": 9274,
+      "sourcePixels": 9274,
+      "renderedPixels": 9274,
+      "declaredPixels": 9274,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        1,
+        174,
+        373,
+        716
+      ],
+      "renderedBBox": [
+        1,
+        174,
+        373,
+        716
+      ],
+      "declaredBBox": [
+        1,
+        174,
+        373,
+        716
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 117,
+      "pngFrame": 118,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 4413,
+      "union": 4413,
+      "sourcePixels": 4413,
+      "renderedPixels": 4413,
+      "declaredPixels": 4413,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        241,
+        183,
+        310,
+        841
+      ],
+      "renderedBBox": [
+        241,
+        183,
+        310,
+        841
+      ],
+      "declaredBBox": [
+        241,
+        183,
+        310,
+        841
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "basketball",
+      "frame": 118,
+      "pngFrame": 119,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 0,
+      "union": 0,
+      "sourcePixels": 0,
+      "renderedPixels": 0,
+      "declaredPixels": 0,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderedBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "declaredBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "bboxMatch": true,
+      "pathEmpty": true
+    }
+  ]
+}

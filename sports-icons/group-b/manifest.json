@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "group": "b",
+  "icons": [
+    {
+      "id": "openwater",
+      "name": "公开水域游泳",
+      "category": "common",
+      "sourceStart": 128.26146666666668,
+      "sourceEnd": 132.16536666666667,
+      "fps": 29.97002997002997,
+      "frameCount": 118,
+      "anchor": 75,
+      "dataUrl": "../../sports-data/openwater.json",
+      "notes": "原片马拉松游泳图标，泳者上方带三角形浮标。",
+      "auditPath": "audit/openwater.json"
+    },
+    {
+      "id": "rowing",
+      "name": "赛艇",
+      "category": "common",
+      "sourceStart": 142.90943333333334,
+      "sourceEnd": 147.31383333333335,
+      "fps": 29.97002997002997,
+      "frameCount": 133,
+      "anchor": 77,
+      "dataUrl": "../../sports-data/rowing.json",
+      "notes": "原片双人赛艇动作。",
+      "auditPath": "audit/rowing.json"
+    },
+    {
+      "id": "kayak",
+      "name": "皮划艇（激流回旋）",
+      "category": "common",
+      "sourceStart": 50.31693333333333,
+      "sourceEnd": 54.187466666666666,
+      "fps": 29.97002997002997,
+      "frameCount": 117,
+      "anchor": 74,
+      "dataUrl": "../../sports-data/kayak.json",
+      "notes": "采用东京奥运会皮划艇激流回旋项目；画面有船、桨和门杆。",
+      "auditPath": "audit/kayak.json"
+    },
+    {
+      "id": "boxing",
+      "name": "拳击",
+      "category": "common",
+      "sourceStart": 46.2462,
+      "sourceEnd": 50.283566666666665,
+      "fps": 29.97002997002997,
+      "frameCount": 122,
+      "anchor": 87,
+      "dataUrl": "../../sports-data/boxing.json",
+      "notes": "原片拳击动作。",
+      "auditPath": "audit/boxing.json"
+    },
+    {
+      "id": "fencing",
+      "name": "击剑",
+      "category": "extended",
+      "sourceStart": 95.46203333333334,
+      "sourceEnd": 99.33256666666666,
+      "fps": 29.97002997002997,
+      "frameCount": 117,
+      "anchor": 85,
+      "dataUrl": "../../sports-data/fencing.json",
+      "notes": "原片击剑动作。",
+      "auditPath": "audit/fencing.json"
+    },
+    {
+      "id": "archery",
+      "name": "射箭",
+      "category": "extended",
+      "sourceStart": 13.646966666666668,
+      "sourceEnd": 17.484133333333332,
+      "fps": 29.97002997002997,
+      "frameCount": 116,
+      "anchor": 60,
+      "dataUrl": "../../sports-data/archery.json",
+      "notes": "原片射箭动作。",
+      "auditPath": "audit/archery.json"
+    },
+    {
+      "id": "equestrian",
+      "name": "马术（场地障碍）",
+      "category": "extended",
+      "sourceStart": 91.55813333333333,
+      "sourceEnd": 95.42866666666667,
+      "fps": 29.97002997002997,
+      "frameCount": 117,
+      "anchor": 78,
+      "dataUrl": "../../sports-data/equestrian.json",
+      "notes": "采用原片场地障碍马术项目。",
+      "auditPath": "audit/equestrian.json"
+    },
+    {
+      "id": "sailing",
+      "name": "帆船",
+      "category": "extended",
+      "sourceStart": 54.22083333333333,
+      "sourceEnd": 58.5585,
+      "fps": 29.97002997002997,
+      "frameCount": 131,
+      "anchor": 78,
+      "dataUrl": "../../sports-data/sailing.json",
+      "notes": "采用原片帆船项目。",
+      "auditPath": "audit/sailing.json"
+    }
+  ]
+}

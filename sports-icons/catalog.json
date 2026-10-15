@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "title": "运动图标 · 动态素材库",
+  "manifests": [
+    "group-a/manifest.json",
+    "group-b/manifest.json"
+  ],
+  "icons": [
+    {
+      "id": "running",
+      "name": "跑步",
+      "english": "Running",
+      "category": "common",
+      "group": "a"
+    },
+    {
+      "id": "cycling",
+      "name": "骑行",
+      "english": "Cycling",
+      "category": "common",
+      "group": "a"
+    },
+    {
+      "id": "swimming",
+      "name": "游泳",
+      "english": "Swimming",
+      "category": "common",
+      "group": "a"
+    },
+    {
+      "id": "tabletennis",
+      "name": "乒乓球",
+      "english": "Table tennis",
+      "category": "common",
+      "group": "a"
+    },
+    {
+      "id": "badminton",
+      "name": "羽毛球",
+      "english": "Badminton",
+      "category": "common",
+      "group": "a"
+    },
+    {
+      "id": "tennis",
+      "name": "网球",
+      "english": "Tennis",
+      "category": "common",
+      "group": "a"
+    },
+    {
+      "id": "basketball",
+      "name": "篮球",
+      "english": "Basketball",
+      "category": "common",
+      "group": "a"
+    },
+    {
+      "id": "football",
+      "name": "足球",
+      "english": "Football",
+      "category": "common",
+      "group": "a"
+    },
+    {
+      "id": "volleyball",
+      "name": "排球",
+      "english": "Volleyball",
+      "category": "common",
+      "group": "a"
+    },
+    {
+      "id": "golf",
+      "name": "高尔夫",
+      "english": "Golf",
+      "category": "common",
+      "group": "a"
+    },
+    {
+      "id": "openwater",
+      "name": "公开水域游泳",
+      "english": "Open water",
+      "category": "common",
+      "group": "b"
+    },
+    {
+      "id": "rowing",
+      "name": "赛艇",
+      "english": "Rowing",
+      "category": "common",
+      "group": "b"
+    },
+    {
+      "id": "kayak",
+      "name": "皮划艇",
+      "english": "Kayak",
+      "category": "common",
+      "group": "b"
+    },
+    {
+      "id": "boxing",
+      "name": "拳击",
+      "english": "Boxing",
+      "category": "common",
+      "group": "b"
+    },
+    {
+      "id": "fencing",
+      "name": "击剑",
+      "english": "Fencing",
+      "category": "extended",
+      "group": "b"
+    },
+    {
+      "id": "archery",
+      "name": "射箭",
+      "english": "Archery",
+      "category": "extended",
+      "group": "b"
+    },
+    {
+      "id": "equestrian",
+      "name": "马术",
+      "english": "Equestrian",
+      "category": "extended",
+      "group": "b"
+    },
+    {
+      "id": "sailing",
+      "name": "帆船",
+      "english": "Sailing",
+      "category": "extended",
+      "group": "b"
+    }
+  ]
+}

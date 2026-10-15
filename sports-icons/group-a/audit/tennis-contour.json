@@ -1,0 +1,4883 @@
+{
+  "schemaVersion": 1,
+  "group": "a",
+  "sport": "tennis",
+  "passed": true,
+  "frames": 123,
+  "worstIoU": 1,
+  "mismatchedFrames": 0,
+  "method": {
+    "renderer": "Real Google Chrome headless Canvas 2D / Path2D",
+    "fillRule": "evenodd",
+    "scale": 1,
+    "threshold": "R < 133 && B - R > 12 (both decoded reference PNG and rendered vector)",
+    "pathBackground": "#ffffff",
+    "colorSpace": "srgb",
+    "sourceCrop": {
+      "width": 960,
+      "height": 960
+    },
+    "bboxConvention": "[xmin, ymin, xmaxExclusive, ymaxExclusive]; blank = [0,0,0,0]",
+    "frameIndexBase": 0,
+    "pngFileIndexBase": 1,
+    "blankPairIoU": 1,
+    "independence": "No contour-generation code imported; Chromium independently rasterizes SVG path strings.",
+    "scope": "Binary foreground silhouette only. Does not assert RGB, antialiasing, original-video extraction accuracy, semantic sport identity, or device performance."
+  },
+  "provenance": {
+    "generatedAt": "2026-10-15T06:21:12.628Z",
+    "browserVersion": "155.0.8059.40",
+    "executablePath": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "nodeVersion": "v24.21.0",
+    "scriptSha256": "31e8fffad57e6b82381fa5930bc4d4fd2413b831696090c975497ccd90b7d0c4",
+    "manifestSha256": "9eed22c4bb37a6a583c3470c727aad7518cb2d10b5d30168e203d1dd241dff60",
+    "smoke": {
+      "foreground": 12,
+      "expected": 12,
+      "path2DEvenodd": true,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36"
+    }
+  },
+  "sourceData": {
+    "json": {
+      "file": "reference-frames/tennis.json",
+      "bytes": 680643,
+      "sha256": "fc7696c724d6faf264aa7b1bca93c36492e2b7361aa3c0234f136f58c964199c"
+    },
+    "pngs": [
+      {
+        "file": "reference-frames/tennis/001.png",
+        "bytes": 8602,
+        "sha256": "9fb7d5679687a654753a5b5e8a0c6fcb0de48a847b0069069d5fbb1db2970b4f"
+      },
+      {
+        "file": "reference-frames/tennis/002.png",
+        "bytes": 12165,
+        "sha256": "b490d245803069ae20d5d4644b9c97265f591206e15b1adaba44d3cc20ac1c24"
+      },
+      {
+        "file": "reference-frames/tennis/003.png",
+        "bytes": 12652,
+        "sha256": "ba097987659a4161fe1b88a39fc2c6ccb4bfb376568286496df82a0d4bfa62d6"
+      },
+      {
+        "file": "reference-frames/tennis/004.png",
+        "bytes": 13783,
+        "sha256": "d6acc54ee0e78825175fd67201c45b924653bd0428034f3182ee24c178c1d988"
+      },
+      {
+        "file": "reference-frames/tennis/005.png",
+        "bytes": 14596,
+        "sha256": "066827f991f4b3e1afb163cff07b5a096aa0e24d074b103182a0c71c1d001f52"
+      },
+      {
+        "file": "reference-frames/tennis/006.png",
+        "bytes": 15268,
+        "sha256": "3d1ddfaeda2a44451b8dc78427fc37fd570a8afd474703e86ca7e965a98b9d32"
+      },
+      {
+        "file": "reference-frames/tennis/007.png",
+        "bytes": 15117,
+        "sha256": "86bbb23f30fa9fdac73b5032c2ecba8f5d96a26121061c4aba98e6f3fd379ccc"
+      },
+      {
+        "file": "reference-frames/tennis/008.png",
+        "bytes": 20784,
+        "sha256": "6ac70e7103c029163c79c0aaaeca5f939cde56c9b9ca24faa0355f97e7086453"
+      },
+      {
+        "file": "reference-frames/tennis/009.png",
+        "bytes": 22198,
+        "sha256": "f4103ec657371c5a65c08684f956d3d8a831f3bdb4b3695a9a9ed1e1547d7922"
+      },
+      {
+        "file": "reference-frames/tennis/010.png",
+        "bytes": 24046,
+        "sha256": "be9f119e683e57e329620c09c0c68f9ea82873ada02d83b69f6f146245c52d18"
+      },
+      {
+        "file": "reference-frames/tennis/011.png",
+        "bytes": 25762,
+        "sha256": "53cb89bfed06227edc0979bf985553c23660d6e7b1f351e2947d3da097728558"
+      },
+      {
+        "file": "reference-frames/tennis/012.png",
+        "bytes": 28095,
+        "sha256": "0303c16fc3171e83fa48ef5c15f31782d3bf19a82d6e17adfd51d2e78edff9fb"
+      },
+      {
+        "file": "reference-frames/tennis/013.png",
+        "bytes": 39623,
+        "sha256": "305bb7bac1d1ded965b9a94564400bcbdcff326614e1d6129b0c4dca5255ffcc"
+      },
+      {
+        "file": "reference-frames/tennis/014.png",
+        "bytes": 40863,
+        "sha256": "fa04fb0221a89617c20ca2e290d0af5cbe33000de492c86e01fb03ecc0e5e316"
+      },
+      {
+        "file": "reference-frames/tennis/015.png",
+        "bytes": 44822,
+        "sha256": "9ed52166fbf5d80ba512478241f4f0df0a008449d82d9440ea5970028b850643"
+      },
+      {
+        "file": "reference-frames/tennis/016.png",
+        "bytes": 50238,
+        "sha256": "cab074d218853fb3f061422f872f6ab476cd2b7861a6c47e04e7bc9fd7a50a22"
+      },
+      {
+        "file": "reference-frames/tennis/017.png",
+        "bytes": 55746,
+        "sha256": "85f0104a75da427ba150ee0b285aa6cfd26e9368a937c0d959a2cad9c428d89b"
+      },
+      {
+        "file": "reference-frames/tennis/018.png",
+        "bytes": 59291,
+        "sha256": "490a2f443577ed18c3276ce71d4ca24a7dd94b0557360811064bc11ad2bce631"
+      },
+      {
+        "file": "reference-frames/tennis/019.png",
+        "bytes": 62463,
+        "sha256": "db938381e98870f8410b0af2c3c4f8d29aef8254c49c0c6c612cb3bc07344ae2"
+      },
+      {
+        "file": "reference-frames/tennis/020.png",
+        "bytes": 65644,
+        "sha256": "0effda8dad223dc95c36f167342210bac6ca2742a12984a5f42c374144853459"
+      },
+      {
+        "file": "reference-frames/tennis/021.png",
+        "bytes": 66530,
+        "sha256": "73aa4efd50647c8cbe9596ac18ca2dafef0b948b92d79dc50d0be20b24ec6a2a"
+      },
+      {
+        "file": "reference-frames/tennis/022.png",
+        "bytes": 70349,
+        "sha256": "b5c6e2fea2dff36b91db94ebcb15c0384e4ca7a44d5a7856d6ca015bbb7456ec"
+      },
+      {
+        "file": "reference-frames/tennis/023.png",
+        "bytes": 71940,
+        "sha256": "c333ee9e17e171a064d337772c623cb78b3fc3d9c79ceef79abd961e5a1e34c4"
+      },
+      {
+        "file": "reference-frames/tennis/024.png",
+        "bytes": 71087,
+        "sha256": "06aaa7017a87fd27b23f004aeeee6907436ecbb8d10f4dfa8e009ab02b5b047f"
+      },
+      {
+        "file": "reference-frames/tennis/025.png",
+        "bytes": 68302,
+        "sha256": "73103a2af2d07f92d78faf59c15a14047a852edd1d2581c883327ed08e14c6ea"
+      },
+      {
+        "file": "reference-frames/tennis/026.png",
+        "bytes": 67070,
+        "sha256": "3f1d56a30187a00d7be69cb7a74930650f8df8086aa9fe8df1873584c4169c98"
+      },
+      {
+        "file": "reference-frames/tennis/027.png",
+        "bytes": 70404,
+        "sha256": "7a55f1720639305abf936510176292be72cd383b42ce7f30f037f4772b6a8182"
+      },
+      {
+        "file": "reference-frames/tennis/028.png",
+        "bytes": 71980,
+        "sha256": "8274f6b4c37d0517c4ad058346b3ce7af78832e54c42d3a5f2ebaa9333dc98fd"
+      },
+      {
+        "file": "reference-frames/tennis/029.png",
+        "bytes": 77595,
+        "sha256": "5674abe3a1461d12bb0c8979af1822289983793bccc71dde6c4bb23d106bf785"
+      },
+      {
+        "file": "reference-frames/tennis/030.png",
+        "bytes": 77031,
+        "sha256": "0e44983bfd534e53da6cdd3256abb518afdefad647accff9e3ae6a36402ef385"
+      },
+      {
+        "file": "reference-frames/tennis/031.png",
+        "bytes": 78803,
+        "sha256": "9c232dbda0fc12aa4cbaaed48b6823632e5870861fc89c3a88c071f0a2bdd0b8"
+      },
+      {
+        "file": "reference-frames/tennis/032.png",
+        "bytes": 80509,
+        "sha256": "d2c3eaf3244e9266f2d8e905e2bbe2088114fa76b30eebffb18ae4292351dd06"
+      },
+      {
+        "file": "reference-frames/tennis/033.png",
+        "bytes": 82400,
+        "sha256": "6ff9881e20e7185db8881b39c84c8c06ac8bfa220aace64be1b00ebfdc5e8e81"
+      },
+      {
+        "file": "reference-frames/tennis/034.png",
+        "bytes": 83593,
+        "sha256": "5ba44b049358ea6a71b2d4d9bfb3f0e6847d3815fbf6a7afd65414207c21b781"
+      },
+      {
+        "file": "reference-frames/tennis/035.png",
+        "bytes": 85685,
+        "sha256": "fdf6d866fea699b89ea53e6e2e16309c0c9f3ba99c3f7845840edace767b1c17"
+      },
+      {
+        "file": "reference-frames/tennis/036.png",
+        "bytes": 87746,
+        "sha256": "19a801cbb0c34931178bb75bb9ca10e313e15280237eba4f837c5e965943b07a"
+      },
+      {
+        "file": "reference-frames/tennis/037.png",
+        "bytes": 89994,
+        "sha256": "96a099837af74cf95b9db685d8f525d0e1f765270a7ce41b282c6b464fa2d59f"
+      },
+      {
+        "file": "reference-frames/tennis/038.png",
+        "bytes": 91400,
+        "sha256": "a8e32e95f75b7ef11a58c0fd09662624191f2ea0d2fa816aa64b8c15ef602954"
+      },
+      {
+        "file": "reference-frames/tennis/039.png",
+        "bytes": 92104,
+        "sha256": "5ef4f12e8fd310168c369dd0217764ebe2285eff2b182d2d133b0191f3d43a1b"
+      },
+      {
+        "file": "reference-frames/tennis/040.png",
+        "bytes": 89318,
+        "sha256": "97cc5696ed0b50fdad06d11dbef82e832f7dd8314ec6472fa2e9f5cf33b38e41"
+      },
+      {
+        "file": "reference-frames/tennis/041.png",
+        "bytes": 92442,
+        "sha256": "a89c88110356924fdfcf637244166ce388f95542ec360a706954b1fe11c10eef"
+      },
+      {
+        "file": "reference-frames/tennis/042.png",
+        "bytes": 94771,
+        "sha256": "cd6767635b9097d18ecf2952d567a46cecd72d0e910f0e0026200e7336655c70"
+      },
+      {
+        "file": "reference-frames/tennis/043.png",
+        "bytes": 94990,
+        "sha256": "b6557cd34683af36a7a90a66985ed9a7ff91f2686359681f1d11aebbb7081259"
+      },
+      {
+        "file": "reference-frames/tennis/044.png",
+        "bytes": 95965,
+        "sha256": "2708f1a570505d16e99e908cda6bb0d9df86a03ec8470eb4e472c265aff8b4ec"
+      },
+      {
+        "file": "reference-frames/tennis/045.png",
+        "bytes": 95691,
+        "sha256": "240c3e7e20dcca61a03d534eb1d39eb4a7537b7cbac8d5b437b3a77a8a6b535d"
+      },
+      {
+        "file": "reference-frames/tennis/046.png",
+        "bytes": 96573,
+        "sha256": "1d5d64ef361d7dccc9584f0c88eeb883e6001584c5c760ec8d112ad431356746"
+      },
+      {
+        "file": "reference-frames/tennis/047.png",
+        "bytes": 96368,
+        "sha256": "0911ae5215617792b7a9e3ad54d82ed6edd41cce1cc2d9ac777d168f995b9f08"
+      },
+      {
+        "file": "reference-frames/tennis/048.png",
+        "bytes": 96933,
+        "sha256": "56d53cc3a99549fbe4818866874533bb974da61f7116fd96a72394135337deba"
+      },
+      {
+        "file": "reference-frames/tennis/049.png",
+        "bytes": 96321,
+        "sha256": "7330b3181555162fb7bc7abe9cdfdaf2c0f979fecbe2167d17ea648402a99177"
+      },
+      {
+        "file": "reference-frames/tennis/050.png",
+        "bytes": 97314,
+        "sha256": "594089f8ba57d98dc51ff78aecfd1affc967288791ab8eed2b7473eab90485e3"
+      },
+      {
+        "file": "reference-frames/tennis/051.png",
+        "bytes": 97118,
+        "sha256": "ef7862d960a85cdcfc29a900a7020a4dc0130e1225f61de02ef66dd3745f107c"
+      },
+      {
+        "file": "reference-frames/tennis/052.png",
+        "bytes": 97458,
+        "sha256": "acf54c92e0ab7bb1578e7c1c8c531c793b9256a870aa5e906a63234c36dfc69a"
+      },
+      {
+        "file": "reference-frames/tennis/053.png",
+        "bytes": 97346,
+        "sha256": "76ac9873da22a6dc9a8c77189fb9b8344c62a49186845514c9faec2ca565ea28"
+      },
+      {
+        "file": "reference-frames/tennis/054.png",
+        "bytes": 97336,
+        "sha256": "e9951f5671716a7cf15ef7d599d839e63e1721a30147ece9623db3ffb1bea63a"
+      },
+      {
+        "file": "reference-frames/tennis/055.png",
+        "bytes": 97358,
+        "sha256": "f2467c706d7844e8d97f403441588367278dcc3b014e4a4b77dd6f0ad3fa233e"
+      },
+      {
+        "file": "reference-frames/tennis/056.png",
+        "bytes": 97419,
+        "sha256": "9d27baf8fc3ab281e39ccc4e85833d812b0559d26043d4dfdddf36db2578fa97"
+      },
+      {
+        "file": "reference-frames/tennis/057.png",
+        "bytes": 96863,
+        "sha256": "110111be1213a139e7cd2a0536b54ab6e877cedd65d24e37e54557429a23c4d3"
+      },
+      {
+        "file": "reference-frames/tennis/058.png",
+        "bytes": 96765,
+        "sha256": "42c4a245f3f8425c16b843f744b7cc169b3fb013d08c7f5810d16228a00e9b7c"
+      },
+      {
+        "file": "reference-frames/tennis/059.png",
+        "bytes": 96682,
+        "sha256": "f57ecd23fe7404387b764ce3388493729a9458cd193f705ca34dbe0bfdd8c484"
+      },
+      {
+        "file": "reference-frames/tennis/060.png",
+        "bytes": 92831,
+        "sha256": "338c860c96ee2a7c1890505cd95ea728888ae504457dbfa824da3f2e6722782d"
+      },
+      {
+        "file": "reference-frames/tennis/061.png",
+        "bytes": 92728,
+        "sha256": "b7bdbf547de20278a277c5e933251b44988d13820aa8c6c314f0aef7792188d2"
+      },
+      {
+        "file": "reference-frames/tennis/062.png",
+        "bytes": 92604,
+        "sha256": "7c316dfee4e1c06ae076932b2f60a8ab1a1592493cc1856958752b5b9d9b493c"
+      },
+      {
+        "file": "reference-frames/tennis/063.png",
+        "bytes": 92672,
+        "sha256": "1e278e0ddc0767021bd3c186bfcb8ad86930597c9d7c7a21ab91d0bb1e557e31"
+      },
+      {
+        "file": "reference-frames/tennis/064.png",
+        "bytes": 92722,
+        "sha256": "ff2757b526286d32d6c58c4f9e1888d0f1dd2e233c727c9ca7c54ee70806c6bf"
+      },
+      {
+        "file": "reference-frames/tennis/065.png",
+        "bytes": 92539,
+        "sha256": "0befaa69bd51662d02184349e094809b800860c1faff9981713b0a8912ab101c"
+      },
+      {
+        "file": "reference-frames/tennis/066.png",
+        "bytes": 92519,
+        "sha256": "79e015ff8aa18fc34127433a5da37a984dfeeb8e2b6aa9d91eb3d483f541da81"
+      },
+      {
+        "file": "reference-frames/tennis/067.png",
+        "bytes": 92523,
+        "sha256": "7f32a4426526debe46ae7c1fd4ec9c8eca067cbf0c8cefb2c3bda2375b578098"
+      },
+      {
+        "file": "reference-frames/tennis/068.png",
+        "bytes": 92678,
+        "sha256": "e90f9b06420460e3896d198db3a788157420dff7a12451a6fce2c27755655826"
+      },
+      {
+        "file": "reference-frames/tennis/069.png",
+        "bytes": 92491,
+        "sha256": "147a3c073ff0f092f108b1200611b61ae732b334bef134ec5d03d5cb956a0a9d"
+      },
+      {
+        "file": "reference-frames/tennis/070.png",
+        "bytes": 92483,
+        "sha256": "b8a26a1a5da6b7dd40381f6aad0f0fbde29fe94486f8f72e331c67ea6107c6a2"
+      },
+      {
+        "file": "reference-frames/tennis/071.png",
+        "bytes": 92480,
+        "sha256": "c7055292ff551f40b223bbc6703d7c9ef35ae0475f018debe46d8baf1f2ba757"
+      },
+      {
+        "file": "reference-frames/tennis/072.png",
+        "bytes": 92652,
+        "sha256": "ccf0ce520e45044ea119f8ab49d6ad669319376958a77c85bec1433e7be51af0"
+      },
+      {
+        "file": "reference-frames/tennis/073.png",
+        "bytes": 92514,
+        "sha256": "6b4ff8cfbb35126d85f9df429505b22d16ae3d71babb5359bbc386e995b8808f"
+      },
+      {
+        "file": "reference-frames/tennis/074.png",
+        "bytes": 92511,
+        "sha256": "9332b8006ff9018f29b9e79e5c71e37e940d950b9dd0a9a5cf58a9746f8a22f9"
+      },
+      {
+        "file": "reference-frames/tennis/075.png",
+        "bytes": 92512,
+        "sha256": "8867ed0006f3e115d88c89a123bccc7c1e59094a3d314beed619e1933428fded"
+      },
+      {
+        "file": "reference-frames/tennis/076.png",
+        "bytes": 92654,
+        "sha256": "3727335833a60ba2376606f99e77da303770d3872ceca10862d968ce8c0c8a2f"
+      },
+      {
+        "file": "reference-frames/tennis/077.png",
+        "bytes": 92513,
+        "sha256": "4d5979f3890caec266556f91482a7261683e514545e62ba9be24f580f57e1d79"
+      },
+      {
+        "file": "reference-frames/tennis/078.png",
+        "bytes": 92509,
+        "sha256": "998932eb96932a16ffbe75e65611603c48da9ed69f0d3e14b800b13ad356c86b"
+      },
+      {
+        "file": "reference-frames/tennis/079.png",
+        "bytes": 92511,
+        "sha256": "32917ce14cd30fe166f33c6be76db9229ab9d9e0942772a8157c166f38532d3c"
+      },
+      {
+        "file": "reference-frames/tennis/080.png",
+        "bytes": 92649,
+        "sha256": "4e35f083225acb5f05ce503e6cc4ab11fcfc3d802dea9ce230e7223b2b8e8639"
+      },
+      {
+        "file": "reference-frames/tennis/081.png",
+        "bytes": 92526,
+        "sha256": "70311d91473e34d7e18d840b4b584b8af8dc7e7c5301bf7884622acf5581d28e"
+      },
+      {
+        "file": "reference-frames/tennis/082.png",
+        "bytes": 92523,
+        "sha256": "f6b8ac60af5c040df1ae0e0a3678a3b0aeb2e9b9b4a2e8ea6682754f670f8c41"
+      },
+      {
+        "file": "reference-frames/tennis/083.png",
+        "bytes": 92524,
+        "sha256": "ae2f899a7e6c849da330a2df830b0c2d3acafe432480f73deb47db9f5a3f9e2d"
+      },
+      {
+        "file": "reference-frames/tennis/084.png",
+        "bytes": 92656,
+        "sha256": "5774e8e07a817de762475ba1b1f3be45847887a5f3637891fd61be695eaa7b38"
+      },
+      {
+        "file": "reference-frames/tennis/085.png",
+        "bytes": 92485,
+        "sha256": "d1e43993f85280528bda8f394b28978520c04b435a424b30218e9500470db878"
+      },
+      {
+        "file": "reference-frames/tennis/086.png",
+        "bytes": 92482,
+        "sha256": "0efb2fe6b54defe654c59c69d2d692ee691b31f9f8c67551cf6e2e0f9267126b"
+      },
+      {
+        "file": "reference-frames/tennis/087.png",
+        "bytes": 92483,
+        "sha256": "8830043d211a40b7486ae16d50d35cf4640a155d03ae5d9caa9f39267fe9d419"
+      },
+      {
+        "file": "reference-frames/tennis/088.png",
+        "bytes": 92610,
+        "sha256": "bc3bf329f46ce4ff6279d460639498729bd4d94fab19bea1a2261b083ca10646"
+      },
+      {
+        "file": "reference-frames/tennis/089.png",
+        "bytes": 92484,
+        "sha256": "e775a15c04af44cd8d087da593258659fd086ab5444cf6230b9362d351854dc3"
+      },
+      {
+        "file": "reference-frames/tennis/090.png",
+        "bytes": 92481,
+        "sha256": "097a71c397bee609ecf3228885fd28d7ba66fb1d1445604919788a1a42d59eae"
+      },
+      {
+        "file": "reference-frames/tennis/091.png",
+        "bytes": 92481,
+        "sha256": "29ef4a0abdf2340ad9f5880d9a5c5d690de5ad934dc88ad158ff171ede80e91b"
+      },
+      {
+        "file": "reference-frames/tennis/092.png",
+        "bytes": 92655,
+        "sha256": "b9bb881af94b10a833b080b701c69060596c9a3b28409a37e6d6a627de3a083a"
+      },
+      {
+        "file": "reference-frames/tennis/093.png",
+        "bytes": 92718,
+        "sha256": "a0c2f68b93ec5ebe0b13136e22157f3635fc4f45e620cd5928d3cc2bdd19848b"
+      },
+      {
+        "file": "reference-frames/tennis/094.png",
+        "bytes": 92071,
+        "sha256": "913bc8a3f6fe4c835f72cb80b8f07abc390d243951f91c11439001659bad2f33"
+      },
+      {
+        "file": "reference-frames/tennis/095.png",
+        "bytes": 91488,
+        "sha256": "3b69e0dbd634a2eab4d39b34389fc23a39b49e204904bfc1df675d17f3a556be"
+      },
+      {
+        "file": "reference-frames/tennis/096.png",
+        "bytes": 92482,
+        "sha256": "e2cab35e5ec637ba9a2ba79832d2c2acf9f76b5fb6f5673db7c7afef8d9b9aac"
+      },
+      {
+        "file": "reference-frames/tennis/097.png",
+        "bytes": 91761,
+        "sha256": "ca1f7c12f7eb8c0ce2ca5e1df0391973c2fe5d34e81efe2980df03daae9e9cef"
+      },
+      {
+        "file": "reference-frames/tennis/098.png",
+        "bytes": 91479,
+        "sha256": "669c5a04e7b445d7b10d165e3f008bd3ab391c7427ff114eee49a491fff8c03c"
+      },
+      {
+        "file": "reference-frames/tennis/099.png",
+        "bytes": 90796,
+        "sha256": "09ffd97d222b7484d01844b571feef4bc585c624e94aaf3e6411708dd74b776a"
+      },
+      {
+        "file": "reference-frames/tennis/100.png",
+        "bytes": 91011,
+        "sha256": "eb042e0e991cbe21347cda77dc17e681d4318c91c01f048c27295a2b00e29a67"
+      },
+      {
+        "file": "reference-frames/tennis/101.png",
+        "bytes": 89375,
+        "sha256": "1211af9325043a3c694fe833423de46178172322f328ced52e7ebfa876380cda"
+      },
+      {
+        "file": "reference-frames/tennis/102.png",
+        "bytes": 88515,
+        "sha256": "4ae57a5b82e559510fc65fcbb63ff9e5ca59ca67cbf2288e96f5b34bb2642097"
+      },
+      {
+        "file": "reference-frames/tennis/103.png",
+        "bytes": 87210,
+        "sha256": "774f44b9d7467d354616888973263555b5ab92561705731e7c17f47a31bad729"
+      },
+      {
+        "file": "reference-frames/tennis/104.png",
+        "bytes": 86759,
+        "sha256": "02c25c37b72fe9454babc91879b159e030e03c1a8f4688e13c17ee6cb28f9280"
+      },
+      {
+        "file": "reference-frames/tennis/105.png",
+        "bytes": 85905,
+        "sha256": "f13870013b866b52e6022298c5ed720f14893c3e8336919ae1219906dfc8fb31"
+      },
+      {
+        "file": "reference-frames/tennis/106.png",
+        "bytes": 85543,
+        "sha256": "a9d384574cc78922ba5cc5408e683879f209113b2443baecc89ae97eb2b452bf"
+      },
+      {
+        "file": "reference-frames/tennis/107.png",
+        "bytes": 84761,
+        "sha256": "9051380545706ab1cdfcc6bee341e8da099bcc13fc0c5673a67960d9e3046c94"
+      },
+      {
+        "file": "reference-frames/tennis/108.png",
+        "bytes": 84144,
+        "sha256": "42c742caa745186540d00920623f773cbc74638e5c77ee89f9d913bb10204feb"
+      },
+      {
+        "file": "reference-frames/tennis/109.png",
+        "bytes": 86441,
+        "sha256": "97571c70f1b6483976a3c43dd80410fc3eae371669cb878a0a9a04fc0700fc5e"
+      },
+      {
+        "file": "reference-frames/tennis/110.png",
+        "bytes": 83651,
+        "sha256": "2ee7ee9dfc7d1ef04a65841e55fee37d0c579082425082763e5ea71011c54ef6"
+      },
+      {
+        "file": "reference-frames/tennis/111.png",
+        "bytes": 88751,
+        "sha256": "a4b529bbcca1f531cd2b654ee7261615a4ecaf865eb5533fb3a8cf85d0370dd6"
+      },
+      {
+        "file": "reference-frames/tennis/112.png",
+        "bytes": 85382,
+        "sha256": "952b8757ed063cf7dc45e6e5f65e6a870cb6644973b6c7b07acc1905cddf5216"
+      },
+      {
+        "file": "reference-frames/tennis/113.png",
+        "bytes": 75937,
+        "sha256": "d1353fb1544565e3070779cb7b8facbaa352d652cbbbcc916880687bb5ffa44c"
+      },
+      {
+        "file": "reference-frames/tennis/114.png",
+        "bytes": 78838,
+        "sha256": "ea7a44e75aea1388d290ad34ff257cdcd128db9a183f34f97a6b98bd6b6461f3"
+      },
+      {
+        "file": "reference-frames/tennis/115.png",
+        "bytes": 87480,
+        "sha256": "a7c790e31b42ba0afc208ae85123aff9a9c7f9f436fdd40055cffe60190dc764"
+      },
+      {
+        "file": "reference-frames/tennis/116.png",
+        "bytes": 95022,
+        "sha256": "319746bdedca4be95d82a955fcf76e28836baae137a1c5434e40a96e4ddf8221"
+      },
+      {
+        "file": "reference-frames/tennis/117.png",
+        "bytes": 84480,
+        "sha256": "7a909a63b8f98b1aa8ceda092ff7cab1f5db0735cb9425c494e92753abf2e44b"
+      },
+      {
+        "file": "reference-frames/tennis/118.png",
+        "bytes": 81560,
+        "sha256": "29410b98bf05aa83707fa16784e580e692a5e34c38c5dbdf512dd62697db50df"
+      },
+      {
+        "file": "reference-frames/tennis/119.png",
+        "bytes": 70118,
+        "sha256": "4c25adcf4da13178f025d6cc41d9cb144dc94e60e7470445359bf0cc3ca787f0"
+      },
+      {
+        "file": "reference-frames/tennis/120.png",
+        "bytes": 52737,
+        "sha256": "1a10ad410968bd6b3ee9a584bc25e50f7b9c3c587847318257e98fa863504aef"
+      },
+      {
+        "file": "reference-frames/tennis/121.png",
+        "bytes": 34222,
+        "sha256": "e94e91d428107920dfffc8c14ed0ee6d404f3658c6d5e4331b13c2a74fc6e947"
+      },
+      {
+        "file": "reference-frames/tennis/122.png",
+        "bytes": 14418,
+        "sha256": "05a363e00eee14174ec2d3b536dd2aa04cfa055219b2c5e914649c48301c1359"
+      },
+      {
+        "file": "reference-frames/tennis/123.png",
+        "bytes": 8757,
+        "sha256": "ad8dd5bd8aad3407ee3b8ad9b35b754cfab065273659cd7dcc9b4f5cc80fc79b"
+      }
+    ],
+    "orderedPNGSetSha256": "77b75830b32bb0c209b0b64b2ad57b58b62061a360317f621fc2229e42fa451c"
+  },
+  "source": {
+    "start": 184.8847,
+    "end": 188.9888,
+    "fps": 29.97002997002997,
+    "frameCount": 123,
+    "duration": 4.1041,
+    "sourceReference": "https://cekai.us/works/the-tokyo-2020-kinetic-pictograms/"
+  },
+  "checks": {
+    "frameCountMatches": true,
+    "pixelsMismatchFrames": [],
+    "bboxMismatchFrames": [],
+    "anchor": {
+      "index": 70,
+      "valid": true,
+      "pixels": 57507,
+      "bbox": [
+        164,
+        186,
+        697,
+        764
+      ]
+    },
+    "firstFrameBlank": true,
+    "lastFrameBlank": true,
+    "blankFrameIndices": [
+      0,
+      122
+    ],
+    "emptyPathAgreesWithBlank": true,
+    "pngCountMatches": true,
+    "manifestFrameCountMatches": true
+  },
+  "results": [
+    {
+      "sport": "tennis",
+      "frame": 0,
+      "pngFrame": 1,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 0,
+      "union": 0,
+      "sourcePixels": 0,
+      "renderedPixels": 0,
+      "declaredPixels": 0,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderedBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "declaredBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "bboxMatch": true,
+      "pathEmpty": true
+    },
+    {
+      "sport": "tennis",
+      "frame": 1,
+      "pngFrame": 2,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 1536,
+      "union": 1536,
+      "sourcePixels": 1536,
+      "renderedPixels": 1536,
+      "declaredPixels": 1536,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        341,
+        263,
+        385,
+        308
+      ],
+      "renderedBBox": [
+        341,
+        263,
+        385,
+        308
+      ],
+      "declaredBBox": [
+        341,
+        263,
+        385,
+        308
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 2,
+      "pngFrame": 3,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 1880,
+      "union": 1880,
+      "sourcePixels": 1880,
+      "renderedPixels": 1880,
+      "declaredPixels": 1880,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        339,
+        261,
+        388,
+        310
+      ],
+      "renderedBBox": [
+        339,
+        261,
+        388,
+        310
+      ],
+      "declaredBBox": [
+        339,
+        261,
+        388,
+        310
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 3,
+      "pngFrame": 4,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 2938,
+      "union": 2938,
+      "sourcePixels": 2938,
+      "renderedPixels": 2938,
+      "declaredPixels": 2938,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        335,
+        255,
+        396,
+        316
+      ],
+      "renderedBBox": [
+        335,
+        255,
+        396,
+        316
+      ],
+      "declaredBBox": [
+        335,
+        255,
+        396,
+        316
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 4,
+      "pngFrame": 5,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 3923,
+      "union": 3923,
+      "sourcePixels": 3923,
+      "renderedPixels": 3923,
+      "declaredPixels": 3923,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        333,
+        247,
+        404,
+        318
+      ],
+      "renderedBBox": [
+        333,
+        247,
+        404,
+        318
+      ],
+      "declaredBBox": [
+        333,
+        247,
+        404,
+        318
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 5,
+      "pngFrame": 6,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 4425,
+      "union": 4425,
+      "sourcePixels": 4425,
+      "renderedPixels": 4425,
+      "declaredPixels": 4425,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        335,
+        235,
+        410,
+        311
+      ],
+      "renderedBBox": [
+        335,
+        235,
+        410,
+        311
+      ],
+      "declaredBBox": [
+        335,
+        235,
+        410,
+        311
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 6,
+      "pngFrame": 7,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 4573,
+      "union": 4573,
+      "sourcePixels": 4573,
+      "renderedPixels": 4573,
+      "declaredPixels": 4573,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        339,
+        222,
+        415,
+        298
+      ],
+      "renderedBBox": [
+        339,
+        222,
+        415,
+        298
+      ],
+      "declaredBBox": [
+        339,
+        222,
+        415,
+        298
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 7,
+      "pngFrame": 8,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 7833,
+      "union": 7833,
+      "sourcePixels": 7833,
+      "renderedPixels": 7833,
+      "declaredPixels": 7833,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        341,
+        208,
+        421,
+        365
+      ],
+      "renderedBBox": [
+        341,
+        208,
+        421,
+        365
+      ],
+      "declaredBBox": [
+        341,
+        208,
+        421,
+        365
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 8,
+      "pngFrame": 9,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 8827,
+      "union": 8827,
+      "sourcePixels": 8827,
+      "renderedPixels": 8827,
+      "declaredPixels": 8827,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        338,
+        196,
+        427,
+        370
+      ],
+      "renderedBBox": [
+        338,
+        196,
+        427,
+        370
+      ],
+      "declaredBBox": [
+        338,
+        196,
+        427,
+        370
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 9,
+      "pngFrame": 10,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 10341,
+      "union": 10341,
+      "sourcePixels": 10341,
+      "renderedPixels": 10341,
+      "declaredPixels": 10341,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        330,
+        188,
+        434,
+        389
+      ],
+      "renderedBBox": [
+        330,
+        188,
+        434,
+        389
+      ],
+      "declaredBBox": [
+        330,
+        188,
+        434,
+        389
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 10,
+      "pngFrame": 11,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 12064,
+      "union": 12064,
+      "sourcePixels": 12064,
+      "renderedPixels": 12064,
+      "declaredPixels": 12064,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        316,
+        183,
+        441,
+        422
+      ],
+      "renderedBBox": [
+        316,
+        183,
+        441,
+        422
+      ],
+      "declaredBBox": [
+        316,
+        183,
+        441,
+        422
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 11,
+      "pngFrame": 12,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 13198,
+      "union": 13198,
+      "sourcePixels": 13198,
+      "renderedPixels": 13198,
+      "declaredPixels": 13198,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        301,
+        181,
+        448,
+        449
+      ],
+      "renderedBBox": [
+        301,
+        181,
+        448,
+        449
+      ],
+      "declaredBBox": [
+        301,
+        181,
+        448,
+        449
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 12,
+      "pngFrame": 13,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 23584,
+      "union": 23584,
+      "sourcePixels": 23584,
+      "renderedPixels": 23584,
+      "declaredPixels": 23584,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        288,
+        182,
+        515,
+        505
+      ],
+      "renderedBBox": [
+        288,
+        182,
+        515,
+        505
+      ],
+      "declaredBBox": [
+        288,
+        182,
+        515,
+        505
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 13,
+      "pngFrame": 14,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 26108,
+      "union": 26108,
+      "sourcePixels": 26108,
+      "renderedPixels": 26108,
+      "declaredPixels": 26108,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        293,
+        186,
+        519,
+        525
+      ],
+      "renderedBBox": [
+        293,
+        186,
+        519,
+        525
+      ],
+      "declaredBBox": [
+        293,
+        186,
+        519,
+        525
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 14,
+      "pngFrame": 15,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 30017,
+      "union": 30017,
+      "sourcePixels": 30017,
+      "renderedPixels": 30017,
+      "declaredPixels": 30017,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        303,
+        193,
+        524,
+        559
+      ],
+      "renderedBBox": [
+        303,
+        193,
+        524,
+        559
+      ],
+      "declaredBBox": [
+        303,
+        193,
+        524,
+        559
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 15,
+      "pngFrame": 16,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 34637,
+      "union": 34637,
+      "sourcePixels": 34637,
+      "renderedPixels": 34637,
+      "declaredPixels": 34637,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        315,
+        203,
+        530,
+        613
+      ],
+      "renderedBBox": [
+        315,
+        203,
+        530,
+        613
+      ],
+      "declaredBBox": [
+        315,
+        203,
+        530,
+        613
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 16,
+      "pngFrame": 17,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 38850,
+      "union": 38850,
+      "sourcePixels": 38850,
+      "renderedPixels": 38850,
+      "declaredPixels": 38850,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        328,
+        217,
+        535,
+        672
+      ],
+      "renderedBBox": [
+        328,
+        217,
+        535,
+        672
+      ],
+      "declaredBBox": [
+        328,
+        217,
+        535,
+        672
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 17,
+      "pngFrame": 18,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 41875,
+      "union": 41875,
+      "sourcePixels": 41875,
+      "renderedPixels": 41875,
+      "declaredPixels": 41875,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        340,
+        233,
+        540,
+        719
+      ],
+      "renderedBBox": [
+        340,
+        233,
+        540,
+        719
+      ],
+      "declaredBBox": [
+        340,
+        233,
+        540,
+        719
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 18,
+      "pngFrame": 19,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 44093,
+      "union": 44093,
+      "sourcePixels": 44093,
+      "renderedPixels": 44093,
+      "declaredPixels": 44093,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        345,
+        247,
+        548,
+        753
+      ],
+      "renderedBBox": [
+        345,
+        247,
+        548,
+        753
+      ],
+      "declaredBBox": [
+        345,
+        247,
+        548,
+        753
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 19,
+      "pngFrame": 20,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 45376,
+      "union": 45376,
+      "sourcePixels": 45376,
+      "renderedPixels": 45376,
+      "declaredPixels": 45376,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        351,
+        254,
+        556,
+        770
+      ],
+      "renderedBBox": [
+        351,
+        254,
+        556,
+        770
+      ],
+      "declaredBBox": [
+        351,
+        254,
+        556,
+        770
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 20,
+      "pngFrame": 21,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 46296,
+      "union": 46296,
+      "sourcePixels": 46296,
+      "renderedPixels": 46296,
+      "declaredPixels": 46296,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        357,
+        258,
+        562,
+        779
+      ],
+      "renderedBBox": [
+        357,
+        258,
+        562,
+        779
+      ],
+      "declaredBBox": [
+        357,
+        258,
+        562,
+        779
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 21,
+      "pngFrame": 22,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 47046,
+      "union": 47046,
+      "sourcePixels": 47046,
+      "renderedPixels": 47046,
+      "declaredPixels": 47046,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        363,
+        261,
+        568,
+        781
+      ],
+      "renderedBBox": [
+        363,
+        261,
+        568,
+        781
+      ],
+      "declaredBBox": [
+        363,
+        261,
+        568,
+        781
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 22,
+      "pngFrame": 23,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 48022,
+      "union": 48022,
+      "sourcePixels": 48022,
+      "renderedPixels": 48022,
+      "declaredPixels": 48022,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        370,
+        263,
+        578,
+        783
+      ],
+      "renderedBBox": [
+        370,
+        263,
+        578,
+        783
+      ],
+      "declaredBBox": [
+        370,
+        263,
+        578,
+        783
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 23,
+      "pngFrame": 24,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 48580,
+      "union": 48580,
+      "sourcePixels": 48580,
+      "renderedPixels": 48580,
+      "declaredPixels": 48580,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        378,
+        264,
+        594,
+        785
+      ],
+      "renderedBBox": [
+        378,
+        264,
+        594,
+        785
+      ],
+      "declaredBBox": [
+        378,
+        264,
+        594,
+        785
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 24,
+      "pngFrame": 25,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 49011,
+      "union": 49011,
+      "sourcePixels": 49011,
+      "renderedPixels": 49011,
+      "declaredPixels": 49011,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        379,
+        264,
+        610,
+        787
+      ],
+      "renderedBBox": [
+        379,
+        264,
+        610,
+        787
+      ],
+      "declaredBBox": [
+        379,
+        264,
+        610,
+        787
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 25,
+      "pngFrame": 26,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 49124,
+      "union": 49124,
+      "sourcePixels": 49124,
+      "renderedPixels": 49124,
+      "declaredPixels": 49124,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        381,
+        264,
+        627,
+        787
+      ],
+      "renderedBBox": [
+        381,
+        264,
+        627,
+        787
+      ],
+      "declaredBBox": [
+        381,
+        264,
+        627,
+        787
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 26,
+      "pngFrame": 27,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 50063,
+      "union": 50063,
+      "sourcePixels": 50063,
+      "renderedPixels": 50063,
+      "declaredPixels": 50063,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        384,
+        264,
+        642,
+        786
+      ],
+      "renderedBBox": [
+        384,
+        264,
+        642,
+        786
+      ],
+      "declaredBBox": [
+        384,
+        264,
+        642,
+        786
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 27,
+      "pngFrame": 28,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 51794,
+      "union": 51794,
+      "sourcePixels": 51794,
+      "renderedPixels": 51794,
+      "declaredPixels": 51794,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        0,
+        263,
+        656,
+        782
+      ],
+      "renderedBBox": [
+        0,
+        263,
+        656,
+        782
+      ],
+      "declaredBBox": [
+        0,
+        263,
+        656,
+        782
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 28,
+      "pngFrame": 29,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 53848,
+      "union": 53848,
+      "sourcePixels": 53848,
+      "renderedPixels": 53848,
+      "declaredPixels": 53848,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        0,
+        259,
+        667,
+        777
+      ],
+      "renderedBBox": [
+        0,
+        259,
+        667,
+        777
+      ],
+      "declaredBBox": [
+        0,
+        259,
+        667,
+        777
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 29,
+      "pngFrame": 30,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54436,
+      "union": 54436,
+      "sourcePixels": 54436,
+      "renderedPixels": 54436,
+      "declaredPixels": 54436,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        8,
+        249,
+        675,
+        770
+      ],
+      "renderedBBox": [
+        8,
+        249,
+        675,
+        770
+      ],
+      "declaredBBox": [
+        8,
+        249,
+        675,
+        770
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 30,
+      "pngFrame": 31,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54060,
+      "union": 54060,
+      "sourcePixels": 54060,
+      "renderedPixels": 54060,
+      "declaredPixels": 54060,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        25,
+        239,
+        681,
+        762
+      ],
+      "renderedBBox": [
+        25,
+        239,
+        681,
+        762
+      ],
+      "declaredBBox": [
+        25,
+        239,
+        681,
+        762
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 31,
+      "pngFrame": 32,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 53322,
+      "union": 53322,
+      "sourcePixels": 53322,
+      "renderedPixels": 53322,
+      "declaredPixels": 53322,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        44,
+        229,
+        683,
+        753
+      ],
+      "renderedBBox": [
+        44,
+        229,
+        683,
+        753
+      ],
+      "declaredBBox": [
+        44,
+        229,
+        683,
+        753
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 32,
+      "pngFrame": 33,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 52878,
+      "union": 52878,
+      "sourcePixels": 52878,
+      "renderedPixels": 52878,
+      "declaredPixels": 52878,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        60,
+        220,
+        684,
+        754
+      ],
+      "renderedBBox": [
+        60,
+        220,
+        684,
+        754
+      ],
+      "declaredBBox": [
+        60,
+        220,
+        684,
+        754
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 33,
+      "pngFrame": 34,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 53000,
+      "union": 53000,
+      "sourcePixels": 53000,
+      "renderedPixels": 53000,
+      "declaredPixels": 53000,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        75,
+        213,
+        689,
+        763
+      ],
+      "renderedBBox": [
+        75,
+        213,
+        689,
+        763
+      ],
+      "declaredBBox": [
+        75,
+        213,
+        689,
+        763
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 34,
+      "pngFrame": 35,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 53624,
+      "union": 53624,
+      "sourcePixels": 53624,
+      "renderedPixels": 53624,
+      "declaredPixels": 53624,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        90,
+        206,
+        693,
+        773
+      ],
+      "renderedBBox": [
+        90,
+        206,
+        693,
+        773
+      ],
+      "declaredBBox": [
+        90,
+        206,
+        693,
+        773
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 35,
+      "pngFrame": 36,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54415,
+      "union": 54415,
+      "sourcePixels": 54415,
+      "renderedPixels": 54415,
+      "declaredPixels": 54415,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        103,
+        200,
+        695,
+        782
+      ],
+      "renderedBBox": [
+        103,
+        200,
+        695,
+        782
+      ],
+      "declaredBBox": [
+        103,
+        200,
+        695,
+        782
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 36,
+      "pngFrame": 37,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54926,
+      "union": 54926,
+      "sourcePixels": 54926,
+      "renderedPixels": 54926,
+      "declaredPixels": 54926,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        116,
+        196,
+        696,
+        786
+      ],
+      "renderedBBox": [
+        116,
+        196,
+        696,
+        786
+      ],
+      "declaredBBox": [
+        116,
+        196,
+        696,
+        786
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 37,
+      "pngFrame": 38,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 55303,
+      "union": 55303,
+      "sourcePixels": 55303,
+      "renderedPixels": 55303,
+      "declaredPixels": 55303,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        127,
+        192,
+        696,
+        783
+      ],
+      "renderedBBox": [
+        127,
+        192,
+        696,
+        783
+      ],
+      "declaredBBox": [
+        127,
+        192,
+        696,
+        783
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 38,
+      "pngFrame": 39,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 55513,
+      "union": 55513,
+      "sourcePixels": 55513,
+      "renderedPixels": 55513,
+      "declaredPixels": 55513,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        138,
+        189,
+        696,
+        776
+      ],
+      "renderedBBox": [
+        138,
+        189,
+        696,
+        776
+      ],
+      "declaredBBox": [
+        138,
+        189,
+        696,
+        776
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 39,
+      "pngFrame": 40,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 55704,
+      "union": 55704,
+      "sourcePixels": 55704,
+      "renderedPixels": 55704,
+      "declaredPixels": 55704,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        146,
+        187,
+        696,
+        767
+      ],
+      "renderedBBox": [
+        146,
+        187,
+        696,
+        767
+      ],
+      "declaredBBox": [
+        146,
+        187,
+        696,
+        767
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 40,
+      "pngFrame": 41,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56067,
+      "union": 56067,
+      "sourcePixels": 56067,
+      "renderedPixels": 56067,
+      "declaredPixels": 56067,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        154,
+        186,
+        696,
+        761
+      ],
+      "renderedBBox": [
+        154,
+        186,
+        696,
+        761
+      ],
+      "declaredBBox": [
+        154,
+        186,
+        696,
+        761
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 41,
+      "pngFrame": 42,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56640,
+      "union": 56640,
+      "sourcePixels": 56640,
+      "renderedPixels": 56640,
+      "declaredPixels": 56640,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        160,
+        186,
+        696,
+        764
+      ],
+      "renderedBBox": [
+        160,
+        186,
+        696,
+        764
+      ],
+      "declaredBBox": [
+        160,
+        186,
+        696,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 42,
+      "pngFrame": 43,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56785,
+      "union": 56785,
+      "sourcePixels": 56785,
+      "renderedPixels": 56785,
+      "declaredPixels": 56785,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        166,
+        186,
+        696,
+        764
+      ],
+      "renderedBBox": [
+        166,
+        186,
+        696,
+        764
+      ],
+      "declaredBBox": [
+        166,
+        186,
+        696,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 43,
+      "pngFrame": 44,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56924,
+      "union": 56924,
+      "sourcePixels": 56924,
+      "renderedPixels": 56924,
+      "declaredPixels": 56924,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        169,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        169,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        169,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 44,
+      "pngFrame": 45,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57058,
+      "union": 57058,
+      "sourcePixels": 57058,
+      "renderedPixels": 57058,
+      "declaredPixels": 57058,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        171,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        171,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        171,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 45,
+      "pngFrame": 46,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57198,
+      "union": 57198,
+      "sourcePixels": 57198,
+      "renderedPixels": 57198,
+      "declaredPixels": 57198,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        171,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        171,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        171,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 46,
+      "pngFrame": 47,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57286,
+      "union": 57286,
+      "sourcePixels": 57286,
+      "renderedPixels": 57286,
+      "declaredPixels": 57286,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        170,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        170,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        170,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 47,
+      "pngFrame": 48,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57367,
+      "union": 57367,
+      "sourcePixels": 57367,
+      "renderedPixels": 57367,
+      "declaredPixels": 57367,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        168,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        168,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        168,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 48,
+      "pngFrame": 49,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57458,
+      "union": 57458,
+      "sourcePixels": 57458,
+      "renderedPixels": 57458,
+      "declaredPixels": 57458,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        166,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        166,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        166,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 49,
+      "pngFrame": 50,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57513,
+      "union": 57513,
+      "sourcePixels": 57513,
+      "renderedPixels": 57513,
+      "declaredPixels": 57513,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        165,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        165,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        165,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 50,
+      "pngFrame": 51,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57523,
+      "union": 57523,
+      "sourcePixels": 57523,
+      "renderedPixels": 57523,
+      "declaredPixels": 57523,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 51,
+      "pngFrame": 52,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57517,
+      "union": 57517,
+      "sourcePixels": 57517,
+      "renderedPixels": 57517,
+      "declaredPixels": 57517,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 52,
+      "pngFrame": 53,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57516,
+      "union": 57516,
+      "sourcePixels": 57516,
+      "renderedPixels": 57516,
+      "declaredPixels": 57516,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 53,
+      "pngFrame": 54,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57516,
+      "union": 57516,
+      "sourcePixels": 57516,
+      "renderedPixels": 57516,
+      "declaredPixels": 57516,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 54,
+      "pngFrame": 55,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57516,
+      "union": 57516,
+      "sourcePixels": 57516,
+      "renderedPixels": 57516,
+      "declaredPixels": 57516,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 55,
+      "pngFrame": 56,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57517,
+      "union": 57517,
+      "sourcePixels": 57517,
+      "renderedPixels": 57517,
+      "declaredPixels": 57517,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 56,
+      "pngFrame": 57,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57519,
+      "union": 57519,
+      "sourcePixels": 57519,
+      "renderedPixels": 57519,
+      "declaredPixels": 57519,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 57,
+      "pngFrame": 58,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57522,
+      "union": 57522,
+      "sourcePixels": 57522,
+      "renderedPixels": 57522,
+      "declaredPixels": 57522,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 58,
+      "pngFrame": 59,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57518,
+      "union": 57518,
+      "sourcePixels": 57518,
+      "renderedPixels": 57518,
+      "declaredPixels": 57518,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 59,
+      "pngFrame": 60,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57512,
+      "union": 57512,
+      "sourcePixels": 57512,
+      "renderedPixels": 57512,
+      "declaredPixels": 57512,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 60,
+      "pngFrame": 61,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57510,
+      "union": 57510,
+      "sourcePixels": 57510,
+      "renderedPixels": 57510,
+      "declaredPixels": 57510,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 61,
+      "pngFrame": 62,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57510,
+      "union": 57510,
+      "sourcePixels": 57510,
+      "renderedPixels": 57510,
+      "declaredPixels": 57510,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 62,
+      "pngFrame": 63,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57508,
+      "union": 57508,
+      "sourcePixels": 57508,
+      "renderedPixels": 57508,
+      "declaredPixels": 57508,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 63,
+      "pngFrame": 64,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57507,
+      "union": 57507,
+      "sourcePixels": 57507,
+      "renderedPixels": 57507,
+      "declaredPixels": 57507,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 64,
+      "pngFrame": 65,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57507,
+      "union": 57507,
+      "sourcePixels": 57507,
+      "renderedPixels": 57507,
+      "declaredPixels": 57507,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 65,
+      "pngFrame": 66,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57507,
+      "union": 57507,
+      "sourcePixels": 57507,
+      "renderedPixels": 57507,
+      "declaredPixels": 57507,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 66,
+      "pngFrame": 67,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57507,
+      "union": 57507,
+      "sourcePixels": 57507,
+      "renderedPixels": 57507,
+      "declaredPixels": 57507,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 67,
+      "pngFrame": 68,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57507,
+      "union": 57507,
+      "sourcePixels": 57507,
+      "renderedPixels": 57507,
+      "declaredPixels": 57507,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 68,
+      "pngFrame": 69,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57507,
+      "union": 57507,
+      "sourcePixels": 57507,
+      "renderedPixels": 57507,
+      "declaredPixels": 57507,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 69,
+      "pngFrame": 70,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57507,
+      "union": 57507,
+      "sourcePixels": 57507,
+      "renderedPixels": 57507,
+      "declaredPixels": 57507,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 70,
+      "pngFrame": 71,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57507,
+      "union": 57507,
+      "sourcePixels": 57507,
+      "renderedPixels": 57507,
+      "declaredPixels": 57507,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 71,
+      "pngFrame": 72,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57507,
+      "union": 57507,
+      "sourcePixels": 57507,
+      "renderedPixels": 57507,
+      "declaredPixels": 57507,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 72,
+      "pngFrame": 73,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57507,
+      "union": 57507,
+      "sourcePixels": 57507,
+      "renderedPixels": 57507,
+      "declaredPixels": 57507,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 73,
+      "pngFrame": 74,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57507,
+      "union": 57507,
+      "sourcePixels": 57507,
+      "renderedPixels": 57507,
+      "declaredPixels": 57507,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 74,
+      "pngFrame": 75,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57507,
+      "union": 57507,
+      "sourcePixels": 57507,
+      "renderedPixels": 57507,
+      "declaredPixels": 57507,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 75,
+      "pngFrame": 76,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57507,
+      "union": 57507,
+      "sourcePixels": 57507,
+      "renderedPixels": 57507,
+      "declaredPixels": 57507,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 76,
+      "pngFrame": 77,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57507,
+      "union": 57507,
+      "sourcePixels": 57507,
+      "renderedPixels": 57507,
+      "declaredPixels": 57507,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 77,
+      "pngFrame": 78,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57507,
+      "union": 57507,
+      "sourcePixels": 57507,
+      "renderedPixels": 57507,
+      "declaredPixels": 57507,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 78,
+      "pngFrame": 79,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57507,
+      "union": 57507,
+      "sourcePixels": 57507,
+      "renderedPixels": 57507,
+      "declaredPixels": 57507,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 79,
+      "pngFrame": 80,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57507,
+      "union": 57507,
+      "sourcePixels": 57507,
+      "renderedPixels": 57507,
+      "declaredPixels": 57507,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 80,
+      "pngFrame": 81,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57507,
+      "union": 57507,
+      "sourcePixels": 57507,
+      "renderedPixels": 57507,
+      "declaredPixels": 57507,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 81,
+      "pngFrame": 82,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57507,
+      "union": 57507,
+      "sourcePixels": 57507,
+      "renderedPixels": 57507,
+      "declaredPixels": 57507,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 82,
+      "pngFrame": 83,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57507,
+      "union": 57507,
+      "sourcePixels": 57507,
+      "renderedPixels": 57507,
+      "declaredPixels": 57507,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 83,
+      "pngFrame": 84,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57507,
+      "union": 57507,
+      "sourcePixels": 57507,
+      "renderedPixels": 57507,
+      "declaredPixels": 57507,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 84,
+      "pngFrame": 85,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57507,
+      "union": 57507,
+      "sourcePixels": 57507,
+      "renderedPixels": 57507,
+      "declaredPixels": 57507,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 85,
+      "pngFrame": 86,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57507,
+      "union": 57507,
+      "sourcePixels": 57507,
+      "renderedPixels": 57507,
+      "declaredPixels": 57507,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 86,
+      "pngFrame": 87,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57507,
+      "union": 57507,
+      "sourcePixels": 57507,
+      "renderedPixels": 57507,
+      "declaredPixels": 57507,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 87,
+      "pngFrame": 88,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57507,
+      "union": 57507,
+      "sourcePixels": 57507,
+      "renderedPixels": 57507,
+      "declaredPixels": 57507,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 88,
+      "pngFrame": 89,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57507,
+      "union": 57507,
+      "sourcePixels": 57507,
+      "renderedPixels": 57507,
+      "declaredPixels": 57507,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 89,
+      "pngFrame": 90,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57507,
+      "union": 57507,
+      "sourcePixels": 57507,
+      "renderedPixels": 57507,
+      "declaredPixels": 57507,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 90,
+      "pngFrame": 91,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57507,
+      "union": 57507,
+      "sourcePixels": 57507,
+      "renderedPixels": 57507,
+      "declaredPixels": 57507,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 91,
+      "pngFrame": 92,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57507,
+      "union": 57507,
+      "sourcePixels": 57507,
+      "renderedPixels": 57507,
+      "declaredPixels": 57507,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        164,
+        186,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 92,
+      "pngFrame": 93,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57537,
+      "union": 57537,
+      "sourcePixels": 57537,
+      "renderedPixels": 57537,
+      "declaredPixels": 57537,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        168,
+        185,
+        697,
+        763
+      ],
+      "renderedBBox": [
+        168,
+        185,
+        697,
+        763
+      ],
+      "declaredBBox": [
+        168,
+        185,
+        697,
+        763
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 93,
+      "pngFrame": 94,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57492,
+      "union": 57492,
+      "sourcePixels": 57492,
+      "renderedPixels": 57492,
+      "declaredPixels": 57492,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        171,
+        184,
+        698,
+        762
+      ],
+      "renderedBBox": [
+        171,
+        184,
+        698,
+        762
+      ],
+      "declaredBBox": [
+        171,
+        184,
+        698,
+        762
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 94,
+      "pngFrame": 95,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57408,
+      "union": 57408,
+      "sourcePixels": 57408,
+      "renderedPixels": 57408,
+      "declaredPixels": 57408,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        175,
+        181,
+        698,
+        762
+      ],
+      "renderedBBox": [
+        175,
+        181,
+        698,
+        762
+      ],
+      "declaredBBox": [
+        175,
+        181,
+        698,
+        762
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 95,
+      "pngFrame": 96,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57281,
+      "union": 57281,
+      "sourcePixels": 57281,
+      "renderedPixels": 57281,
+      "declaredPixels": 57281,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        179,
+        179,
+        697,
+        762
+      ],
+      "renderedBBox": [
+        179,
+        179,
+        697,
+        762
+      ],
+      "declaredBBox": [
+        179,
+        179,
+        697,
+        762
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 96,
+      "pngFrame": 97,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57110,
+      "union": 57110,
+      "sourcePixels": 57110,
+      "renderedPixels": 57110,
+      "declaredPixels": 57110,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        183,
+        176,
+        697,
+        762
+      ],
+      "renderedBBox": [
+        183,
+        176,
+        697,
+        762
+      ],
+      "declaredBBox": [
+        183,
+        176,
+        697,
+        762
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 97,
+      "pngFrame": 98,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56851,
+      "union": 56851,
+      "sourcePixels": 56851,
+      "renderedPixels": 56851,
+      "declaredPixels": 56851,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        188,
+        174,
+        695,
+        762
+      ],
+      "renderedBBox": [
+        188,
+        174,
+        695,
+        762
+      ],
+      "declaredBBox": [
+        188,
+        174,
+        695,
+        762
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 98,
+      "pngFrame": 99,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56561,
+      "union": 56561,
+      "sourcePixels": 56561,
+      "renderedPixels": 56561,
+      "declaredPixels": 56561,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        192,
+        172,
+        693,
+        762
+      ],
+      "renderedBBox": [
+        192,
+        172,
+        693,
+        762
+      ],
+      "declaredBBox": [
+        192,
+        172,
+        693,
+        762
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 99,
+      "pngFrame": 100,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56074,
+      "union": 56074,
+      "sourcePixels": 56074,
+      "renderedPixels": 56074,
+      "declaredPixels": 56074,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        197,
+        170,
+        694,
+        763
+      ],
+      "renderedBBox": [
+        197,
+        170,
+        694,
+        763
+      ],
+      "declaredBBox": [
+        197,
+        170,
+        694,
+        763
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 100,
+      "pngFrame": 101,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 55539,
+      "union": 55539,
+      "sourcePixels": 55539,
+      "renderedPixels": 55539,
+      "declaredPixels": 55539,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        202,
+        168,
+        694,
+        763
+      ],
+      "renderedBBox": [
+        202,
+        168,
+        694,
+        763
+      ],
+      "declaredBBox": [
+        202,
+        168,
+        694,
+        763
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 101,
+      "pngFrame": 102,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54965,
+      "union": 54965,
+      "sourcePixels": 54965,
+      "renderedPixels": 54965,
+      "declaredPixels": 54965,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        207,
+        167,
+        695,
+        764
+      ],
+      "renderedBBox": [
+        207,
+        167,
+        695,
+        764
+      ],
+      "declaredBBox": [
+        207,
+        167,
+        695,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 102,
+      "pngFrame": 103,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54443,
+      "union": 54443,
+      "sourcePixels": 54443,
+      "renderedPixels": 54443,
+      "declaredPixels": 54443,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        213,
+        167,
+        696,
+        764
+      ],
+      "renderedBBox": [
+        213,
+        167,
+        696,
+        764
+      ],
+      "declaredBBox": [
+        213,
+        167,
+        696,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 103,
+      "pngFrame": 104,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 53937,
+      "union": 53937,
+      "sourcePixels": 53937,
+      "renderedPixels": 53937,
+      "declaredPixels": 53937,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        219,
+        167,
+        697,
+        764
+      ],
+      "renderedBBox": [
+        219,
+        167,
+        697,
+        764
+      ],
+      "declaredBBox": [
+        219,
+        167,
+        697,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 104,
+      "pngFrame": 105,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 53656,
+      "union": 53656,
+      "sourcePixels": 53656,
+      "renderedPixels": 53656,
+      "declaredPixels": 53656,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        225,
+        167,
+        699,
+        764
+      ],
+      "renderedBBox": [
+        225,
+        167,
+        699,
+        764
+      ],
+      "declaredBBox": [
+        225,
+        167,
+        699,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 105,
+      "pngFrame": 106,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 53332,
+      "union": 53332,
+      "sourcePixels": 53332,
+      "renderedPixels": 53332,
+      "declaredPixels": 53332,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        231,
+        168,
+        700,
+        764
+      ],
+      "renderedBBox": [
+        231,
+        168,
+        700,
+        764
+      ],
+      "declaredBBox": [
+        231,
+        168,
+        700,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 106,
+      "pngFrame": 107,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 53001,
+      "union": 53001,
+      "sourcePixels": 53001,
+      "renderedPixels": 53001,
+      "declaredPixels": 53001,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        238,
+        171,
+        702,
+        763
+      ],
+      "renderedBBox": [
+        238,
+        171,
+        702,
+        763
+      ],
+      "declaredBBox": [
+        238,
+        171,
+        702,
+        763
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 107,
+      "pngFrame": 108,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 53425,
+      "union": 53425,
+      "sourcePixels": 53425,
+      "renderedPixels": 53425,
+      "declaredPixels": 53425,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        246,
+        173,
+        692,
+        769
+      ],
+      "renderedBBox": [
+        246,
+        173,
+        692,
+        769
+      ],
+      "declaredBBox": [
+        246,
+        173,
+        692,
+        769
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 108,
+      "pngFrame": 109,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54665,
+      "union": 54665,
+      "sourcePixels": 54665,
+      "renderedPixels": 54665,
+      "declaredPixels": 54665,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        254,
+        180,
+        687,
+        772
+      ],
+      "renderedBBox": [
+        254,
+        180,
+        687,
+        772
+      ],
+      "declaredBBox": [
+        254,
+        180,
+        687,
+        772
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 109,
+      "pngFrame": 110,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 55877,
+      "union": 55877,
+      "sourcePixels": 55877,
+      "renderedPixels": 55877,
+      "declaredPixels": 55877,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        263,
+        200,
+        723,
+        774
+      ],
+      "renderedBBox": [
+        263,
+        200,
+        723,
+        774
+      ],
+      "declaredBBox": [
+        263,
+        200,
+        723,
+        774
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 110,
+      "pngFrame": 111,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 57411,
+      "union": 57411,
+      "sourcePixels": 57411,
+      "renderedPixels": 57411,
+      "declaredPixels": 57411,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        273,
+        262,
+        840,
+        773
+      ],
+      "renderedBBox": [
+        273,
+        262,
+        840,
+        773
+      ],
+      "declaredBBox": [
+        273,
+        262,
+        840,
+        773
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 111,
+      "pngFrame": 112,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54410,
+      "union": 54410,
+      "sourcePixels": 54410,
+      "renderedPixels": 54410,
+      "declaredPixels": 54410,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        284,
+        253,
+        790,
+        772
+      ],
+      "renderedBBox": [
+        284,
+        253,
+        790,
+        772
+      ],
+      "declaredBBox": [
+        284,
+        253,
+        790,
+        772
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 112,
+      "pngFrame": 113,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 47456,
+      "union": 47456,
+      "sourcePixels": 47456,
+      "renderedPixels": 47456,
+      "declaredPixels": 47456,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        298,
+        244,
+        664,
+        770
+      ],
+      "renderedBBox": [
+        298,
+        244,
+        664,
+        770
+      ],
+      "declaredBBox": [
+        298,
+        244,
+        664,
+        770
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 113,
+      "pngFrame": 114,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 54708,
+      "union": 54708,
+      "sourcePixels": 54708,
+      "renderedPixels": 54708,
+      "declaredPixels": 54708,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        164,
+        234,
+        649,
+        767
+      ],
+      "renderedBBox": [
+        164,
+        234,
+        649,
+        767
+      ],
+      "declaredBBox": [
+        164,
+        234,
+        649,
+        767
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 114,
+      "pngFrame": 115,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 61146,
+      "union": 61146,
+      "sourcePixels": 61146,
+      "renderedPixels": 61146,
+      "declaredPixels": 61146,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        76,
+        224,
+        643,
+        764
+      ],
+      "renderedBBox": [
+        76,
+        224,
+        643,
+        764
+      ],
+      "declaredBBox": [
+        76,
+        224,
+        643,
+        764
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 115,
+      "pngFrame": 116,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 63369,
+      "union": 63369,
+      "sourcePixels": 63369,
+      "renderedPixels": 63369,
+      "declaredPixels": 63369,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        135,
+        134,
+        646,
+        761
+      ],
+      "renderedBBox": [
+        135,
+        134,
+        646,
+        761
+      ],
+      "declaredBBox": [
+        135,
+        134,
+        646,
+        761
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 116,
+      "pngFrame": 117,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 58242,
+      "union": 58242,
+      "sourcePixels": 58242,
+      "renderedPixels": 58242,
+      "declaredPixels": 58242,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        85,
+        48,
+        645,
+        759
+      ],
+      "renderedBBox": [
+        85,
+        48,
+        645,
+        759
+      ],
+      "declaredBBox": [
+        85,
+        48,
+        645,
+        759
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 117,
+      "pngFrame": 118,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 56074,
+      "union": 56074,
+      "sourcePixels": 56074,
+      "renderedPixels": 56074,
+      "declaredPixels": 56074,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        37,
+        6,
+        643,
+        757
+      ],
+      "renderedBBox": [
+        37,
+        6,
+        643,
+        757
+      ],
+      "declaredBBox": [
+        37,
+        6,
+        643,
+        757
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 118,
+      "pngFrame": 119,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 45908,
+      "union": 45908,
+      "sourcePixels": 45908,
+      "renderedPixels": 45908,
+      "declaredPixels": 45908,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        0,
+        77,
+        720,
+        757
+      ],
+      "renderedBBox": [
+        0,
+        77,
+        720,
+        757
+      ],
+      "declaredBBox": [
+        0,
+        77,
+        720,
+        757
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 119,
+      "pngFrame": 120,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 28203,
+      "union": 28203,
+      "sourcePixels": 28203,
+      "renderedPixels": 28203,
+      "declaredPixels": 28203,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        0,
+        74,
+        789,
+        758
+      ],
+      "renderedBBox": [
+        0,
+        74,
+        789,
+        758
+      ],
+      "declaredBBox": [
+        0,
+        74,
+        789,
+        758
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 120,
+      "pngFrame": 121,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 13963,
+      "union": 13963,
+      "sourcePixels": 13963,
+      "renderedPixels": 13963,
+      "declaredPixels": 13963,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        0,
+        184,
+        730,
+        761
+      ],
+      "renderedBBox": [
+        0,
+        184,
+        730,
+        761
+      ],
+      "declaredBBox": [
+        0,
+        184,
+        730,
+        761
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 121,
+      "pngFrame": 122,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 1987,
+      "union": 1987,
+      "sourcePixels": 1987,
+      "renderedPixels": 1987,
+      "declaredPixels": 1987,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        609,
+        193,
+        680,
+        554
+      ],
+      "renderedBBox": [
+        609,
+        193,
+        680,
+        554
+      ],
+      "declaredBBox": [
+        609,
+        193,
+        680,
+        554
+      ],
+      "bboxMatch": true,
+      "pathEmpty": false
+    },
+    {
+      "sport": "tennis",
+      "frame": 122,
+      "pngFrame": 123,
+      "iou": 1,
+      "missing": 0,
+      "extra": 0,
+      "intersection": 0,
+      "union": 0,
+      "sourcePixels": 0,
+      "renderedPixels": 0,
+      "declaredPixels": 0,
+      "pixelsMatch": true,
+      "sourceBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "renderedBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "declaredBBox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "bboxMatch": true,
+      "pathEmpty": true
+    }
+  ]
+}

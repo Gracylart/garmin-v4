@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="zh-CN">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>BLOUB · 动效工作台</title><link rel="stylesheet" href="studio.css"></head>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>BLOUB · 动效工作台</title><link rel="stylesheet" href="studio.css?v=sports18-center-1"></head>
 <body>
 <main class="shell" data-page="appearance">
  <nav class="rail" aria-label="工作台页面">
@@ -14,7 +14,7 @@
   <p class="hint" data-i18n="hint">点击换表情 · 连点三次生气 · 横跨拖动转圈</p>
  </section>
  <aside class="inspector">
-  <section class="appearance-only"><h2 data-i18n="shape">眼形</h2><div class="tiles" id="shapes"></div><h2 data-i18n="expression">表情</h2><div class="tiles" id="expressions"></div><h2 data-i18n="color">颜色</h2><div class="swatches" id="colors"></div></section>
+  <section class="appearance-only"><h2 data-i18n="shape">眼形</h2><div class="tiles" id="shapes"></div><h2 data-i18n="expression">运动项目</h2><div class="tiles sport-tiles" id="expressions"></div><div id="sport-transport" class="sport-transport" hidden><button id="sport-replay" aria-label="重播运动">↺</button><button id="sport-play" aria-label="暂停运动">Ⅱ</button><label><span data-i18n="sportSpeed">运动速度</span><select id="sport-speed" aria-label="运动播放速度"><option value=".5">0.5×</option><option value="1" selected>1×</option><option value="2">2×</option></select></label><label><span data-i18n="sportFps">帧率</span><select id="sport-fps" aria-label="运动预览帧率"><option value="30">30 fps</option><option value="15">15 fps</option></select></label><output id="sport-phase" aria-live="off"></output></div><h2 data-i18n="color">颜色</h2><div class="swatches" id="colors"></div></section>
   <section class="animation-only"><h2 data-i18n="animation">动画</h2><div class="tiles" id="animations"></div><label class="time-setting"><span data-i18n="time">指针起始时间</span><input id="studio-time" type="time" value="10:10"></label><p class="muted" data-i18n="simulation">浏览器预览；震动与传感器事件为模拟，不代表真机性能。</p></section>
  </aside>
  <section class="timeline animation-only" aria-label="动画时间轴">
@@ -28,5 +28,5 @@
  <p id="notice" role="status" aria-live="polite"></p>
 </main>
 <div hidden><span id="status"></span><button id="wake"></button><button id="clock"></button><button id="steps"></button><button id="workout"></button><button id="move"></button><input id="clock-time" type="time"></div>
-<script>globalThis.EMOTE_STUDIO=true;</script><script src="play-preview.js"></script><script src="clock-transition.js"></script><script src="studio.js"></script>
+<script>globalThis.EMOTE_STUDIO=true;</script><script src="play-preview.js?v=sports18-center-1"></script><script src="clock-transition.js"></script><script src="sports-catalog.js?v=sports18-center-1"></script><script src="sports-exact.js?v=sports18-center-1"></script><script src="sports-bounce.js?v=sports18-center-1"></script><script src="sports-transitions.js?v=sports18-center-1"></script><script src="sport-icons.js?v=sports18-center-1"></script><script src="studio.js?v=sports18-center-1"></script>
 </body></html>
