@@ -2,14 +2,14 @@
 const http=require('node:http'),fs=require('node:fs'),path=require('node:path');
 function createPreviewServer(){
  const files=new Map([['/','studio.html']]);
- const pages=['preview.html','engine.js','preview.js','play-preview.html','play-preview.js','music-preview.html','music-preview.js','clock-lab.html','clock-lab.js','orbit-preview.html','orbit-preview.js','orbit-motion.js','clock-transition.js','studio.html','studio.css','studio.js','sports-preview.html','sports-preview.css','sports-preview.js','sports-motion.js','sports-bounce.js','sports-transitions.js','sports-disciplines.js','sports-exact.js','sports-catalog.js','sport-icons.js','pixel-review.html','pixel-review.css','pixel-review.js'];
+ const pages=['preview.html','engine.js','preview.js','play-preview.html','play-preview.js','music-preview.html','music-preview.js','clock-lab.html','clock-lab.js','orbit-preview.html','orbit-preview.js','orbit-motion.js','clock-transition.js','studio.html','studio.css','studio.js','sports-preview.html','sports-preview.css','sports-preview.js','sports-motion.js','sports-bounce.js','sports-transitions.js','sports-disciplines.js','sports-exact.js','sports-catalog.js','sport-icons.js','pixel-review.html','pixel-review.css','pixel-review.js','watch-preview.html','watch-preview.css','watch-preview.js'];
  for(const name of pages)files.set('/'+name,name);
  function assets(folder,extensions){const dir=path.join(__dirname,folder);if(!fs.existsSync(dir))return;for(const entry of fs.readdirSync(dir,{withFileTypes:true})){const file=folder+'/'+entry.name;if(entry.isDirectory())assets(file,extensions);else if(entry.isFile()&&extensions.has(path.extname(file)))files.set('/'+file,file);}}
- assets('studio-assets',new Set(['.svg']));assets('sports-data',new Set(['.json']));assets('sports-icons',new Set(['.html','.css','.js','.json','.svg']));assets('reference-frames',new Set(['.png']));
+ assets('assets',new Set(['.png','.jpg']));assets('studio-assets',new Set(['.svg']));assets('sports-data',new Set(['.json']));assets('sports-icons',new Set(['.html','.css','.js','.json','.svg']));assets('reference-frames',new Set(['.png']));
  files.set('/sports-icons/','sports-icons/index.html');files.set('/sports-icons','sports-icons/index.html');
  // Keep old lab URLs working without storing a second copy of the source paths.
  for(const id of ['running','swimming','cycling','tabletennis'])files.set('/reference-frames/'+id+'.json','sports-data/'+id+'.json');
- const mime={'.js':'text/javascript','.css':'text/css','.svg':'image/svg+xml','.html':'text/html','.json':'application/json','.png':'image/png'};
+ const mime={'.js':'text/javascript','.css':'text/css','.svg':'image/svg+xml','.html':'text/html','.json':'application/json','.png':'image/png','.jpg':'image/jpeg'};
  return http.createServer((req,res)=>{
   if(req.method!=='GET'&&req.method!=='HEAD'){res.writeHead(405,{Allow:'GET, HEAD'}).end();return;}
   let pathname;try{pathname=decodeURIComponent(new URL(req.url,'http://localhost').pathname);}catch{res.writeHead(400).end();return;}

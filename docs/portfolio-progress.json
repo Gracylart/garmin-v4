@@ -1,0 +1,38 @@
+{
+  "scope": "Garmin browser source and presentation progress; website placement lives in the separate Sites repository",
+  "projectId": "project-2",
+  "materialSource": {
+    "fileKey": "yfJhdvbU6dDu1hWI4NOwin",
+    "nodeId": "151:531",
+    "asset": "dist/assets/garmin-v4/figma-glass-dial.png"
+  },
+  "mediaIds": [
+    "media-1-0",
+    "media-1-1"
+  ],
+  "syncedToGitHub": "2026-10-27",
+  "siteURL": "https://unstated-replica-grace.blush-tetra-1726.chatgpt.site/",
+  "siteCommit": "fb7af0339e45e6bb669752dbc766b080c289025f",
+  "repositoryAsset": "assets/figma-glass-dial.png",
+  "media": {
+    "media-1-0": {
+      "preview": "dist/garmin-v4/watch-preview.html",
+      "poster": "dist/assets/garmin-v4/emote-watchface-glass.png",
+      "animation": "existing live expression and sports canvas preserved",
+      "clickAction": "none"
+    },
+    "media-1-1": {
+      "preview": "dist/garmin-v4/studio.html?embed=portfolio",
+      "removed": [
+        "watch preview control and 3D scene loader",
+        "packaging mockup interface and loader"
+      ],
+      "preserved": [
+        "screen preview",
+        "appearance editor",
+        "animation timeline",
+        "exports"
+      ]
+    }
+  }
+}

@@ -1,15 +1,15 @@
 <!doctype html>
 <html lang="zh-CN">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>BLOUB · 动效工作台</title><link rel="stylesheet" href="studio.css?v=sports18-center-1"></head>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>BLOUB · 动效工作台</title><link rel="stylesheet" href="studio.css?v=screen-only-20261026"></head>
 <body>
 <main class="shell" data-page="appearance">
  <nav class="rail" aria-label="工作台页面">
   <button data-page="appearance" title="外观" aria-label="外观"><img width="18" height="18" alt=""></button>
   <button data-page="animation" title="动画" aria-label="动画"><img width="18" height="18" alt=""></button>
-  <button data-page="settings" title="设置" aria-label="设置"><img width="18" height="18" alt=""></button>
  </nav>
  <section class="workspace" aria-label="实时预览">
-  <div class="stage"><canvas id="face" width="454" height="454" tabindex="0" aria-label="互动眼睛预览，点击变换表情，横跨拖动转圈，连点三次生气"></canvas><p class="stage-note" data-i18n="resolution">VENU 4 · 45 mm · 454 × 454</p></div>
+  <div class="stage" data-preview="screen">
+   <canvas id="face" width="454" height="454" tabindex="0" aria-label="互动眼睛预览，点击变换表情，横跨拖动转圈，连点三次生气"></canvas><p class="stage-note" data-i18n="resolution">VENU 4 · 45 mm · 454 × 454</p></div>
   <div class="export-row"><button class="primary" id="export-png"><img src="studio-assets/appearance-imgIconDownload.svg" width="18" height="18" alt=""><span data-i18n="png">导出 PNG</span></button><button class="export-more primary" id="export-config" aria-label="导出外观配置" title="导出外观配置 JSON"><img src="studio-assets/appearance-imgIconChevron.svg" width="16" height="16" alt=""></button></div>
   <p class="hint" data-i18n="hint">点击换表情 · 连点三次生气 · 横跨拖动转圈</p>
  </section>
@@ -19,14 +19,12 @@
  </aside>
  <section class="timeline animation-only" aria-label="动画时间轴">
   <div class="transport"><output id="elapsed">0.00 s</output><button id="toggle-play" aria-label="暂停"><img src="studio-assets/animation-imgIconPause.svg" width="20" height="20" alt=""></button><output id="total">0.00 s</output></div>
-  <div class="timeline-heading"><select id="sequence" aria-label="播放序列"><option value="default" data-i18n="sequence">默认序列</option><option value="single" data-i18n="single">单个动画</option></select><button id="export-sequence"><img src="studio-assets/animation-imgIconDownload.svg" width="18" height="18" alt=""><span data-i18n="exportSequence">导出序列 JSON</span></button></div>
+  <div class="timeline-heading"><select id="sequence" aria-label="播放序列"><option value="random" data-i18n="sequence">随机播放</option><option value="single" data-i18n="single">单个动画</option></select><button id="export-sequence"><img src="studio-assets/animation-imgIconDownload.svg" width="18" height="18" alt=""><span data-i18n="exportSequence">导出序列 JSON</span></button></div>
   <div class="track-scroll"><div class="track"><div id="ruler"></div><div id="clips"></div><input id="scrub" type="range" min="0" max="1" step="0.001" value="0" aria-label="动画进度"><div id="playhead"></div></div></div>
   <div class="timeline-footer"><span data-i18n="scrubHint">拖动时间轴检查每一刻</span><label><span data-i18n="zoom">缩放</span><input id="zoom" type="range" min="100" max="200" step="25" value="100" aria-label="时间轴缩放"><output id="zoom-value">100%</output></label><button id="loop" aria-pressed="true" data-i18n="loop">循环</button></div>
  </section>
- <section class="settings-only settings-panel"><h2 data-i18n="language">语言</h2><div id="languages"></div><h2 data-i18n="about">关于</h2><a class="settings-row" href="https://github.com/jeremy-prt/bloub" target="_blank" rel="noreferrer"><span data-i18n="github">查看原始参考项目 · GitHub</span><img src="studio-assets/settings-imgExternalLink.svg" width="16" height="16" alt=""></a><p class="muted" data-i18n="aboutText">BLOUB × Emote · 本地动效工作台</p><p class="muted" data-i18n="local">设置仅保存在此浏览器。导出不会自动更新手表。</p><button class="reset" id="reset" data-i18n="reset">恢复默认设置</button></section>
- <div class="wordmark settings-only" aria-hidden="true">BLOUB</div>
  <p id="notice" role="status" aria-live="polite"></p>
 </main>
 <div hidden><span id="status"></span><button id="wake"></button><button id="clock"></button><button id="steps"></button><button id="workout"></button><button id="move"></button><input id="clock-time" type="time"></div>
-<script>globalThis.EMOTE_STUDIO=true;</script><script src="play-preview.js?v=sports18-center-1"></script><script src="clock-transition.js"></script><script src="sports-catalog.js?v=sports18-center-1"></script><script src="sports-exact.js?v=sports18-center-1"></script><script src="sports-bounce.js?v=sports18-center-1"></script><script src="sports-transitions.js?v=sports18-center-1"></script><script src="sport-icons.js?v=sports18-center-1"></script><script src="studio.js?v=sports18-center-1"></script>
+<script>globalThis.EMOTE_STUDIO=true;</script><script src="play-preview.js?v=sports18-center-1"></script><script src="clock-transition.js"></script><script src="sports-catalog.js?v=sports18-center-1"></script><script src="sports-exact.js?v=sports18-center-1"></script><script src="sports-bounce.js?v=sports18-center-1"></script><script src="sports-transitions.js?v=sports18-center-1"></script><script src="sport-icons.js?v=sports18-center-1"></script><script src="studio.js?v=screen-only-20261026"></script>
 </body></html>

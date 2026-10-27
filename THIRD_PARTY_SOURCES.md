@@ -10,4 +10,8 @@
 
 ## BLOUB 参考
 
-工作台保留原始参考项目 [jeremy-prt/bloub](https://github.com/jeremy-prt/bloub) 的链接。Emote / Garmin 原型的实现与硬件交付边界以本仓库说明为准，参考链接不代表官方合作或归属。
+工作台原始参考项目为 [jeremy-prt/bloub](https://github.com/jeremy-prt/bloub) 的链接。Emote / Garmin 原型的实现与硬件交付边界以本仓库说明为准，参考链接不代表官方合作或归属。
+
+## Figma 玻璃表盘材质
+
+`assets/figma-glass-dial.png` 来自用户指定的 [Luminous UI Figma 文件](https://www.figma.com/design/yfJhdvbU6dDu1hWI4NOwin/) 中节点 `151:531`，依据用户提供的圆形玻璃设备参考重建。材质为该 Figma 设计的 PNG 导出，网页动画使用既有 Canvas 渲染；此来源记录不另行授予参考图或素材的许可。

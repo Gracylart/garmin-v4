@@ -1,0 +1,5 @@
+html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#f2f2f2}
+main{width:100%;height:100%;display:grid;place-items:center;background:radial-gradient(ellipse at 50% 48%,#f7f7f7 0%,#f2f2f2 65%,#eaeaea 100%)}
+.watch-body{position:relative;width:min(47vw,72vh);aspect-ratio:1;isolation:isolate;filter:drop-shadow(1.9vmin 4.6vmin 2.8vmin #0006)}
+.watch-material{position:absolute;inset:0;display:block;width:100%;height:100%;border-radius:50%;pointer-events:none;user-select:none}
+#face{position:absolute;left:2.7074%;top:2.765%;display:block;width:94.47%;height:94.47%;border-radius:50%;background:transparent;mix-blend-mode:screen}
